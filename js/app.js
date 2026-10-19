@@ -4062,15 +4062,6 @@ const DuzensizFiillerUygulamasi = {
             this.yanlis++;
             geri.className = 'quiz-feedback yanlis';
             geri.innerHTML = `😅 Yanlış. Doğrusu: <b>${this.suan.fiil.v1} → ${this.suan.cevap}</b>`;
-            if (typeof YanlisKaydedici !== 'undefined') {
-                YanlisKaydedici.kaydet({
-                    id: 'fiil|' + this.suan.fiil.v1 + '|' + this.suan.form,
-                    tip: 'fiil',
-                    kelime: `${this.suan.fiil.v1} (${this.suan.form.toUpperCase()})`,
-                    verdi: yaz,
-                    dogru: this.suan.cevap
-                });
-            }
         }
         giris.disabled = true;
         document.getElementById('btn-df-kontrol').disabled = true;
@@ -4244,8 +4235,7 @@ const Eglence = {
         const geri = document.getElementById('eg-meydan-geri');
         geri.classList.remove('hidden');
         if (ok) { this.meydan.d++; this.xpEkle(10); geri.className = 'quiz-feedback dogru'; geri.innerHTML = `🎉 Doğru! +10 XP`; }
-        else { this.meydan.y++; this.xpEkle(2); geri.className = 'quiz-feedback yanlis'; geri.innerHTML = `😅 ${q.w} = ${q.tr} (+2 XP)`;
-            if (typeof YanlisKaydedici !== 'undefined') YanlisKaydedici.kaydet({ id: 'meydan|' + q.w, tip: 'meydan', kelime: q.w, verdi: btn.textContent, dogru: q.tr }); }
+        else { this.meydan.y++; this.xpEkle(2); geri.className = 'quiz-feedback yanlis'; geri.innerHTML = `😅 ${q.w} = ${q.tr} (+2 XP)`; }
         this.meydan.sira++;
         setTimeout(() => {
             if (this.meydan && this.meydan.sira < this.meydan.kelimeler.length) this.meydanSoruGoster();
@@ -4748,9 +4738,6 @@ const FilmKalipUygulamasi = {
         if (biliyorMu) this.kartD++;
         else {
             this.kartY++;
-            if (typeof YanlisKaydedici !== 'undefined') {
-                YanlisKaydedici.kaydet({ id: 'film|' + f.k, tip: 'film', kelime: f.k, verdi: '', dogru: f.tr });
-            }
         }
         this.kartGoster();
     },
@@ -4880,7 +4867,6 @@ const PassiveUygulamasi = {
             this.yanlis++;
             g.className = 'quiz-feedback yanlis';
             g.innerHTML = `😅 Doğrusu: <b>${this.suan.dogru}</b> · "${this.suan.full}"`;
-            if (typeof YanlisKaydedici !== 'undefined') YanlisKaydedici.kaydet({ id: 'pasif|' + this.suan.st.en + '|' + this.suan.dogru, tip: 'pasif', kelime: this.suan.st.en + ' ' + this.suan.tense.trAd, verdi: this.secim, dogru: this.suan.dogru });
         }
         document.getElementById('ps-kontrol').disabled = true;
         this.skorGuncelle();
