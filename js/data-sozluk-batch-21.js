@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 21
+// EngLearn - Geniş Ek Kelime Parti 21
 // ==================================================
 KELIMELER.push(
     { w: "doorman", tr: "kapıcı", lv: "B1", ct: "genel", pr: "/ˈdɔɹˌmæn/", ex: "Is Tom still working as a doorman?", exTr: "Tom hala kapıcı olarak mı çalışıyor?" },

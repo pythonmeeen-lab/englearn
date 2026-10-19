@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 5
+// EngLearn - Geniş Ek Kelime Parti 5
 // ==================================================
 KELIMELER.push(
     { w: "unspeakable", tr: "anlatılamaz", lv: "B2", ct: "sıfatlar", pr: "/ənˈspikəbəɫ/", ex: "French troops committed unspeakable atrocities in Algeria.", exTr: "Fransız birlikleri Cezayir'de anlatılamaz zulümler gerçekleştirdi." },

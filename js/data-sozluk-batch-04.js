@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 4
+// EngLearn - Geniş Ek Kelime Parti 4
 // ==================================================
 KELIMELER.push(
     { w: "monsoon", tr: "muson", lv: "C1", ct: "genel", pr: "/mɑnˈsun/", ex: "Monsoon rains have started falling in Thailand.", exTr: "Tayland'da muson yağmurları yağmaya başladı." },

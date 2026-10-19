@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 1
+// EngLearn - Geniş Ek Kelime Parti 1
 // ==================================================
 KELIMELER.push(
     { w: "rad", tr: "harika", lv: "B2", ct: "genel", pr: "/ˈɹæd/", ex: "That was totally rad.", exTr: "Bu tamamen harika bir şeydi." },

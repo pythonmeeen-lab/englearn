@@ -1,8 +1,8 @@
 // ==================================================
-// EngLearn - Oxford+ Ek Kelime Parti 10
+// EngLearn - Oxford Ek Kelime Parti 10
 // ==================================================
 KELIMELER.push(
-                                    { w: "washing", tr: "yıkama", lv: "A2", ct: "isimler", pr: "/ˈwɑʃɪŋ/", ex: "She does the washing every Sunday morning.", exTr: "Çamaşır yıkamayı her pazar sabahı o üstleniyor." },
+    { w: "washing", tr: "yıkama", lv: "A2", ct: "isimler", pr: "/ˈwɑʃɪŋ/", ex: "She does the washing every Sunday morning.", exTr: "Çamaşır yıkamayı her pazar sabahı o üstleniyor." },
     { w: "dub", tr: "dublaj", lv: "C1", ct: "fiiller", pr: "/ˈdʌb/", ex: "The film was dubbed into Turkish for local cinemas.", exTr: "Film, yerel sinemalar için Türkçeye dublajlandı." },
     { w: "replace", tr: "yer değiştirmek", lv: "A2", ct: "fiiller", pr: "/ˌriˈpleɪs/", ex: "The club decided to replace its coach before the season.", exTr: "Kulüp, sezon öncesi teknik direktörüyle yer değiştirmeye karar verdi." },
     { w: "uk", tr: "İngiltere", lv: "A2", ct: "genel", pr: "/ˌjuˈkeɪ/", ex: "The UK left the European Union in 2020.", exTr: "İngiltere, Avrupa Birliği'nden 2020'de ayrıldı." },

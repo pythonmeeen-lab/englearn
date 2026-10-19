@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 19
+// EngLearn - Geniş Ek Kelime Parti 19
 // ==================================================
 KELIMELER.push(
     { w: "superpower", tr: "süper güç", lv: "C1", ct: "isimler", pr: "/ˌsupɝˈpaʊɝ/", ex: "Algeria can become a modern economic superpower.", exTr: "Cezayir modern bir ekonomik süper güç haline gelebilir." },

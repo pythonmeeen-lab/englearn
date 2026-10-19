@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 14
+// EngLearn - Geniş Ek Kelime Parti 14
 // ==================================================
 KELIMELER.push(
     { w: "decaf", tr: "kafeinsiz", lv: "C1", ct: "genel", pr: "/ˈdikæf/", ex: "My mom mixes decaf with regular coffee.", exTr: "Annem kafeinsiz kahveyi normal kahveyle karıştırır." },

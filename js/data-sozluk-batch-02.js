@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 2
+// EngLearn - Geniş Ek Kelime Parti 2
 // ==================================================
 KELIMELER.push(
     { w: "aisle", tr: "koridor", lv: "A2", ct: "genel", pr: "/ˈaɪəɫ/, /ˈaɪɫ/", ex: "I'd like one on the aisle, please.", exTr: "Koridorda bir tane istiyorum, lütfen." },

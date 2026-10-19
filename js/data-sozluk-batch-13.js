@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 13
+// EngLearn - Geniş Ek Kelime Parti 13
 // ==================================================
 KELIMELER.push(
     { w: "graft", tr: "aşı", lv: "B2", ct: "genel", pr: "/ˈɡɹæft/", ex: "Some people hate graft because they didn't get their share.", exTr: "Bazı insanlar paylarını alamadıkları için yolsuzluktan nefret ediyorlar." },

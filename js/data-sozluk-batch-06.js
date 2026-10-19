@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 6
+// EngLearn - Geniş Ek Kelime Parti 6
 // ==================================================
 KELIMELER.push(
     { w: "tranquilizer", tr: "sakinleştirici", lv: "C1", ct: "isimler", pr: "/ˈtɹæŋkwəˌɫaɪzɝ/", ex: "Tom was hit by a tranquilizer dart.", exTr: "Tom sakinleştirici bir okla vuruldu." },

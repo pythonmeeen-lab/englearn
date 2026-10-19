@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 9
+// EngLearn - Geniş Ek Kelime Parti 9
 // ==================================================
 KELIMELER.push(
     { w: "alleged", tr: "iddia edilen", lv: "B1", ct: "fiiller", pr: "/əˈɫɛdʒd/", ex: "The newspaper alleged his involvement in the crime.", exTr: "Gazete onun suça karıştığını iddia etti." },

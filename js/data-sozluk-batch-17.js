@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 17
+// EngLearn - Geniş Ek Kelime Parti 17
 // ==================================================
 KELIMELER.push(
     { w: "superintendent", tr: "müfettiş", lv: "A2", ct: "sıfatlar", pr: "/ˌsupɝənˈtɛndənt/, /ˌsupɝɪnˈtɛndənt/", ex: "The superintendent lives on the ground floor.", exTr: "Müfettiş zemin katta yaşıyor." },

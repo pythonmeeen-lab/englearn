@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 3
+// EngLearn - Geniş Ek Kelime Parti 3
 // ==================================================
 KELIMELER.push(
     { w: "definitive", tr: "kesin", lv: "B2", ct: "sıfatlar", pr: "/dɪˈfɪnɪtɪv/", ex: "I can't give you a definitive answer today.", exTr: "Bugün size kesin bir cevap veremem." },

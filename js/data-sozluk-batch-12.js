@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 12
+// EngLearn - Geniş Ek Kelime Parti 12
 // ==================================================
 KELIMELER.push(
     { w: "unnatural", tr: "doğal olmayan", lv: "B1", ct: "sıfatlar", pr: "/ənˈnætʃɝəɫ/", ex: "She had an unnatural desire for money.", exTr: "Paraya karşı doğal olmayan bir arzusu vardı." },

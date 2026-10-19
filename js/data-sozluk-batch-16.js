@@ -1,5 +1,5 @@
-﻿// ==================================================
-// EngLearn - Geniş Kelime Parti 16
+// ==================================================
+// EngLearn - Geniş Ek Kelime Parti 16
 // ==================================================
 KELIMELER.push(
     { w: "supposing", tr: "varsayarak", lv: "B1", ct: "fiiller", pr: "/səˈpoʊzɪŋ/", ex: "Supposing truth is a woman - what then?", exTr: "Gerçeğin bir kadın olduğunu varsayalım; o zaman ne olacak?" },

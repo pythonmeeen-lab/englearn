@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 15
+// EngLearn - Geniş Ek Kelime Parti 15
 // ==================================================
 KELIMELER.push(
     { w: "walt", tr: "vals", lv: "A2", ct: "genel", pr: "/ˈwɔɫt/", ex: "Walt Whitman is my favorite American poet.", exTr: "Walt Whitman en sevdiğim Amerikalı şairdir." },

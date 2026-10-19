@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 8
+// EngLearn - Geniş Ek Kelime Parti 8
 // ==================================================
 KELIMELER.push(
     { w: "eagles", tr: "kartallar", lv: "B1", ct: "genel", pr: "/ˈiɡəɫz/", ex: "Eagles and doves are very beautiful animals.", exTr: "Kartallar ve güvercinler çok güzel hayvanlardır." },

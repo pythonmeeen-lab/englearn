@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 11
+// EngLearn - Geniş Ek Kelime Parti 11
 // ==================================================
 KELIMELER.push(
     { w: "helium", tr: "helyum", lv: "B2", ct: "genel", pr: "/ˈhiɫiəm/", ex: "This balloon floats because it's filled with helium.", exTr: "Bu balon helyumla dolu olduğu için yüzüyor." },

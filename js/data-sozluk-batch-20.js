@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 20
+// EngLearn - Geniş Ek Kelime Parti 20
 // ==================================================
 KELIMELER.push(
     { w: "yuck", tr: "iğrenç", lv: "B1", ct: "genel", pr: "/ˈjək/", ex: "Yuck, there's a hair floating in the soup.", exTr: "Evet, çorbanın içinde yüzen bir saç var." },

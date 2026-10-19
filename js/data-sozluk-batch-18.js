@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 18
+// EngLearn - Geniş Ek Kelime Parti 18
 // ==================================================
 KELIMELER.push(
     { w: "mimicking", tr: "taklit etmek", lv: "C1", ct: "fiiller", pr: "/ˈmɪmɪkɪŋ/", ex: "Tests showed that Alex wasn't just mimicking.", exTr: "Testler Alex'in sadece taklit yapmadığını gösterdi." },

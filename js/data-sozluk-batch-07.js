@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 7
+// EngLearn - Geniş Ek Kelime Parti 7
 // ==================================================
 KELIMELER.push(
     { w: "spatter", tr: "sıçramak", lv: "C1", ct: "isimler", pr: "/ˈspætɝ/", ex: "Dan found blood spatter on the wall.", exTr: "Dan duvarda kan sıçraması buldu." },

@@ -1,5 +1,5 @@
 // ==================================================
-// EngLearn - Geniş Kelime Parti 10
+// EngLearn - Geniş Ek Kelime Parti 10
 // ==================================================
 KELIMELER.push(
     { w: "fetish", tr: "fetiş", lv: "B2", ct: "sıfatlar", pr: "/ˈfɛtɪʃ/", ex: "Tom has a small penis humiliation fetish.", exTr: "Tom'un küçük bir penis aşağılama fetişi var." },
