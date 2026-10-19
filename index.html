@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/style.css?v=57">
+    <link rel="stylesheet" href="css/style.css?v=58">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
         (function () {
@@ -774,6 +774,46 @@
                 <div id="fk-pratik-alan" class="hidden"></div>
                 <div id="fk-liste" class="df-liste"></div>
             </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🃏 Kartlarla Çalış (kart gibi çevir)</div>
+                <div class="cardboard fk-cardboard">
+                    <div class="flashcard" id="fk-flashcard">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <span class="cat-badge">🎬 kalıp</span>
+                                <h3 class="word" id="fk-kalip">phrase</h3>
+                                <button class="sound-btn" id="btn-fk-ses-k" title="Kalıbı dinle">🔊</button>
+                                <p class="hint">👆 Anlamı için tıkla</p>
+                            </div>
+                            <div class="card-face card-back">
+                                <h3 class="word-tr" id="fk-anlam">anlam</h3>
+                                <p class="tip" id="fk-aciklama"></p>
+                                <p class="example" id="fk-ornek"></p>
+                                <p class="example-tr" id="fk-ornek-tr"></p>
+                                <button class="sound-btn small" id="btn-fk-ses-ex" title="Örneği dinle">🔊 Örneği dinle</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button class="ctrl-btn" id="fk-geri" title="Önceki">⬅️</button>
+                        <div class="progress-box">
+                            <div class="progress-bar"><div class="progress-fill" id="fk-progress"></div></div>
+                            <span class="counter" id="fk-sayac">1 / 1</span>
+                        </div>
+                        <button class="ctrl-btn" id="fk-ileri" title="Sonraki">➡️</button>
+                    </div>
+                    <div class="known-buttons">
+                        <button class="btn btn-unknown" id="fk-bilmiyorum">😐 Bilmiyorum</button>
+                        <button class="btn btn-known" id="fk-biliyorum">😀 Biliyorum</button>
+                    </div>
+                    <div class="stats">
+                        <span>✅ <b id="fk-dogru">0</b></span>
+                        <span>❌ <b id="fk-yanlis">0</b></span>
+                        <button class="btn btn-shuffle" id="fk-karistir">🔀 Karıştır</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- ===== OYUNLAR & MEYDAN ===== -->
@@ -1118,7 +1158,7 @@
     <script src="js/nav.js?v=50" defer></script>
     <script src="js/duplikat-temizle.js?v=50" defer></script>
     <script src="js/duplikat-ailesi.js?v=50" defer></script>
-    <script src="js/app.js?v=61" defer></script>
+    <script src="js/app.js?v=62" defer></script>
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>

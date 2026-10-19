@@ -3145,6 +3145,7 @@ button, a, select, input, textarea { touch-action: manipulation; -webkit-tap-hig
 /* ===== FİLM & DİZİ KALIPLARI ===== */
 .fk-satir { align-items: flex-start; flex-direction: column; gap: 0.15rem; }
 .fk-rastgele { margin-bottom: 0.7rem; }
+.fk-cardboard { max-width: 500px; margin: 0 auto; }
 
 
 

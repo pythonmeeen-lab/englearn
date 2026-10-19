@@ -4630,6 +4630,7 @@ const FilmKalipUygulamasi = {
         const say = document.querySelector('#filmler .kp-baslik');
         if (say) say.textContent = `🎥 Kalıplar (${this.tum.length})`;
         this.listeCiz(this.tum);
+        this.kartBagla();
         this.olaylariBagla();
     },
 
@@ -4705,6 +4706,76 @@ const FilmKalipUygulamasi = {
         }));
     },
 
+    kartListe: [],
+    kartIndeks: 0,
+    kartD: 0,
+    kartY: 0,
+    kartCevapli: false,
+
+    kartBaslat() {
+        this.kartListe = this.tum.slice().sort(() => Math.random() - 0.5);
+        this.kartIndeks = 0; this.kartD = 0; this.kartY = 0;
+        this.kartGoster();
+    },
+    kartKaristir() {
+        this.kartListe = this.tum.slice().sort(() => Math.random() - 0.5);
+        this.kartIndeks = 0;
+        this.kartGoster();
+    },
+    kartGoster() {
+        const f = this.kartListe[this.kartIndeks];
+        const kart = document.getElementById('fk-flashcard');
+        if (!kart || !f) return;
+        kart.classList.remove('flipped');
+        const dy = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+        dy('fk-kalip', f.k);
+        dy('fk-anlam', f.tr);
+        dy('fk-aciklama', f.ac);
+        dy('fk-ornek', f.ex);
+        dy('fk-ornek-tr', f.exTr);
+        dy('fk-sayac', `${this.kartIndeks + 1} / ${this.kartListe.length}`);
+        const pb = document.getElementById('fk-progress');
+        if (pb) pb.style.width = Math.round(((this.kartIndeks + 1) / this.kartListe.length) * 100) + '%';
+        dy('fk-dogru', this.kartD);
+        dy('fk-yanlis', this.kartY);
+        this.kartCevapli = false;
+    },
+    kartCevap(biliyorMu) {
+        if (this.kartCevapli) return;
+        this.kartCevapli = true;
+        const f = this.kartListe[this.kartIndeks];
+        if (biliyorMu) this.kartD++;
+        else {
+            this.kartY++;
+            if (typeof YanlisKaydedici !== 'undefined') {
+                YanlisKaydedici.kaydet({ id: 'film|' + f.k, tip: 'film', kelime: f.k, verdi: '', dogru: f.tr });
+            }
+        }
+        this.kartGoster();
+    },
+    kartIleri() {
+        this.kartIndeks = (this.kartIndeks + 1) % this.kartListe.length;
+        this.kartGoster();
+    },
+    kartGeri() {
+        this.kartIndeks = (this.kartIndeks - 1 + this.kartListe.length) % this.kartListe.length;
+        this.kartGoster();
+    },
+    kartBagla() {
+        const kart = document.getElementById('fk-flashcard');
+        if (!kart) return;
+        kart.addEventListener('click', () => kart.classList.toggle('flipped'));
+        const b = (id, fn) => { const el = document.getElementById(id); if (el) el.addEventListener('click', (e) => { e.stopPropagation(); fn(); }); };
+        b('btn-fk-ses-k', () => { const f = this.kartListe[this.kartIndeks]; if (f) ses.konus(f.k); });
+        b('btn-fk-ses-ex', () => { const f = this.kartListe[this.kartIndeks]; if (f) ses.konus(f.ex); });
+        b('fk-bilmiyorum', () => this.kartCevap(false));
+        b('fk-biliyorum', () => this.kartCevap(true));
+        b('fk-ileri', () => this.kartIleri());
+        b('fk-geri', () => this.kartGeri());
+        b('fk-karistir', () => this.kartKaristir());
+        this.kartBaslat();
+    },
+
     olaylariBagla() {
         const ara = document.getElementById('fk-ara');
         if (ara) ara.addEventListener('input', (e) => this.filtre(e.target.value));
@@ -4714,7 +4785,6 @@ const FilmKalipUygulamasi = {
         if (p) p.addEventListener('click', () => this.pratikBaslat());
     }
 };
-
 const YanlislarUygulamasi = {
     oturum: null,
     seciliTip: null,   // null = tümü
@@ -4724,6 +4794,7 @@ const YanlislarUygulamasi = {
     TIP_META: {
         kart:    { ad: 'Kartlar',    ikon: '🎴' },
         fiil:    { ad: 'Düzensiz Fiil', ikon: '🔤' },
+        film:    { ad: 'Film Kalıbı', ikon: '🎬' },
         quiz:    { ad: 'Quiz',       ikon: '📝' },
         yazma:   { ad: 'Yazma',      ikon: '✍️' },
         meaning: { ad: 'Meaning',    ikon: '🎯' },
