@@ -1459,7 +1459,7 @@ const YazmaUygulamasi = {
         document.getElementById('yazma-ipucu').textContent = k.lv;
 
         // Doğru cevabı sakla (küçük harfe çevir)
-        this.gecerliCevap = k.w.toLowerCase().trim();
+        this.gecerliCevap = k.w.toLowerCase().trim().replace(/\s+/g, '');
 
         // Yeni kelime → ipucu hakları sıfırlanır
         this.ipucuKonumlari = new Set();
@@ -1618,7 +1618,7 @@ const YazmaUygulamasi = {
         const geri = document.getElementById('yazma-geri');
         const girdi = document.getElementById('yazma-girdi');
 
-        const girilen = this.bilesikCevap().trim().toLowerCase();
+        const girilen = this.bilesikCevap().trim().toLowerCase().replace(/\s+/g, '');
         const dogru = this.gecerliCevap;
         const benzerlik = this.benzerlikOrani(girilen, dogru);
         const ayniMi = girilen === dogru || benzerlik >= 0.8;
