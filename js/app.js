@@ -4834,7 +4834,8 @@ const PassiveUygulamasi = {
         const vb = PS_VERBS[Math.floor(Math.random() * PS_VERBS.length)];
         const tense = PS_TENSE[Math.floor(Math.random() * PS_TENSE.length)];
         const dogru = tense.yap(vb, st.cogul).trim();
-        const opts = [...new Set(PS_TENSE.map((t) => t.yap(vb, st.cogul).trim()))];
+        // Hem tekil hem çoğul şıklar: have/has, is/are, was/were dönüşümü seçilebilsin
+        const opts = [...new Set(PS_TENSE.flatMap((t) => [t.yap(vb, false).trim(), t.yap(vb, true).trim()]))];
         for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
         this.suan = { st, vb, tense, dogru, opts, full: `${st.en} ${dogru} ${st.whoEN}.` };
         this.secim = null; this.cevapli = false;
