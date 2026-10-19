@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/style.css?v=54">
+    <link rel="stylesheet" href="css/style.css?v=55">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
         (function () {
@@ -137,6 +137,7 @@
                             <p class="example" id="kart-ornek">I eat an apple every day.</p>
                             <p class="example-tr" id="kart-ornek-tr">Ben her gün elma yerim.</p>
                             <div id="kart-formlar" class="kart-formlar hidden"></div>
+                            <div id="kart-ipucu" class="kart-formlar hidden"></div>
                             <button class="sound-btn small" id="btn-ses-cumle" title="Örnek cümleyi dinle">🔊 Örneği dinle</button>
                         </div>
                     </div>
@@ -547,6 +548,13 @@
                     </div>
                     <div id="sozluk-formlar" class="sozluk-formlar hidden"></div>
                     <div id="sozluk-aile" class="sozluk-formlar hidden"></div>
+                    <div id="sozluk-ipucu" class="bagli-alan">
+                        <span class="bagli-etiket">💡 Kişisel hatırlatma ipucun</span>
+                        <div class="bagli-butonlar df-arama-alani" style="display:flex;gap:.4rem;">
+                            <input id="sozluk-ipucu-girdi" class="df-girdi" placeholder="ör. ses benzerliği, çağrışım..." style="flex:1;">
+                            <button class="btn bgl bgl-ekle" id="btn-sozluk-ipucu">💾 Kaydet</button>
+                        </div>
+                    </div>
                     <div id="sozluk-baglantilar" class="bagli-alan"></div>
                 </div>
             </div>
@@ -782,6 +790,26 @@
             <div class="kp-kutu">
                 <div class="kp-baslik">📖 Günün Cümleleri (bağlam)</div>
                 <div id="eg-cumleler">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">⚔️ Kelime Düellosu (2 kişi)</div>
+                <div id="eg-duel">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">⏱️ Mini Oturum</div>
+                <div id="eg-mini">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">💀 Lost &amp; Found (dirilt)</div>
+                <div id="eg-kayip">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">⌛ Hız Testi (30 sn)</div>
+                <div id="eg-hiz">Yükleniyor...</div>
             </div>
         </section>
 
@@ -1068,7 +1096,7 @@
     <script src="js/nav.js?v=50" defer></script>
     <script src="js/duplikat-temizle.js?v=50" defer></script>
     <script src="js/duplikat-ailesi.js?v=50" defer></script>
-    <script src="js/app.js?v=56" defer></script>
+    <script src="js/app.js?v=57" defer></script>
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>

@@ -582,6 +582,12 @@ const KartUygulamasi = {
         document.getElementById('kart-ornek-tr').textContent = k.exTr || '';
         const kartForm = document.getElementById('kart-formlar');
         if (kartForm) { const t = FiilCekim.metin(k); kartForm.innerHTML = t; kartForm.classList.toggle('hidden', !t); }
+        const kartI = document.getElementById('kart-ipucu');
+        if (kartI) {
+            const t = (typeof Eglence !== 'undefined') ? Eglence.ipucuAl(k.w) : '';
+            kartI.textContent = t ? ('💡 ' + t) : '';
+            kartI.classList.toggle('hidden', !t);
+        }
         document.getElementById('kart-seviye').textContent = k.lv || '';
         document.getElementById('kart-seviye2').textContent = k.lv || '';
         document.getElementById('kart-kategori').textContent = k.ct || '';
@@ -2621,6 +2627,9 @@ const SozlukUygulamasi = {
         if (sf) { const t = FiilCekim.metin(k); sf.innerHTML = t; sf.classList.toggle('hidden', !t); }
         const af = document.getElementById('sozluk-aile');
         if (af) { const t = KelimeAilesi.ailesi(k); af.innerHTML = t ? ('👨‍👩‍👧 Kelime Ailesi: ' + t) : ''; af.classList.toggle('hidden', !t); }
+        const ig = document.getElementById('sozluk-ipucu-girdi');
+        this._sfw = k;
+        if (ig) ig.value = (typeof Eglence !== 'undefined') ? Eglence.ipucuAl(k.w) : '';
         document.getElementById('sozluk-detay').classList.remove('hidden');
         // Modül bağlantıları
         const alan = document.getElementById('sozluk-baglantilar');
@@ -4143,6 +4152,11 @@ const Eglence = {
         this.bulmacaCiz();
         this.zincirCiz();
         this.cumleCiz();
+        this.duelCiz();
+        this.miniCiz();
+        this.kayipCiz();
+        this.hizCiz();
+        this.ipucuBagla();
     },
     kaydet() { try { localStorage.setItem(this.anahtar, JSON.stringify(this.veri)); } catch (e) {} },
     tarih() { const x = new Date(); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`; },
@@ -4361,6 +4375,222 @@ const Eglence = {
         el.querySelectorAll('[data-ses]').forEach((b) => b.addEventListener('click', () => ses.konus(b.dataset.ses)));
         const yeni = document.getElementById('eg-cumle-yeni');
         if (yeni) yeni.addEventListener('click', () => this.cumleGoster());
+        // Kendi mini hikâyeni yaz
+        let hik = '';
+        try { hik = localStorage.getItem('englearn-hikaye') || ''; } catch (e) {}
+        const hikBox = document.createElement('div');
+        hikBox.innerHTML = `<div class="bagli-etiket" style="margin-top:.7rem">✍️ Bu 5 kelimeyle kendi mini hikâyeni İngilizce yaz</div>
+            <textarea id="eg-hikaye" class="og-girdi" rows="3">${this.esc(hik)}</textarea>
+            <div class="yanlis-butonlar"><button class="btn bgl bgl-ekle" id="eg-hikaye-kaydet">💾 Kaydet</button></div>`;
+        el.appendChild(hikBox);
+        const ta = el.querySelector('#eg-hikaye');
+        const hk = el.querySelector('#eg-hikaye-kaydet');
+        if (hk && ta) hk.addEventListener('click', () => {
+            try { localStorage.setItem('englearn-hikaye', ta.value); } catch (e) {}
+            if (typeof SiteKoruma !== 'undefined') SiteKoruma.toast('✍️ Hikâyen kaydedildi');
+        });
+    },
+    esc(s) {
+        return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    },
+
+    /* ---------- DÜELLO (2 KİŞİ) ---------- */
+    duelCiz() {
+        const el = document.getElementById('eg-duel');
+        if (!el) return;
+        el.innerHTML = '<button class="btn btn-next" id="eg-duel-baslat">⚔️ Düello Başlat (10 soru)</button>';
+        const b = el.querySelector('#eg-duel-baslat');
+        if (b) b.addEventListener('click', () => this.duelBaslat());
+    },
+    duelBaslat() {
+        const havuz = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5).slice(0, 10);
+        this.duel = { kelimeler: havuz, sira: 0, s1: 0, s2: 0, oyuncu: 1 };
+        this.duelSoru();
+    },
+    duelSoru() {
+        const el = document.getElementById('eg-duel');
+        if (!el || !this.duel) return;
+        const q = this.duel.kelimeler[this.duel.sira];
+        const baslik = `⚔️ ${this.duel.oyuncu === 1 ? 'Oyuncu 1' : 'Oyuncu 2'} · ${this.duel.sira + 1}/10 · S1:${this.duel.s1} S2:${this.duel.s2}`;
+        this._mscQuiz(el, q, (ok) => {
+            if (ok) { if (this.duel.oyuncu === 1) this.duel.s1++; else this.duel.s2++; this.xpEkle(4); }
+            this.duel.oyuncu = this.duel.oyuncu === 1 ? 2 : 1;
+            this.duel.sira++;
+            if (this.duel.sira < this.duel.kelimeler.length) this.duelSoru(); else this.duelBitir();
+        }, baslik);
+    },
+    duelBitir() {
+        const d = this.duel;
+        const el = document.getElementById('eg-duel');
+        const kazanan = d.s1 === d.s2 ? 'Berabere 🤝' : (d.s1 > d.s2 ? '🏆 Oyuncu 1 kazandı!' : '🏆 Oyuncu 2 kazandı!');
+        if (el) el.innerHTML = `<h3>${kazanan}</h3><p>Oyuncu 1: <b>${d.s1}</b> · Oyuncu 2: <b>${d.s2}</b></p>
+            <div class="yanlis-butonlar"><button class="btn btn-next" id="eg-duel-yeniden">🔄 Tekrar</button></div>`;
+        const y = el ? el.querySelector('#eg-duel-yeniden') : null;
+        if (y) y.addEventListener('click', () => this.duelBaslat());
+        this.duel = null;
+    },
+
+    /* ---------- MİNİ OTURUM (5 DK) ---------- */
+    miniCiz() {
+        const el = document.getElementById('eg-mini');
+        if (!el) return;
+        el.innerHTML = '<button class="btn btn-next" id="eg-mini-baslat">⏱️ 5 Dakika Oturumu Başlat</button>';
+        const b = el.querySelector('#eg-mini-baslat');
+        if (b) b.addEventListener('click', () => this.miniBaslat());
+    },
+    miniBaslat() {
+        const kelimeler = [];
+        if (typeof AkilliTekrar !== 'undefined') {
+            AkilliTekrar.siradaki(6).forEach((r) => kelimeler.push({ w: r.w, tr: r.tr }));
+        }
+        const ek = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5);
+        for (const e of ek) { if (kelimeler.length >= 15) break; if (!kelimeler.some((k) => k.w === e.w)) kelimeler.push({ w: e.w, tr: e.tr }); }
+        if (!kelimeler.length) return;
+        this.mini = { kelimeler, sira: 0, d: 0 };
+        this.miniSoru();
+    },
+    miniSoru() {
+        const el = document.getElementById('eg-mini');
+        if (!el || !this.mini) return;
+        const q = this.mini.kelimeler[this.mini.sira];
+        this._mscQuiz(el, q, (ok) => {
+            if (ok) { this.mini.d++; this.xpEkle(3); }
+            else if (typeof AkilliTekrar !== 'undefined') AkilliTekrar.cevapla({ w: q.w, tr: q.tr }, 0);
+            this.mini.sira++;
+            if (this.mini.sira < this.mini.kelimeler.length) this.miniSoru(); else this.miniBitir();
+        }, `⏱️ Mini Oturum · ${this.mini.sira + 1}/${this.mini.kelimeler.length} · ✅ ${this.mini.d}`);
+    },
+    miniBitir() {
+        const el = document.getElementById('eg-mini');
+        if (el) el.innerHTML = `<p>🏁 Mini oturum bitti: <b>${this.mini.d}</b> doğru. Güzel iş! ☕</p>`;
+        this.mini = null;
+    },
+
+    /* ---------- LOST & FOUND (DIRİLT) ---------- */
+    kayipCiz() {
+        const el = document.getElementById('eg-kayip');
+        if (!el) return;
+        el.innerHTML = '<button class="btn btn-next" id="eg-kayip-baslat">💀 Unutulanları Dirilt</button>';
+        const b = el.querySelector('#eg-kayip-baslat');
+        if (b) b.addEventListener('click', () => this.kayipBaslat());
+    },
+    kayipBaslat() {
+        const el = document.getElementById('eg-kayip');
+        if (!el) return;
+        const kayiplar = [];
+        if (typeof AkilliTekrar !== 'undefined') {
+            const simdi = Date.now();
+            for (const r of Object.values(AkilliTekrar.kayitlar)) {
+                if (!r.tr) continue;
+                if ((r.a <= 1 && r.y > (r.d || 0)) || (r.a >= 2 && r.n && (simdi - r.n) > 45 * 24 * 3600 * 1000)) {
+                    if (kayiplar.length < 10) kayiplar.push({ w: r.w, tr: r.tr });
+                }
+            }
+        }
+        if (!kayiplar.length) { el.innerHTML = '<p class="tip">Şu an kayıp kelimen yok — mükemmel! 🎉</p>'; return; }
+        this.kayip = { kelimeler: kayiplar.slice(0, 10), sira: 0, d: 0 };
+        this.kayipSoru();
+    },
+    kayipSoru() {
+        const el = document.getElementById('eg-kayip');
+        if (!el || !this.kayip) return;
+        const q = this.kayip.kelimeler[this.kayip.sira];
+        this._mscQuiz(el, q, (ok) => {
+            if (ok) { this.xpEkle(6); this.kayip.d++; if (typeof AkilliTekrar !== 'undefined') AkilliTekrar.cevapla({ w: q.w, tr: q.tr }, 4); }
+            else if (typeof AkilliTekrar !== 'undefined') AkilliTekrar.cevapla({ w: q.w, tr: q.tr }, 0);
+            this.kayip.sira++;
+            if (this.kayip.sira < this.kayip.kelimeler.length) { this.kayipSoru(); }
+            else { el.innerHTML = `<p>🕊️ ${this.kayip.d}/${this.kayip.kelimeler.length} kelime diriltildi!</p>`; this.kayip = null; }
+        }, `💀 Lost & Found · ${this.kayip.sira + 1}/${this.kayip.kelimeler.length}`);
+    },
+
+    /* ---------- HIZ TESTİ (30 SN) ---------- */
+    hizCiz() {
+        const el = document.getElementById('eg-hiz');
+        if (!el) return;
+        el.innerHTML = '<button class="btn btn-next" id="eg-hiz-baslat">⌛ Hız Testi (30 saniye)</button>';
+        const b = el.querySelector('#eg-hiz-baslat');
+        if (b) b.addEventListener('click', () => this.hizBaslat());
+    },
+    hizBaslat() {
+        if (this.hizZaman) { clearInterval(this.hizZaman); this.hizZaman = null; }
+        this.hiz = { kalan: 30, d: 0 };
+        this.hizSoru();
+        this.hizZaman = setInterval(() => {
+            if (!this.hiz) { clearInterval(this.hizZaman); this.hizZaman = null; return; }
+            this.hiz.kalan--;
+            const sut = document.getElementById('eg-hiz-sure');
+            if (sut) sut.textContent = `⏳ ${this.hiz.kalan} sn`;
+            if (this.hiz.kalan <= 0) { clearInterval(this.hizZaman); this.hizZaman = null; this.hizBitir(); }
+        }, 1000);
+    },
+    hizSoru() {
+        const el = document.getElementById('eg-hiz');
+        if (!el || !this.hiz) return;
+        const q = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5)[0];
+        this._mscQuiz(el, q, (ok) => {
+            if (this.hiz && ok) { this.hiz.d++; this.xpEkle(2); }
+            if (this.hiz) this.hizSoru();
+        }, `<span id="eg-hiz-sure">⏳ ${this.hiz ? this.hiz.kalan : 30} sn</span> · ✅ ${this.hiz ? this.hiz.d : 0}`);
+    },
+    hizBitir() {
+        if (this.hizZaman) { clearInterval(this.hizZaman); this.hizZaman = null; }
+        const el = document.getElementById('eg-hiz');
+        const d = this.hiz ? this.hiz.d : 0;
+        if (el) el.innerHTML = `<p>⚡ 30 saniyede <b>${d}</b> doğru! ${d >= 10 ? 'Işık hızı! 🏎️' : 'Tekrar dene!'}</p>
+            <div class="yanlis-butonlar"><button class="btn btn-next" id="eg-hiz-yeniden">🔄 Tekrar</button></div>`;
+        const y = el ? el.querySelector('#eg-hiz-yeniden') : null;
+        if (y) y.addEventListener('click', () => this.hizBaslat());
+        this.hiz = null;
+    },
+
+    /* ---------- KİŞİSEL İPUCU (mnemonic) ---------- */
+    ipucuAl(w) {
+        try { return JSON.parse(localStorage.getItem('englearn-ipuclari') || '{}')[w] || ''; }
+        catch (e) { return ''; }
+    },
+    ipucuKaydet(w, tip) {
+        let k = {};
+        try { k = JSON.parse(localStorage.getItem('englearn-ipuclari') || '{}'); } catch (e) { k = {}; }
+        if (tip) k[w] = tip; else delete k[w];
+        try { localStorage.setItem('englearn-ipuclari', JSON.stringify(k)); } catch (e) {}
+    },
+    ipucuBagla() {
+        const sb = document.getElementById('btn-sozluk-ipucu');
+        if (sb) sb.addEventListener('click', () => {
+            const k = this._sfw;
+            const g = document.getElementById('sozluk-ipucu-girdi');
+            if (!k || !g) return;
+            this.ipucuKaydet(k.w, g.value.trim());
+            if (typeof SiteKoruma !== 'undefined') SiteKoruma.toast('💡 İpucun kaydedildi');
+        });
+    },
+
+    /* ---------- ORTAK HIZLI QUIZ ---------- */
+    _mscQuiz(el, kelime, onCevap, baslik) {
+        const secenekler = [kelime.tr];
+        const diger = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr && k.tr !== kelime.tr).sort(() => Math.random() - 0.5);
+        for (const d of diger) { if (secenekler.length >= 4) break; if (!secenekler.includes(d.tr)) secenekler.push(d.tr); }
+        secenekler.sort(() => Math.random() - 0.5);
+        el.dataset.kilit = '';
+        el.innerHTML = `<div class="quiz-header"><span class="quiz-progress">${baslik || ''}</span></div>
+            <div class="quiz-word-area"><h3 class="quiz-word">${kelime.w}</h3>
+            <button class="sound-btn small c-msc-ses">🔊</button></div>
+            <div class="quiz-options">${secenekler.map((o) => `<button class="quiz-option">${o}</button>`).join('')}</div>
+            <div class="quiz-feedback hidden c-msc-geri"></div>`;
+        const sesBtn = el.querySelector('.c-msc-ses');
+        if (sesBtn) sesBtn.addEventListener('click', () => ses.konus(kelime.w));
+        el.querySelectorAll('.quiz-option').forEach((b) => b.addEventListener('click', () => {
+            if (el.dataset.kilit) return;
+            el.dataset.kilit = '1';
+            const ok = b.textContent === kelime.tr;
+            const geri = el.querySelector('.c-msc-geri');
+            geri.classList.remove('hidden');
+            geri.className = ok ? 'quiz-feedback dogru' : 'quiz-feedback yanlis';
+            geri.innerHTML = ok ? '🎉 +XP' : `😅 ${kelime.w} = ${kelime.tr}`;
+            el.querySelectorAll('.quiz-option').forEach((x) => { if (x.textContent === kelime.tr) x.classList.add('dogru-secim'); });
+            setTimeout(() => onCevap(ok), 720);
+        }));
     }
 };
 
