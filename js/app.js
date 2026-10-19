@@ -4790,14 +4790,14 @@ const FilmKalipUygulamasi = {
    PASSIVE TENSE (Edilgen Çatı) — boşluğu doğru zamanı seçerek doldur
    ================================================== */
 const PS_SENTENCES = [
-    { en: "The cake", tr: "Pasta", whoEN: "by my mother", whoTR: "annem tarafından", cogul: false },
-    { en: "These cakes", tr: "Bu pastalar", whoEN: "by the bakers", whoTR: "fırıncılar tarafından", cogul: true },
-    { en: "The house", tr: "Bu ev", whoEN: "by the workers", whoTR: "işçiler tarafından", cogul: false },
-    { en: "The letters", tr: "Bu mektuplar", whoEN: "by Mary", whoTR: "Mary tarafından", cogul: true },
-    { en: "The windows", tr: "Bu pencereler", whoEN: "by the boys", whoTR: "çocuklar tarafından", cogul: true },
-    { en: "Two languages", tr: "İki dil", whoEN: "by the teachers", whoTR: "öğretmenler tarafından", cogul: true },
-    { en: "The movie", tr: "Bu film", whoEN: "by a great director", whoTR: "büyük bir yönetmen tarafından", cogul: false },
-    { en: "The bridge", tr: "Bu köprü", whoEN: "by the engineers", whoTR: "mühendisler tarafından", cogul: false }
+    { en: "The cake", whoEN: "by my mother", agentEN: "My mother", agentCogul: false, cogul: false },
+    { en: "These cakes", whoEN: "by the bakers", agentEN: "The bakers", agentCogul: true, cogul: true },
+    { en: "The house", whoEN: "by the workers", agentEN: "The workers", agentCogul: true, cogul: false },
+    { en: "The letters", whoEN: "by Mary", agentEN: "Mary", agentCogul: false, cogul: true },
+    { en: "The windows", whoEN: "by the boys", agentEN: "The boys", agentCogul: true, cogul: true },
+    { en: "Two languages", whoEN: "by the teachers", agentEN: "The teachers", agentCogul: true, cogul: true },
+    { en: "The movie", whoEN: "by a famous director", agentEN: "A famous director", agentCogul: false, cogul: false },
+    { en: "The bridge", whoEN: "by the engineers", agentEN: "The engineers", agentCogul: true, cogul: false }
 ];
 const PS_TENSE = [
     { key: "genis", trAd: "Geniş (is made)", yap: (v, p) => (p ? "are " : "is ") + v.pp },
@@ -4810,14 +4810,14 @@ const PS_TENSE = [
     { key: "gerekli", trAd: "Gereklilik (must be made)", yap: (v, p) => "must be " + v.pp }
 ];
 const PS_VERBS = [
-    { v: "make", pp: "made", fm: { genis: "yapılır", gecmis: "yapıldı", simdiki: "yapılıyor", gecmisSimdiki: "yapılıyordu", perf: "yapılmış", perfGecmis: "yapılmıştı", gelecek: "yapılacak", gerekli: "yapılmalı" } },
-    { v: "build", pp: "built", fm: { genis: "kurulur", gecmis: "kuruldu", simdiki: "kuruluyor", gecmisSimdiki: "kuruluyordu", perf: "kurulmuş", perfGecmis: "kurulmuştu", gelecek: "kurulacak", gerekli: "kurulmalı" } },
-    { v: "write", pp: "written", fm: { genis: "yazılır", gecmis: "yazıldı", simdiki: "yazılıyor", gecmisSimdiki: "yazılıyordu", perf: "yazılmış", perfGecmis: "yazılmıştı", gelecek: "yazılacak", gerekli: "yazılmalı" } },
-    { v: "give", pp: "given", fm: { genis: "verilir", gecmis: "verildi", simdiki: "veriliyor", gecmisSimdiki: "veriliyordu", perf: "verilmiş", perfGecmis: "verilmişti", gelecek: "verilecek", gerekli: "verilmeli" } },
-    { v: "serve", pp: "served", fm: { genis: "sunulur", gecmis: "sunuldu", simdiki: "sunuluyor", gecmisSimdiki: "sunuluyordu", perf: "sunulmuş", perfGecmis: "sunulmuştu", gelecek: "sunulacak", gerekli: "sunulmalı" } },
-    { v: "clean", pp: "cleaned", fm: { genis: "temizlenir", gecmis: "temizlendi", simdiki: "temizleniyor", gecmisSimdiki: "temizleniyordu", perf: "temizlenmiş", perfGecmis: "temizlenmişti", gelecek: "temizlenecek", gerekli: "temizlenmeli" } },
-    { v: "paint", pp: "painted", fm: { genis: "boyanır", gecmis: "boyandı", simdiki: "boyanıyor", gecmisSimdiki: "boyanıyordu", perf: "boyanmış", perfGecmis: "boyanmıştı", gelecek: "boyanacak", gerekli: "boyanmalı" } },
-    { v: "tell", pp: "told", fm: { genis: "söylenir", gecmis: "söylendi", simdiki: "söyleniyor", gecmisSimdiki: "söyleniyordu", perf: "söylenmiş", perfGecmis: "söylenmişti", gelecek: "söylenecek", gerekli: "söylenmeli" } }
+    { v: "make", pp: "made", ing: "making", fm: { genis: "yapılır", gecmis: "yapıldı", simdiki: "yapılıyor", gecmisSimdiki: "yapılıyordu", perf: "yapılmış", perfGecmis: "yapılmıştı", gelecek: "yapılacak", gerekli: "yapılmalı" } },
+    { v: "build", pp: "built", ing: "building", fm: { genis: "kurulur", gecmis: "kuruldu", simdiki: "kuruluyor", gecmisSimdiki: "kuruluyordu", perf: "kurulmuş", perfGecmis: "kurulmuştu", gelecek: "kurulacak", gerekli: "kurulmalı" } },
+    { v: "write", pp: "written", ing: "writing", fm: { genis: "yazılır", gecmis: "yazıldı", simdiki: "yazılıyor", gecmisSimdiki: "yazılıyordu", perf: "yazılmış", perfGecmis: "yazılmıştı", gelecek: "yazılacak", gerekli: "yazılmalı" } },
+    { v: "give", pp: "given", ing: "giving", fm: { genis: "verilir", gecmis: "verildi", simdiki: "veriliyor", gecmisSimdiki: "veriliyordu", perf: "verilmiş", perfGecmis: "verilmişti", gelecek: "verilecek", gerekli: "verilmeli" } },
+    { v: "serve", pp: "served", ing: "serving", fm: { genis: "sunulur", gecmis: "sunuldu", simdiki: "sunuluyor", gecmisSimdiki: "sunuluyordu", perf: "sunulmuş", perfGecmis: "sunulmuştu", gelecek: "sunulacak", gerekli: "sunulmalı" } },
+    { v: "clean", pp: "cleaned", ing: "cleaning", fm: { genis: "temizlenir", gecmis: "temizlendi", simdiki: "temizleniyor", gecmisSimdiki: "temizleniyordu", perf: "temizlenmiş", perfGecmis: "temizlenmişti", gelecek: "temizlenecek", gerekli: "temizlenmeli" } },
+    { v: "paint", pp: "painted", ing: "painting", fm: { genis: "boyanır", gecmis: "boyandı", simdiki: "boyanıyor", gecmisSimdiki: "boyanıyordu", perf: "boyanmış", perfGecmis: "boyanmıştı", gelecek: "boyanacak", gerekli: "boyanmalı" } },
+    { v: "tell", pp: "told", ing: "telling", fm: { genis: "söylenir", gecmis: "söylendi", simdiki: "söyleniyor", gecmisSimdiki: "söyleniyordu", perf: "söylenmiş", perfGecmis: "söylenmişti", gelecek: "söylenecek", gerekli: "söylenmeli" } }
 ];
 
 const PassiveUygulamasi = {
@@ -4839,7 +4839,7 @@ const PassiveUygulamasi = {
         this.suan = { st, vb, tense, dogru, opts, full: `${st.en} ${dogru} ${st.whoEN}.` };
         this.secim = null; this.cevapli = false;
 
-        document.getElementById('ps-tr').textContent = `${st.tr} ${st.whoTR} ${vb.fm[tense.key]}`;
+        document.getElementById('ps-aktif').textContent = this.aktifCumle(vb, tense.key, st) + '.';
         document.getElementById('ps-cumle').innerHTML = `${st.en} <b>_____</b> ${st.whoEN}.`;
         document.getElementById('ps-secenekler').innerHTML = '';
         opts.forEach((o) => {
@@ -4886,6 +4886,21 @@ const PassiveUygulamasi = {
     },
 
     sonraki() { this.uret(); },
+
+    aktifCumle(vb, key, st) {
+        const a = st.agentEN, o = st.en, cog = st.agentCogul;
+        const b = {
+            genis: `${a} ${cog ? vb.v : vb.v + 's'} ${o}`,
+            gecmis: `${a} ${vb.pp} ${o}`,
+            simdiki: `${a} ${cog ? 'are' : 'is'} ${vb.ing} ${o}`,
+            gecmisSimdiki: `${a} ${cog ? 'were' : 'was'} ${vb.ing} ${o}`,
+            perf: `${a} ${cog ? 'have' : 'has'} ${vb.pp} ${o}`,
+            perfGecmis: `${a} had ${vb.pp} ${o}`,
+            gelecek: `${a} will ${vb.v} ${o}`,
+            gerekli: `${a} must ${vb.v} ${o}`
+        };
+        return b[key] || o;
+    },
 
     skorGuncelle() {
         const el = document.getElementById('ps-skor');
