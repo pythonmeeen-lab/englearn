@@ -4478,17 +4478,30 @@ const Eglence = {
         const el = document.getElementById('eg-kayip');
         if (!el) return;
         const kayiplar = [];
+        let bulunan = 0;
         if (typeof AkilliTekrar !== 'undefined') {
             const simdi = Date.now();
             for (const r of Object.values(AkilliTekrar.kayitlar)) {
                 if (!r.tr) continue;
-                if ((r.a <= 1 && r.y > (r.d || 0)) || (r.a >= 2 && r.n && (simdi - r.n) > 45 * 24 * 3600 * 1000)) {
-                    if (kayiplar.length < 10) kayiplar.push({ w: r.w, tr: r.tr });
-                }
+                const kayip = (r.a <= 1 && (r.y || 0) > (r.d || 0)) ||
+                              (r.a >= 2 && r.n && (simdi - r.n) > 45 * 24 * 3600 * 1000);
+                if (kayip) { bulunan++; if (kayiplar.length < 8) kayiplar.push({ w: r.w, tr: r.tr }); }
             }
         }
-        if (!kayiplar.length) { el.innerHTML = '<p class="tip">Şu an kayıp kelimen yok — mükemmel! 🎉</p>'; return; }
-        this.kayip = { kelimeler: kayiplar.slice(0, 10), sira: 0, d: 0 };
+        // Her zaman dolu kuyruk: kayıp + vadesi gelenler + yeni kelimeler
+        if (typeof AkilliTekrar !== 'undefined') {
+            AkilliTekrar.siradaki(12).forEach((r2) => {
+                if (kayiplar.length < 12 && r2.tr && !kayiplar.some((k) => k.w === r2.w)) kayiplar.push({ w: r2.w, tr: r2.tr });
+            });
+        }
+        const ek = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5);
+        for (const e of ek) {
+            if (kayiplar.length >= 12) break;
+            if (!kayiplar.some((k) => k.w === e.w)) kayiplar.push({ w: e.w, tr: e.tr });
+        }
+        if (!kayiplar.length) { el.innerHTML = '<p class="tip">Havuz hazır değil — biraz sonra tekrar dene.</p>'; return; }
+        el.dataset.kilit = '';
+        this.kayip = { kelimeler: kayiplar.slice(0, 12), sira: 0, d: 0, kayipSayi: bulunan };
         this.kayipSoru();
     },
     kayipSoru() {
@@ -4500,8 +4513,14 @@ const Eglence = {
             else if (typeof AkilliTekrar !== 'undefined') AkilliTekrar.cevapla({ w: q.w, tr: q.tr }, 0);
             this.kayip.sira++;
             if (this.kayip.sira < this.kayip.kelimeler.length) { this.kayipSoru(); }
-            else { el.innerHTML = `<p>🕊️ ${this.kayip.d}/${this.kayip.kelimeler.length} kelime diriltildi!</p>`; this.kayip = null; }
-        }, `💀 Lost & Found · ${this.kayip.sira + 1}/${this.kayip.kelimeler.length}`);
+            else {
+                el.innerHTML = `<p>🕊️ ${this.kayip.d}/${this.kayip.kelimeler.length} doğru · Tespit edilen kayıp: <b>${this.kayip.kayipSayi}</b></p>
+                    <div class="yanlis-butonlar"><button class="btn btn-next" id="eg-kayip-yeniden">🔄 Tekrar Dirilt</button></div>`;
+                const y = el.querySelector('#eg-kayip-yeniden');
+                if (y) y.addEventListener('click', () => this.kayipBaslat());
+                this.kayip = null;
+            }
+        }, `💀 Lost & Found · ${this.kayip.sira + 1}/${this.kayip.kelimeler.length}${this.kayip.kayipSayi ? ` · kayıp:${this.kayip.kayipSayi}` : ''}`);
     },
 
     /* ---------- HIZ TESTİ (30 SN) ---------- */
