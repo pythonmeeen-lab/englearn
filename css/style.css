@@ -3146,8 +3146,29 @@ button, a, select, input, textarea { touch-action: manipulation; -webkit-tap-hig
 .fk-satir { align-items: flex-start; flex-direction: column; gap: 0.15rem; }
 .fk-rastgele { margin-bottom: 0.7rem; }
 .fk-cardboard { max-width: 500px; margin: 0 auto; }
-.pasif-chips { gap: 0.4rem; margin: 0.8rem 0 0.2rem; }
-.pasif-chip { font-size: 0.78rem; }
+.pasif-chips {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem;
+    margin: 0.8rem 0 0.2rem;
+}
+.pasif-chip {
+    font-size: 0.78rem;
+    white-space: normal;
+    text-align: center;
+    overflow-wrap: anywhere;
+    padding: 0.45rem 0.4rem;
+}
+#ps-cumle {
+    font-size: clamp(1.05rem, 4.8vw, 1.7rem);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.4;
+}
+#ps-aktif { overflow-wrap: anywhere; }
+@media (max-width: 420px) {
+    .pasif-chips { grid-template-columns: 1fr; }
+}
 
 
 
