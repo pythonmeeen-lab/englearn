@@ -4008,10 +4008,9 @@ const DuzensizFiillerUygulamasi = {
         dizi.forEach((f) => {
             const row = document.createElement('div');
             row.className = 'df-satir';
-            const v3Farkli = f.v3 !== f.v2;
             row.innerHTML = `<span class="df-v1">${f.v1}</span>` +
                 `<span class="df-ok">→</span><span class="df-v2">${f.v2}</span>` +
-                (v3Farkli ? `<span class="df-ok">→</span><span class="df-v3">${f.v3}</span>` : '') +
+                `<span class="df-ok">→</span><span class="df-v3">${f.v3}</span>` +
                 `<span class="df-tr">${f.tr}</span>` +
                 `<button class="sound-btn small df-ses" title="Dinle">🔊</button>`;
             row.querySelector('.df-ses').addEventListener('click', () => ses.konus(`${f.v1}, ${f.v2}, ${f.v3}`));
