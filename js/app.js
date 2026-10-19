@@ -410,6 +410,8 @@ function navHazirla() {
             paneller.forEach((p) => {
                 p.classList.toggle('active-panel', p.id === hedef.slice(1));
             });
+            // Adres çubuğunu modülle senkron tut (yenileyince aynı modül açılsın, #yanlislar'a sapmasın)
+            try { if (window.location.hash !== hedef) history.replaceState(null, '', hedef); } catch (e) {}
             // Modüle geçerken panelin başına kaydır (sticky menünün altında kalma)
             const panelHedef = document.getElementById(hedef.slice(1));
             if (panelHedef) panelHedef.scrollIntoView({ behavior: 'smooth', block: 'start' });
