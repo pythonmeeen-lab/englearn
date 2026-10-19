@@ -4284,7 +4284,9 @@ const Eglence = {
         ciftler.forEach((c) => {
             const kart = document.createElement('button');
             kart.className = 'hafiza-kart';
-            kart.textContent = c.kel ? c.w : c.tr;
+            kart.innerHTML = `<span class="hafiza-ic">
+                <span class="hafiza-yuz hafiza-on">❓</span>
+                <span class="hafiza-yuz hafiza-arka">${c.kel ? c.w : c.tr}</span></span>`;
             kart.addEventListener('click', () => {
                 if (kilit || kart.classList.contains('acik') || kart.classList.contains('esles')) return;
                 kart.classList.add('acik');

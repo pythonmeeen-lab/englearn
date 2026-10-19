@@ -3097,20 +3097,50 @@ button, a, select, input, textarea { touch-action: manipulation; -webkit-tap-hig
 .hafiza-tahta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; margin-top: 0.7rem; }
 .hafiza-kart {
     aspect-ratio: 1.5 / 1;
-    border: 2px solid var(--panel-sinir);
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+.hafiza-ic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.4, 0.1, 0.2, 1);
+}
+.hafiza-kart.acik .hafiza-ic,
+.hafiza-kart.esles .hafiza-ic { transform: rotateY(180deg); }
+.hafiza-yuz {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 12px;
-    background: linear-gradient(135deg, #7c3aed, #6d28d9);
-    color: transparent;
+    padding: 0.3rem;
     font-weight: 800;
     font-size: 0.9rem;
-    cursor: pointer;
-    padding: 0.3rem;
     overflow: hidden;
-    transition: all 0.2s;
+    text-align: center;
+    word-break: break-word;
 }
-.hafiza-kart.acik { background: var(--beyaz); color: var(--koyu); border-color: var(--mor); }
-[data-theme="dark"] .hafiza-kart.acik { background: #1e293b; color: #e2e8f0; }
-.hafiza-kart.esles { background: #22c55e !important; color: #fff !important; opacity: 0.75; pointer-events: none; }
+.hafiza-on { background: linear-gradient(135deg, #7c3aed, #6d28d9); color: #fff; font-size: 1.3rem; }
+.hafiza-arka {
+    background: var(--beyaz);
+    color: var(--koyu);
+    border: 2px solid var(--mor);
+    transform: rotateY(180deg);
+}
+[data-theme="dark"] .hafiza-arka { background: #1e293b; color: #e2e8f0; }
+.hafiza-kart.esles { pointer-events: none; }
+.hafiza-kart.esles .hafiza-arka { background: #22c55e; color: #fff; border-color: #22c55e; opacity: 0.85; }
 
 
 
