@@ -1,0 +1,137 @@
+"/* ==================================================
+   ARCHIVIST MANUSCRIPT DESIGN PATCH
+   Concept: Prestigious Academic Collection
+   ================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+    --mor: #1a1a1a !important;           /* Deep Obsidian / Carbon */
+    --mor-acik: #333333 !important;      /* Charcoal */
+    --mor-koyu: #000000 !important;      /* True Black */
+    --indigo: #2c2c2c !important;        /* Iron Grey */
+    --yesil: #4a5d4e !important;         /* Oxidized Bronze */
+    --yesil-koyu: #3a4a3e !important;    
+    --kirmizi: #8b0000 !important;       /* Oxblood Red */
+    --kirmizi-koyu: #5e0000 !important;  
+    --sari: #c5a059 !important;          /* Antique Gold */
+    --koyu: #1a1a1a !important;          /* Primary text carbon */
+    --gri: #666666 !important;           
+    --gri-acik: #eceae4 !important;      /* Pale Linen */
+    --beyaz: #fdfbf7 !important;         /* Museum Ivory / Bone */
+    --yumusak-golge: 2px 2px 0px rgba(0, 0, 0, 0.15) !important; 
+    --arka-plan: #fdfbf7 !important;
+    --panel-sinir: #d1cdc2 !important;   /* Faded graphite edge */
+    --bakir: #a67c00;                    /* Dull Gold accent */
+}
+
+[data-theme='dark'] {
+    --mor: #e5e5e5 !important;           /* Silver Mist */
+    --mor-acik: #cccccc !important;
+    --mor-koyu: #ffffff !important;
+    --indigo: #b0b0b0 !important;
+    --yesil: #8aa38a !important;
+    --yesil-koyu: #6a7a6a !important;
+    --kirmizi: #cc6666 !important;
+    --kirmizi-koyu: #aa4444 !important;
+    --sari: #d4a017 !important;
+    --koyu: #f5f5f5 !important;
+    --gri: #bbbbbb !important;
+    --gri-acik: #1c1c1c !important;
+    --beyaz: #121212 !important;         /* Archive Black */
+    --arka-plan: #121212 !important;
+    --panel-sinir: #333333 !important;
+    --yumusak-golge: 2px 2px 0px rgba(0, 0, 0, 0.6) !important;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: var(--arka-plan) !important;
+    background-image: linear-gradient(var(--panel-sinir) 1px, transparent 1px) !important;
+    background-size: 100% 3rem !important; /* Formal wide ruled notebook feel */
+    color: var(--koyu) !important;
+    letter-spacing: 0.01em;
+}
+
+h1, h2, h3, .logo, .nav-brand, .hero h1 {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 800 !important;
+    font-style: italic;
+    color: var(--mor-koyu) !important;
+}
+
+/* MODUL CARDS: Pure Rectilinear Prestige */
+div[class*='card'], .panel, .modul-kart, .ses-secici {
+    background: var(--beyaz) !important;
+    border: 1px solid var(--panel-sinir) !important;
+    border-radius: 0px !important; 
+    box-shadow: var(--yumusak-golge) !important;
+    position: relative;
+}
+
+/* Detail: Top highlight line */
+div[class*='card']:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: var(--sari);
+}
+
+/* NAVBAR: Traditional header strip */
+.navbar {
+    background: var(--beyaz) !important;
+    border-bottom: 3px double var(--panel-sinir) !important;
+    box-shadow: none !important;
+}
+
+.nav-links a {
+    border-radius: 0 !important;
+    font-family: 'Inter', sans-serif !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background: var(--mor) !important;
+    color: var(--beyaz) !important;
+}
+
+/* HERO: Editorial Opening */
+.hero {
+    text-align: center !important;
+    border-bottom: 1px solid var(--panel-sinir) !important;
+    padding-bottom: 4rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.badge {
+    background: transparent !important;
+    color: var(--sari) !important;
+    border: 1px solid var(--sari) !important;
+    border-radius: 0 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+/* INPUTS & BTNS: Sharp & Functional */
+button, .btn, .ses-chip {
+    border-radius: 0px !important;
+    background: var(--beyaz) !important;
+    border: 1px solid var(--mor) !important;
+    color: var(--mor) !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+button:hover, .btn:hover {
+    background: var(--mor) !important;
+    color: var(--beyaz) !important;
+}
+
+.ses-chip.active {
+    background: var(--mor) !important;
+    color: var(--beyaz) !important;
+}
+"

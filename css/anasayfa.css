@@ -1,0 +1,262 @@
+/* ==================================================
+   EngLearn — Anasayfa Özel Stilleri
+   ================================================== */
+
+/* Günün Kelimesi — Flip Kart */
+.gundem-panel {
+    max-width: 560px;
+    margin: 0 auto 2rem;
+    display: block; /* .panel default display:none'ı ezer */
+}
+
+.dwd-flash {
+    perspective: 1200px;
+    height: 380px;
+    cursor: pointer;
+    animation: yukari-gel 0.6s ease both;
+}
+
+.dwd-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.dwd-flash.flipped .dwd-inner {
+    transform: rotateY(180deg);
+}
+
+.dwd-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 1.5rem;
+    text-align: center;
+    box-shadow: var(--yumusak-golge);
+    overflow: hidden;
+}
+
+/* ÖN YÜZ (İngilizce) */
+.dwd-front {
+    background: linear-gradient(145deg, var(--mor), var(--indigo));
+    color: var(--beyaz);
+}
+
+.dwd-front .level-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    color: var(--beyaz);
+    padding: 0.25rem 0.9rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.dwd-word {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0.7rem 0 0.15rem;
+    letter-spacing: 0.5px;
+}
+
+.dwd-pron {
+    opacity: 0.9;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+.dwd-front .dwd-example {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--beyaz);
+    line-height: 1.5;
+    max-width: 90%;
+}
+
+.dwd-ceviripucu {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    animation: nabz 2s infinite;
+}
+
+/* ARKA YÜZ (Türkçe) */
+.dwd-back {
+    background: linear-gradient(145deg, var(--beyaz), #f5f3ff);
+    transform: rotateY(180deg);
+    border: 2px solid #ddd6fe;
+}
+
+[data-theme="dark"] .dwd-back {
+    background: linear-gradient(145deg, #1e293b, #1e1b4b);
+    border-color: #4c1d95;
+}
+
+.dwd-back .level-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--mor);
+    color: var(--beyaz);
+    padding: 0.25rem 0.9rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.dwd-tr {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: var(--mor);
+    margin-bottom: 0.9rem;
+}
+
+.dwd-example-tr {
+    font-size: 1rem;
+    color: var(--gri);
+    font-style: italic;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+@keyframes nabz {
+    0%, 100% { opacity: 0.6; }
+    50%      { opacity: 1; }
+}
+
+/* Ses + alt bilgi */
+.dwd-controls {
+    margin-top: 1rem;
+}
+
+.dwd-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.dwd-buttons .sound-btn {
+    background: var(--mor);
+    color: var(--beyaz);
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin: 0;
+}
+
+.dwd-buttons .sound-btn:hover {
+    background: var(--mor-koyu);
+    transform: scale(1.12);
+}
+
+.dwd-buttons .sound-btn.small {
+    border-radius: 30px;
+    padding: 0.55rem 1.2rem;
+    width: auto;
+    height: auto;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/* Alt bilgi */
+.dwd-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 0 0;
+    flex-wrap: wrap;
+}
+
+.dwd-tarih {
+    font-weight: 700;
+    color: var(--gri);
+    font-size: 0.9rem;
+}
+
+.dwd-oku {
+    flex: none;
+    background: var(--mor);
+    color: var(--beyaz);
+    text-decoration: none;
+    padding: 0.6rem 1.3rem;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    transition: all 0.25s;
+}
+
+.dwd-oku:hover {
+    background: var(--mor-koyu);
+    transform: translateY(-2px);
+}
+
+/* Seri */
+.dwd-streak {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-weight: 800;
+    color: var(--gri);
+    font-size: 1.1rem;
+}
+
+.dwd-streak b {
+    color: var(--sari);
+    font-size: 1.3rem;
+}
+
+/* Özellik kartları */
+.features {
+    padding: 1rem 0 3rem;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.feature-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);
+}
+
+.feature-emoji {
+    font-size: 2.4rem;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.feature-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: var(--mor);
+    font-weight: 800;
+    font-size: 0.95rem;
+}

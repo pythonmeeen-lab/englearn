@@ -1,0 +1,123 @@
+"/* ==================================================
+   NAVIGATOR LOG DESIGN PATCH - THE TACTILE EXPERIENCE
+   ================================================== */
+
+/* ImportHigh-End Typography */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+    --mor: #1a2a6c !important;           /* Ink Navy */
+    --mor-acik: #4a6fa5 !important;       /* Curled Blue */
+    --mor-koyu: #0f172a !important;       /* Deep Abyss */
+    --indigo: #1e3a8a !important;         /* Naval Blue */
+    --yesil: #4a6741 !important;          /* Sage Green */
+    --yesil-koyu: #2d3e26 !important;     /* Forest Moss */
+    --kirmizi: #a34d4d !important;        /* Dried Ink Red */
+    --kirmizi-koyu: #7b3636 !important;   
+    --sari: #c5a059 !important;           /* Antique Gold */
+    --koyu: #1e293b !important;           /* Slate Grey */
+    --gri: #5b6c7d !important;            
+    --gri-acik: #f3eee4 !important;       /* Parchment */
+    --beyaz: #fdfaf3 !important;          /* Bone White */
+    --yumusak-golge: 3px 3px 0px rgba(26, 42, 108, 0.15) !important;
+    --arka-plan: #fdfaf3 !important;
+    --panel-sinir: #dcd2bc !important;
+    --bakir: #b87333;                     /* Signature Copper */
+}
+
+[data-theme='dark'] {
+    --mor: #4a6fa5 !important;
+    --mor-acik: #6b8dbb !important;
+    --mor-koyu: #0a192f !important;
+    --indigo: #112240 !important;
+    --yesil: #7ca982 !important;
+    --yesil-koyu: #4a6741 !important;
+    --kirmizi: #cd6a6a !important;
+    --kirmizi-koyu: #a34d4d !important;
+    --sari: #d4a017 !important;
+    --koyu: #ccd6f6 !important;
+    --gri: #8892b0 !important;
+    --gri-acik: #112240 !important;
+    --beyaz: #0a192f !important;
+    --arka-plan: #0a192f !important;
+    --panel-sinir: #1d2d4d !important;
+    --yumusak-golge: 3px 3px 0px rgba(0, 0, 0, 0.4) !important;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: var(--arka-plan) !important;
+    /* Subtle Grid-Paper Effect */
+    background-image: 
+        radial-gradient(var(--panel-sinir) 0.5px, transparent 0.5px), 
+        linear-gradient(transparent 19px, var(--panel-sinir) 20px) !important;
+    background-size: 20px 20px !important;
+    color: var(--koyu) !important;
+}
+
+/* Headings: The Captain's Handwriting */
+h1, h2, h3, .logo, .nav-brand, .hero h1 {
+    font-family: 'Lora', serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+}
+
+/* CARD RESET: Removing the 'Cloud Software' look */
+div[class*='card'], .panel, .modul-kart, .ses-secici {
+    background: var(--beyaz) !important;
+    border: 1px solid var(--panel-sinir) !important;
+    border-radius: 2px !important; 
+    box-shadow: var(--yumusak-golge) !important;
+    position: relative;
+    /* Asymmetrical Clip Path: Makes cards look like tickets/ledger pages */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%) !important;
+}
+
+/* NAVBAR: Transition from glass to paper strip */
+.navbar {
+    background: var(--beyaz) !important;
+    backdrop-filter: none !important;
+    border-bottom: 2px solid var(--panel-sinir) !important;
+    box-shadow: none !important;
+}
+
+.nav-links a {
+    border-radius: 0 !important;
+    border: 1px solid transparent !important;
+    font-weight: 600 !important;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background: var(--mor) !important;
+    color: var(--beyaz) !important;
+    border-color: var(--mor-koyu) !important;
+}
+
+/* HERO: From centered fluff to ledger entry */
+.hero {
+    text-align: left !important;
+    padding: 3rem 0 2rem !important;
+}
+
+.badge {
+    background: var(--bakir) !important;
+    border-radius: 0 !important;
+    font-family: 'Lora', serif !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 0px var(--koyu) !important;
+}
+
+/* INTERACTIVE ELEMENTS: Physicality over Glow */
+button, .btn, .ses-chip {
+    border-radius: 4px !important;
+    transition: all 0.15s ease-in-out !important;
+    border: 1px solid var(--panel-sinir) !important;
+}
+
+.ses-chip.active {
+    background: var(--mor) !important;
+    color: var(--beyaz) !important;
+    box-shadow: 2px 2px 0px var(--mor-koyu) !important;
+}
+"
