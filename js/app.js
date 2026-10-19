@@ -321,6 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof Ogretmen !== 'undefined') Ogretmen.baslat();
     if (typeof DuzensizFiillerUygulamasi !== 'undefined') DuzensizFiillerUygulamasi.baslat();
     if (typeof SiteKoruma !== 'undefined') SiteKoruma.baslat();
+    if (typeof Eglence !== 'undefined') Eglence.baslat();
     if (typeof DeyimUygulamasi !== 'undefined') DeyimUygulamasi.baslat();
 
     // Sözlük altyazısındaki kelime sayısı elle yazılmaktaydı ve bayatlamıştı;
@@ -663,6 +664,9 @@ const KartUygulamasi = {
         if (typeof AkilliTekrar !== 'undefined') {
             AkilliTekrar.cevapla({ w: k.w, tr: k.tr, lv: k.lv, ct: k.ct, pr: k.pr }, biliyorMu ? 4 : 0);
             if (typeof SrsUygulamasi !== 'undefined') SrsUygulamasi.rozetGuncelle();
+        }
+        if (biliyorMu) {
+            if (typeof Eglence !== 'undefined') Eglence.xpEkle(3);
         }
         this.kaydet(); // ilerlemeyi kaydet
         this.istatistikGuncelle();
@@ -2615,6 +2619,8 @@ const SozlukUygulamasi = {
         document.getElementById('sozluk-ornek-tr').textContent = k.exTr || '';
         const sf = document.getElementById('sozluk-formlar');
         if (sf) { const t = FiilCekim.metin(k); sf.innerHTML = t; sf.classList.toggle('hidden', !t); }
+        const af = document.getElementById('sozluk-aile');
+        if (af) { const t = KelimeAilesi.ailesi(k); af.innerHTML = t ? ('👨‍👩‍👧 Kelime Ailesi: ' + t) : ''; af.classList.toggle('hidden', !t); }
         document.getElementById('sozluk-detay').classList.remove('hidden');
         // Modül bağlantıları
         const alan = document.getElementById('sozluk-baglantilar');
@@ -3288,6 +3294,7 @@ const SrsUygulamasi = {
         // Yanlış/görmedim ise anlamı kısa süre göster (öğretici geri bildirim)
         if (not <= 1) this.anlamiGoster();
         AkilliTekrar.cevapla({ w: t.w, tr: t.tr, lv: t.lv, ct: t.ct, pr: t.pr }, not);
+        if (not >= 4 && typeof Eglence !== 'undefined') Eglence.xpEkle(4);
         this.oturum.sira++;
         if (this.oturum.sira < this.oturum.kayitlar.length) {
             setTimeout(() => this.kartGoster(), not <= 1 ? 450 : 120);
@@ -4081,6 +4088,279 @@ const DuzensizFiillerUygulamasi = {
             if (e.key === 'Enter') { e.preventDefault(); this.cevapli ? this.soruUret() : this.kontrol(); }
         });
         if (ara) ara.addEventListener('input', (e) => this.filtre(e.target.value));
+    }
+};
+
+/* ==================================================
+   OYUNLAŞTIRMA & OYUNLAR (XP/Seviye/Rozet + Meydan + Oyuncaklar)
+   + Kelime Ailesi (kökten türeyenler)
+   ================================================== */
+const KelimeAilesi = {
+    kok(w) {
+        w = (w || '').toLowerCase();
+        const sonekler = ["ationally", "ability", "ation", "izing", "ingly", "iness", "iest",
+            "ied", "ies", "ing", "ness", "ment", "ous", "ful", "ers", "er", "est", "ed", "es", "s", "ly", "y", "ive", "al", "age", "ence", "ance"];
+        for (const s of sonekler) {
+            if (w.length - s.length >= 4 && w.endsWith(s)) return w.slice(0, -s.length);
+        }
+        return w;
+    },
+    ailesi(k) {
+        if (!k || !k.w) return '';
+        const kok = this.kok(k.w);
+        if (kok.length < 3) return '';
+        const havuz = (typeof KELIMELER !== 'undefined') ? KELIMELER : [];
+        const aile = [];
+        for (const x of havuz) {
+            if (!x.w || x.w === k.w || aile.length >= 6) continue;
+            if (this.kok(x.w) === kok && x.ct) aile.push(x);
+        }
+        if (!aile.length) {
+            const ust = kok.slice(0, 4);
+            for (const x of havuz) {
+                if (!x.w || x.w === k.w || aile.length >= 6 || !x.ct) continue;
+                if (x.w.toLowerCase().startsWith(ust)) aile.push(x);
+            }
+        }
+        if (!aile.length) return '';
+        return aile.map((x) => `${x.w} <span class="tip">[${x.ct}]</span>`).join(' · ');
+    }
+};
+
+const Eglence = {
+    anahtar: 'englearn-eglence',
+    veri: null,
+    meydan: null,
+    zincir: null,
+
+    baslat() {
+        try { this.veri = JSON.parse(localStorage.getItem(this.anahtar) || '{}'); } catch (e) { this.veri = {}; }
+        if (typeof this.veri.xp !== 'number') { this.veri.xp = 0; this.veri.meydan = null; }
+        this.kaydet();
+        this.profilCiz();
+        this.meydanCiz();
+        this.hafizaCiz();
+        this.bulmacaCiz();
+        this.zincirCiz();
+        this.cumleCiz();
+    },
+    kaydet() { try { localStorage.setItem(this.anahtar, JSON.stringify(this.veri)); } catch (e) {} },
+    tarih() { const x = new Date(); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`; },
+    seviye() { return Math.floor(Math.sqrt(Math.max(0, this.veri.xp || 0) / 50)) + 1; },
+    xpEkle(n) {
+        this.veri.xp = (this.veri.xp || 0) + (n || 0);
+        this.kaydet();
+        const p = document.getElementById('eg-profil');
+        if (p) this.profilCiz();
+        const toastEl = document.getElementById('site-toast');
+        // sessiz
+        void toastEl;
+    },
+    profilCiz() {
+        const el = document.getElementById('eg-profil');
+        if (!el) return;
+        const xp = this.veri.xp || 0;
+        const seviye = this.seviye();
+        const taban = Math.pow(Math.max(0, seviye - 1), 2) * 50;
+        const ust = Math.pow(seviye, 2) * 50;
+        const yuzde = Math.min(100, Math.round(((xp - taban) / Math.max(1, (ust - taban))) * 100));
+        const srs = (typeof AkilliTekrar !== 'undefined') ? AkilliTekrar.seri() : 0;
+        const rozetler = [`Seviye ${seviye} 🎖️`];
+        if (srs >= 3) rozetler.push(`${srs} gün seri 🔥`);
+        if (this.veri.meydan && this.veri.meydan.tarih === this.tarih() && this.veri.meydan.ok) rozetler.push('Meydan Fatihi ✅');
+        el.innerHTML = `<div style="display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;">
+            <span>XP: <b>${xp}</b> · Seviye: <b>${seviye}</b></span>
+            <div class="eg-bar"><div style="width:${yuzde}%"></div></div>
+            <span class="eg-rozetler">${rozetler.map((r) => `<span class="eg-rozet">${r}</span>`).join('')}</span>
+        </div>`;
+    },
+
+    /* ---------- GÜNLÜK MEYDAN OKUMA ---------- */
+    meydanCiz() {
+        const el = document.getElementById('eg-meydan');
+        if (!el) return;
+        const bugun = this.tarih();
+        const done = this.veri.meydan && this.veri.meydan.tarih === bugun && this.veri.meydan.ok;
+        if (done) { el.innerHTML = '<p>✅ Bugünkü meydan okuma bitti! Yarın tekrar beklerim. 🎯</p>'; return; }
+        if (this.meydan) { this.meydanSoruGoster(); return; }
+        el.innerHTML = '<button class="btn btn-next" id="eg-meydan-baslat">🚀 Meydanı Başlat (5 kelime)</button>';
+        const b = document.getElementById('eg-meydan-baslat');
+        if (b) b.addEventListener('click', () => this.meydanBaslat());
+    },
+    meydanBaslat() {
+        const kelimeler = [];
+        if (typeof AkilliTekrar !== 'undefined') {
+            AkilliTekrar.siradaki(3).forEach((r) => { if (!kelimeler.some((k) => k.w === r.w)) kelimeler.push({ w: r.w, tr: r.tr }); });
+        }
+        const ek = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5);
+        for (const e of ek) {
+            if (kelimeler.length >= 5) break;
+            if (!kelimeler.some((k) => k.w === e.w)) kelimeler.push({ w: e.w, tr: e.tr });
+        }
+        kelimeler.length = 5;
+        this.meydan = { kelimeler: kelimeler.slice(0, 5), sira: 0, d: 0, y: 0, cevapli: false };
+        this.meydanSoruGoster();
+    },
+    meydanSoruGoster() {
+        const el = document.getElementById('eg-meydan');
+        if (!el || !this.meydan) return;
+        const q = this.meydan.kelimeler[this.meydan.sira];
+        const secenekler = [q.tr];
+        const diger = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr && k.tr !== q.tr).sort(() => Math.random() - 0.5);
+        for (const d of diger) { if (secenekler.length >= 4) break; if (!secenekler.includes(d.tr)) secenekler.push(d.tr); }
+        secenekler.sort(() => Math.random() - 0.5);
+        this.meydan.cevapli = false;
+        el.innerHTML = `<div class="quiz-header">
+            <span class="quiz-progress">${this.meydan.sira + 1} / 5</span>
+            <span class="quiz-score">✅ ${this.meydan.d} ❌ ${this.meydan.y}</span></div>
+            <div class="quiz-word-area"><h3 class="quiz-word">${q.w}</h3>
+            <button class="sound-btn small" id="eg-meydan-ses">🔊 Dinle</button></div>
+            <div class="quiz-options">${secenekler.map((s) => `<button class="quiz-option">${s}</button>`).join('')}</div>
+            <div class="quiz-feedback hidden" id="eg-meydan-geri"></div>`;
+        const sesBtn = el.querySelector('#eg-meydan-ses');
+        if (sesBtn) sesBtn.addEventListener('click', () => ses.konus(q.w));
+        el.querySelectorAll('.quiz-option').forEach((btn) => btn.addEventListener('click', () => this.meydanCevap(btn)));
+    },
+    meydanCevap(btn) {
+        if (!this.meydan || this.meydan.cevapli) return;
+        this.meydan.cevapli = true;
+        const q = this.meydan.kelimeler[this.meydan.sira];
+        const ok = btn.textContent === q.tr;
+        const geri = document.getElementById('eg-meydan-geri');
+        geri.classList.remove('hidden');
+        if (ok) { this.meydan.d++; this.xpEkle(10); geri.className = 'quiz-feedback dogru'; geri.innerHTML = `🎉 Doğru! +10 XP`; }
+        else { this.meydan.y++; this.xpEkle(2); geri.className = 'quiz-feedback yanlis'; geri.innerHTML = `😅 ${q.w} = ${q.tr} (+2 XP)`;
+            if (typeof YanlisKaydedici !== 'undefined') YanlisKaydedici.kaydet({ id: 'meydan|' + q.w, tip: 'meydan', kelime: q.w, verdi: btn.textContent, dogru: q.tr }); }
+        this.meydan.sira++;
+        setTimeout(() => {
+            if (this.meydan && this.meydan.sira < this.meydan.kelimeler.length) this.meydanSoruGoster();
+            else this.meydanBitir();
+        }, 700);
+    },
+    meydanBitir() {
+        const bonus = (this.meydan.d === 5) ? 25 : 0;
+        this.xpEkle(bonus);
+        this.veri.meydan = { tarih: this.tarih(), ok: true, dogru: this.meydan.d };
+        this.kaydet();
+        const el = document.getElementById('eg-meydan');
+        if (el) el.innerHTML = `<p>🏁 Meydan bitti: ${this.meydan.d}/5 doğru ${bonus ? '· +25 bonus 🎉' : ''}. Yarın tekrar gel!</p>`;
+        this.meydan = null;
+        this.profilCiz();
+    },
+
+    /* ---------- HAFIZA EŞLEŞTİRME ---------- */
+    hafizaCiz() {
+        const el = document.getElementById('eg-hafiza');
+        if (!el) return;
+        el.innerHTML = `<p class="tip">Kartları çevir, kelime ↔ anlam çiftlerini bul.</p>
+            <div class="yanlis-butonlar"><button class="btn btn-next" id="eg-hafiza-baslat">🃏 Başla</button></div>
+            <div id="eg-hafiza-tahta" class="hafiza-tahta"></div><p id="eg-hafiza-durum"></p>`;
+        const b = document.getElementById('eg-hafiza-baslat');
+        if (b) b.addEventListener('click', () => this.hafizaBaslat(el));
+    },
+    hafizaBaslat(el) {
+        const ciftler = [];
+        const set = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.tr).sort(() => Math.random() - 0.5).slice(0, 6);
+        set.forEach((k) => { ciftler.push({ kel: true, w: k.w, tr: k.tr }); ciftler.push({ kel: false, w: k.w, tr: k.tr }); });
+        ciftler.sort(() => Math.random() - 0.5);
+        const tahta = el.querySelector('#eg-hafiza-tahta');
+        tahta.innerHTML = '';
+        let acik = [], kilit = false, eslesen = 0, deneme = 0;
+        const durum = el.querySelector('#eg-hafiza-durum');
+        ciftler.forEach((c) => {
+            const kart = document.createElement('button');
+            kart.className = 'hafiza-kart';
+            kart.textContent = c.kel ? c.w : c.tr;
+            kart.addEventListener('click', () => {
+                if (kilit || kart.classList.contains('acik') || kart.classList.contains('esles')) return;
+                kart.classList.add('acik');
+                acik.push({ kart, c });
+                if (acik.length === 2) {
+                    deneme++;
+                    kilit = true;
+                    const [a, b] = acik;
+                    if (a.c.w === b.c.w && a.c.kel !== b.c.kel) {
+                        a.kart.classList.add('esles'); b.kart.classList.add('esles');
+                        eslesen++; acik = []; kilit = false;
+                        if (eslesen === 6) { this.xpEkle(20 - Math.max(0, deneme - 10) * 1); durum.textContent = '🎉 Hepsi eşleşti! +XP'; }
+                    } else {
+                        setTimeout(() => { a.kart.classList.remove('acik'); b.kart.classList.remove('acik'); acik = []; kilit = false; }, 800);
+                    }
+                }
+            });
+            tahta.appendChild(kart);
+        });
+    },
+
+    /* ---------- KELİME BULMACA ---------- */
+    bulmacaCiz() { this.bulmacaYeni(); },
+    bulmacaYeni() {
+        const el = document.getElementById('eg-bulmaca');
+        if (!el) return;
+        const aday = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.w && k.tr && /^[a-z]+$/i.test(k.w) && k.w.length >= 5 && k.w.length <= 10);
+        const k = aday[Math.floor(Math.random() * aday.length)] || { w: 'travel', tr: 'seyahat etmek' };
+        const harfler = k.w.toLowerCase().split('').sort(() => Math.random() - 0.5).join('');
+        el.innerHTML = `<p class="tip">Bu harflerden bir İngilizce kelime kur: <b class="eg-harfler">${harfler}</b></p>
+            <input id="eg-bulmaca-girdi" class="df-girdi" placeholder="kelimeyi yaz..." autocomplete="off" autocapitalize="off">
+            <div class="yanlis-butonlar" style="margin-top:.5rem">
+                <button class="btn btn-check" id="eg-bulmaca-kontrol">✅ Kontrol</button>
+                <button class="btn btn-next" id="eg-bulmaca-yeni">🎲 Yeni</button></div>
+            <p id="eg-bulmaca-geri" class="tip"></p>`;
+        const g = document.getElementById('eg-bulmaca-girdi');
+        const dogru = k.w.toLowerCase();
+        const kontrol = () => {
+            const gir = g.value.trim().toLowerCase();
+            if (gir === dogru) { document.getElementById('eg-bulmaca-geri').textContent = `🎉 Doğru! +10 XP (${dogru} = ${k.tr})`; this.xpEkle(10); }
+            else { document.getElementById('eg-bulmaca-geri').textContent = `❌ İpucu: ${dogru[0].toUpperCase()}___ (${k.tr})`; }
+        };
+        document.getElementById('eg-bulmaca-kontrol').addEventListener('click', kontrol);
+        g.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); kontrol(); } });
+        document.getElementById('eg-bulmaca-yeni').addEventListener('click', () => this.bulmacaYeni());
+    },
+
+    /* ---------- KELİME ZİNCİRİ ---------- */
+    zincirCiz() {
+        const el = document.getElementById('eg-zincir');
+        if (!el) return;
+        const kaynak = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.w && k.tr && /^[a-z]+$/i.test(k.w) && k.w.length >= 3);
+        const bas = kaynak[Math.floor(Math.random() * kaynak.length)].w.toLowerCase();
+        this.zincir = { son: bas, puan: 0, kaynak };
+        this.zincirGoster(el);
+    },
+    zincirGoster(el, ipucu = '') {
+        const z = this.zincir;
+        const once = z.son.slice(-1);
+        el.innerHTML = `<p class="tip">Son harften yeni kelime türet. Başlangıç: <b>${z.son}</b> → (${once.toUpperCase()})</p>
+            <input id="eg-zincir-girdi" class="df-girdi" placeholder="${once.toUpperCase()} ile başlayan kelime...">
+            <div class="yanlis-butonlar" style="margin-top:.5rem"><button class="btn btn-next" id="eg-zincir-ok">➡️ Zincirle</button></div>
+            <p class="tip" id="eg-zincir-durum">Zincir: ${z.puan}${ipucu ? ' · ' + ipucu : ''}</p>`;
+        const g = document.getElementById('eg-zincir-girdi');
+        const ok = () => {
+            const kel = g.value.trim().toLowerCase();
+            if (kel.length >= 3 && /^[a-z]+$/i.test(kel) && kel[0] === once && z.kaynak.some((k) => k.w.toLowerCase() === kel) && kel !== z.son) {
+                z.puan++; z.son = kel; this.xpEkle(5); this.zincirGoster(el, '✓ +5 XP');
+            } else {
+                this.zincirGoster(el, `❌ ${once.toUpperCase()} ile başlayan ve havuzda olan bir kelime yaz`);
+            }
+        };
+        document.getElementById('eg-zincir-ok').addEventListener('click', ok);
+        g.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); ok(); } });
+    },
+
+    /* ---------- GÜNÜN CÜMLELERİ (bağlam) ---------- */
+    cumleCiz() { this.cumleGoster(); },
+    cumleGoster() {
+        const el = document.getElementById('eg-cumleler');
+        if (!el) return;
+        const secili = (typeof KELIMELER !== 'undefined' ? KELIMELER : []).filter((k) => k.ex && k.exTr).sort(() => Math.random() - 0.5).slice(0, 5);
+        el.innerHTML = `<div class="yanlis-butonlar"><button class="btn bgl" id="eg-cumle-yeni">🎲 Yeni 5 cümle</button></div>
+            <div class="df-liste">${secili.map((k) => `<div class="df-satir">
+                <span class="df-v1">${k.w}</span>
+                <div class="yanlis-govde"><div class="yanlis-dogru">"${k.ex}"</div><div class="tip">${k.exTr}</div></div>
+                <button class="sound-btn small" data-ses="${k.w}">🔊</button></div>`).join('')}</div>`;
+        el.querySelectorAll('[data-ses]').forEach((b) => b.addEventListener('click', () => ses.konus(b.dataset.ses)));
+        const yeni = document.getElementById('eg-cumle-yeni');
+        if (yeni) yeni.addEventListener('click', () => this.cumleGoster());
     }
 };
 

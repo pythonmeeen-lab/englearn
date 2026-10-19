@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/style.css?v=53">
+    <link rel="stylesheet" href="css/style.css?v=54">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
         (function () {
@@ -58,6 +58,7 @@
                         <li><a href="#tekrar">🧠 Akıllı Tekrar<span id="srs-rozet" class="yanlis-rozet hidden"></span></a></li>
                         <li><a href="#kisisel">🎯 Kişisel Panel</a></li>
                         <li><a href="#ogretmen">🤖 Öğretmen</a></li>
+                        <li><a href="#oyunlar">🎮 Oyunlar</a></li>
                         <li><a href="#listem">⭐ Listem</a></li>
                         <li><a href="#yanlislar">Yanlışlarım<span id="yanlis-rozet" class="yanlis-rozet hidden"></span></a></li>
                     </ul>
@@ -545,6 +546,7 @@
                         <p class="sozluk-ornek-tr" id="sozluk-ornek-tr">Dün gece garip bir rüya gördüm.</p>
                     </div>
                     <div id="sozluk-formlar" class="sozluk-formlar hidden"></div>
+                    <div id="sozluk-aile" class="sozluk-formlar hidden"></div>
                     <div id="sozluk-baglantilar" class="bagli-alan"></div>
                 </div>
             </div>
@@ -744,6 +746,42 @@
                     <button class="btn btn-next" id="btn-listem-sonraki" disabled>➡️ Sonraki</button>
                     <button class="btn btn-clear" id="btn-listem-cik">✖️ Bitir</button>
                 </div>
+            </div>
+        </section>
+
+        <!-- ===== OYUNLAR & MEYDAN ===== -->
+        <section id="oyunlar" class="panel">
+            <h2>🎮 Oyunlar & Meydan Okuma</h2>
+            <p class="subtitle">XP topla, seviye atla — kelimeleri <em>oynayarak</em> ezberle!</p>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🏆 İlerleme</div>
+                <div id="eg-profil">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🎯 Günlük Meydan Okuma (5 kelime)</div>
+                <div id="eg-meydan">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🧠 Hafıza Eşleştirme</div>
+                <div id="eg-hafiza">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🔤 Kelime Bulmaca</div>
+                <div id="eg-bulmaca">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">⛓️ Kelime Zinciri</div>
+                <div id="eg-zincir">Yükleniyor...</div>
+            </div>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">📖 Günün Cümleleri (bağlam)</div>
+                <div id="eg-cumleler">Yükleniyor...</div>
             </div>
         </section>
 
@@ -1030,7 +1068,7 @@
     <script src="js/nav.js?v=50" defer></script>
     <script src="js/duplikat-temizle.js?v=50" defer></script>
     <script src="js/duplikat-ailesi.js?v=50" defer></script>
-    <script src="js/app.js?v=55" defer></script>
+    <script src="js/app.js?v=56" defer></script>
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>

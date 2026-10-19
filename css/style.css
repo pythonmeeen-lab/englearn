@@ -3088,6 +3088,30 @@ button, a, select, input, textarea { touch-action: manipulation; -webkit-tap-hig
 }
 .kart-formlar b, .sozluk-formlar b { color: var(--mor); }
 
+/* ===== OYUNLAR & XP ===== */
+.eg-bar { flex: 1; min-width: 120px; height: 10px; border-radius: 8px; background: rgba(124, 58, 237, 0.15); overflow: hidden; }
+.eg-bar > div { height: 100%; background: linear-gradient(90deg, #7c3aed, #22c55e); transition: width 0.3s; }
+.eg-rozetler { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.eg-rozet { background: rgba(245, 158, 11, 0.15); border: 1px solid #f59e0b; border-radius: 999px; padding: 0.15rem 0.6rem; font-size: 0.8rem; font-weight: 800; }
+.eg-harfler { letter-spacing: 0.3em; font-size: 1.2rem; color: var(--mor); }
+.hafiza-tahta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; margin-top: 0.7rem; }
+.hafiza-kart {
+    aspect-ratio: 1.5 / 1;
+    border: 2px solid var(--panel-sinir);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    color: transparent;
+    font-weight: 800;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+.hafiza-kart.acik { background: var(--beyaz); color: var(--koyu); border-color: var(--mor); }
+[data-theme="dark"] .hafiza-kart.acik { background: #1e293b; color: #e2e8f0; }
+.hafiza-kart.esles { background: #22c55e !important; color: #fff !important; opacity: 0.75; pointer-events: none; }
+
 
 
 "/* ==================================================
