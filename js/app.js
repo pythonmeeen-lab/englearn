@@ -322,6 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof DuzensizFiillerUygulamasi !== 'undefined') DuzensizFiillerUygulamasi.baslat();
     if (typeof SiteKoruma !== 'undefined') SiteKoruma.baslat();
     if (typeof Eglence !== 'undefined') Eglence.baslat();
+    if (typeof FilmKalipUygulamasi !== 'undefined') FilmKalipUygulamasi.baslat();
     if (typeof DeyimUygulamasi !== 'undefined') DeyimUygulamasi.baslat();
 
     // Sözlük altyazısındaki kelime sayısı elle yazılmaktaydı ve bayatlamıştı;
@@ -4611,6 +4612,106 @@ const Eglence = {
             el.querySelectorAll('.quiz-option').forEach((x) => { if (x.textContent === kelime.tr) x.classList.add('dogru-secim'); });
             setTimeout(() => onCevap(ok), 720);
         }));
+    }
+};
+
+/* ==================================================
+   FİLM & DİZİ KALIPLARI — listele + rastgele + pratik
+   ================================================== */
+const FilmKalipUygulamasi = {
+    tum: [],
+    indeks: 0,
+    dogru: 0,
+    yanlis: 0,
+
+    baslat() {
+        if (typeof FILM_KALIPLARI === 'undefined' || !FILM_KALIPLARI.length) return;
+        this.tum = FILM_KALIPLARI.slice();
+        const say = document.querySelector('#filmler .kp-baslik');
+        if (say) say.textContent = `🎥 Kalıplar (${this.tum.length})`;
+        this.listeCiz(this.tum);
+        this.olaylariBagla();
+    },
+
+    listeCiz(dizi) {
+        const el = document.getElementById('fk-liste');
+        if (!el) return;
+        el.innerHTML = '';
+        dizi.forEach((f) => {
+            const row = document.createElement('div');
+            row.className = 'df-satir fk-satir';
+            row.innerHTML = `<div class="yanlis-govde">
+                <div class="yanlis-soru">${f.k}</div>
+                <div class="yanlis-dogru">${f.tr}</div>
+                <div class="tip">${f.ac}</div>
+                <div class="tip">📎 "${f.ex}" — ${f.exTr}</div></div>
+                <button class="sound-btn small" data-ses="${String(f.ex || f.k).replace(/"/g, "'")}">🔊</button>`;
+            const s = row.querySelector('[data-ses]');
+            if (s) s.addEventListener('click', () => ses.konus(s.dataset.ses));
+            el.appendChild(row);
+        });
+    },
+
+    filtre(q) {
+        q = (q || '').toLowerCase().trim();
+        if (!q) { this.listeCiz(this.tum); return; }
+        this.listeCiz(this.tum.filter((f) =>
+            f.k.toLowerCase().includes(q) || f.tr.toLowerCase().includes(q) || (f.ac || '').toLowerCase().includes(q)));
+    },
+
+    rastgele() {
+        const f = this.tum[Math.floor(Math.random() * this.tum.length)];
+        const el = document.getElementById('fk-rastgele-kart');
+        if (!el) return;
+        el.classList.remove('hidden');
+        el.innerHTML = `<div class="yanlis-soru">${f.k}</div>
+            <div class="yanlis-dogru">${f.tr}</div>
+            <div class="tip">${f.ac}</div>
+            <div class="tip">📎 "${f.ex}" — ${f.exTr}</div>
+            <button class="sound-btn small" id="fk-rastgele-ses">🔊</button>`;
+        const s = el.querySelector('#fk-rastgele-ses');
+        if (s) s.addEventListener('click', () => ses.konus(f.ex || f.k));
+    },
+
+    pratikBaslat() {
+        this.indeks = 0; this.dogru = 0; this.yanlis = 0;
+        this.pratikSoru();
+    },
+    pratikSoru() {
+        const alan = document.getElementById('fk-pratik-alan');
+        if (!alan) return;
+        const f = this.tum[this.indeks];
+        const secenekler = [f.tr];
+        const diger = this.tum.filter((x) => x.tr !== f.tr).sort(() => Math.random() - 0.5);
+        for (const d of diger) { if (secenekler.length >= 4) break; if (!secenekler.includes(d.tr)) secenekler.push(d.tr); }
+        secenekler.sort(() => Math.random() - 0.5);
+        alan.innerHTML = `<div class="quiz-header">
+            <span class="quiz-progress">Anlamını bul · ${this.indeks + 1}/${this.tum.length}</span>
+            <span class="quiz-score">✅ ${this.dogru} ❌ ${this.yanlis}</span></div>
+            <div class="quiz-word-area"><h3 class="quiz-word">"${f.k}"</h3></div>
+            <div class="quiz-options">${secenekler.map((s) => `<button class="quiz-option">${s}</button>`).join('')}</div>
+            <div class="quiz-feedback hidden" id="fk-pratik-geri"></div>`;
+        alan.querySelectorAll('.quiz-option').forEach((b) => b.addEventListener('click', () => {
+            const ok = b.textContent === f.tr;
+            const geri = alan.querySelector('#fk-pratik-geri');
+            geri.classList.remove('hidden');
+            if (ok) { this.dogru++; geri.className = 'quiz-feedback dogru'; geri.innerHTML = `🎉 ${f.ac}`; }
+            else { this.yanlis++; geri.className = 'quiz-feedback yanlis'; geri.innerHTML = `😅 ${f.tr} — ${f.ac}`; }
+            this.indeks++;
+            setTimeout(() => {
+                if (this.indeks < this.tum.length) this.pratikSoru();
+                else alan.innerHTML = `<p class="tip">Bitti: ${this.dogru}/${this.tum.length} doğru!</p>`;
+            }, 800);
+        }));
+    },
+
+    olaylariBagla() {
+        const ara = document.getElementById('fk-ara');
+        if (ara) ara.addEventListener('input', (e) => this.filtre(e.target.value));
+        const r = document.getElementById('fk-rastgele');
+        if (r) r.addEventListener('click', () => this.rastgele());
+        const p = document.getElementById('fk-pratik');
+        if (p) p.addEventListener('click', () => this.pratikBaslat());
     }
 };
 

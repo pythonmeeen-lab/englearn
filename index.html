@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/style.css?v=56">
+    <link rel="stylesheet" href="css/style.css?v=57">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
         (function () {
@@ -54,6 +54,7 @@
                         <li><a href="#phrasal">Phrasal</a></li>
                         <li><a href="#deyimler" data-tur="deyim">Deyimler</a></li>
                         <li><a href="#deyimler" data-tur="atasozu">Atasözleri</a></li>
+                        <li><a href="#filmler">🎬 Film &amp; Dizi</a></li>
                         <li><a href="#kosu">Koşu</a></li>
                         <li><a href="#tekrar">🧠 Akıllı Tekrar<span id="srs-rozet" class="yanlis-rozet hidden"></span></a></li>
                         <li><a href="#kisisel">🎯 Kişisel Panel</a></li>
@@ -757,6 +758,24 @@
             </div>
         </section>
 
+        <!-- ===== FİLM & DİZİ KALIPLARI ===== -->
+        <section id="filmler" class="panel">
+            <h2>🎬 Film &amp; Dizi Kalıpları</h2>
+            <p class="subtitle">Dizilerde ve filmlerde sürekli duyduğun kalıpları <em>bağlamıyla</em> öğren!</p>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">🎥 Kalıplar</div>
+                <div class="df-arama-alani"><input id="fk-ara" class="df-girdi" placeholder="Ara: get, talk, pie, zaman..." autocomplete="off"></div>
+                <div class="yanlis-butonlar" style="margin:0.5rem 0;">
+                    <button class="btn btn-next" id="fk-rastgele">🎲 Rastgele Kalıp</button>
+                    <button class="btn bgl bgl-ekle" id="fk-pratik">🧠 Anlamını Bul (pratik)</button>
+                </div>
+                <div id="fk-rastgele-kart" class="df-satir fk-rastgele hidden"></div>
+                <div id="fk-pratik-alan" class="hidden"></div>
+                <div id="fk-liste" class="df-liste"></div>
+            </div>
+        </section>
+
         <!-- ===== OYUNLAR & MEYDAN ===== -->
         <section id="oyunlar" class="panel">
             <h2>🎮 Oyunlar & Meydan Okuma</h2>
@@ -1025,6 +1044,7 @@
     <script src="js/data-sozluk-batch-20.js?v=5" defer></script>
     <script src="js/data-sozluk-batch-21.js?v=5" defer></script>
     <script src="js/data-duzensiz-fiiller.js" defer></script>
+    <script src="js/data-film-kaliplari.js" defer></script>
     <script src="js/data-b2-500.js?v=50" defer></script>
     <script src="js/data-phrasal-500.js?v=50" defer></script>
     <script src="js/data-words-b1.js?v=50" defer></script>
@@ -1096,7 +1116,7 @@
     <script src="js/nav.js?v=50" defer></script>
     <script src="js/duplikat-temizle.js?v=50" defer></script>
     <script src="js/duplikat-ailesi.js?v=50" defer></script>
-    <script src="js/app.js?v=60" defer></script>
+    <script src="js/app.js?v=61" defer></script>
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>

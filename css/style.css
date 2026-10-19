@@ -3142,6 +3142,10 @@ button, a, select, input, textarea { touch-action: manipulation; -webkit-tap-hig
 .hafiza-kart.esles { pointer-events: none; }
 .hafiza-kart.esles .hafiza-arka { background: #22c55e; color: #fff; border-color: #22c55e; opacity: 0.85; }
 
+/* ===== FİLM & DİZİ KALIPLARI ===== */
+.fk-satir { align-items: flex-start; flex-direction: column; gap: 0.15rem; }
+.fk-rastgele { margin-bottom: 0.7rem; }
+
 
 
 "/* ==================================================
