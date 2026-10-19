@@ -4929,6 +4929,7 @@ const YanlislarUygulamasi = {
         fiil:    { ad: 'Düzensiz Fiil', ikon: '🔤' },
         film:    { ad: 'Film Kalıbı', ikon: '🎬' },
         pasif:   { ad: 'Edilgen (Passive)', ikon: '🔁' },
+        meydan:  { ad: 'Meydan Okuma', ikon: '🎯' },
         quiz:    { ad: 'Quiz',       ikon: '📝' },
         yazma:   { ad: 'Yazma',      ikon: '✍️' },
         meaning: { ad: 'Meaning',    ikon: '🎯' },
@@ -5044,8 +5045,19 @@ const YanlislarUygulamasi = {
         // "Tümü" kutucuğu
         kutu.appendChild(this.kategoriKutusu('__tum', '📚', 'Tümü', tum.length));
 
-        Object.keys(sayilar).forEach((t) => {
-            const m = this.TIP_META[t] || { ad: t, ikon: '•' };
+        // Her kategori kendi yerinde görünsün (sabit sıra)
+        const SIRA = ['kart', 'fiil', 'film', 'pasif', 'meydan', 'quiz', 'meaning', 'yazma',
+            'es', 'zi', 'cumle', 'kosu', 'sozluk', 'phrasal', 'deyim'];
+        const anahtarlar = Object.keys(sayilar);
+        anahtarlar.sort((a, b) => {
+            const ia = SIRA.indexOf(a), ib = SIRA.indexOf(b);
+            if (ia === -1 && ib === -1) return a.localeCompare(b);
+            if (ia === -1) return 1;
+            if (ib === -1) return -1;
+            return ia - ib;
+        });
+        anahtarlar.forEach((t) => {
+            const m = this.TIP_META[t] || { ad: t.charAt(0).toUpperCase() + t.slice(1), ikon: '📌' };
             kutu.appendChild(this.kategoriKutusu(t, m.ikon, m.ad, sayilar[t]));
         });
 
