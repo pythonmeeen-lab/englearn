@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/style.css?v=58">
+    <link rel="stylesheet" href="css/style.css?v=59">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
         (function () {
@@ -42,6 +42,7 @@
                     <ul class="nav-links">
                         <li><a href="#kartlar" class="active">Kelime Kartları</a></li>
                         <li><a href="#cumleler">Cümle Oluşturma</a></li>
+                        <li><a href="#passive">🔁 Passive Tense</a></li>
                         <li><a href="#okuma">Okuma</a></li>
                         <li><a href="#quiz">Quiz</a></li>
                         <li><a href="#yazma">Kelime Yazma</a></li>
@@ -356,6 +357,34 @@
                     <span>🏆 Skor: <b id="yazma-skor">0</b></span>
                     <span>🎯 Doğru: <b id="yazma-dogru">0</b></span>
                     <span>❌ Yanlış: <b id="yazma-yanlis">0</b></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PASSIVE TENSE (EDİLGEN) ===== -->
+        <section id="passive" class="panel">
+            <h2>🔁 Passive Tense (Edilgen Çatı)</h2>
+            <p class="subtitle">Türkçeye bak → İngilizce cümledeki boşluğu <em>doğru edilgen zamanı seçerek</em> doldur!</p>
+
+            <div class="kp-kutu">
+                <div class="kp-baslik">✍️ Boşluğu doldur</div>
+                <div class="quiz-header">
+                    <span class="quiz-progress" id="ps-ilerleme">Edilgen</span>
+                    <span class="quiz-score" id="ps-skor">✅ 0 · ❌ 0</span>
+                </div>
+                <div class="tr-prompt">
+                    <span class="tr-flag">🇹🇷</span>
+                    <p id="ps-tr">Pasta annem tarafından yapıldı.</p>
+                </div>
+                <div class="quiz-word-area">
+                    <h3 class="quiz-word" id="ps-cumle">The cake _____ by my mother.</h3>
+                    <button class="sound-btn small" id="ps-ses" title="Doğru cümleyi dinle">🔊</button>
+                </div>
+                <div class="chips pasif-chips" id="ps-secenekler"></div>
+                <div class="quiz-feedback hidden" id="ps-geri" aria-live="polite"></div>
+                <div class="yanlis-butonlar" style="margin-top:0.6rem;">
+                    <button class="btn btn-check" id="ps-kontrol" disabled>✅ Kontrol</button>
+                    <button class="btn btn-next" id="ps-sonraki">➡️ Sonraki</button>
                 </div>
             </div>
         </section>
@@ -1159,7 +1188,7 @@
     <script src="js/nav.js?v=50" defer></script>
     <script src="js/duplikat-temizle.js?v=50" defer></script>
     <script src="js/duplikat-ailesi.js?v=50" defer></script>
-    <script src="js/app.js?v=63" defer></script>
+    <script src="js/app.js?v=64" defer></script>
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>

@@ -323,6 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof SiteKoruma !== 'undefined') SiteKoruma.baslat();
     if (typeof Eglence !== 'undefined') Eglence.baslat();
     if (typeof FilmKalipUygulamasi !== 'undefined') FilmKalipUygulamasi.baslat();
+    if (typeof PassiveUygulamasi !== 'undefined') PassiveUygulamasi.baslat();
     if (typeof DeyimUygulamasi !== 'undefined') DeyimUygulamasi.baslat();
 
     // Sözlük altyazısındaki kelime sayısı elle yazılmaktaydı ve bayatlamıştı;
@@ -4785,6 +4786,122 @@ const FilmKalipUygulamasi = {
         if (p) p.addEventListener('click', () => this.pratikBaslat());
     }
 };
+/* ==================================================
+   PASSIVE TENSE (Edilgen Çatı) — boşluğu doğru zamanı seçerek doldur
+   ================================================== */
+const PS_SENTENCES = [
+    { en: "The cake", tr: "Pasta", whoEN: "by my mother", whoTR: "annem tarafından", cogul: false },
+    { en: "These cakes", tr: "Bu pastalar", whoEN: "by the bakers", whoTR: "fırıncılar tarafından", cogul: true },
+    { en: "The house", tr: "Bu ev", whoEN: "by the workers", whoTR: "işçiler tarafından", cogul: false },
+    { en: "The letters", tr: "Bu mektuplar", whoEN: "by Mary", whoTR: "Mary tarafından", cogul: true },
+    { en: "The windows", tr: "Bu pencereler", whoEN: "by the boys", whoTR: "çocuklar tarafından", cogul: true },
+    { en: "Two languages", tr: "İki dil", whoEN: "by the teachers", whoTR: "öğretmenler tarafından", cogul: true },
+    { en: "The movie", tr: "Bu film", whoEN: "by a great director", whoTR: "büyük bir yönetmen tarafından", cogul: false },
+    { en: "The bridge", tr: "Bu köprü", whoEN: "by the engineers", whoTR: "mühendisler tarafından", cogul: false }
+];
+const PS_TENSE = [
+    { key: "genis", trAd: "Geniş (is made)", yap: (v, p) => (p ? "are " : "is ") + v.pp },
+    { key: "gecmis", trAd: "Geçmiş (was made)", yap: (v, p) => (p ? "were " : "was ") + v.pp },
+    { key: "simdiki", trAd: "Şimdiki (being made)", yap: (v, p) => (p ? "are " : "is ") + "being " + v.pp },
+    { key: "gecmisSimdiki", trAd: "Geçmiş devam (was being made)", yap: (v, p) => (p ? "were " : "was ") + "being " + v.pp },
+    { key: "perf", trAd: "Perfect (has been made)", yap: (v, p) => (p ? "have " : "has ") + "been " + v.pp },
+    { key: "perfGecmis", trAd: "Past perfect (had been made)", yap: (v, p) => "had been " + v.pp },
+    { key: "gelecek", trAd: "Gelecek (will be made)", yap: (v, p) => "will be " + v.pp },
+    { key: "gerekli", trAd: "Gereklilik (must be made)", yap: (v, p) => "must be " + v.pp }
+];
+const PS_VERBS = [
+    { v: "make", pp: "made", fm: { genis: "yapılır", gecmis: "yapıldı", simdiki: "yapılıyor", gecmisSimdiki: "yapılıyordu", perf: "yapılmış", perfGecmis: "yapılmıştı", gelecek: "yapılacak", gerekli: "yapılmalı" } },
+    { v: "build", pp: "built", fm: { genis: "kurulur", gecmis: "kuruldu", simdiki: "kuruluyor", gecmisSimdiki: "kuruluyordu", perf: "kurulmuş", perfGecmis: "kurulmuştu", gelecek: "kurulacak", gerekli: "kurulmalı" } },
+    { v: "write", pp: "written", fm: { genis: "yazılır", gecmis: "yazıldı", simdiki: "yazılıyor", gecmisSimdiki: "yazılıyordu", perf: "yazılmış", perfGecmis: "yazılmıştı", gelecek: "yazılacak", gerekli: "yazılmalı" } },
+    { v: "give", pp: "given", fm: { genis: "verilir", gecmis: "verildi", simdiki: "veriliyor", gecmisSimdiki: "veriliyordu", perf: "verilmiş", perfGecmis: "verilmişti", gelecek: "verilecek", gerekli: "verilmeli" } },
+    { v: "serve", pp: "served", fm: { genis: "sunulur", gecmis: "sunuldu", simdiki: "sunuluyor", gecmisSimdiki: "sunuluyordu", perf: "sunulmuş", perfGecmis: "sunulmuştu", gelecek: "sunulacak", gerekli: "sunulmalı" } },
+    { v: "clean", pp: "cleaned", fm: { genis: "temizlenir", gecmis: "temizlendi", simdiki: "temizleniyor", gecmisSimdiki: "temizleniyordu", perf: "temizlenmiş", perfGecmis: "temizlenmişti", gelecek: "temizlenecek", gerekli: "temizlenmeli" } },
+    { v: "paint", pp: "painted", fm: { genis: "boyanır", gecmis: "boyandı", simdiki: "boyanıyor", gecmisSimdiki: "boyanıyordu", perf: "boyanmış", perfGecmis: "boyanmıştı", gelecek: "boyanacak", gerekli: "boyanmalı" } },
+    { v: "tell", pp: "told", fm: { genis: "söylenir", gecmis: "söylendi", simdiki: "söyleniyor", gecmisSimdiki: "söyleniyordu", perf: "söylenmiş", perfGecmis: "söylenmişti", gelecek: "söylenecek", gerekli: "söylenmeli" } }
+];
+
+const PassiveUygulamasi = {
+    suan: null,
+    secim: null,
+    dogru: 0,
+    yanlis: 0,
+    cevapli: false,
+
+    baslat() { this.uret(); this.olaylariBagla(); },
+
+    uret() {
+        const st = PS_SENTENCES[Math.floor(Math.random() * PS_SENTENCES.length)];
+        const vb = PS_VERBS[Math.floor(Math.random() * PS_VERBS.length)];
+        const tense = PS_TENSE[Math.floor(Math.random() * PS_TENSE.length)];
+        const dogru = tense.yap(vb, st.cogul).trim();
+        const opts = [...new Set(PS_TENSE.map((t) => t.yap(vb, st.cogul).trim()))];
+        for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
+        this.suan = { st, vb, tense, dogru, opts, full: `${st.en} ${dogru} ${st.whoEN}.` };
+        this.secim = null; this.cevapli = false;
+
+        document.getElementById('ps-tr').textContent = `${st.tr} ${st.whoTR} ${vb.fm[tense.key]}`;
+        document.getElementById('ps-cumle').innerHTML = `${st.en} <b>_____</b> ${st.whoEN}.`;
+        document.getElementById('ps-secenekler').innerHTML = '';
+        opts.forEach((o) => {
+            const c = document.createElement('button');
+            c.className = 'chip pasif-chip';
+            c.textContent = o;
+            c.dataset.deger = o;
+            c.addEventListener('click', () => this.sec(c));
+            document.getElementById('ps-secenekler').appendChild(c);
+        });
+        const g = document.getElementById('ps-geri');
+        g.classList.add('hidden');
+        document.getElementById('ps-kontrol').disabled = true;
+        this.skorGuncelle();
+    },
+
+    sec(c) {
+        if (this.cevapli) return;
+        document.querySelectorAll('#ps-secenekler .pasif-chip').forEach((x) => x.classList.remove('active'));
+        c.classList.add('active');
+        this.secim = c.dataset.deger;
+        document.getElementById('ps-cumle').innerHTML = `${this.suan.st.en} <b>${this.secim}</b> ${this.suan.st.whoEN}.`;
+        document.getElementById('ps-kontrol').disabled = false;
+    },
+
+    kontrol() {
+        if (this.cevapli || !this.secim) return;
+        this.cevapli = true;
+        const g = document.getElementById('ps-geri');
+        g.classList.remove('hidden');
+        if (this.secim === this.suan.dogru) {
+            this.dogru++;
+            g.className = 'quiz-feedback dogru';
+            g.innerHTML = `🎉 Doğru! "${this.suan.full}" ${this.suan.tense.key === 'perfGecmis' ? '<span class="tip">(had been = geçmişte daha önce yapılmıştı)</span>' : ''}`;
+            if (typeof Eglence !== 'undefined') Eglence.xpEkle(5);
+        } else {
+            this.yanlis++;
+            g.className = 'quiz-feedback yanlis';
+            g.innerHTML = `😅 Doğrusu: <b>${this.suan.dogru}</b> · "${this.suan.full}"`;
+            if (typeof YanlisKaydedici !== 'undefined') YanlisKaydedici.kaydet({ id: 'pasif|' + this.suan.st.en + '|' + this.suan.dogru, tip: 'pasif', kelime: this.suan.st.en + ' ' + this.suan.tense.trAd, verdi: this.secim, dogru: this.suan.dogru });
+        }
+        document.getElementById('ps-kontrol').disabled = true;
+        this.skorGuncelle();
+    },
+
+    sonraki() { this.uret(); },
+
+    skorGuncelle() {
+        const el = document.getElementById('ps-skor');
+        if (el) el.textContent = `✅ ${this.dogru} · ❌ ${this.yanlis}`;
+    },
+
+    olaylariBagla() {
+        const k = document.getElementById('ps-kontrol');
+        const n = document.getElementById('ps-sonraki');
+        const s = document.getElementById('ps-ses');
+        if (k) k.addEventListener('click', () => this.kontrol());
+        if (n) n.addEventListener('click', () => this.sonraki());
+        if (s) s.addEventListener('click', () => { if (this.suan) ses.konus(this.suan.full); });
+    }
+};
+
 const YanlislarUygulamasi = {
     oturum: null,
     seciliTip: null,   // null = tümü
@@ -4795,6 +4912,7 @@ const YanlislarUygulamasi = {
         kart:    { ad: 'Kartlar',    ikon: '🎴' },
         fiil:    { ad: 'Düzensiz Fiil', ikon: '🔤' },
         film:    { ad: 'Film Kalıbı', ikon: '🎬' },
+        pasif:   { ad: 'Edilgen (Passive)', ikon: '🔁' },
         quiz:    { ad: 'Quiz',       ikon: '📝' },
         yazma:   { ad: 'Yazma',      ikon: '✍️' },
         meaning: { ad: 'Meaning',    ikon: '🎯' },
