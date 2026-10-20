@@ -4863,6 +4863,9 @@ const PassiveUygulamasi = {
         for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
         this.suan = { st, vb, tense, dogru, opts, full: `${st.en} ${dogru} ${st.whoEN}.` };
         this.secim = null; this.cevapli = false;
+        // "Kontrol" basılmadan ses çalmasın
+        const sesBtn = document.getElementById('ps-ses');
+        if (sesBtn) sesBtn.disabled = true;
 
         document.getElementById('ps-aktif').textContent = this.aktifCumle(vb, tense.key, st) + '.';
         document.getElementById('ps-cumle').innerHTML = `${st.en} <b>_____</b> ${st.whoEN}.`;
@@ -4908,6 +4911,9 @@ const PassiveUygulamasi = {
             g.innerHTML = `😅 Doğrusu: <b>${this.suan.dogru}</b> · "${this.suan.full}"`;
         }
         document.getElementById('ps-kontrol').disabled = true;
+        // Cevap kontrol edildi → ses butonunu aç (doğrusunu dinleyebilsin)
+        const sesBtn = document.getElementById('ps-ses');
+        if (sesBtn) sesBtn.disabled = false;
         const sonrBtn = document.getElementById('ps-sonraki');
         if (sonrBtn) sonrBtn.disabled = false;   // cevaplayınca "➡️ Sonraki" açılır
         this.skorGuncelle();
@@ -4941,7 +4947,7 @@ const PassiveUygulamasi = {
         const s = document.getElementById('ps-ses');
         if (k) k.addEventListener('click', () => this.kontrol());
         if (n) n.addEventListener('click', () => this.sonraki());
-        if (s) s.addEventListener('click', () => { if (this.suan) ses.konus(this.suan.full); });
+        if (s) s.addEventListener('click', () => { if (this.suan && this.cevapli) ses.konus(this.suan.full); });
     }
 };
 
