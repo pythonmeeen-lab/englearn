@@ -666,6 +666,33 @@ const KartUygulamasi = {
         });
     },
 
+    // Fiilin isim hâli (elle doğrulanmış harita: celebrate→celebration, celebrity DEĞİL)
+    iliskiliIsimler(w) {
+        const wl = String(w || '').toLowerCase().trim();
+        if (wl.length < 2) return [];
+        const map = (typeof window !== 'undefined') ? (window.__ISIM_MAP || {}) : {};
+        const liste = (map[wl] || []).map((a) => ({ w: a.w, tr: a.tr || '', lv: a.lv || '' }));
+        const gor = new Set();
+        return liste.filter((s) => { const kk = s.w; if (gor.has(kk)) return false; gor.add(kk); return true; }).slice(0, 3);
+    },
+
+    isimlerGoster(k) {
+        const el = document.getElementById('kart-isimler');
+        if (!el) return;
+        const ilgili = this.iliskiliIsimler(k.w);
+        if (!ilgili.length) { el.classList.add('hidden'); el.innerHTML = ''; return; }
+        el.classList.remove('hidden');
+        el.innerHTML = '<span class="tip">🏷️ İsim:</span> ' + ilgili.map((s, i) =>
+            `<button class="btn bgl bgl-kucuk" data-isim="${i}" title="Sözlükte aç">${s.w}${s.lv ? ' [' + s.lv + ']' : ''} — ${s.tr || ''}</button>`
+        ).join(' ');
+        el.querySelectorAll('[data-isim]').forEach((b) => {
+            b.addEventListener('click', () => {
+                const s = ilgili[+b.dataset.isim];
+                if (s && typeof ModulBaglanti !== 'undefined') ModulBaglanti.sozlukteAc(s);
+            });
+        });
+    },
+
     bosGoster() {
         document.getElementById('kart-kelime').textContent = 'Sonuç yok';
         document.getElementById('kart-telaffuz').textContent = '';
