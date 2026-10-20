@@ -133,7 +133,7 @@ KELIMELER.push(
     { w: "declare", tr: "ilan edildi", lv: "A2", ct: "fiiller", pr: "/dɪˈkɫɛɹd/", ex: "The country declared war against its neighbor.", exTr: "Ülke komşusuna savaş ilan etti." },
     { w: "teammates", tr: "takım arkadaşları", lv: "B2", ct: "genel", pr: "/ˈtimˌmeɪts/", ex: "Tom was well liked by his teammates.", exTr: "Tom takım arkadaşları tarafından çok seviliyordu." },
     { w: "ballistic", tr: "balistik", lv: "B2", ct: "sıfatlar", pr: "/bəˈɫɪstɪk/", ex: "Everyone in Hawaii received an emergency alert that a ballistic missile was inbound.", exTr: "Hawaii'deki herkes bir balistik füzenin yaklaştığı konusunda acil durum uyarısı aldı." },
-    { w: "ahmed", tr: "Ahmet", lv: "B1", ct: "fiiller", pr: "/ˈɑməd/, /ˈɑmɛd/", ex: "Ahmed Ouyahia resigned from being prime minister.", exTr: "Ahmed Ouyahia başbakanlıktan istifa etti." },
+
     { w: "snip", tr: "keskin nişancı", lv: "C1", ct: "genel", pr: "/ˈsnɪp/", ex: "Snip, snap, snout, this tale's told out.", exTr: "Kes, çek, burun, bu hikaye anlatıldı." },
     { w: "torturing", tr: "işkence", lv: "B1", ct: "fiiller", pr: "/ˈtɔɹtʃɝɪŋ/", ex: "Why are you torturing me with that?", exTr: "Neden bana bununla işkence ediyorsun?" },
     { w: "tux", tr: "smokin", lv: "B2", ct: "genel", pr: "/ˈtəks/", ex: "I've always wanted to wear a tux.", exTr: "Her zaman smokin giymek istemiştim." },
@@ -166,7 +166,7 @@ KELIMELER.push(
     { w: "dat", tr: "tarih", lv: "B2", ct: "genel", pr: "/ˈdæt/", ex: "Y ain't ya axed 'bout dat?", exTr: "Bu konuda kovulmadın mı?" },
     { w: "shit", tr: "bok", lv: "A2", ct: "genel", pr: "/ˈʃɪt/", ex: "I don't wanna clean up dog shit.", exTr: "Köpek pisliğini temizlemek istemiyorum." },
     { w: "lunar", tr: "ay", lv: "B1", ct: "genel", pr: "/ˈɫunɝ/", ex: "There will be a lunar eclipse tomorrow.", exTr: "Yarın ay tutulması gerçekleşecek." },
-    { w: "leila", tr: "leyla", lv: "B2", ct: "genel", pr: "/ˈɫiɫə/", ex: "Leila locked the door with a key.", exTr: "Leila kapıyı anahtarla kilitledi." },
+
     { w: "cowardice", tr: "korkaklık", lv: "B2", ct: "genel", pr: "/ˈkaʊɝdəs/", ex: "Whoever admits to his cowardice shows courage.", exTr: "Korkaklığını itiraf eden kişi cesaret gösterir." },
     { w: "assemble", tr: "toplanmış", lv: "B1", ct: "fiiller", pr: "/əˈsɛmbəɫd/", ex: "They assembled the chairs in neat rows.", exTr: "Sandalyeleri düzgün sıralar halinde monte ettiler." },
     { w: "seasick", tr: "deniz tutması", lv: "C1", ct: "genel", pr: "/ˈsiˌsɪk/", ex: "Tom and Mary said they felt seasick.", exTr: "Tom ve Mary deniz tuttuğunu hissettiklerini söylediler." },

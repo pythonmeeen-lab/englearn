@@ -569,13 +569,23 @@ const KartUygulamasi = {
 
     kartGoster() {
         const kart = document.getElementById('flashcard');
-        kart.classList.remove('flipped'); // yeni kartta ön yüz açılır
+        kart.classList.remove('flipped'); // önce ön yüz açılır
 
         if (this.liste.length === 0) {
             this.bosGoster();
             return;
         }
 
+        // Çevirme animasyonu (0.6s) bitmeden içeriği yazarsak, arka yüzde
+        // bir sonraki kelimenin anlamı görünür. İçeriği ön yüz açılınca koy.
+        if (this._icGecik) clearTimeout(this._icGecik);
+        const indis = this.indeks;
+        this._icGecik = setTimeout(() => {
+            if (this.indeks === indis) this.icerikKoy();
+        }, 320);
+    },
+
+    icerikKoy() {
         const k = this.liste[Math.min(this.indeks, this.liste.length - 1)];
 
         document.getElementById('kart-kelime').textContent = k.w;

@@ -40,7 +40,7 @@ KELIMELER.push(
     { w: "normally", tr: "normalde", lv: "A2", ct: "fiiller", pr: "/ˈnɔrmʌli/", ex: "They normally every day.", exTr: "Normalde her gün." },
     { w: "jean", tr: "kot pantolon", lv: "B1", ct: "genel", pr: "/ˈdʒin/", ex: "I'd like to talk to Jean.", exTr: "Jean'la konuşmak istiyorum." },
     { w: "overall", tr: "etraflı", lv: "B2", ct: "sıfatlar", pr: "/ˈoʊvɚˌɔl/", ex: "Was it a good time overall?", exTr: "Genel olarak iyi bir zaman mıydı?" },
-    { w: "canada", tr: "Kanada", lv: "A2", ct: "genel", pr: "/ˈkænʌdʌ/", ex: "Canada is very important.", exTr: "Kanada çok önemli." },
+
     { w: "sensation", tr: "duyum", lv: "C1", ct: "isimler", pr: "/sɛˈnseɪʃʌn/", ex: "The movie created a great sensation.", exTr: "Film büyük bir sansasyon yarattı." },
     { w: "er", tr: "yani", lv: "B2", ct: "genel", pr: "/ɚ/", ex: "Sami was in a hospital ER.", exTr: "Sami hastanenin acil servisindeydi." },
     { w: "enthusiasm", tr: "heves", lv: "B2", ct: "isimler", pr: "/ɪˈnθuziˌæzʌm/", ex: "Have some enthusiasm for your job.", exTr: "İşinize biraz heyecan katın." },

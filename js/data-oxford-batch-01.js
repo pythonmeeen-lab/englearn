@@ -4,7 +4,7 @@
 KELIMELER.push(
     { w: "assume", tr: "farz etmek", lv: "B2", ct: "fiiller", pr: "/ʌˈsum/", ex: "I assume you have read the report.", exTr: "Raporu okuduğunu farz ediyorum." },
     { w: "mental", tr: "zihinsel", lv: "B1", ct: "sıfatlar", pr: "/ˈmɛntʌl/", ex: "Exercise is good for mental health.", exTr: "Spor zihinsel sağlık için iyidir." },
-    { w: "india", tr: "Hindistan", lv: "A2", ct: "genel", pr: "/ˈɪndiʌ/", ex: "India is the world's most populous country.", exTr: "Hindistan dünyanın en kalabalık ülkesidir." },
+
     { w: "multiply", tr: "çarpmak", lv: "B2", ct: "fiiller", pr: "/ˈmʌltʌˌplaɪ/", ex: "The mice multiply very quickly.", exTr: "Fareler çok hızlı çoğalır." },
     { w: "mainstream", tr: "ana akım", lv: "C1", ct: "sıfatlar", pr: "/ˈmeɪˌnstrim/", ex: "That band moved into the mainstream.", exTr: "O grup ana akıma geçti." },
     { w: "leadership", tr: "liderlik", lv: "B2", ct: "isimler", pr: "/ˈlidɚˌʃɪp/", ex: "She showed strong leadership in the crisis.", exTr: "Krizde güçlü liderlik sergiledi." },
@@ -246,7 +246,7 @@ KELIMELER.push(
     { w: "college", tr: "üniversite", lv: "A2", ct: "isimler", pr: "/ˈkɑlɪdʒ/", ex: "Which college are you aiming for?", exTr: "Hangi üniversiteyi hedefliyorsunuz?" },
     { w: "remain", tr: "geriye kalmak", lv: "B1", ct: "fiiller", pr: "/rɪˈmeɪn/", ex: "They remain every day.", exTr: "Her gün kalıyorlar." },
     { w: "accent", tr: "aksan", lv: "B2", ct: "isimler", pr: "/ʌˈksɛnt/", ex: "His accent suggests he is a foreigner.", exTr: "Aksanı onun bir yabancı olduğunu gösteriyor." },
-    { w: "russia", tr: "Rusya", lv: "B1", ct: "genel", pr: "/ˈrʌʃʌ/", ex: "Russia is very important.", exTr: "Rusya çok önemli." },
+
     { w: "babes", tr: "hatunlar", lv: "B1", ct: "genel", pr: "/ˈbeɪbz/", ex: "Out of the mouths of babes.", exTr: "Bebeklerin ağzından." },
     { w: "buddy", tr: "ahbap", lv: "C1", ct: "isimler", pr: "/ˈbʌdi/", ex: "Hey, buddy. How are you doing?", exTr: "Merhaba dostum. Nasılsın?" },
     { w: "successor", tr: "varis", lv: "C1", ct: "isimler", pr: "/sʌˈksɛsɚ/", ex: "Your successor has already been chosen.", exTr: "Halefiniz zaten seçilmiştir." },

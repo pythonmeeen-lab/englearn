@@ -169,7 +169,7 @@ KELIMELER.push(
     { w: "profitable", tr: "karlı", lv: "C1", ct: "sıfatlar", pr: "/ˈprɑfʌtʌbʌl/", ex: "The little cafe has become profitable.", exTr: "Küçük kafe kârlı hale geldi." },
     { w: "greenhouse", tr: "sera", lv: "B2", ct: "isimler", pr: "/ˈɡriˌnhaʊs/", ex: "They grow tomatoes in a greenhouse.", exTr: "Domatesleri bir serada yetiştiriyorlar." },
     { w: "isle", tr: "ada", lv: "C1", ct: "genel", pr: "/ˈaɪl/", ex: "We visited a small Greek isle.", exTr: "Küçük bir Yunan adasını ziyaret ettik." },
-    { w: "germany", tr: "Almanya", lv: "A2", ct: "genel", pr: "/ˈdʒɚmʌni/", ex: "Germany exports many cars.", exTr: "Almanya çok sayıda otomobil ihraç eder." },
+
     { w: "bars", tr: "barlar", lv: "B1", ct: "genel", pr: "/ˈbɑrz/", ex: "The city's bars stay open until two.", exTr: "Şehirdeki barlar ikiye kadar açık kalır." },
     { w: "employ", tr: "istihdam etmek", lv: "A2", ct: "fiiller", pr: "/ɛˈmplɔɪ/", ex: "The factory employs 300 workers.", exTr: "Fabrika 300 işçi istihdam ediyor." },
     { w: "ten", tr: "on", lv: "A2", ct: "genel", pr: "/ˈtɛn/", ex: "I bought ten books at the sale.", exTr: "İndirimde on kitap aldım." },

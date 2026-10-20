@@ -32,7 +32,7 @@ KELIMELER.push(
     { w: "evolution", tr: "evrim", lv: "B2", ct: "isimler", pr: "/ˌɛvʌˈluʃʌn/", ex: "They opposed Darwin's theory of evolution.", exTr: "Darwin'in evrim teorisine karşı çıktılar." },
     { w: "your", tr: "senin", lv: "A2", ct: "genel", pr: "/ˈjɔr/", ex: "What made you change your mind?", exTr: "Fikrini değiştirmene ne sebep oldu?" },
     { w: "reportedly", tr: "bildirildiğine göre", lv: "C1", ct: "fiiller", pr: "/rɪˈpɔrtʌdli/", ex: "They reportedly every day.", exTr: "Bildirildiğine göre her gün." },
-    { w: "america", tr: "Amerika", lv: "A2", ct: "genel", pr: "/ʌˈmɛrʌkʌ/", ex: "America is very important.", exTr: "Amerika çok önemli." },
+
     { w: "elsewhere", tr: "başka yerde", lv: "B2", ct: "fiiller", pr: "/ˈɛˌlswɛr/", ex: "They elsewhere every day.", exTr: "Her gün başka yerdeler." },
     { w: "trait", tr: "karakter", lv: "B2", ct: "isimler", pr: "/ˈtreɪt/", ex: "Does she have any special trait?", exTr: "Özel bir özelliği var mı?" },
     { w: "bye", tr: "güle güle", lv: "A2", ct: "genel", pr: "/ˈbaɪ/", ex: "I really must say good-bye.", exTr: "Gerçekten veda etmeliyim." },
@@ -122,7 +122,7 @@ KELIMELER.push(
     { w: "unless", tr: "meğer ki", lv: "B1", ct: "genel", pr: "/ʌˈnlɛs/", ex: "I can't decide unless you tell me your plan.", exTr: "Bana planını söylemediğin sürece karar veremem." },
     { w: "solely", tr: "sadece", lv: "C1", ct: "fiiller", pr: "/ˈsoʊʌli/", ex: "They solely every day.", exTr: "Onlar sadece her gün." },
     { w: "current", tr: "akım", lv: "B1", ct: "sıfatlar", pr: "/ˈkɚʌnt/", ex: "The current is rapid around here.", exTr: "Burada akıntı çok hızlı." },
-    { w: "egypt", tr: "Mısır", lv: "B2", ct: "genel", pr: "/ˈidʒʌpt/", ex: "Egypt is very important.", exTr: "Mısır çok önemli." },
+
     { w: "goodbye", tr: "Güle güle", lv: "A2", ct: "genel", pr: "/ˌɡʊˈdbaɪ/", ex: "Goodbye is very important.", exTr: "Veda çok önemlidir." },
     { w: "indoors", tr: "Kapalı alanlarda", lv: "B1", ct: "fiiller", pr: "/ˈɪˌndɔrz/", ex: "They indoors every day.", exTr: "Her gün içerideler." },
     { w: "denmark", tr: "Danimarka", lv: "B2", ct: "genel", pr: "/ˈdɛˌnmɑrk/", ex: "Denmark is very important.", exTr: "Danimarka çok önemli." },
