@@ -34,7 +34,6 @@ const KABUK = [
     `./js/dinle.js${S}`,
     `./js/duplikat-temizle.js${S}`,
     `./js/duplikat-ailesi.js${S}`,
-    `./js/konusma.js${S}`,
     `./js/ai.js${S}`,
     './img/icon-192.png',
     './img/icon-512.png',

@@ -2841,34 +2841,6 @@ select:focus {
 .ai-girdi-satir .btn { padding: 0 18px; }
 .ai-durum { margin-top: 8px; font-size: .8rem; color: var(--metin-soluk, #9ca3af); }
 
-/* ===== KONUŞMA PRATİĞİ ===== */
-.konusma-mik {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.6rem;
-    margin: 1rem 0;
-}
-.konusma-mik-buton {
-    font-size: 1.15rem;
-    padding: 0.7rem 1.6rem;
-    border-radius: 999px;
-}
-.konusma-dinleniyor {
-    color: var(--mor, #7c3aed);
-    font-weight: 700;
-    animation: konus-pulse 1.2s ease-in-out infinite;
-}
-@keyframes konus-pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: .4; }
-}
-#konusma-dil {
-    flex: 0 0 auto;
-    padding: 7px 10px;
-}
-[data-theme="dark"] #konusma-dil { color: var(--koyu, #111827); }
-
 
 .sound-btn.big {
     width: 84px;
