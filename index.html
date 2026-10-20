@@ -52,7 +52,6 @@
                         <li><a href="#zitanlam">Zıt Anlamlı</a></li>
                         <li><a href="#sozluk">Sözlük</a></li>
                         <li><a href="#dinleme">🎧 Dinleme</a></li>
-                        <li><a href="#konusma">🎙️ Konuşma</a></li>
                         <li><a href="#phrasal">Phrasal</a></li>
                         <li><a href="#deyimler" data-tur="deyim">Deyimler</a></li>
                         <li><a href="#deyimler" data-tur="atasozu">Atasözleri</a></li>
@@ -665,53 +664,6 @@
             </div>
         </section>
 
-        <!-- ===== KONUŞMA PRATİĞİ ===== -->
-        <section id="konusma" class="panel">
-            <h2>🎙️ Konuşma Pratiği</h2>
-            <p class="subtitle">Mikrofonla söyle, tarayıcı sesini tanısın, telaffuzun puanlansın!</p>
-
-            <div class="yanlis-butonlar" style="justify-content:flex-start;margin-bottom:0.8rem;flex-wrap:wrap;">
-                <div class="chips" id="konusma-mod-filtre" role="group" aria-label="Mod filtresi">
-                    <button class="chip aktif" data-kmod="kelime">🔤 Kelimeyi Söyle</button>
-                    <button class="chip" data-kmod="cumle">💬 Cümleyi Söyle</button>
-                    <button class="chip" data-kmod="dinle">🎧 Dinle &amp; Söyle</button>
-                </div>
-                <select id="konusma-dil" class="df-girdi" style="max-width:180px;" title="Ses tanıma dili">
-                    <option value="en-US">🇺🇸 American (en-US)</option>
-                    <option value="en-GB">🇬🇧 British (en-GB)</option>
-                    <option value="en-AU">🇦🇺 Australian (en-AU)</option>
-                </select>
-            </div>
-
-            <div class="quiz-box">
-                <div class="quiz-header">
-                    <span class="quiz-progress" id="konusma-tab">Soru 1 / 10</span>
-                    <div class="quiz-score"><span>🎯 <b id="konusma-skor">%0</b></span></div>
-                </div>
-
-                <!-- Görev gösterimi -->
-                <div class="quiz-word-area">
-                    <span class="quiz-seviye" id="konusma-seviye">A2</span>
-                    <h3 class="quiz-word" id="konusma-gorev">word</h3>
-                    <p class="tip" id="konusma-yardim">Mikrofonu aç ve kelimeyi söyle 📢</p>
-                    <button class="btn btn-clear" id="btn-konusma-dinlet">🔊 Dinlet (doğrusu)</button>
-                </div>
-
-                <!-- Mikrofon -->
-                <div class="konusma-mik" id="konusma-mik">
-                    <button class="btn btn-next konusma-mik-buton" id="btn-konusma-konus">🎤 Konuş...</button>
-                    <span class="konusma-dinleniyor hidden" id="konusma-durum">Dinleniyor… söyle!</span>
-                </div>
-
-                <div class="quiz-feedback hidden" id="konusma-geri" aria-live="polite"></div>
-                <div class="yanlis-butonlar">
-                    <button class="btn btn-next" id="btn-konusma-sonraki" disabled>➡️ Sonraki</button>
-                    <button class="btn btn-clear" id="btn-konusma-yeniden">🔄 Baştan</button>
-                </div>
-                <p class="tip" id="konusma-uyari" style="margin-top:.8rem;"></p>
-            </div>
-        </section>
-
         <!-- ===== YAPAY ZEKÂ ÖĞRETMENİ ===== -->
         <section id="ogretmen" class="panel">
             <h2>🤖 Yapay Zekâ Öğretmeni</h2>
@@ -1209,7 +1161,6 @@
     <script src="js/listem.js?v=50" defer></script>
     <script src="js/dinle.js?v=50" defer></script>
     <script src="js/ai.js?v=50" defer></script>
-    <script src="js/konusma.js?v=50" defer></script>
     <script src="js/deyim.js?v=50" defer></script>
 </body>
 </html>
