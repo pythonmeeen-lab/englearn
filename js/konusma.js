@@ -29,8 +29,7 @@ const KonusmaUygulamasi = {
         const u = document.getElementById('konusma-uyari');
         if (!u) return;
         if (!SR) {
-            u.textContent = '⚠️ Bu tarayıcı ses tanımayı desteklemiyor (Chrome/Edge/Android' +
-                ' önerilir; iOS Safari'de çalışmaz). Yine de "Dinlet" ile doğrusunu dinleyebilirsin.';
+            u.textContent = "⚠️ Bu tarayıcı ses tanımayı desteklemiyor (Chrome/Edge/Android önerilir; iOS Safari'de çalışmaz). Yine de \"Dinlet\" ile doğrusunu dinleyebilirsin.";
         } else {
             u.textContent = '🎯 Son oturum en iyi: %' + this.enIyi;
         }
