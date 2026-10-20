@@ -219,7 +219,6 @@ KELIMELER.push(
     { w: "reverence", tr: "saygı", lv: "C1", ct: "isimler", pr: "/ˈɹɛvɝəns/", ex: "We should hold old people in reverence.", exTr: "Yaşlılara saygı duymalıyız." },
     { w: "mixer", tr: "karıştırıcı", lv: "B2", ct: "isimler", pr: "/ˈmɪksɝ/", ex: "Yanni needs to replace this basin mixer.", exTr: "Yanni'nin bu lavabo bataryasını değiştirmesi gerekiyor." },
     { w: "ensemble", tr: "topluluk", lv: "C1", ct: "genel", pr: "/ɑnˈsɑmbəɫ/", ex: "An ensemble is a group of performers.", exTr: "Bir topluluk, bir grup sanatçıdan oluşur." },
-    { w: "charge", tr: "şarj oluyor", lv: "A2", ct: "fiiller", pr: "/ˈtʃɑɹdʒɪŋ/", ex: "As your goods for which you are charging us were imperfect, we will not pay this account.", exTr: "Bizden talep ettiğiniz mallarınız kusurlu olduğundan bu hesabı ödemeyeceğiz." },
     { w: "schedules", tr: "programlar", lv: "B2", ct: "genel", pr: "/ˈskɛdʒuɫz/, /ˈskɛdʒʊɫz/", ex: "Tom and I can't change our schedules.", exTr: "Tom ve ben programlarımızı değiştiremeyiz." },
     { w: "lawful", tr: "yasal", lv: "B2", ct: "sıfatlar", pr: "/ˈɫɔfəɫ/", ex: "He recognized his son as lawful heir.", exTr: "Oğlunu yasal mirasçı olarak tanıdı." },
     { w: "ominous", tr: "uğursuz", lv: "A2", ct: "sıfatlar", pr: "/ˈɑmənəs/", ex: "His ominous words did not deter Mary.", exTr: "Onun uğursuz sözleri Mary'yi caydırmadı." },

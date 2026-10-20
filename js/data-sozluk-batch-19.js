@@ -9,7 +9,6 @@ KELIMELER.push(
     { w: "kitten", tr: "yavru kedi", lv: "B1", ct: "genel", pr: "/ˈkɪtən/", ex: "Reporter: Did you buy her a kitten?", exTr: "Muhabir: Ona kedi yavrusu mu aldın?" },
     { w: "velocity", tr: "hız", lv: "B1", ct: "isimler", pr: "/vəˈɫɑsəti/", ex: "The average wind velocity is very low.", exTr: "Ortalama rüzgar hızı çok düşüktür." },
     { w: "fertility", tr: "doğurganlık", lv: "B1", ct: "isimler", pr: "/fɝˈtɪɫəti/, /fɝˈtɪɫɪti/", ex: "Can having an abortion affect my fertility?", exTr: "Kürtaj yaptırmak doğurganlığımı etkileyebilir mi?" },
-    { w: "prepare", tr: "hazırlanıyor", lv: "A2", ct: "fiiller", pr: "/pɝˈpɛɹɪŋ/, /pɹiˈpɛɹɪŋ/", ex: "My wife is preparing dinner right now.", exTr: "Eşim şu anda akşam yemeğini hazırlıyor." },
     { w: "urges", tr: "dürtü", lv: "B2", ct: "genel", pr: "/ˈɝdʒəz/, /ˈɝdʒɪz/", ex: "When the desire for leisure is stronger than the other urges, leisure wins.", exTr: "Boş zaman arzusu diğer dürtülerden daha güçlü olduğunda boş zaman kazanır." },
     { w: "infantry", tr: "piyade", lv: "B1", ct: "genel", pr: "/ˈɪnfəntɹi/", ex: "Dan studied psychological warfare techniques at infantry academy.", exTr: "Dan, piyade akademisinde psikolojik savaş teknikleri okudu." },
     { w: "crotch", tr: "kasık", lv: "B2", ct: "genel", pr: "/ˈkɹɑtʃ/", ex: "Sami caught Layla staring at his crotch.", exTr: "Sami, Layla'yı kasıklarına bakarken yakaladı." },

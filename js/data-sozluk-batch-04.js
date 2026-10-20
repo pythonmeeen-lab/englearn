@@ -211,7 +211,6 @@ KELIMELER.push(
     { w: "popsicle", tr: "buzlu şeker", lv: "C1", ct: "genel", pr: "/ˈpɑpsɪkəɫ/", ex: "Tom won the popsicle stick bridge competition.", exTr: "Tom dondurma çubuğuyla köprü yarışmasını kazandı." },
     { w: "sodium", tr: "sodyum", lv: "B2", ct: "genel", pr: "/ˈsoʊdiəm/", ex: "Sodium reacts vigorously and exothermically with water.", exTr: "Sodyum su ile kuvvetli ve ekzotermik reaksiyona girer." },
     { w: "sensational", tr: "sansasyonel", lv: "B1", ct: "sıfatlar", pr: "/sɛnˈseɪʃənəɫ/", ex: "The food is sensational at that new restaurant.", exTr: "Bu yeni restoranda yemekler sansasyonel." },
-    { w: "announce", tr: "duyuruyor", lv: "B1", ct: "fiiller", pr: "/əˈnaʊnsɪŋ/", ex: "Ziri started announcing his new toy line.", exTr: "Ziri yeni oyuncak serisini duyurmaya başladı." },
     { w: "tricky", tr: "zorlu", lv: "A2", ct: "genel", pr: "/ˈtɹɪki/", ex: "I've heard Italian is a tricky language.", exTr: "İtalyancanın zor bir dil olduğunu duydum." },
     { w: "faucet", tr: "musluk", lv: "C1", ct: "genel", pr: "/ˈfɔsət/", ex: "The faucet in the bathroom's out of order.", exTr: "Banyodaki musluk bozuk." },
     { w: "trajectory", tr: "yörünge", lv: "B2", ct: "genel", pr: "/tɹəˈdʒɛktɝi/", ex: "Algeria needs to change its economic trajectory.", exTr: "Cezayir'in ekonomik gidişatını değiştirmesi gerekiyor." },

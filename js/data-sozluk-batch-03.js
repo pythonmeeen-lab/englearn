@@ -231,7 +231,6 @@ KELIMELER.push(
     { w: "literal", tr: "gerçek", lv: "B2", ct: "sıfatlar", pr: "/ˈɫɪtɝəɫ/", ex: "Should this be understood in something other than the literal sense?", exTr: "Bunun gerçek anlamından başka bir şekilde mi anlaşılması gerekiyor?" },
     { w: "blowjob", tr: "oral seks", lv: "C1", ct: "genel", pr: "/ˈbɫoʊˌdʒɑb/", ex: "A twink performed a blowjob on me.", exTr: "Bir twink bana oral seks yaptı." },
     { w: "disputes", tr: "anlaşmazlıklar", lv: "C1", ct: "genel", pr: "/dɪˈspjuts/", ex: "Think as you please, and so let others, and you will have no disputes.", exTr: "Dilediğiniz gibi düşünün, başkalarını da bırakın, böylece hiçbir anlaşmazlığınız olmaz." },
-    { w: "shake", tr: "titriyor", lv: "A2", ct: "fiiller", pr: "/ˈʃeɪkɪŋ/", ex: "Then, gathering speed, it raced through the tunnel, shaking the passengers from side to side.", exTr: "Daha sonra hız kazanarak yolcuları bir yandan diğer yana sallayarak tünelden hızla geçti." },
     { w: "mess", tr: "karışıklık", lv: "A2", ct: "fiiller", pr: "/ˈmɛsɪŋ/", ex: "You're messing with the wrong guy, babe.", exTr: "Yanlış adama bulaşıyorsun bebeğim." },
     { w: "bowel", tr: "bağırsak", lv: "B2", ct: "genel", pr: "/ˈbaʊəɫ/", ex: "I bleed when I have bowel movements.", exTr: "Bağırsak hareketlerim olduğunda kanamam oluyor." },
     { w: "deceit", tr: "aldatma", lv: "B2", ct: "genel", pr: "/dəˈsit/, /dɪˈsit/", ex: "Lying, or deceit, represents a violation of basic Zoroastrian beliefs.", exTr: "Yalan söylemek veya aldatmak, temel Zerdüşt inançlarının ihlalini temsil eder." },

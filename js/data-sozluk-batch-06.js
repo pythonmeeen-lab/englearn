@@ -290,7 +290,6 @@ KELIMELER.push(
     { w: "canteen", tr: "kantin", lv: "B1", ct: "genel", pr: "/kænˈtin/", ex: "Closing the canteen will have few consequences.", exTr: "Kantinin kapatılmasının pek az sonucu olacaktır." },
     { w: "shithole", tr: "bok çukuru", lv: "B2", ct: "genel", pr: "/ˈʃɪtˌhoʊɫ/", ex: "Sami lived in a shithole in Cairo.", exTr: "Sami, Kahire'de bok çukurunda yaşıyordu." },
     { w: "convoy", tr: "konvoy", lv: "B1", ct: "genel", pr: "/ˈkɑnˌvɔɪ/", ex: "The convoy of army trucks was blocking the road.", exTr: "Ordu kamyonlarından oluşan konvoy yolu kapatıyordu." },
-    { w: "compete", tr: "yarışıyor", lv: "B1", ct: "fiiller", pr: "/kəmˈpitɪŋ/", ex: "Corporations are competing to fill the vacuum.", exTr: "Şirketler boşluğu doldurmak için yarışıyor." },
     { w: "heath", tr: "fundalık", lv: "B1", ct: "genel", pr: "/ˈhiθ/", ex: "A heath is often created or expanded by fire, which prevents the growth of trees.", exTr: "Çoğunlukla yangın nedeniyle bir fundalık oluşur veya genişletilir, bu da ağaçların büyümesini engeller." },
     { w: "scrub", tr: "fırçalama", lv: "A2", ct: "genel", pr: "/ˈskɹəb/", ex: "Tom asked Mary to scrub the toilet.", exTr: "Tom Mary'den tuvaleti fırçalamasını istedi." },
     { w: "fortress", tr: "kale", lv: "A2", ct: "genel", pr: "/ˈfɔɹtɹəs/", ex: "The fortress was in the enemy's hands.", exTr: "Kale düşmanın elindeydi." },

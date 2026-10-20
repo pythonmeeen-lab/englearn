@@ -169,7 +169,6 @@ KELIMELER.push(
     { w: "tram", tr: "tramvay", lv: "B2", ct: "genel", pr: "/ˈtɹæm/", ex: "I left my umbrella on the tram.", exTr: "Şemsiyemi tramvayda bıraktım." },
     { w: "uhh", tr: "ah", lv: "A2", ct: "genel", pr: "/ˈə/", ex: "Uhh, what was I going to say again?", exTr: "Ahh, yine ne diyecektim?" },
     { w: "violet", tr: "menekşe", lv: "A2", ct: "genel", pr: "/ˈvaɪəɫɪt/, /ˈvaɪɫɪt/", ex: "Violet wrote a letter once a month.", exTr: "Violet ayda bir mektup yazardı." },
-    { w: "lecture", tr: "ders veriyor", lv: "C1", ct: "fiiller", pr: "/ˈɫɛktʃɝɪŋ/", ex: "Damiano began lecturing on the subject of optics.", exTr: "Damiano optik konusunda ders vermeye başladı." },
     { w: "barker", tr: "havlayan", lv: "B1", ct: "isimler", pr: "/ˈbɑɹkɝ/", ex: "A dog who is a good barker is not a good dog.", exTr: "İyi havlayan bir köpek, iyi bir köpek değildir." },
     { w: "slippery", tr: "kaygan", lv: "B1", ct: "genel", pr: "/ˈsɫɪpɝi/, /ˈsɫɪpɹi/", ex: "Watch your step. The floor is slippery.", exTr: "Adımına dikkat et. Zemin kaygan." },
     { w: "wrinkle", tr: "buruşuk", lv: "C1", ct: "fiiller", pr: "/ˈɹɪŋkəɫd/", ex: "His blue coat was dirty and wrinkled.", exTr: "Mavi ceketi kirli ve buruşuktu." },

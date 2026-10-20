@@ -159,7 +159,6 @@ KELIMELER.push(
     { w: "compare", tr: "karşılaştırma", lv: "B1", ct: "fiiller", pr: "/kəmˈpɛɹɪŋ/", ex: "Sami was comparing Layla to his wife.", exTr: "Sami, Leyla'yı karısına benzetiyordu." },
     { w: "calories", tr: "kalori", lv: "B1", ct: "genel", pr: "/ˈkæɫɝiz/", ex: "You take more calories than are necessary.", exTr: "Gerekenden fazla kalori alıyorsunuz." },
     { w: "indispensable", tr: "vazgeçilmez", lv: "C1", ct: "sıfatlar", pr: "/ˌɪndɪˈspɛnsəbəɫ/", ex: "Health is indispensable to a happy life.", exTr: "Mutlu bir yaşamın vazgeçilmezi sağlıktır." },
-    { w: "behave", tr: "davranıyor", lv: "A2", ct: "fiiller", pr: "/bɪˈheɪvɪŋ/", ex: "I cannot see you behaving like that.", exTr: "Senin böyle davrandığını göremiyorum." },
     { w: "squeeze", tr: "sıkma", lv: "B2", ct: "fiiller", pr: "/ˈskwizɪŋ/", ex: "Sami was squeezing Layla's hand very hard.", exTr: "Sami, Leyla'nın elini çok sert sıkıyordu." },
     { w: "fungus", tr: "mantar", lv: "B2", ct: "genel", pr: "/ˈfəŋɡəs/", ex: "This fungus can control its own growth.", exTr: "Bu mantar kendi büyümesini kontrol edebilir." },
     { w: "trooper", tr: "asker", lv: "B2", ct: "isimler", pr: "/ˈtɹupɝ/", ex: "Ziri wanted to be a state trooper.", exTr: "Ziri eyalet polisi olmak istiyordu." },

@@ -117,7 +117,6 @@ KELIMELER.push(
     { w: "foolproof", tr: "kusursuz", lv: "C1", ct: "genel", pr: "/ˈfuɫˌpɹuf/", ex: "Nothing is foolproof to a talented fool.", exTr: "Yetenekli bir aptal için hiçbir şey kusursuz değildir." },
     { w: "howdy", tr: "selam", lv: "A2", ct: "genel", pr: "/ˈhaʊdi/", ex: "“Howdy-do!” said I aloud to the fattest and reddest carnation that overtopped all the rest.", exTr: "'Merhaba!' dedim yüksek sesle, geri kalan her şeyi geride bırakan en şişman ve en kırmızı karanfil için." },
     { w: "explode", tr: "patlayan", lv: "B1", ct: "fiiller", pr: "/ɪksˈpɫoʊdɪŋ/", ex: "Without a defuser, the soldier would not have been able to prevent the bomb from exploding.", exTr: "Söndürücü olmasaydı asker bombanın patlamasını engelleyemezdi." },
-    { w: "refuse", tr: "reddediyor", lv: "B1", ct: "fiiller", pr: "/ɹəfˈjuzɪŋ/, /ɹɪfˈjuzɪŋ/", ex: "Our only witness is refusing to testify.", exTr: "Tek tanığımız ifade vermeyi reddediyor." },
     { w: "sunlight", tr: "güneş ışığı", lv: "A2", ct: "genel", pr: "/ˈsənˌɫaɪt/", ex: "Don't expose the plant to direct sunlight.", exTr: "Bitkiyi doğrudan güneş ışığına maruz bırakmayın." },
     { w: "malignant", tr: "kötü huylu", lv: "C1", ct: "sıfatlar", pr: "/məˈɫɪɡnənt/", ex: "Her face was distorted and malignant with menace.", exTr: "Yüzü çarpıktı ve tehditkar bir şekilde kötü niyetliydi." },
     { w: "getaway", tr: "kurtulmak", lv: "B1", ct: "genel", pr: "/ˈɡɛtəˌweɪ/", ex: "Yanni and Skura planned a romantic getaway.", exTr: "Yanni ve Skura romantik bir kaçamak planladı." },
