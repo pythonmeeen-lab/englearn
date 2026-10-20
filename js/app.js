@@ -612,8 +612,50 @@ const KartUygulamasi = {
         document.getElementById('kart-sayac').textContent = `${sira} / ${toplam}`;
         document.getElementById('progress-dolgu').style.width = `${(sira / toplam) * 100}%`;
 
+        // Sıfatlar (kelimeyle kökü paylaşan)
+        this.sifatlarGoster(k);
+
         // Favori butonu durumu
         if (typeof FavorilerUygulamasi !== 'undefined') FavorilerUygulamasi.kartButon(k);
+    },
+
+    // Kelimeyle kökü paylaşan sıfat kayıtlarını bul (verideki gerçekler)
+    iliskiliSifatlar(w) {
+        const wl = String(w || '').toLowerCase().trim();
+        if (wl.length < 2 || typeof KELIMELER === 'undefined') return [];
+        const son = [];
+        const minOn = wl.length <= 4 ? 3 : 4;
+        for (let i = 0; i < KELIMELER.length; i++) {
+            const k = KELIMELER[i];
+            if (!k || !k.w) continue;
+            const kw = k.w.toLowerCase();
+            if (kw === wl) continue;
+            const ct = (k.ct || '').toLowerCase();
+            if (ct.indexOf('sıfat') === -1) continue;
+            let ort = 0;
+            const n = Math.min(wl.length, kw.length);
+            while (ort < n && wl[ort] === kw[ort]) ort++;
+            if (ort >= minOn && ort >= wl.length - 1) son.push(k);
+            if (son.length >= 3) break;
+        }
+        return son;
+    },
+
+    sifatlarGoster(k) {
+        const el = document.getElementById('kart-sifatlar');
+        if (!el) return;
+        const ilgili = this.iliskiliSifatlar(k.w);
+        if (!ilgili.length) { el.classList.add('hidden'); el.innerHTML = ''; return; }
+        el.classList.remove('hidden');
+        el.innerHTML = '<span class="tip">🏷️ Sıfat:</span> ' + ilgili.map((s, i) =>
+            `<button class="btn bgl bgl-kucuk" data-sifa="${i}" title="Sözlükte aç">${s.w}${s.lv ? ' [' + s.lv + ']' : ''} — ${s.tr || ''}</button>`
+        ).join(' ');
+        el.querySelectorAll('[data-sifa]').forEach((b) => {
+            b.addEventListener('click', () => {
+                const s = ilgili[+b.dataset.sifa];
+                if (s && typeof ModulBaglanti !== 'undefined') ModulBaglanti.sozlukteAc(s);
+            });
+        });
     },
 
     bosGoster() {
