@@ -314,7 +314,6 @@ document.addEventListener('DOMContentLoaded', () => {
     ZitAnlamUygulamasi.baslat();
     SozlukUygulamasi.baslat();
     PhrasalUygulamasi.baslat();
-    KosuUygulamasi.baslat();
     YanlislarUygulamasi.baslat();
     if (typeof SrsUygulamasi !== 'undefined') SrsUygulamasi.baslat();
     if (typeof KisiselPanel !== 'undefined') KisiselPanel.baslat();
@@ -4943,7 +4942,6 @@ const YanlislarUygulamasi = {
         es:      { ad: 'Eş Anlamlı', ikon: '🔄' },
         zi:      { ad: 'Zıt Anlamlı', ikon: '⚖️' },
         cumle:   { ad: 'Cümle',      ikon: '🧩' },
-        kosu:    { ad: 'Koşu',       ikon: '🏃' },
         sozluk:  { ad: 'Sözlük',     ikon: '📖' },
         phrasal: { ad: 'Phrasal',    ikon: '🔗' },
         deyim:   { ad: 'Deyimler',   ikon: '🗨️' }
@@ -5054,7 +5052,7 @@ const YanlislarUygulamasi = {
 
         // Her kategori kendi yerinde görünsün (sabit sıra)
         const SIRA = ['kart', 'fiil', 'film', 'pasif', 'meydan', 'quiz', 'meaning', 'yazma',
-            'es', 'zi', 'cumle', 'kosu', 'sozluk', 'phrasal', 'deyim'];
+            'es', 'zi', 'cumle', 'sozluk', 'phrasal', 'deyim'];
         const anahtarlar = Object.keys(sayilar);
         anahtarlar.sort((a, b) => {
             const ia = SIRA.indexOf(a), ib = SIRA.indexOf(b);
