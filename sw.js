@@ -7,7 +7,7 @@
 //   - Dış kaynaklar (font/TTS)-> sadece ağ
 // ==================================================
 
-const SURUM = 'englearn-v6';
+const SURUM = 'englearn-v8';
 const ONBELLEK = `onbellek-${SURUM}`;
 
 // index.html ve anasayfa.html bu stil/skriptleri sürüm parametresiyle istiyor.
@@ -42,13 +42,66 @@ const KABUK = [
     './img/favicon-32.png'
 ];
 
-// Kurulum: kabuğu önbelleğe al
+// Kurulum: kabuğu VE sayfaların kullandığı TÜM varlığı (tüm veri dosyaları
+// dahil ~1MB) önbelleğe al. Telefona kurulumda site artık EKSİKSİZ iner.
+function sayfaKaynaklari(html) {
+    const liste = [];
+    const re = /(?:src|href)="([^"]+)"/g;
+    let m;
+    while ((m = re.exec(html))) {
+        const p = m[1];
+        if (!p || p[0] === '#' || p.indexOf('//') === 0 || /^https?:/i.test(p)) continue;
+        const uzsuz = p.split('?')[0];
+        if (!/\.(js|css|png|jpg|jpeg|webp|svg|ico|webmanifest|woff2?|ttf)$/i.test(uzsuz)) continue;
+        liste.push(p);
+    }
+    return liste;
+}
+async function tumunuOnbellekle(onbellek) {
+    const urls = new Set(KABUK);
+    for (const s of ['./index.html', './anasayfa.html']) {
+        try {
+            const r = await fetch(s);
+            for (const u of sayfaKaynaklari(await r.text())) urls.add(u);
+        } catch (e) {}
+    }
+    await onbellekGrup(onbellek, [...urls]);
+    return { toplam: [...urls].length };
+}
+async function onbellekAl(onbellek, u, deneme) {
+    deneme = deneme || 3;
+    for (var i = 0; i < deneme; i++) {
+        try {
+            var y = await fetch(u);
+            if (y && (y.ok || y.type === 'opaque')) { await onbellek.put(u, y); return true; }
+        } catch (e) {
+            await new Promise(function (r) { setTimeout(r, 500 * (i + 1)); });
+        }
+    }
+    return false;
+}
+async function onbellekGrup(onbellek, liste) {
+    var grup = 8; // mobilde cok istek patlamasin
+    for (var i = 0; i < liste.length; i += grup) {
+        await Promise.all(liste.slice(i, i + grup).map(function (u) { return onbellekAl(onbellek, u); }));
+    }
+}
 self.addEventListener('install', (olay) => {
     olay.waitUntil(
-        caches.open(ONBELLEK).then((onbellek) =>
-            Promise.allSettled(KABUK.map((u) => onbellek.add(u)))
-        ).then(() => self.skipWaiting())
+        caches.open(ONBELLEK)
+            .then((onbellek) => tumunuOnbellekle(onbellek))
+            .then(() => self.skipWaiting())
     );
+});
+// Sayfa "tamir" isterse eksikleri yeniden cek
+self.addEventListener('message', (olay) => {
+    if (olay.data && olay.data.tip === 'tamir') {
+        olay.waitUntil(
+            caches.open(ONBELLEK).then((o) => tumunuOnbellekle(o)).then((r) => {
+                if (olay.source) olay.source.postMessage({ tip: 'tamir', son: r });
+            })
+        );
+    }
 });
 
 // Etkinleşme: eski önbellekleri temizle
@@ -60,7 +113,10 @@ self.addEventListener('activate', (olay) => {
                     .filter((a) => a !== ONBELLEK)
                     .map((a) => caches.delete(a))
             )
-        ).then(() => self.clients.claim())
+        ).then(() => self.clients.claim()).then(() => {
+            // Kurulumda kacanlari arka planda tamir et (engellemeden)
+            caches.open(ONBELLEK).then((o) => tumunuOnbellekle(o)).catch(() => {});
+        })
     );
 });
 

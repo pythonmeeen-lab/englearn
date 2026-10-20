@@ -4843,6 +4843,8 @@ const PassiveUygulamasi = {
         const g = document.getElementById('ps-geri');
         g.classList.add('hidden');
         document.getElementById('ps-kontrol').disabled = true;
+        const sonrEt = document.getElementById('ps-sonraki');
+        if (sonrEt) sonrEt.disabled = true;
         this.skorGuncelle();
     },
 
@@ -4871,6 +4873,8 @@ const PassiveUygulamasi = {
             g.innerHTML = `😅 Doğrusu: <b>${this.suan.dogru}</b> · "${this.suan.full}"`;
         }
         document.getElementById('ps-kontrol').disabled = true;
+        const sonrBtn = document.getElementById('ps-sonraki');
+        if (sonrBtn) sonrBtn.disabled = false;   // cevaplayınca "➡️ Sonraki" açılır
         this.skorGuncelle();
     },
 
