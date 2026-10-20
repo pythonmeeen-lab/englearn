@@ -619,12 +619,17 @@ const KartUygulamasi = {
         if (typeof FavorilerUygulamasi !== 'undefined') FavorilerUygulamasi.kartButon(k);
     },
 
-    // Kelimeyle kökü paylaşan sıfat kayıtlarını bul (verideki gerçekler)
+    // Kelimeyle kökü paylaşan sıfat kayıtlarını bul (verideki gerçekler).
+    // Önek kuralı: biri diğerinin tam öneki olmalı (beauty→beautiful, care→careful;
+    // "carnival" gibi tesadüfi önekler elenir). Ek sıfat haritasını da dener.
     iliskiliSifatlar(w) {
         const wl = String(w || '').toLowerCase().trim();
         if (wl.length < 2 || typeof KELIMELER === 'undefined') return [];
         const son = [];
-        const minOn = wl.length <= 4 ? 3 : 4;
+        const ekle = (kw, ktr, klv) => {
+            if (!kw || kw.toLowerCase() === wl) return;
+            son.push({ w: kw, tr: ktr || '', lv: klv || '' });
+        };
         for (let i = 0; i < KELIMELER.length; i++) {
             const k = KELIMELER[i];
             if (!k || !k.w) continue;
@@ -632,13 +637,16 @@ const KartUygulamasi = {
             if (kw === wl) continue;
             const ct = (k.ct || '').toLowerCase();
             if (ct.indexOf('sıfat') === -1) continue;
-            let ort = 0;
-            const n = Math.min(wl.length, kw.length);
-            while (ort < n && wl[ort] === kw[ort]) ort++;
-            if (ort >= minOn && ort >= wl.length - 1) son.push(k);
+            if (kw.indexOf(wl) === 0 || wl.indexOf(kw) === 0) ekle(k.w, k.tr, k.lv);
             if (son.length >= 3) break;
         }
-        return son;
+        // Ek sıfat haritası (data-sifatlar-ek.js) — kök->sıfat
+        if (typeof window !== 'undefined' && window.__SIFAT_MAP && window.__SIFAT_MAP[wl]) {
+            for (const a of window.__SIFAT_MAP[wl]) ekle(a.w, a.tr, a.lv);
+        }
+        // benzersizleştir
+        const gor = new Set();
+        return son.filter((s) => { const kk = s.w + '|' + s.tr; if (gor.has(kk)) return false; gor.add(kk); return true; }).slice(0, 3);
     },
 
     sifatlarGoster(k) {
