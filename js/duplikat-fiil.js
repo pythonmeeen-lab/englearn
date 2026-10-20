@@ -13,7 +13,7 @@
     };
 
     // ---- 1) Çekimli/edilgen anlamları at ----
-    var cekimli = /(?:[ıiuü])yor$|[dt][ıiuü]$|(?:ecek|acak)$/;
+    var cekimli = /(?:[ıiuü])yor$|[dt][ıiuü]$|(?:ecek|acak)$|(?:mış|miş|muş|müş)$|(?:an|en)$/;
     var liste = [];
     for (var i = 0; i < KELIMELER.length; i++) {
         var k = KELIMELER[i];
