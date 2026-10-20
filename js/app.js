@@ -624,27 +624,25 @@ const KartUygulamasi = {
     // "carnival" gibi tesadüfi önekler elenir). Ek sıfat haritasını da dener.
     iliskiliSifatlar(w) {
         const wl = String(w || '').toLowerCase().trim();
-        if (wl.length < 2 || typeof KELIMELER === 'undefined') return [];
+        if (wl.length < 2) return [];
         const son = [];
-        const ekle = (kw, ktr, klv) => {
-            if (!kw || kw.toLowerCase() === wl) return;
-            son.push({ w: kw, tr: ktr || '', lv: klv || '' });
-        };
-        for (let i = 0; i < KELIMELER.length; i++) {
-            const k = KELIMELER[i];
-            if (!k || !k.w) continue;
-            const kw = k.w.toLowerCase();
-            if (kw === wl) continue;
-            const ct = (k.ct || '').toLowerCase();
-            if (ct.indexOf('sıfat') === -1) continue;
-            if (kw.indexOf(wl) === 0 || wl.indexOf(kw) === 0) ekle(k.w, k.tr, k.lv);
-            if (son.length >= 3) break;
+        const ekle = (kw, ktr, klv) => { if (kw && kw.toLowerCase() !== wl) son.push({ w: kw, tr: ktr || '', lv: klv || '' }); };
+        const map = (typeof window !== 'undefined') ? (window.__SIFAT_MAP || {}) : {};
+        // Elle doğrulanmış harita varsa YALNIZCA onu döndür (act→actual tesadüfünü önler)
+        if (map[wl]) {
+            map[wl].forEach((a) => ekle(a.w, a.tr, a.lv));
+        } else if (typeof KELIMELER !== 'undefined') {
+            for (let i = 0; i < KELIMELER.length; i++) {
+                const k = KELIMELER[i];
+                if (!k || !k.w) continue;
+                const kw = k.w.toLowerCase();
+                if (kw === wl) continue;
+                const ct = (k.ct || '').toLowerCase();
+                if (ct.indexOf('sıfat') === -1) continue;
+                if (kw.indexOf(wl) === 0 || wl.indexOf(kw) === 0) ekle(k.w, k.tr, k.lv);
+                if (son.length >= 3) break;
+            }
         }
-        // Ek sıfat haritası (data-sifatlar-ek.js) — kök->sıfat
-        if (typeof window !== 'undefined' && window.__SIFAT_MAP && window.__SIFAT_MAP[wl]) {
-            for (const a of window.__SIFAT_MAP[wl]) ekle(a.w, a.tr, a.lv);
-        }
-        // benzersizleştir
         const gor = new Set();
         return son.filter((s) => { const kk = s.w + '|' + s.tr; if (gor.has(kk)) return false; gor.add(kk); return true; }).slice(0, 3);
     },
