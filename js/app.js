@@ -1810,15 +1810,17 @@ const OkumaUygulamasi = {
     seciliSeviye: 'all',
     suankiMetin: null,
 
-    // PHRASAL kategorisindeki çok kelimeli fiillerin kümesi ("give off", "put up with"...)
+    // Metindeki çok kelimeli ifadelerin kümesi ("turn off", "look up", "put up with",
+    // "post office") — tek span olarak gruplanıp yanlış anlaşılmasınlar
     phrasalSet() {
         if (this._phrasalSet) return this._phrasalSet;
         const set = new Set();
         if (typeof KELIMELER !== 'undefined') {
             KELIMELER.forEach((k) => {
-                if (k && (k.ct || '').toUpperCase() === 'PHRASAL' && k.w && / /.test(k.w)) {
-                    set.add(String(k.w).toLowerCase().replace(/\s+/g, ' ').trim());
-                }
+                if (!k || !k.w) return;
+                const w = String(k.w).toLowerCase().replace(/\s+/g, ' ').trim();
+                const n = w.split(' ').length;
+                if (n >= 2 && n <= 3) set.add(w);
             });
         }
         this._phrasalSet = set;
