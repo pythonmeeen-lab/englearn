@@ -3,7 +3,7 @@
 // ==================================================
 KELIMELER.push(
     { w: "doorman", tr: "kapıcı", lv: "B1", ct: "genel", pr: "/ˈdɔɹˌmæn/", ex: "Is Tom still working as a doorman?", exTr: "Tom hala kapıcı olarak mı çalışıyor?" },
-    { w: "admiring", tr: "hayranlık duymak", lv: "B2", ct: "fiiller", pr: "/ædˈmaɪɹɪŋ/", ex: "I cannot help admiring your new car.", exTr: "Yeni arabana hayran kalmaktan kendimi alamıyorum." },
+    { w: "admire", tr: "hayranlık duymak", lv: "B2", ct: "fiiller", pr: "/ædˈmaɪɹɪŋ/", ex: "I cannot help admiring your new car.", exTr: "Yeni arabana hayran kalmaktan kendimi alamıyorum." },
     { w: "rustling", tr: "hışırtı", lv: "B1", ct: "isimler", pr: "/ˈɹəsɫɪŋ/", ex: "Yanni heard the rustling of the trees.", exTr: "Yanni ağaçların hışırtısını duydu." },
     { w: "abs", tr: "karın kasları", lv: "B2", ct: "genel", pr: "/ˈæbz/, /ˈeɪˈbiˈɛs/", ex: "I want to have six-pack abs.", exTr: "Six-pack karın kaslarına sahip olmak istiyorum." },
     { w: "blackie", tr: "zenci", lv: "B2", ct: "genel", pr: "/ˈbɫæki/", ex: "The dog answers to the name of Blackie.", exTr: "Köpek Blackie ismine cevap veriyor." },
@@ -11,8 +11,7 @@ KELIMELER.push(
     { w: "swung", tr: "sallandı", lv: "B2", ct: "genel", pr: "/ˈswəŋ/", ex: "I swung my leg over the fence.", exTr: "Bacağımı çitin üzerinden salladım." },
     { w: "smuggle", tr: "kaçak", lv: "B1", ct: "fiiller", pr: "/ˈsməɡəɫd/", ex: "Tom smuggled something into Australia for Mary.", exTr: "Tom Mary için Avustralya'ya bir şey kaçırdı." },
     { w: "sorcerer", tr: "büyücü", lv: "B2", ct: "isimler", pr: "/ˈsɔɹsɝɝ/", ex: "Donald saved Jessica from an evil sorcerer.", exTr: "Donald, Jessica'yı kötü bir büyücüden kurtardı." },
-    { w: "trafficking", tr: "kaçakçılık", lv: "B1", ct: "fiiller", pr: "/ˈtɹæfɪkɪŋ/", ex: "Tom was arrested on drug-trafficking charges.", exTr: "Tom uyuşturucu kaçakçılığı suçlamasıyla tutuklandı." },
-    { w: "poking", tr: "dürtmek", lv: "B1", ct: "fiiller", pr: "/ˈpoʊkɪŋ/", ex: "What are you poking around for there?", exTr: "Orada ne arıyorsun?" },
+    { w: "poke", tr: "dürtmek", lv: "B1", ct: "fiiller", pr: "/ˈpoʊkɪŋ/", ex: "What are you poking around for there?", exTr: "Orada ne arıyorsun?" },
     { w: "underage", tr: "reşit olmayan", lv: "B2", ct: "genel", pr: "/ˈəndɝɪdʒ/", ex: "Sami was having sex with underage girls.", exTr: "Sami reşit olmayan kızlarla seks yapıyordu." },
     { w: "washroom", tr: "tuvalet", lv: "B2", ct: "genel", pr: "/ˈwɑʃˌɹum/", ex: "I have to go to the washroom.", exTr: "Tuvalete gitmem gerekiyor." },
     { w: "wave", tr: "el salladı", lv: "B2", ct: "fiiller", pr: "/ˈweɪvd/", ex: "They waved flags to welcome the princess.", exTr: "Prensesi karşılamak için bayrak salladılar." },
@@ -52,7 +51,6 @@ KELIMELER.push(
     { w: "glitch", tr: "kusur", lv: "B2", ct: "genel", pr: "/ˈɡɫɪtʃ/", ex: "I think it might be a glitch.", exTr: "Bir aksaklık olabileceğini düşünüyorum." },
     { w: "cabaret", tr: "kabare", lv: "B2", ct: "genel", pr: "/ˌkæbɝˈeɪ/", ex: "That man is a famous cabaret performer.", exTr: "Bu adam ünlü bir kabare sanatçısı." },
     { w: "mein", tr: "benim", lv: "B1", ct: "genel", pr: "/ˈmin/", ex: "As for me, I don't eat meat, so I ordered veg chow mein.", exTr: "Ben et yemem, bu yüzden sebze yemeği sipariş ettim." },
-    { w: "addressing", tr: "adresleme", lv: "B2", ct: "fiiller", pr: "/əˈdɹɛsɪŋ/", ex: "How is Algeria addressing its economic crisis?", exTr: "Cezayir ekonomik krizini nasıl ele alıyor?" },
     { w: "maturity", tr: "olgunluk", lv: "B2", ct: "isimler", pr: "/məˈtʃʊɹəti/, /mətˈjʊɹɪti/", ex: "Sami projects an image of maturity and dignity.", exTr: "Sami, olgunluk ve saygınlık imajını yansıtır." },
     { w: "illegitimate", tr: "gayri meşru", lv: "B2", ct: "fiiller", pr: "/ˌɪɫɪˈdʒɪtəmɪt/", ex: "The king had numerous illegitimate children with her.", exTr: "Kralın kendisinden çok sayıda gayri meşru çocuğu vardı." },
     { w: "technician", tr: "teknisyen", lv: "B1", ct: "genel", pr: "/tɛkˈnɪʃən/", ex: "He was born to be a technician.", exTr: "Teknisyen olmak için doğmuş." },

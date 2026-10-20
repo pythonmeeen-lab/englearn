@@ -20,7 +20,6 @@ KELIMELER.push(
     { w: "venom", tr: "zehir", lv: "B1", ct: "vahşi yaşam", pr: "/ˈven.əm/", ex: "Some snakes have very strong venom.", exTr: "Bazı yılanların zehri çok güçlüdür." },
     { w: "camouflage", tr: "kamuflaj", lv: "B2", ct: "vahşi yaşam", pr: "/ˈkæm.ə.flɑːʒ/", ex: "The chameleon's camouflage protects it.", exTr: "Bukalemunun kamuflajı onu korur." },
     { w: "conservation", tr: "koruma", lv: "B2", ct: "çevre", pr: "/ˌkɒn.səˈveɪ.ʃən/", ex: "Wildlife conservation is essential today.", exTr: "Yaban hayatı koruması bugün şarttır." },
-
     // ---- Coğrafya ----
     { w: "continent", tr: "kıta", lv: "B1", ct: "coğrafya", pr: "/ˈkɒn.tɪ.nənt/", ex: "Africa is the second-largest continent.", exTr: "Afrika ikinci en büyük kıtadır." },
     { w: "desert", tr: "çöl", lv: "B1", ct: "coğrafya", pr: "/ˈdez.ət/", ex: "The Sahara is the world's largest hot desert.", exTr: "Sahra, dünyanın en büyük sıcak çölüdür." },
@@ -32,7 +31,6 @@ KELIMELER.push(
     { w: "mountain", tr: "dağ", lv: "B1", ct: "coğrafya", pr: "/ˈmaʊn.tɪn/", ex: "Mount Everest is the highest mountain.", exTr: "Everest Dağı en yüksek dağdır." },
     { w: "ocean", tr: "okyanus", lv: "B1", ct: "coğrafya", pr: "/ˈəʊ.ʃən/", ex: "The Pacific Ocean is the largest ocean.", exTr: "Pasifik Okyanusu en büyük okyanustur." },
     { w: "climate", tr: "iklim", lv: "B1", ct: "coğrafya", pr: "/ˈklaɪ.mət/", ex: "The climate in this region is very dry.", exTr: "Bu bölgenin iklimi çok kurudur." },
-
     // ---- Çevre & İklim ----
     { w: "environment", tr: "çevre", lv: "B1", ct: "çevre", pr: "/ɪnˈvaɪ.rən.mənt/", ex: "We must protect the natural environment.", exTr: "Doğal çevreyi korumalıyız." },
     { w: "pollution", tr: "kirlilik", lv: "B1", ct: "çevre", pr: "/pəˈluː.ʃən/", ex: "Air pollution affects our health.", exTr: "Hava kirliliği sağlığımızı etkiliyor." },
@@ -44,7 +42,6 @@ KELIMELER.push(
     { w: "carbon", tr: "karbon", lv: "B2", ct: "çevre", pr: "/ˈkɑː.bən/", ex: "We should reduce our carbon footprint.", exTr: "Karbon ayak izimizi azaltmalıyız." },
     { w: "recycle", tr: "geri dönüştürmek", lv: "B1", ct: "çevre", pr: "/ˌriːˈsaɪ.kəl/", ex: "We recycle plastic bottles at home.", exTr: "Evde plastik şişeleri geri dönüştürüyoruz." },
     { w: "drought", tr: "kuraklık", lv: "B2", ct: "çevre", pr: "/draʊt/", ex: "The drought destroyed thousands of crops.", exTr: "Kuraklık binlerce ürünü yok etti." },
-
     // ---- Keşif & Macera ----
     { w: "expedition", tr: "keşif gezisi", lv: "B1", ct: "keşif", pr: "/ˌek.spəˈdɪʃ.ən/", ex: "The expedition crossed the frozen continent.", exTr: "Keşif ekibi donmuş kıtayı geçti." },
     { w: "explorer", tr: "kâşif", lv: "B1", ct: "keşif", pr: "/ɪkˈsplɔː.rər/", ex: "The explorer discovered a new tribe.", exTr: "Kâşif yeni bir kabile keşfetti." },
@@ -56,7 +53,6 @@ KELIMELER.push(
     { w: "territory", tr: "bölge / toprak", lv: "B2", ct: "keşif", pr: "/ˈter.ɪ.tər.i/", ex: "The wolves defended their territory.", exTr: "Kurtlar bölgelerini savundu." },
     { w: "encounter", tr: "karşılaşmak", lv: "B2", ct: "keşif", pr: "/ɪnˈkaʊn.tər/", ex: "We encountered a herd of buffalo.", exTr: "Bir bufalo sürüsüyle karşılaştık." },
     { w: "navigate", tr: "yön bulmak / seyretmek", lv: "B2", ct: "keşif", pr: "/ˈnæv.ɪ.ɡeɪt/", ex: "Early sailors navigated by the stars.", exTr: "İlk denizciler yıldızlara bakarak yön buldu." },
-
     // ---- Kültür & Toplum ----
     { w: "culture", tr: "kültür", lv: "B1", ct: "kültür", pr: "/ˈkʌl.tʃər/", ex: "Each country has its own culture.", exTr: "Her ülkenin kendine özgü bir kültürü vardır." },
     { w: "tradition", tr: "gelenek", lv: "B1", ct: "kültür", pr: "/trəˈdɪʃ.ən/", ex: "They kept the old traditions alive.", exTr: "Eski gelenekleri yaşattılar." },
@@ -68,7 +64,6 @@ KELIMELER.push(
     { w: "artefact", tr: "tarihi eser", lv: "B2", ct: "kültür", pr: "/ˈɑː.tɪ.fækt/", ex: "The museum displays ancient artefacts.", exTr: "Müze eski eserleri sergiliyor." },
     { w: "archaeology", tr: "arkeoloji", lv: "B2", ct: "kültür", pr: "/ˌɑː.kiˈɒl.ə.dʒi/", ex: "She studies archaeology at university.", exTr: "Üniversitede arkeoloji okuyor." },
     { w: "civilisation", tr: "uygarlık / medeniyet", lv: "B2", ct: "kültür", pr: "/ˌsɪv.əl.aɪˈzeɪ.ʃən/", ex: "The Maya were an advanced civilisation.", exTr: "Maya'lar gelişmiş bir uygarlıktı." },
-
     // ---- Bilim & Doğa Olayları ----
     { w: "evolve", tr: "evrimleşmek", lv: "B2", ct: "bilim", pr: "/ɪˈvɒlv/", ex: "Species evolve to survive changes.", exTr: "Türler değişime ayak uydurmak için evrimleşir." },
     { w: "fossil", tr: "fosil", lv: "B2", ct: "bilim", pr: "/ˈfɒs.əl/", ex: "They found a dinosaur fossil in the rock.", exTr: "Kayada bir dinozor fosili buldular." },

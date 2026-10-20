@@ -15,7 +15,6 @@ const CUMLER = [
     { tr: "Küresel ısınma yüzünden buzullar eriyor.", en: "Glaciers are melting because of global warming.", zorluk: 2 },
     { tr: "Urduklar sabahın erken saatlerinde avlanır.", en: "Predators hunt during the early morning.", zorluk: 2 },
     { tr: "Yerel halk nehri korumak için çalışıyor.", en: "The community works to protect the river.", zorluk: 2 },
-
     // ---- B2 Seviye ----
     { tr: "Bilim insanları okyanusta yeni bir tür keşfetti.", en: "Scientists discovered a new species in the ocean.", zorluk: 2 },
     { tr: "Mercan resifleri hassas ekosistemlerdir.", en: "Coral reefs are fragile ecosystems.", zorluk: 2 },
@@ -27,7 +26,6 @@ const CUMLER = [
     { tr: "Kabile üyeleri eski geleneklerini koruyor.", en: "The tribe members preserve their old traditions.", zorluk: 2 },
     { tr: "Okyanusun derinlikleri büyüleyici bir dünyadır.", en: "The depths of the ocean are a fascinating world.", zorluk: 3 },
     { tr: "İlk denizciler yıldızlara bakarak yön buldu.", en: "Early sailors navigated by the stars.", zorluk: 2 },
-
     // ---- C1 Seviye ----
     { tr: "İnsan kaynaklı kirlilik iklimimizi değiştiriyor.", en: "Anthropogenic pollution is changing our climate.", zorluk: 3 },
     { tr: "Mercan resifleri değişime karşı büyük direnç gösterir.", en: "Coral reefs show great resilience to change.", zorluk: 3 },

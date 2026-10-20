@@ -14,7 +14,6 @@ CUMLER.push(
     { tr: "O, iş görüşmesine hazırlanıyor.", en: "He is preparing for the job interview.", zorluk: 2 },
     { tr: "Biz takım çalışmasına inanıyoruz.", en: "We believe in teamwork.", zorluk: 1 },
     { tr: "Şirket yeni bir ürün geliştirdi.", en: "The company developed a new product.", zorluk: 2 },
-
     // ---- Kültür ----
     { tr: "Her ülkenin kendine özgü gelenekleri vardır.", en: "Every country has its own traditions.", zorluk: 1 },
     { tr: "Festival büyük bir kalabalık topladı.", en: "The festival attracted a large crowd.", zorluk: 2 },
@@ -25,7 +24,6 @@ CUMLER.push(
     { tr: "Kültürel miras gelecek nesillere aktarılır.", en: "Cultural heritage is passed to future generations.", zorluk: 2 },
     { tr: "Dans, kültürler arası bir iletişim biçimidir.", en: "Dance is a form of communication between cultures.", zorluk: 3 },
     { tr: "Tarihi binalar dikkatle korunuyor.", en: "The historical buildings are carefully protected.", zorluk: 2 },
-
     // ---- Eğitim ----
     { tr: "Öğretmen herkese sabırla yardım eder.", en: "The teacher helps everyone with patience.", zorluk: 2 },
     { tr: "Ben üniversitede biyoloji okuyorum.", en: "I study biology at the university.", zorluk: 1 },
@@ -37,7 +35,6 @@ CUMLER.push(
     { tr: "Ben kursa kayıt olmak istiyorum.", en: "I want to register for the course.", zorluk: 1 },
     { tr: "Onlar tezi üzerinde birlikte çalışıyorlar.", en: "They are working on their thesis together.", zorluk: 2 },
     { tr: "Eğitim herkesin temel hakkıdır.", en: "Education is a basic right for everyone.", zorluk: 2 },
-
     // ---- Sağlık ----
     { tr: "Dengeli beslenme sağlıklı yaşamın anahtarıdır.", en: "A balanced diet is the key to a healthy life.", zorluk: 2 },
     { tr: "Ben her sabah hafif egzersiz yaparım.", en: "I do light exercise every morning.", zorluk: 1 },

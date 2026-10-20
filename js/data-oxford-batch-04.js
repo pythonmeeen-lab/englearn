@@ -51,7 +51,6 @@ KELIMELER.push(
     { w: "one", tr: "bir", lv: "A2", ct: "genel", pr: "/ˈwʌn/", ex: "I'd like to stay for one night.", exTr: "Bir gece kalmak isterim." },
     { w: "looks", tr: "görünüyor", lv: "B1", ct: "genel", pr: "/ˈlʊks/", ex: "The sea looks calm and smooth.", exTr: "Deniz sakin ve pürüzsüz görünüyor." },
     { w: "presently", tr: "şu anda", lv: "C1", ct: "fiiller", pr: "/ˈprɛzʌntli/", ex: "They presently every day.", exTr: "Şu anda her gün." },
-
     { w: "do", tr: "Yapmak", lv: "A2", ct: "fiiller", pr: "/ˈdu/", ex: "They do every day.", exTr: "Her gün yapıyorlar." },
     { w: "inform", tr: "bilgi vermek", lv: "B2", ct: "fiiller", pr: "/ˌɪˈnfɔrm/", ex: "They inform every day.", exTr: "Her gün bilgi veriyorlar." },
     { w: "terminate", tr: "sonlandırmak", lv: "C1", ct: "fiiller", pr: "/ˈtɚmʌˌneɪt/", ex: "They terminate every day.", exTr: "Her gün sonlandırıyorlar." },

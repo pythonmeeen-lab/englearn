@@ -2,7 +2,6 @@
 // EngLearn — Eş Anlamlı & Zıt Anlamlı Kelimeler
 // 4 şıklı seçim oyunu için veri
 // ==================================================
-
 // Eş anlamlılar: { w: kelime, dogru: eş anlamlısı }
 const ES_ANLAMLILAR = [
     { w: "big", dogru: "large", ipucu: "büyük" },
@@ -46,7 +45,6 @@ const ES_ANLAMLILAR = [
     { w: "wonderful", dogru: "amazing", ipucu: "harika" },
     { w: "afraid", dogru: "scared", ipucu: "korkmuş" }
 ];
-
 // Zıt anlamlılar: { w: kelime, dogru: zıt anlamlısı }
 const ZIT_ANLAMLILAR = [
     { w: "big", dogru: "small", ipucu: "büyük" },

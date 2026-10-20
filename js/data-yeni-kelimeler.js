@@ -41,7 +41,6 @@ KELIMELER.push(
     { w: "survive", tr: "hayatta kalmak", lv: "B1", ct: "fiiller", pr: "/səˈvaɪv/", ex: "Few animals survive the winter.", exTr: "Çok az hayvan kışı atlatır." },
     { w: "translate", tr: "çevirmek", lv: "B1", ct: "fiiller", pr: "/trænzˈleɪt/", ex: "Can you translate this sentence?", exTr: "Bu cümleyi çevirebilir misin?" },
     { w: "trust", tr: "güvenmek", lv: "A2", ct: "fiiller", pr: "/trʌst/", ex: "I trust my best friend completely.", exTr: "En iyi arkadaşıma tamamen güvenirim." },
-
     // ==================== İSİMLER ====================
     { w: "purpose", tr: "amaç", lv: "B1", ct: "isimler", pr: "/ˈpɜː.pəs/", ex: "What is the purpose of this meeting?", exTr: "Bu toplantının amacı nedir?" },
     { w: "opportunity", tr: "fırsat", lv: "B1", ct: "isimler", pr: "/ˌɒp.əˈtjuː.nə.ti/", ex: "This is a great opportunity for you.", exTr: "Bu senin için harika bir fırsat." },
@@ -68,7 +67,6 @@ KELIMELER.push(
     { w: "university", tr: "üniversite", lv: "A2", ct: "eğitim", pr: "/ˌjuː.nɪˈvɜː.sə.ti/", ex: "She studies medicine at the university.", exTr: "Üniversitede tıp okuyor." },
     { w: "victory", tr: "zafer", lv: "B1", ct: "isimler", pr: "/ˈvɪk.tər.i/", ex: "The team celebrated their victory.", exTr: "Takım zaferlerini kutladı." },
     { w: "wealth", tr: "zenginlik", lv: "B1", ct: "isimler", pr: "/welθ/", ex: "Health is more important than wealth.", exTr: "Sağlık zenginlikten daha önemlidir." },
-
     // ==================== SIFATLAR ====================
     { w: "available", tr: "mevcut / müsait", lv: "B1", ct: "sıfatlar", pr: "/əˈveɪ.lə.bəl/", ex: "The manager is available this afternoon.", exTr: "Müdür bu öğleden sonra müsait." },
     { w: "appropriate", tr: "uygun", lv: "B2", ct: "sıfatlar", pr: "/əˈprəʊ.pri.ət/", ex: "Wear clothes that are appropriate for the occasion.", exTr: "Ortama uygun kıyafetler giy." },

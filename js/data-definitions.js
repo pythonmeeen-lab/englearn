@@ -2,7 +2,6 @@
 // EngLearn — English Definitions Dataset
 // Format: { w: word, def: english_definition }
 // ==================================================
-
 const DEFINITIONS = [
     { w: "buy", def: "To obtain something by paying money for it" },
     { w: "sell", def: "To give something to someone in exchange for money" },

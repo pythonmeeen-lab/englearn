@@ -29,7 +29,6 @@ CUMLER.push(
     { tr: "İnsan faaliyetleri doğal yaşam alanlarını yok ediyor.", en: "Human activities destroy natural habitats.", zorluk: 2 },
     { tr: "Deniz seviyesi yükselmeye devam ediyor.", en: "The sea level continues to rise.", zorluk: 2 },
     { tr: "Bilim insanları küresel ısınmayı araştırıyor.", en: "Scientists are investigating global warming.", zorluk: 2 },
-
     // ---- C1 Seviye ----
     { tr: "İnsan kaynaklı kirlilik iklimi değiştiriyor.", en: "Anthropogenic pollution is altering our climate.", zorluk: 3 },
     { tr: "Mercan resifleri değişime direnç gösteriyor.", en: "Coral reefs show resilience to environmental change.", zorluk: 3 },

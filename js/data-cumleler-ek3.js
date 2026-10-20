@@ -19,7 +19,6 @@ CUMLER.push(
     { tr: "Biz bu yaz yurt dışına seyahat ettik.", en: "We traveled abroad this summer.", zorluk: 2 },
     { tr: "Ben yeni bir dil öğrenmeye karar verdim.", en: "I decided to learn a new language.", zorluk: 2 },
     { tr: "O, doğum günü için güzel bir pasta yaptı.", en: "She made a beautiful cake for the birthday.", zorluk: 2 },
-
     // ---- Fiiller ----
     { tr: "Ben her gece notlarımı gözden geçiririm.", en: "I review my notes every night.", zorluk: 1 },
     { tr: "O, toplantıdan önce sunumunu hazırladı.", en: "She prepared her presentation before the meeting.", zorluk: 2 },
@@ -35,7 +34,6 @@ CUMLER.push(
     { tr: "Biz havanın güzel olacağını umuyoruz.", en: "We hope the weather will be nice.", zorluk: 1 },
     { tr: "Ben çalışmalarımı her cuma tamamlarım.", en: "I complete my tasks every Friday.", zorluk: 1 },
     { tr: "O, sabahları koşarak güne başlar.", en: "He starts his day by running in the morning.", zorluk: 2 },
-
     // ---- Teknoloji ----
     { tr: "Ben bu uygulamayı her gün kullanırım.", en: "I use this application every day.", zorluk: 1 },
     { tr: "O, bilgisayarında önemli dosyaları saklar.", en: "She stores important files on her computer.", zorluk: 2 },

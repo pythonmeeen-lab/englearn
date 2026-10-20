@@ -11,7 +11,6 @@ CUMLER.push(
     { tr: "Sıradağlar iki ülke arasında doğal bir sınır oluşturur.", en: "The mountain range forms a natural border between two countries.", zorluk: 3 },
     { tr: "Mercan resifleri binlerce deniz türüne ev sahipliği yapar.", en: "Coral reefs are home to thousands of marine species.", zorluk: 2 },
     { tr: "Çöl ekosistemi aşırı sıcaklıklara adapte olmuştur.", en: "The desert ecosystem has adapted to extreme temperatures.", zorluk: 3 },
-
     // ---- Bilim ----
     { tr: "Bilim insanları iklim modellerini analiz ediyor.", en: "Scientists are analysing climate models.", zorluk: 2 },
     { tr: "Genetik araştırmalar yeni fırsatlar sunuyor.", en: "Genetic research offers new opportunities.", zorluk: 3 },
@@ -20,7 +19,6 @@ CUMLER.push(
     { tr: "Laboratuvarda yapılan deneyler teorileri doğruluyor.", en: "Experiments in the laboratory confirm the theories.", zorluk: 3 },
     { tr: "Mikroskop çıplak gözle görünmeyen dünyayı keşfeder.", en: "The microscope reveals a world invisible to the naked eye.", zorluk: 3 },
     { tr: "Okyanus araştırmaları bilinmeyen türleri keşfediyor.", en: "Ocean research is discovering unknown species.", zorluk: 2 },
-
     // ---- Keşif ----
     { tr: "Keşif ekibi bilinmeyen bölgeyi haritalandırdı.", en: "The expedition team mapped the unknown region.", zorluk: 2 },
     { tr: "Kâşifler zorlu hava koşullarına göğüs gerdi.", en: "The explorers endured harsh weather conditions.", zorluk: 3 },
@@ -28,7 +26,6 @@ CUMLER.push(
     { tr: "Teknoloji keşif gezilerinin güvenliğini artırdı.", en: "Technology has increased the safety of expeditions.", zorluk: 3 },
     { tr: "Haritacılar dağlık bölgeyi ayrıntılı olarak çizdi.", en: "The cartographers mapped the mountainous region in detail.", zorluk: 3 },
     { tr: "Yerli rehberler kâşiflere yol gösterdi.", en: "Local guides showed the explorers the way.", zorluk: 2 },
-
     // ---- İleri Doğa ----
     { tr: "Sürdürülebilir uygulamalar ekosistemleri korur.", en: "Sustainable practices protect the ecosystems.", zorluk: 2 },
     { tr: "Biyoçeşitlilik kaybı küresel bir tehdittir.", en: "The loss of biodiversity is a global threat.", zorluk: 3 },

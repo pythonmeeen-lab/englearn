@@ -96,7 +96,6 @@ KELIMELER.push(
     { w: "alien", tr: "yabancı", lv: "B2", ct: "isimler", pr: "/ˈeɪliʌn/", ex: "Thrift is alien to my nature.", exTr: "Tutumluluk benim doğama yabancıdır." },
     { w: "exchange", tr: "değişme", lv: "B1", ct: "isimler", pr: "/ɪˈkstʃeɪndʒ/", ex: "Would you like to exchange links?", exTr: "Bağlantıları değiştirmek ister misiniz?" },
     { w: "business", tr: "işletme", lv: "A2", ct: "isimler", pr: "/ˈbɪznʌs/", ex: "You should go about your business.", exTr: "Sen işine bakmalısın." },
-
     { w: "costa", tr: "Kosta", lv: "B1", ct: "genel", pr: "/ˈkɔstɑ/", ex: "Costa is very important.", exTr: "Costa çok önemli." },
     { w: "ladies", tr: "bayanlar", lv: "B1", ct: "genel", pr: "/ˈleɪdiz/", ex: "Please be seated, ladies and gentlemen.", exTr: "Lütfen oturun bayanlar ve baylar." },
     { w: "notices", tr: "bildirimler", lv: "B2", ct: "genel", pr: "/ˈnoʊtʌsʌz/", ex: "I don't think anyone notices what Tom does.", exTr: "Kimsenin Tom'un ne yaptığını fark ettiğini sanmıyorum." },
@@ -121,20 +120,17 @@ KELIMELER.push(
     { w: "offering", tr: "sunan", lv: "C1", ct: "isimler", pr: "/ˈɔfɚɪŋ/", ex: "I brought you a peace offering.", exTr: "Sana bir barış teklifi getirdim." },
     { w: "action", tr: "aksiyon", lv: "A2", ct: "isimler", pr: "/ˈækʃʌn/", ex: "You were careless in your action.", exTr: "Eyleminde dikkatsizdin." },
     { w: "first", tr: "Birinci", lv: "A2", ct: "fiiller", pr: "/ˈfɚst/", ex: "They first every day.", exTr: "Her gün ilk onlar." },
-
     { w: "neutral", tr: "doğal", lv: "B2", ct: "sıfatlar", pr: "/ˈnutrʌl/", ex: "A schwa represents a neutral vowel.", exTr: "Bir schwa nötr bir sesli harfi temsil eder." },
     { w: "deem", tr: "düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈdim/", ex: "They deem every day.", exTr: "Her gün düşünüyorlar." },
     { w: "until", tr: "değin", lv: "A2", ct: "genel", pr: "/ʌˈntɪl/", ex: "You should continue until you're satisfied.", exTr: "Memnun olana kadar devam etmelisiniz." },
     { w: "figure", tr: "figür", lv: "A2", ct: "isimler", pr: "/ˈfɪɡjɚ/", ex: "How did you figure out this problem?", exTr: "Bu sorunu nasıl anladınız?" },
     { w: "onto", tr: "üzerine", lv: "A2", ct: "genel", pr: "/ˈɑntu/", ex: "Pitch the newspaper onto the porch.", exTr: "Gazeteyi verandaya koy." },
     { w: "invasion", tr: "istila", lv: "B2", ct: "isimler", pr: "/ˌɪˈnveɪʒʌn/", ex: "The people could repel the invasion.", exTr: "Halk işgali püskürtebilirdi." },
-
     { w: "released", tr: "piyasaya sürülmüş", lv: "B1", ct: "genel", pr: "/riˈlist/", ex: "The fighter plane released its bombs.", exTr: "Savaş uçağı bombalarını attı." },
     { w: "older", tr: "daha yaşlı", lv: "B1", ct: "genel", pr: "/ˈoʊldɚ/", ex: "Bill is two years older than I.", exTr: "Bill benden iki yaş büyük." },
     { w: "died", tr: "ölü", lv: "B1", ct: "genel", pr: "/ˈdaɪd/", ex: "He died, so we might live.", exTr: "O öldü, böylece biz yaşayabiliriz." },
     { w: "performed", tr: "rol yapmak", lv: "B1", ct: "genel", pr: "/pɚˈfɔrmd/", ex: "The player performed a wonderful feat.", exTr: "Oyuncu harika bir performans sergiledi." },
     { w: "killing", tr: "öldürme", lv: "B1", ct: "isimler", pr: "/ˈkɪlɪŋ/", ex: "Once we've killed, we enjoy killing.", exTr: "Öldürdükten sonra öldürmekten zevk alırız." },
-
     { w: "beyond", tr: "öte", lv: "B2", ct: "fiiller", pr: "/bɪˈɑnd/", ex: "They beyond every day.", exTr: "Her günün ötesindeler." },
     { w: "ash", tr: "kül", lv: "C1", ct: "isimler", pr: "/ˈæʃ/", ex: "He picked up the ash-tray.", exTr: "Kül tablasını aldı." },
     { w: "succession", tr: "veraset", lv: "C1", ct: "isimler", pr: "/sʌˈksɛʃʌn/", ex: "This year typhoons comes in succession.", exTr: "Bu yıl tayfunlar arka arkaya geliyor." },
@@ -187,14 +183,12 @@ KELIMELER.push(
     { w: "thread", tr: "iplik", lv: "C1", ct: "isimler", pr: "/ˈθrɛd/", ex: "Your job hangs by a thread.", exTr: "İşiniz pamuk ipliğine bağlı." },
     { w: "equipment", tr: "teçhizat", lv: "A2", ct: "isimler", pr: "/ɪˈkwɪpmʌnt/", ex: "Keep away from the electrical equipment.", exTr: "Elektrikli cihazlardan uzak tutun." },
     { w: "hip", tr: "belki", lv: "B2", ct: "isimler", pr: "/ˈhɪp/", ex: "Who's your favorite hip-hop artist?", exTr: "En sevdiğiniz hip-hop sanatçısı kim?" },
-
     { w: "deed", tr: "senet", lv: "C1", ct: "isimler", pr: "/ˈdid/", ex: "His deed is worthy of praise.", exTr: "Onun eylemi övgüye değerdir." },
     { w: "ne", tr: "hayır", lv: "B1", ct: "genel", pr: "/ˈni/", ex: "I listen to Mylène Farmer.", exTr: "Mylène Farmer'ı dinliyorum." },
     { w: "violate", tr: "ihlal etmek", lv: "C1", ct: "fiiller", pr: "/ˈvaɪʌleɪt/", ex: "They violate every day.", exTr: "Her gün ihlal ediyorlar." },
     { w: "suggest", tr: "tavsiye etmek", lv: "A2", ct: "fiiller", pr: "/sʌˈdʒɛst/", ex: "They suggest every day.", exTr: "Her gün öneriyorlar." },
     { w: "bold", tr: "gözü pek", lv: "B2", ct: "sıfatlar", pr: "/ˈboʊld/", ex: "We marveled at his bold attempt.", exTr: "Onun cesur girişimine hayran kaldık." },
     { w: "seriously", tr: "Cidden", lv: "B1", ct: "fiiller", pr: "/ˈsɪriʌsli/", ex: "They seriously every day.", exTr: "Her gün ciddi bir şekilde." },
-
     { w: "complement", tr: "tamamlayıcı", lv: "C1", ct: "fiiller", pr: "/ˈkɑmplʌmʌnt/", ex: "They complement every day.", exTr: "Her gün tamamlıyorlar." },
     { w: "originally", tr: "aslen", lv: "B1", ct: "fiiller", pr: "/ɚˈɪdʒʌnʌli/", ex: "They originally every day.", exTr: "Başlangıçta her gün." },
     { w: "promise", tr: "söz", lv: "A2", ct: "isimler", pr: "/ˈprɑmʌs/", ex: "You must stick to your promise.", exTr: "Verdiğiniz söze sadık kalmalısınız." },
