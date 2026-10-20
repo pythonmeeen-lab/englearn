@@ -2954,6 +2954,12 @@ select:focus {
     background: rgba(124, 58, 237, 0.18);
     box-shadow: 0 1px 0 rgba(124, 58, 237, 0.5);
 }
+.okuma-phrasal {
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    color: var(--mor, #7c3aed);
+}
+[data-theme="dark"] .okuma-phrasal { color: #c4b5fd; }
 
 /* okuma popup */
 .okuma-pop {
