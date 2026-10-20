@@ -1810,6 +1810,21 @@ const OkumaUygulamasi = {
     seciliSeviye: 'all',
     suankiMetin: null,
 
+    // PHRASAL kategorisindeki çok kelimeli fiillerin kümesi ("give off", "put up with"...)
+    phrasalSet() {
+        if (this._phrasalSet) return this._phrasalSet;
+        const set = new Set();
+        if (typeof KELIMELER !== 'undefined') {
+            KELIMELER.forEach((k) => {
+                if (k && (k.ct || '').toUpperCase() === 'PHRASAL' && k.w && / /.test(k.w)) {
+                    set.add(String(k.w).toLowerCase().replace(/\s+/g, ' ').trim());
+                }
+            });
+        }
+        this._phrasalSet = set;
+        return set;
+    },
+
     baslat() {
         this.filtreleriBagla();
         this.listeGoster();
