@@ -569,20 +569,21 @@ const KartUygulamasi = {
 
     kartGoster() {
         const kart = document.getElementById('flashcard');
-        kart.classList.remove('flipped'); // önce ön yüz açılır
 
         if (this.liste.length === 0) {
             this.bosGoster();
             return;
         }
 
-        // Çevirme animasyonu (0.6s) bitmeden içeriği yazarsak, arka yüzde
-        // bir sonraki kelimenin anlamı görünür. İçeriği ön yüz açılınca koy.
-        if (this._icGecik) clearTimeout(this._icGecik);
-        const indis = this.indeks;
-        this._icGecik = setTimeout(() => {
-            if (this.indeks === indis) this.icerikKoy();
-        }, 320);
+        // SONRAKİ kelimeye geçerken ARKA YÜZDEKİ ANLAM ASLA GÖRÜNMESİN:
+        // - animasyonu anlık kapat → kart anında ön yüze döner
+        // - içeriği yaz (ön yüzde yeni kelime, arka yüz yeni anlam ama gizli)
+        // - animasyonu geri aç (kullanıcı kendisi çevirdiğinde çalsın)
+        const inner = kart.querySelector('.card-inner');
+        if (inner) inner.style.transition = 'none';
+        kart.classList.remove('flipped');
+        this.icerikKoy();
+        if (inner) { void kart.offsetWidth; inner.style.transition = ''; }
     },
 
     icerikKoy() {
