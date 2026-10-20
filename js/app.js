@@ -614,6 +614,8 @@ const KartUygulamasi = {
 
         // Sıfatlar (kelimeyle kökü paylaşan)
         this.sifatlarGoster(k);
+        // İsimler (fiil → isim, elle doğrulanmış harita)
+        this.isimlerGoster(k);
 
         // Favori butonu durumu
         if (typeof FavorilerUygulamasi !== 'undefined') FavorilerUygulamasi.kartButon(k);
