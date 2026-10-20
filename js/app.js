@@ -2475,6 +2475,21 @@ const SozlukUygulamasi = {
 
     baslat() {
         this.olaylariBagla();
+        // Kullanıcı "yanlış çeviri" bildirimi
+        const rb = document.getElementById('btn-sozluk-rapor');
+        if (rb) rb.addEventListener('click', () => {
+            const k = this._sfw;
+            if (!k) return;
+            let rapor = [];
+            try { rapor = JSON.parse(localStorage.getItem('englearn-rapor') || '[]'); } catch (e) { rapor = []; }
+            if (!rapor.some((x) => x.w === k.w && x.tr === k.tr)) {
+                rapor.push({ w: k.w, tr: k.tr, ex: k.ex || '', exTr: k.exTr || '', t: Date.now() });
+                try { localStorage.setItem('englearn-rapor', JSON.stringify(rapor)); } catch (e) {}
+                if (typeof SiteKoruma !== 'undefined') SiteKoruma.toast('⚠️ Bildirildi — düzeltme listesine eklendi');
+            } else if (typeof SiteKoruma !== 'undefined') {
+                SiteKoruma.toast('Bu kayıt zaten bildirildi');
+            }
+        });
         // Varsayılan olarak bir örnek göster
         this.aramaYap('travel');
     },

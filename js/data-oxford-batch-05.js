@@ -116,7 +116,7 @@ KELIMELER.push(
     { w: "february", tr: "Şubat", lv: "A2", ct: "isimler", pr: "/ˈfɛbjʌˌwɛri/", ex: "February is very important.", exTr: "Şubat ayı çok önemli." },
     { w: "enlarge", tr: "büyütmek", lv: "B1", ct: "genel", pr: "/ˌɛˈnlɑrdʒ/", ex: "They're going to enlarge their store.", exTr: "Mağazalarını büyütecekler." },
     { w: "speaker", tr: "hoparlör", lv: "A2", ct: "isimler", pr: "/ˈspikɚ/", ex: "Each speaker was allotted five minutes.", exTr: "Her konuşmacıya beş dakika süre verildi." },
-    { w: "sink", tr: "atmak", lv: "B1", ct: "fiiller", pr: "/ˈsɪŋk/", ex: "They sink every day.", exTr: "Her gün batıyorlar." },
+    { w: "sink", tr: "batmak", lv: "B1", ct: "fiiller", pr: "/ˈsɪŋk/", ex: "They sink every day.", exTr: "Her gün batıyorlar." },
     { w: "halfway", tr: "yarı yolda", lv: "C1", ct: "fiiller", pr: "/ˈhæˈfweɪ/", ex: "They halfway every day.", exTr: "Her gün yarı yolda kalıyorlar." },
     { w: "sure", tr: "Elbette", lv: "A2", ct: "sıfatlar", pr: "/ˈʃʊr/", ex: "Are you sure of your facts?", exTr: "Gerçeklerinizden emin misiniz?" },
     { w: "metal", tr: "maden", lv: "A2", ct: "isimler", pr: "/ˈmɛtʌl/", ex: "This metal is free of rust.", exTr: "Bu metal pas tutmaz." },
