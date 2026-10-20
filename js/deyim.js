@@ -89,7 +89,12 @@ const DeyimUygulamasi = {
 
     kartGoster() {
         const kart = document.getElementById('deyim-flashcard');
-        if (kart) kart.classList.remove('flipped');
+        if (kart) {
+            const inner = kart.querySelector('.card-inner');
+            if (inner) inner.style.transition = 'none';   // arka yüz görünmesin
+            kart.classList.remove('flipped');
+            if (inner) { void kart.offsetWidth; inner.style.transition = ''; }
+        }
 
         const yazi = (id, metin) => {
             const el = document.getElementById(id);

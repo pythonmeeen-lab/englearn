@@ -4744,6 +4744,8 @@ const FilmKalipUygulamasi = {
         const f = this.kartListe[this.kartIndeks];
         const kart = document.getElementById('fk-flashcard');
         if (!kart || !f) return;
+        const inner = kart.querySelector('.card-inner');
+        if (inner) inner.style.transition = 'none';
         kart.classList.remove('flipped');
         const dy = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
         dy('fk-kalip', f.k);
@@ -4757,6 +4759,7 @@ const FilmKalipUygulamasi = {
         dy('fk-dogru', this.kartD);
         dy('fk-yanlis', this.kartY);
         this.kartCevapli = false;
+        if (inner) { void kart.offsetWidth; inner.style.transition = ''; }
     },
     kartCevap(biliyorMu) {
         if (this.kartCevapli) return;
