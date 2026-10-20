@@ -1897,21 +1897,38 @@ const OkumaUygulamasi = {
         // Metni cümle cümle böl (her cümle tıklanınca seslendirilir)
         const icerik = document.getElementById('okuma-metin-icerik');
         icerik.innerHTML = '';
+        // Phrasal verb'ler ("give off", "look at", "put up with") metinde TEK span olmalı;
+        // tek tek kelimeye bölünürse yanlış anlaşılır. 3'lü → 2'li arayarak grup yap.
+        const phrasalSet = this.phrasalSet();
+        const temiz = (t) => String(t || '').replace(/[.,!?;:'"()«»]/g, '').toLowerCase();
         const cumleler = m.metin.match(/[^.!?]+[.!?]+/g) || [m.metin];
         cumleler.forEach((cumle) => {
             const p = document.createElement('p');
             p.className = 'okuma-cumle';
             const kelimeler = cumle.trim().split(/\s+/);
-            kelimeler.forEach((kel, ix) => {
+            for (let i = 0; i < kelimeler.length; i++) {
+                let grup = null, uzunluk = 1;
+                for (let n = 3; n >= 2; n--) {
+                    if (i + n > kelimeler.length) continue;
+                    const anahtar = [];
+                    let gecerli = true;
+                    for (let j = 0; j < n; j++) {
+                        const t = temiz(kelimeler[i + j]);
+                        if (!t) { gecerli = false; break; }
+                        anahtar.push(t);
+                    }
+                    if (gecerli && phrasalSet.has(anahtar.join(' '))) { grup = anahtar.join(' '); uzunluk = n; break; }
+                }
                 const s = document.createElement('span');
-                s.className = 'okuma-kelime';
-                s.textContent = kel;
+                s.className = 'okuma-kelime' + (grup ? ' okuma-phrasal' : '');
+                s.textContent = grup ? kelimeler.slice(i, i + uzunluk).join(' ') : kelimeler[i];
                 s.title = 'Anlamı görmek için tıkla';
-                s.dataset.kelime = kel.replace(/[.,!?;:'"()«»]/g, '');
+                s.dataset.kelime = grup || temiz(kelimeler[i]);
                 s.addEventListener('click', (ev) => this.kelimePop(ev, s.dataset.kelime));
                 p.appendChild(s);
-                if (ix < kelimeler.length - 1) p.appendChild(document.createTextNode(' '));
-            });
+                i += uzunluk - 1;
+                if (i < kelimeler.length - 1) p.appendChild(document.createTextNode(' '));
+            }
             icerik.appendChild(p);
         });
 
