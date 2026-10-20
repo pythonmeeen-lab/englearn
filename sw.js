@@ -7,7 +7,7 @@
 //   - Dış kaynaklar (font/TTS)-> sadece ağ
 // ==================================================
 
-const SURUM = 'englearn-v8';
+const SURUM = 'englearn-v9';
 const ONBELLEK = `onbellek-${SURUM}`;
 
 // index.html ve anasayfa.html bu stil/skriptleri sürüm parametresiyle istiyor.
