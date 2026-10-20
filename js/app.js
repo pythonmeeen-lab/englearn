@@ -1901,6 +1901,17 @@ const OkumaUygulamasi = {
         // tek tek kelimeye bölünürse yanlış anlaşılır. 3'lü → 2'li arayarak grup yap.
         const phrasalSet = this.phrasalSet();
         const temiz = (t) => String(t || '').replace(/[.,!?;:'"()«»]/g, '').toLowerCase();
+        // İlk kelimenin kök adayları (gives→give, stopped→stop, looking→look) — çekimli de eşleşsin
+        const kokAdaylari = (w0) => {
+            const liste = [w0];
+            const ekle = (k) => { if (k && k.length > 2 && k !== w0) liste.push(k); };
+            if (/ing$/.test(w0)) ekle(w0.slice(0, -3));
+            if (/ed$/.test(w0)) ekle(w0.slice(0, -2));
+            if (/ies$/.test(w0)) ekle(w0.slice(0, -3) + 'y');
+            if (/es$/.test(w0)) ekle(w0.slice(0, -2));
+            if (/s$/.test(w0) && !/ss$/.test(w0)) ekle(w0.slice(0, -1));
+            return liste;
+        };
         const cumleler = m.metin.match(/[^.!?]+[.!?]+/g) || [m.metin];
         cumleler.forEach((cumle) => {
             const p = document.createElement('p');
@@ -1910,14 +1921,20 @@ const OkumaUygulamasi = {
                 let grup = null, uzunluk = 1;
                 for (let n = 3; n >= 2; n--) {
                     if (i + n > kelimeler.length) continue;
-                    const anahtar = [];
+                    const geriKalan = [];
                     let gecerli = true;
-                    for (let j = 0; j < n; j++) {
+                    for (let j = 1; j < n; j++) {
                         const t = temiz(kelimeler[i + j]);
                         if (!t) { gecerli = false; break; }
-                        anahtar.push(t);
+                        geriKalan.push(t);
                     }
-                    if (gecerli && phrasalSet.has(anahtar.join(' '))) { grup = anahtar.join(' '); uzunluk = n; break; }
+                    if (!gecerli) continue;
+                    const ilk = kokAdaylari(temiz(kelimeler[i]));
+                    for (let v = 0; v < ilk.length && !grup; v++) {
+                        const aday = ilk[v] + (geriKalan.length ? ' ' + geriKalan.join(' ') : '');
+                        if (phrasalSet.has(aday)) { grup = aday; uzunluk = n; }
+                    }
+                    if (grup) break;
                 }
                 const s = document.createElement('span');
                 s.className = 'okuma-kelime' + (grup ? ' okuma-phrasal' : '');
