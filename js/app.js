@@ -746,13 +746,20 @@ const ModulBaglanti = {
         if (typeof SrsUygulamasi !== 'undefined') SrsUygulamasi.rozetGuncelle();
     },
 
-    // Sözlükte kelimeyi aç (arama + detay) ve git
+    // Sözlükte kelimeyi aç (arama + detay) ve SÖZLÜK PANELİNİ GÖSTER
     sozlukteAc(k) {
-        if (typeof SozlukUygulamasi === 'undefined' || !k) return;
+        if (typeof SozlukUygulamasi === 'undefined' || !k || !k.w) return;
+        // Diğer panelleri kapat, sözlüğü aktif yap
+        document.querySelectorAll('.panel').forEach((p) => p.classList.toggle('active-panel', p.id === 'sozluk'));
+        document.querySelectorAll('.nav-links a').forEach((l) => {
+            const hedef = (l.getAttribute('href') || '').split('#')[1] || '';
+            l.classList.toggle('active', hedef === 'sozluk');
+        });
+        try { history.replaceState(null, '', '#sozluk'); } catch (e) {}
         SozlukUygulamasi.aramaYap(k.w);
         SozlukUygulamasi.detayiGoster(k);
         const p = document.getElementById('sozluk');
-        if (p) p.scrollIntoView({ behavior: 'smooth' });
+        if (p) p.scrollIntoView({ behavior: 'smooth', block: 'start' });
     },
 
     // Modüle geç: seviye çipini tıklat (modülün kendi filtresi çalışır) + kaydır
