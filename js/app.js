@@ -1557,6 +1557,8 @@ const YazmaUygulamasi = {
 
         // Doğru cevabı sakla (küçük harfe çevir)
         this.gecerliCevap = k.w.toLowerCase().trim().replace(/\s+/g, '');
+        // Görsel kelime (boşluk korunur: "hurry up") — kullanıcı boşluğu yazmaz
+        this.hedefKelime = k.w.toLowerCase().trim().replace(/\s+/g, ' ');
 
         // Yeni kelime → ipucu hakları sıfırlanır
         this.ipucuKonumlari = new Set();
@@ -1564,7 +1566,7 @@ const YazmaUygulamasi = {
         this.ipucuGosterGuncelle();
 
         // Harf kutuları oluştur
-        this.kutuCiz(this.gecerliCevap);
+        this.kutuCiz();
 
         // Girdiyi temizle ve odakla (sayfa en üste kaymasın)
         const girdi = document.getElementById('yazma-girdi');
@@ -1633,27 +1635,38 @@ const YazmaUygulamasi = {
         if (this.ipucuHakki <= 0) SiteKoruma.toast('💡 Artık ipucu hakkınız kalmadı, kalanını kendiniz bulun!');
     },
 
-    // Kelimenin her harfi için bir kutu (kutular '_' gösterir)
-    kutuCiz(cevap) {
+    // Kelimenin her harfi için kutu; boşluklar OTOMATİK boşluk kutusu olur
+    // (phrasal verb: "hurry up" → harf kutuları + arada otomatik boşluk)
+    kutuCiz() {
         const kutu = document.getElementById('yazma-slots');
         kutu.innerHTML = '';
+        const hedef = this.hedefKelime || this.gecerliCevap;
+        const harfler = this.gecerliCevap;
 
         // Kelime uzunluğuna göre kutu boyutunu ayarla → tek satıra sığar
-        const satirGenislik = 520; // yazma kutusunun yaklaşık iç genişliği (px)
-        const aralik = 6;          // kutular arası boşluk (px)
-        const uzunluk = cevap.length;
-        const kutuBoyutu = Math.min(40, Math.floor((satirGenislik - (uzunluk - 1) * aralik) / uzunluk));
-        const minBoyut = 26; // asla çok küçük olmasın (aşırı uzun kelimede)
+        const satirGenislik = 520;
+        const aralik = 6;
+        const kutuBoyutu = Math.min(40, Math.floor((satirGenislik - (harfler.length - 1) * aralik) / Math.max(1, harfler.length)));
+        const minBoyut = 26;
 
-        for (let i = 0; i < cevap.length; i++) {
+        let hIdx = 0;
+        for (let i = 0; i < hedef.length; i++) {
+            if (hedef[i] === ' ') {
+                const sp = document.createElement('span');
+                sp.className = 'letter-slot space-slot';
+                sp.setAttribute('aria-hidden', 'true');
+                kutu.appendChild(sp);
+                continue;
+            }
             const h = document.createElement('span');
             h.className = 'letter-slot';
             h.textContent = '_';
-            h.dataset.indeks = i;
+            h.dataset.indeks = hIdx;   // harf indeksi (boşluksuz)
             h.style.width = Math.max(minBoyut, kutuBoyutu) + 'px';
             h.style.height = Math.max(minBoyut, kutuBoyutu) + 8 + 'px';
             h.style.fontSize = Math.max(12, kutuBoyutu - 8) + 'px';
             kutu.appendChild(h);
+            hIdx++;
         }
     },
 
