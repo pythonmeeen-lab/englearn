@@ -2913,13 +2913,15 @@ const PhrasalUygulamasi = {
         sonuc.forEach((k) => {
             const satir = document.createElement('div');
             satir.className = 'phrasal-satir';
-            const ek = k.w.split(' ').slice(1).join(' ');
+            const parcalar = k.w.split(' ');
+            const temel = parcalar[0];
+            const ek = parcalar.slice(1).join(' ');
             satir.innerHTML = `
                 <button class="sound-btn small" title="Dinle">🔊</button>
                 <div class="phrasal-govde">
                     <div class="phrasal-ust">
-                        <strong>${k.w}</strong>
-                        <span class="phrasal-ek">${ek}</span>
+                        <strong>${temel}</strong>
+                        ${ek ? `<span class="phrasal-ek">${ek}</span>` : ''}
                         <span class="sozluk-sonuc-lv">${k.lv}</span>
                     </div>
                     <div class="phrasal-anlam">${k.tr}</div>
