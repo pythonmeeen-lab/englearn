@@ -18,7 +18,7 @@ KELIMELER.push(
     { w: "sharpen", tr: "bilemek", lv: "B1", ct: "fiiller", pr: "/ˈʃɑː.pən/", ex: "Sharpen your pencil first.", exTr: "Önce kalemini bile." },
     { w: "shelter", tr: "barınak sağlamak", lv: "B2", ct: "fiiller", pr: "/ˈʃel.tər/", ex: "The cave sheltered the travelers.", exTr: "Mağara gezginlere barınak sağladı." },
     { w: "shine", tr: "parlamak", lv: "A2", ct: "fiiller", pr: "/ʃaɪn/", ex: "The sun shines brightly today.", exTr: "Güneş bugün parlak parlıyor." },
-    { w: "shrink", tr: "küçülmek / çekmek", lv: "B2", ct: "fiiller", pr: "/ʃrɪŋk/", ex: "The sweater shrank in the wash.", exTr: "Kazak yıkamada çekti." },
+    { w: "shrink", tr: "çekmek / küçülmek / daralmak", lv: "B2", ct: "fiiller", pr: "/ʃrɪŋk/", ex: "The sweater shrank in the wash.", exTr: "Kazak yıkamada çekti." },
     { w: "skip", tr: "atlamak", lv: "B1", ct: "fiiller", pr: "/skɪp/", ex: "Skip the first question.", exTr: "İlk soruyu atla." },
     { w: "slip", tr: "kaymak", lv: "B1", ct: "fiiller", pr: "/slɪp/", ex: "Watch out, the floor is slippery.", exTr: "Dikkat et, zemin kaygan." },
     { w: "stare", tr: "boş boş bakmak", lv: "B1", ct: "fiiller", pr: "/steər/", ex: "Don't stare at strangers.", exTr: "Yabancılara boş boş bakma." },

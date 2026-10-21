@@ -190,7 +190,7 @@ KELIMELER.push(
     { w: "captive", tr: "tutsak", lv: "B1", ct: "sıfatlar", pr: "/ˈkæptɪv/", ex: "Tom wanted to free the captive dogs.", exTr: "Tom tutsak köpekleri serbest bırakmak istedi." },
     { w: "fury", tr: "öfke", lv: "A2", ct: "genel", pr: "/ˈfjʊɹi/", ex: "The fury went out of her speeches.", exTr: "Konuşmalarından öfke çıktı." },
     { w: "crusher", tr: "kırıcı", lv: "C1", ct: "isimler", pr: "/ˈkɹəʃɝ/", ex: "Fyodor's dad is a fun crusher.", exTr: "Fyodor'un babası eğlenceli bir insandır." },
-    { w: "sleeper", tr: "uyuyan", lv: "B2", ct: "isimler", pr: "/ˈsɫipɝ/", ex: "Tom is a heavy sleeper, isn't he?", exTr: "Tom çok uyuyan biri, değil mi?" },
+    { w: "sleeper", tr: "uyuyan kimse / yataklı vagon", lv: "B2", ct: "isimler", pr: "/ˈsɫipɝ/", ex: "Tom is a heavy sleeper, isn't he?", exTr: "Tom çok uyuyan biri, değil mi?" },
     { w: "hua", tr: "ha", lv: "B1", ct: "genel", pr: "/ˈhuə/, /ˈhwɑ/", ex: "Hua Luogeng is a mathematician.", exTr: "Hua Luogeng bir matematikçidir." },
     { w: "confess", tr: "itiraf etmek", lv: "B2", ct: "fiiller", pr: "/kənˈfɛsɪŋ/", ex: "The greatest joy after loving is confessing one's love.", exTr: "Sevmekten sonra en büyük mutluluk, aşkını itiraf etmektir." },
     { w: "radiant", tr: "radyant", lv: "B2", ct: "sıfatlar", pr: "/ˈɹeɪˌdiənt/, /ˈɹeɪdjənt/", ex: "Dorottya's radiant personality shines through, making her even more captivating.", exTr: "Dorottya'nın ışıltılı kişiliği ön plana çıkıyor ve onu daha da büyüleyici kılıyor." },

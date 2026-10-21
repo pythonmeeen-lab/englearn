@@ -246,7 +246,7 @@ KELIMELER.push(
     { w: "relieve", tr: "rahatlatmak", lv: "B2", ct: "fiiller", pr: "/rɪˈliːv/", ex: "Cold water relieved the pain.", exTr: "Soğuk su ağrıyı hafifletti." },
     { w: "relocate", tr: "yer değiştirmek", lv: "B2", ct: "fiiller", pr: "/ˌriː.ləʊˈkeɪt/", ex: "The firm relocated to Ankara.", exTr: "Firma Ankara'ya taşındı." },
     { w: "rely", tr: "güvenmek (dayanmak)", lv: "B2", ct: "fiiller", pr: "/rɪˈlaɪ/", ex: "We rely on renewable energy.", exTr: "Yenilenebilir enerjiye güveniyoruz." },
-    { w: "render", tr: "sunmak / hale getirmek", lv: "B2", ct: "fiiller", pr: "/ˈren.dər/", ex: "The news rendered us speechless.", exTr: "Haber bizi şaşkına çevirdi." },
+    { w: "render", tr: "sunmak / kılmak / oluşturmak", lv: "B2", ct: "fiiller", pr: "/ˈren.dər/", ex: "The news rendered us speechless.", exTr: "Haber bizi şaşkına çevirdi." },
     { w: "renew", tr: "yenilemek", lv: "B2", ct: "fiiller", pr: "/rɪˈnjuː/", ex: "Renew your pass each year.", exTr: "Kartını her yıl yenile." },
     { w: "repel", tr: "uzaklaştırmak (itmek)", lv: "B2", ct: "fiiller", pr: "/rɪˈpel/", ex: "The spray repels mosquitoes.", exTr: "Spray sivrisinekleri uzak tutar." },
     { w: "replace", tr: "yerine koymak", lv: "B2", ct: "fiiller", pr: "/rɪˈpleɪs/", ex: "Replace the old battery.", exTr: "Eski pili değiştir." },

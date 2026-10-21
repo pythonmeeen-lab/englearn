@@ -22,7 +22,7 @@ KELIMELER.push(
     { w: "shatter", tr: "paramparça olmak", lv: "C1", ct: "fiiller", pr: "/ˈʃæt.ər/", ex: "The glass shattered on impact.", exTr: "Cam çarpınca paramparça oldu." },
     { w: "shepherd", tr: "yönlendirmek / rehberlik etmek", lv: "C1", ct: "fiiller", pr: "/ˈʃep.əd/", ex: "Guides shepherd visitors to the site.", exTr: "Rehberler ziyaretçilere alanı rehberlik ediyor." },
     { w: "shiver", tr: "titremek", lv: "B2", ct: "fiiller", pr: "/ˈʃɪv.ər/", ex: "We shivered in the cold wind.", exTr: "Soğuk rüzgarda titredik." },
-    { w: "shrink", tr: "çekmek / küçülmek", lv: "C1", ct: "fiiller", pr: "/ʃrɪŋk/", ex: "The fabric shrinks when washed.", exTr: "Kumaş yıkanınca çeker." },
+    { w: "shrink", tr: "çekmek / küçülmek / daralmak", lv: "C1", ct: "fiiller", pr: "/ʃrɪŋk/", ex: "The fabric shrinks when washed.", exTr: "Kumaş yıkanınca çeker." },
     { w: "sizzle", tr: "cızırdamak", lv: "C1", ct: "fiiller", pr: "/ˈsɪz.əl/", ex: "The meat sizzled on the grill.", exTr: "Et ızgarada cızırdadı." },
     { w: "sketch", tr: "taslak çizmek", lv: "B2", ct: "fiiller", pr: "/sketʃ/", ex: "The artist sketched the view.", exTr: "Sanatçı manzarayı çizdi." },
     { w: "smother", tr: "boğmak / örtmek", lv: "C1", ct: "fiiller", pr: "/ˈsmʌð.ər/", ex: "Clouds smothered the summit.", exTr: "Bulutlar zirveyi kapladı." },

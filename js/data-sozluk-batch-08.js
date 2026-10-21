@@ -177,7 +177,7 @@ KELIMELER.push(
     { w: "compel", tr: "mecbur", lv: "B1", ct: "fiiller", pr: "/kəmˈpɛɫd/", ex: "He was compelled to sign the contract.", exTr: "Sözleşmeyi imzalamak zorunda kaldı." },
     { w: "cinnamon", tr: "tarçın", lv: "B1", ct: "genel", pr: "/ˈsɪnəmən/", ex: "Tom often puts cinnamon in his coffee.", exTr: "Tom sık sık kahvesine tarçın koyar." },
     { w: "awaken", tr: "uyanmak", lv: "B1", ct: "genel", pr: "/əˈweɪkən/", ex: "Wake up early to awaken your fortune.", exTr: "Şansınızı uyandırmak için erken kalkın." },
-    { w: "soggy", tr: "ıslak", lv: "C1", ct: "genel", pr: "/ˈsɑɡi/", ex: "The lonely girl eats a soggy sandwich.", exTr: "Yalnız kız ıslak bir sandviç yiyor." },
+    { w: "soggy", tr: "vıcık vıcık / ıslanmış", lv: "C1", ct: "genel", pr: "/ˈsɑɡi/", ex: "The lonely girl eats a soggy sandwich.", exTr: "Yalnız kız ıslak bir sandviç yiyor." },
     { w: "clubhouse", tr: "kulüp binası", lv: "C1", ct: "genel", pr: "/ˈkɫəbˌhaʊs/", ex: "Tuesday we will go to the clubhouse.", exTr: "Salı günü kulüp binasına gideceğiz." },
     { w: "strolling", tr: "gezinme", lv: "C1", ct: "isimler", pr: "/ˈstɹoʊɫɪŋ/", ex: "In Istanbul, crowds of tourists can be seen strolling the streets.", exTr: "İstanbul'da turist kalabalığının sokaklarda gezindiği görülüyor." },
     { w: "bitterness", tr: "acılık", lv: "B2", ct: "isimler", pr: "/ˈbɪtɝnəs/", ex: "A little softness can clear the bitterness.", exTr: "Biraz yumuşaklık acıyı giderebilir." },

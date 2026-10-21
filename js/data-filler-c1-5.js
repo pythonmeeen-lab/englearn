@@ -24,7 +24,7 @@ KELIMELER.push(
     { w: "reinforce", tr: "güçlendirmek", lv: "C1", ct: "fiiller", pr: "/ˌriː.ɪnˈfɔːs/", ex: "The walls reinforce the structure.", exTr: "Duvarlar yapıyı güçlendirir." },
     { w: "reject", tr: "reddetmek", lv: "C1", ct: "fiiller", pr: "/rɪˈdʒekt/", ex: "They rejected the proposal.", exTr: "Öneriyi reddettiler." },
     { w: "relieve", tr: "rahatlatmak / hafifletmek", lv: "C1", ct: "fiiller", pr: "/rɪˈliːv/", ex: "The news relieved her worries.", exTr: "Haber endişelerini hafifletti." },
-    { w: "render", tr: "hale getirmek / sunmak", lv: "C1", ct: "fiiller", pr: "/ˈren.dər/", ex: "The storm rendered the road unusable.", exTr: "Fırtına yolu kullanılamaz hale getirdi." },
+    { w: "render", tr: "sunmak / kılmak / oluşturmak", lv: "C1", ct: "fiiller", pr: "/ˈren.dər/", ex: "The storm rendered the road unusable.", exTr: "Fırtına yolu kullanılamaz hale getirdi." },
     { w: "resemble", tr: "benzemek", lv: "C1", ct: "fiiller", pr: "/rɪˈzem.bəl/", ex: "She resembles her mother.", exTr: "Annesine benziyor." },
     { w: "restore", tr: "onarmak / geri getirmek", lv: "C1", ct: "fiiller", pr: "/rɪˈstɔːr/", ex: "They restored the ancient temple.", exTr: "Antik tapınağı onardılar." }
 );

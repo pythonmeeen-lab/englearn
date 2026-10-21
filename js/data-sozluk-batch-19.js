@@ -85,7 +85,7 @@ KELIMELER.push(
     { w: "meatloaf", tr: "köfte", lv: "C1", ct: "genel", pr: "/ˈmitɫoʊf/", ex: "Tom and I ate meatloaf for dinner.", exTr: "Tom ve ben akşam yemeğinde köfte yedik." },
     { w: "wipe", tr: "silmek / temizlemek", lv: "B1", ct: "fiiller", pr: "/ˈwaɪpɪŋ/", ex: "You're wiping your hands with a towel.", exTr: "Ellerinizi havluyla siliyorsunuz." },
     { w: "analyze", tr: "analiz edildi", lv: "B2", ct: "fiiller", pr: "/ˈænəˌɫaɪzd/", ex: "The expert analyzed the statistics in detail.", exTr: "Uzman istatistikleri detaylı bir şekilde analiz etti." },
-    { w: "populate", tr: "nüfuslu", lv: "C1", ct: "fiiller", pr: "/ˈpɑpjəˌɫeɪtɪd/", ex: "Which continent is the most populated one?", exTr: "En kalabalık kıta hangi kıtadır?" },
+    { w: "populate", tr: "nüfuslandırmak / doldurmak", lv: "C1", ct: "fiiller", pr: "/ˈpɑpjəˌɫeɪtɪd/", ex: "Which continent is the most populated one?", exTr: "En kalabalık kıta hangi kıtadır?" },
     { w: "gall", tr: "safra", lv: "B2", ct: "genel", pr: "/ˈɡɔɫ/", ex: "Even a nightingale isn't without its gall.", exTr: "Bir bülbül bile safrasından yoksun değildir." },
     { w: "chaser", tr: "kovalayan", lv: "C1", ct: "isimler", pr: "/ˈtʃeɪsɝ/", ex: "That lawyer has the reputation of being an ambulance chaser.", exTr: "Bu avukatın ambulans kovalayıcısı olma ünü var." },
     { w: "stairway", tr: "merdiven", lv: "C1", ct: "genel", pr: "/ˈstɛɹˌweɪ/", ex: "In case of a fire, use this emergency stairway.", exTr: "Yangın durumunda bu acil durum merdivenini kullanın." },

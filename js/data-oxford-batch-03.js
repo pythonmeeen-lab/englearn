@@ -76,7 +76,7 @@ KELIMELER.push(
     { w: "recommendation", tr: "tavsiye", lv: "B1", ct: "isimler", pr: "/ˌrɛkʌmʌˈndeɪʃʌn/", ex: "Tom wrote Mary a glowing recommendation.", exTr: "Tom Mary'ye parlak bir tavsiye yazdı." },
     { w: "quotes", tr: "tırnak", lv: "B1", ct: "genel", pr: "/ˈkwoʊts/", ex: "Tatoeba: Where quotes go to die.", exTr: "Tatoeba: Alıntıların öleceği yer." },
     { w: "response", tr: "cevap", lv: "A2", ct: "isimler", pr: "/rɪˈspɑns/", ex: "Our proposals met with little response.", exTr: "Önerilerimiz çok az tepkiyle karşılandı." },
-    { w: "shrink", tr: "çekmek", lv: "C1", ct: "fiiller", pr: "/ˈʃrɪŋk/", ex: "They shrink every day.", exTr: "Her geçen gün küçülüyorlar." },
+    { w: "shrink", tr: "çekmek / küçülmek / daralmak", lv: "C1", ct: "fiiller", pr: "/ˈʃrɪŋk/", ex: "They shrink every day.", exTr: "Her geçen gün küçülüyorlar." },
     { w: "widen", tr: "genişletmek", lv: "C1", ct: "fiiller", pr: "/ˈwaɪdʌn/", ex: "They widen every day.", exTr: "Her geçen gün genişliyorlar." },
     { w: "americans", tr: "Amerikalılar", lv: "B1", ct: "genel", pr: "/ʌˈmɛrʌkʌnz/", ex: "Americans is very important.", exTr: "Amerikalılar çok önemli." },
     { w: "obsession", tr: "takıntı", lv: "C1", ct: "isimler", pr: "/ʌˈbsɛʃʌn/", ex: "Lucy's innocent crush turned into an obsession.", exTr: "Lucy'nin masum aşkı bir takıntıya dönüştü." },

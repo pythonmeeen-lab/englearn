@@ -4,14 +4,14 @@
 KELIMELER.push(
     { w: "rad", tr: "harika", lv: "B2", ct: "genel", pr: "/ˈɹæd/", ex: "That was totally rad.", exTr: "Bu tamamen harika bir şeydi." },
     { w: "sushi", tr: "suşi", lv: "A2", ct: "genel", pr: "/ˈsuʃi/", ex: "The sushi at this shop tastes good.", exTr: "Bu dükkandaki suşinin tadı güzel." },
-    { w: "garde", tr: "gardiyan", lv: "C1", ct: "genel", pr: "/ˈɡɑɹd/", ex: "Can this artist be considered avant-garde?", exTr: "Bu sanatçı avangard sayılabilir mi?" },
+
     { w: "graves", tr: "Mezarlar", lv: "A2", ct: "genel", pr: "/ˈɡɹeɪvz/", ex: "Your crimes have desecrated your ancestors' graves.", exTr: "Suçlarınız atalarınızın mezarlarına saygısızlık etti." },
     { w: "newbie", tr: "acemi", lv: "C1", ct: "genel", pr: "/ˈnuˌbi/", ex: "Oh my god, a newbie owned me!", exTr: "Aman Tanrım, bir acemi bana sahip oldu!" },
     { w: "relive", tr: "yeniden yaşamak", lv: "B2", ct: "sıfatlar", pr: "/ɹiˈɫɪv/", ex: "I prefer not to relive the past.", exTr: "Geçmişi yeniden yaşamamayı tercih ederim." },
     { w: "sexier", tr: "daha seksi", lv: "C1", ct: "isimler", pr: "/ˈsɛksiɝ/", ex: "Get fuller, sexier, more malignant lips today!", exTr: "Bugün daha dolgun, daha seksi, daha habis dudaklara sahip olun!" },
     { w: "mainframe", tr: "ana bilgisayar", lv: "B2", ct: "genel", pr: "/ˈmeɪnˌfɹeɪm/", ex: "The scientists used an IBM mainframe computer to make their calculations.", exTr: "Bilim insanları hesaplamalarını yapmak için IBM ana bilgisayarını kullandılar." },
     { w: "middleman", tr: "aracı", lv: "C1", ct: "genel", pr: "/ˈmɪdəɫˌmæn/", ex: "Sami stole cars and sold them through a middleman.", exTr: "Sami arabaları çaldı ve aracı aracılığıyla sattı." },
-    { w: "pollute", tr: "kirli", lv: "C1", ct: "fiiller", pr: "/pəˈɫutɪd/", ex: "This river is polluted with factory waste.", exTr: "Bu nehir fabrika atıklarıyla kirlenmiş." },
+    { w: "pollute", tr: "kirletmek", lv: "C1", ct: "fiiller", pr: "/pəˈɫutɪd/", ex: "This river is polluted with factory waste.", exTr: "Bu nehir fabrika atıklarıyla kirlenmiş." },
     { w: "mantis", tr: "peygamber devesi", lv: "C1", ct: "genel", pr: "/ˈmæntɪs/", ex: "There's a praying mantis in the garden.", exTr: "Bahçede bir peygamber devesi var." },
     { w: "cannibal", tr: "yamyam", lv: "C1", ct: "sıfatlar", pr: "/ˈkænəbəɫ/", ex: "Sami was known as the Cannibal Teacher.", exTr: "Sami, Yamyam Öğretmeni olarak biliniyordu." },
     { w: "carmine", tr: "kırmızı", lv: "B2", ct: "genel", pr: "/ˈkɑɹmən/", ex: "Carmine is a deep red food coloring obtained from an insect called the cochineal.", exTr: "Karmin, koşineal adı verilen bir böcekten elde edilen koyu kırmızı bir gıda boyasıdır." },

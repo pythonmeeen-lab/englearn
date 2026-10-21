@@ -15,7 +15,7 @@ KELIMELER.push(
     { w: "reforge", tr: "yeniden kurmak", lv: "C1", ct: "fiiller", pr: "/ˌriːˈfɔːdʒ/", ex: "They reforged their partnership.", exTr: "Ortaklıklarını yeniden kurdular." },
     { w: "reign", tr: "hüküm sürmek", lv: "C1", ct: "fiiller", pr: "/reɪn/", ex: "The queen reigned for decades.", exTr: "Kraliçe onlarca yıl hüküm sürdü." },
     { w: "relent", tr: "yumuşamak / pes etmek", lv: "C1", ct: "fiiller", pr: "/rɪˈlent/", ex: "The rain finally relented.", exTr: "Yağmur nihayet dindi." },
-    { w: "render", tr: "hale getirmek", lv: "C1", ct: "fiiller", pr: "/ˈren.dər/", ex: "Heat rendered the paint sticky.", exTr: "Isı boyayı yapışkan hale getirdi." },
+    { w: "render", tr: "sunmak / kılmak / oluşturmak", lv: "C1", ct: "fiiller", pr: "/ˈren.dər/", ex: "Heat rendered the paint sticky.", exTr: "Isı boyayı yapışkan hale getirdi." },
     { w: "renew", tr: "yenilemek", lv: "C1", ct: "fiiller", pr: "/rɪˈnjuː/", ex: "We renewed our library card.", exTr: "Kütüphane kartımızı yeniledik." },
     { w: "repel", tr: "uzaklaştırmak", lv: "C1", ct: "fiiller", pr: "/rɪˈpel/", ex: "The spray repels insects.", exTr: "Spray böcekleri uzaklaştırıyor." },
     { w: "rescue", tr: "kurtarmak", lv: "B1", ct: "fiiller", pr: "/ˈres.kjuː/", ex: "Firefighters rescued the family.", exTr: "İtfaiyeciler aileyi kurtardı." },

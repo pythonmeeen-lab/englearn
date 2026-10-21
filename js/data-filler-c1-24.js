@@ -18,7 +18,7 @@ KELIMELER.push(
     { w: "overflow", tr: "taşmak", lv: "C1", ct: "fiiller", pr: "/ˌəʊ.vəˈfləʊ/", ex: "The river overflowed its banks.", exTr: "Nehir kıyılarından taştı." },
     { w: "overlook", tr: "tepeden bakmak", lv: "C1", ct: "fiiller", pr: "/ˌəʊ.vəˈlʊk/", ex: "The hotel overlooks the bay.", exTr: "Otel koyun üzerinden görünüyor." },
     { w: "ponder", tr: "derinden düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈpɒn.dər/", ex: "She pondered his question.", exTr: "Sorusu üzerinde derin düşündü." },
-    { w: "populate", tr: "nüfuslandırmak / yaşamak", lv: "C1", ct: "fiiller", pr: "/ˈpɒp.jə.leɪt/", ex: "Many birds populate this island.", exTr: "Bu adada birçok kuş yaşıyor." },
+    { w: "populate", tr: "nüfuslandırmak / doldurmak", lv: "C1", ct: "fiiller", pr: "/ˈpɒp.jə.leɪt/", ex: "Many birds populate this island.", exTr: "Bu adada birçok kuş yaşıyor." },
     { w: "pour", tr: "dökmek / yağmak", lv: "A2", ct: "fiiller", pr: "/pɔːr/", ex: "Rain poured all afternoon.", exTr: "Bütün öğleden sonra yağmur yağdı." },
     { w: "practise", tr: "çalışmak / alıştırma yapmak", lv: "A2", ct: "fiiller", pr: "/ˈpræk.tɪs/", ex: "Practise speaking every day.", exTr: "Her gün konuşma pratiği yap." },
     { w: "prick", tr: "batırmak", lv: "C1", ct: "fiiller", pr: "/prɪk/", ex: "The thorn pricked my finger.", exTr: "Diken parmağımı batırdı." },

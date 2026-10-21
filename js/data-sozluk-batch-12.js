@@ -94,7 +94,7 @@ KELIMELER.push(
     { w: "stung", tr: "sokulmuş", lv: "B2", ct: "genel", pr: "/ˈstəŋ/", ex: "Ouch! I was stung by a bee.", exTr: "Ah! Bir arı tarafından sokuldum." },
     { w: "rampage", tr: "öfke", lv: "C1", ct: "genel", pr: "/ˈɹæmˌpeɪdʒ/", ex: "Once again, the dog has gone on a rampage.", exTr: "Köpek bir kez daha öfkeye kapıldı." },
     { w: "weakest", tr: "en zayıf", lv: "B2", ct: "genel", pr: "/ˈwikəst/", ex: "A chain fails at its weakest link.", exTr: "Bir zincir en zayıf halkasından başarısız olur." },
-    { w: "stafford", tr: "Personel kordonu", lv: "C1", ct: "genel", pr: "/ˈstæfɝd/", ex: "'Well, I've had mine'—Stafford made a slight grimace—'and there's plenty left for you, if you don't mind eating after me.'", exTr: "'Eh, ben de benimkini yedim' -Stafford hafifçe yüzünü buruşturdu- 've eğer benden sonra yemek istersen sana da çok şey kaldı.'" },
+
     { w: "toad", tr: "kurbağa", lv: "B1", ct: "genel", pr: "/ˈtoʊd/", ex: "The firefly was eaten by a toad.", exTr: "Ateş böceği bir kurbağa tarafından yenildi." },
     { w: "beetles", tr: "böcekler", lv: "C1", ct: "genel", pr: "/ˈbitəɫz/", ex: "June beetles are very common in Algiers.", exTr: "Haziran böcekleri Cezayir'de çok yaygındır." },
     { w: "hangman", tr: "cellat", lv: "C1", ct: "genel", pr: "/ˈhæŋmən/", ex: "I'd rather be hanged than a hangman.", exTr: "Cellat olmaktansa asılmayı tercih ederim." },

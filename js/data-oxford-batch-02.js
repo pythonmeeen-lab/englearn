@@ -174,7 +174,7 @@ KELIMELER.push(
     { w: "conservative", tr: "tutucu", lv: "B2", ct: "sıfatlar", pr: "/kʌˈnsɚvʌtɪv/", ex: "Englishmen are, on the whole, conservative.", exTr: "İngilizler genel olarak muhafazakardır." },
     { w: "scripts", tr: "senaryolar", lv: "B2", ct: "genel", pr: "/ˈskrɪpts/", ex: "He writes scripts for TV shows.", exTr: "Televizyon programları için senaryolar yazıyor." },
     { w: "regard", tr: "saygınlık", lv: "B2", ct: "isimler", pr: "/rɪˈɡɑrd/", ex: "We regard the situation as serious.", exTr: "Durumu ciddi olarak değerlendiriyoruz." },
-    { w: "more", tr: "Daha", lv: "A2", ct: "fiiller", pr: "/ˈmɔr/", ex: "They more every day.", exTr: "Her geçen gün daha da çoğalıyorlar." },
+    { w: "more", tr: "daha", lv: "A2", ct: "fiiller", pr: "/ˈmɔr/", ex: "They more every day.", exTr: "Her geçen gün daha da çoğalıyorlar." },
     { w: "suppose", tr: "sanmak", lv: "A2", ct: "fiiller", pr: "/sʌˈpoʊz/", ex: "They suppose every day.", exTr: "Her gün sanıyorlar." },
     { w: "conviction", tr: "mahkumiyet", lv: "C1", ct: "isimler", pr: "/kʌˈnvɪkʃʌn/", ex: "Tom appealed his conviction and won.", exTr: "Tom mahkumiyetine itiraz etti ve kazandı." },
     { w: "contacts", tr: "kişiler", lv: "B1", ct: "genel", pr: "/ˈkɑˌntækts/", ex: "I can't get my contacts out.", exTr: "Kişilerimi dışarı çıkaramıyorum." },

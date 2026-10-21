@@ -9,7 +9,7 @@ KELIMELER.push(
     { w: "blackie", tr: "zenci", lv: "B2", ct: "genel", pr: "/ˈbɫæki/", ex: "The dog answers to the name of Blackie.", exTr: "Köpek Blackie ismine cevap veriyor." },
     { w: "hast", tr: "acele", lv: "B2", ct: "genel", pr: "/ˈhæst/", ex: "Hamlet, thou hast thy father much offended.", exTr: "Hamlet, babanı çok gücendirdin." },
     { w: "swung", tr: "sallandı", lv: "B2", ct: "genel", pr: "/ˈswəŋ/", ex: "I swung my leg over the fence.", exTr: "Bacağımı çitin üzerinden salladım." },
-    { w: "smuggle", tr: "kaçak", lv: "B1", ct: "fiiller", pr: "/ˈsməɡəɫd/", ex: "Tom smuggled something into Australia for Mary.", exTr: "Tom Mary için Avustralya'ya bir şey kaçırdı." },
+    { w: "smuggle", tr: "kaçakçılık yapmak / gizlice sokmak", lv: "B1", ct: "fiiller", pr: "/ˈsməɡəɫd/", ex: "Tom smuggled something into Australia for Mary.", exTr: "Tom Mary için Avustralya'ya bir şey kaçırdı." },
     { w: "sorcerer", tr: "büyücü", lv: "B2", ct: "isimler", pr: "/ˈsɔɹsɝɝ/", ex: "Donald saved Jessica from an evil sorcerer.", exTr: "Donald, Jessica'yı kötü bir büyücüden kurtardı." },
     { w: "poke", tr: "dürtmek", lv: "B1", ct: "fiiller", pr: "/ˈpoʊkɪŋ/", ex: "What are you poking around for there?", exTr: "Orada ne arıyorsun?" },
     { w: "underage", tr: "reşit olmayan", lv: "B2", ct: "genel", pr: "/ˈəndɝɪdʒ/", ex: "Sami was having sex with underage girls.", exTr: "Sami reşit olmayan kızlarla seks yapıyordu." },

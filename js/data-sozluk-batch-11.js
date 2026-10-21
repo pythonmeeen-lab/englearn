@@ -140,7 +140,7 @@ KELIMELER.push(
     { w: "tolerate", tr: "hoşgörmek / tahammül etmek", lv: "B2", ct: "fiiller", pr: "/ˈtɑɫɝˌeɪtɪd/", ex: "For a while, Layla tolerated Sami's infidelities.", exTr: "Leyla bir süreliğine Sami'nin sadakatsizliklerine tahammül etti." },
     { w: "skates", tr: "paten", lv: "B2", ct: "genel", pr: "/ˈskeɪts/", ex: "Tom rented a pair of ice skates.", exTr: "Tom bir çift buz pateni kiraladı." },
     { w: "lash", tr: "kirpik", lv: "B2", ct: "genel", pr: "/ˈɫæʃ/", ex: "The sea waves lash incessantly against the cliffs.", exTr: "Deniz dalgaları durmadan kayalıklara çarpıyor." },
-    { w: "orchestral", tr: "orkestra", lv: "B2", ct: "sıfatlar", pr: "/ɔɹˈkɛstɹəɫ/", ex: "The singing and the orchestral accompaniment are gradually becoming louder.", exTr: "Şarkı söyleme ve orkestra eşliği giderek artıyor." },
+    { w: "orchestral", tr: "orkestral", lv: "B2", ct: "sıfatlar", pr: "/ɔɹˈkɛstɹəɫ/", ex: "The singing and the orchestral accompaniment are gradually becoming louder.", exTr: "Şarkı söyleme ve orkestra eşliği giderek artıyor." },
     { w: "muscles", tr: "kaslar", lv: "A2", ct: "genel", pr: "/ˈməsəɫz/", ex: "My muscles ached from playing tennis too much.", exTr: "Çok fazla tenis oynamaktan kaslarım ağrıyordu." },
     { w: "holdup", tr: "gecikmek", lv: "C1", ct: "genel", pr: "/ˈhoʊɫˌdəp/", ex: "Tom was unlucky to be in the bank when the holdup took place.", exTr: "Soygun gerçekleştiğinde Tom bankada olduğu için şanssızdı." },
     { w: "vortex", tr: "girdap", lv: "B2", ct: "genel", pr: "/ˈvɔɹtɛks/", ex: "The domineering man pulls everyone into his vortex.", exTr: "Otoriter adam herkesi kendi girdabına çeker." },

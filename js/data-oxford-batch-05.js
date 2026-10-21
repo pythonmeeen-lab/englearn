@@ -196,7 +196,7 @@ KELIMELER.push(
     { w: "execution", tr: "uygulamak", lv: "C1", ct: "isimler", pr: "/ˌɛksʌˈkjuʃʌn/", ex: "Sami's death seemed like an execution.", exTr: "Sami'nin ölümü bir idam gibi görünüyordu." },
     { w: "where", tr: "Neresi", lv: "A2", ct: "fiiller", pr: "/ˈwɛr/", ex: "They where every day.", exTr: "Her gün oradalar." },
     { w: "plunge", tr: "dalma", lv: "C1", ct: "fiiller", pr: "/ˈplʌndʒ/", ex: "They plunge every day.", exTr: "Her gün dalıyorlar." },
-    { w: "render", tr: "oluşturmak", lv: "C1", ct: "fiiller", pr: "/ˈrɛndɚ/", ex: "They render every day.", exTr: "Her gün render alıyorlar." },
+    { w: "render", tr: "sunmak / kılmak / oluşturmak", lv: "C1", ct: "fiiller", pr: "/ˈrɛndɚ/", ex: "They render every day.", exTr: "Her gün render alıyorlar." },
     { w: "afterwards", tr: "daha sonrasında", lv: "B2", ct: "fiiller", pr: "/ˈæftɚwɚdz/", ex: "They afterwards every day.", exTr: "Daha sonra her gün." },
     { w: "wedding", tr: "düğün", lv: "A2", ct: "isimler", pr: "/ˈwɛdɪŋ/", ex: "The wedding was held last week.", exTr: "Düğün geçen hafta yapıldı." },
     { w: "grandparent", tr: "büyükanne ve büyükbaba", lv: "A2", ct: "isimler", pr: "/ˈɡræˌndpɛrʌnt/", ex: "The grandparent of Ali is from sephardic", exTr: "Ali'nin dedesi Sefarad'dandır" },

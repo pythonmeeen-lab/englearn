@@ -190,7 +190,7 @@ KELIMELER.push(
     { w: "shovel", tr: "kürek", lv: "A2", ct: "genel", pr: "/ˈʃəvəɫ/", ex: "He dug a hole using a shovel.", exTr: "Kürekle bir çukur kazdı." },
     { w: "substances", tr: "maddeler", lv: "B2", ct: "genel", pr: "/ˈsəbstənsəz/, /ˈsəbstənsɪz/", ex: "These substances are not poisonous in themselves.", exTr: "Bu maddeler kendi başlarına zehirli değildir." },
     { w: "darn", tr: "kahretsin", lv: "A2", ct: "genel", pr: "/ˈdɑɹn/", ex: "Darn it! That is unbearable, it itches everywhere.", exTr: "Lanet olsun! Bu dayanılmaz, her yer kaşınıyor." },
-    { w: "gag", tr: "şaka", lv: "B1", ct: "genel", pr: "/ˈɡæɡ/", ex: "In the end, everything is a gag.", exTr: "Sonuçta her şey bir şaka." },
+    { w: "gag", tr: "şaka / tıkaç", lv: "B1", ct: "genel", pr: "/ˈɡæɡ/", ex: "In the end, everything is a gag.", exTr: "Sonuçta her şey bir şaka." },
     { w: "bruise", tr: "morarma", lv: "B1", ct: "fiiller", pr: "/ˈbɹuzɪŋ/", ex: "Yanni had bruising and marks on his body.", exTr: "Yanni'nin vücudunda morluklar ve izler vardı." },
     { w: "lance", tr: "mızrak", lv: "A2", ct: "isimler", pr: "/ˈɫæns/", ex: "The tongue wounds more than a lance.", exTr: "Dil bir mızraktan daha fazla yaralar." },
     { w: "monarch", tr: "hükümdar", lv: "B2", ct: "genel", pr: "/ˈmɑˌnɑɹk/", ex: "The band played for the visiting monarch.", exTr: "Grup, ziyaret eden hükümdar için çaldı." },

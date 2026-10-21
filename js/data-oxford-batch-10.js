@@ -125,7 +125,7 @@ KELIMELER.push(
     { w: "failure", tr: "arıza", lv: "B2", ct: "isimler", pr: "/ˈfeɪljɚ/", ex: "A power failure hit the whole city.", exTr: "Tüm şehirde bir elektrik arızası yaşandı." },
     { w: "loved", tr: "sevilen", lv: "B2", ct: "genel", pr: "/ˈlʌvd/", ex: "The old actor is much loved here.", exTr: "Yaşlı oyuncu burada çok sevilen biridir." },
     { w: "reports", tr: "raporlar", lv: "A2", ct: "genel", pr: "/rɪˈpɔrts/", ex: "The reports show a steady rise in sales.", exTr: "Raporlar satışlarda istikrarlı bir artış gösteriyor." },
-    { w: "meets", tr: "buluşuyor", lv: "B2", ct: "genel", pr: "/ˈmits/", ex: "The committee meets every Monday.", exTr: "Komite her pazartesi buluşuyor." },
+    { w: "meets", tr: "karşılar / buluşur", lv: "B2", ct: "genel", pr: "/ˈmits/", ex: "The committee meets every Monday.", exTr: "Komite her pazartesi buluşuyor." },
     { w: "confine", tr: "sınırlamak", lv: "C1", ct: "fiiller", pr: "/kʌˈnfaɪn/", ex: "Please confine your remarks to five minutes.", exTr: "Konuşmanızı beş dakikayla sınırlayın." },
     { w: "elementary", tr: "temel", lv: "B2", ct: "sıfatlar", pr: "/ˌɛlʌˈmɛntri/", ex: "She teaches elementary mathematics.", exTr: "Temel matematik öğretiyor." },
     { w: "crown", tr: "taç", lv: "C1", ct: "isimler", pr: "/ˈkraʊn/", ex: "The queen wore a golden crown.", exTr: "Kraliçe altın bir taç taktı." },

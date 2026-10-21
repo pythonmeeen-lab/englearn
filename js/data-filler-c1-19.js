@@ -12,7 +12,7 @@ KELIMELER.push(
     { w: "segregate", tr: "ayırmak", lv: "C1", ct: "fiiller", pr: "/ˈseɡ.rɪ.ɡeɪt/", ex: "The system segregated the waste.", exTr: "Sistem atığı ayırıyor." },
     { w: "seize", tr: "ele geçirmek", lv: "B2", ct: "fiiller", pr: "/siːz/", ex: "Seize this opportunity now.", exTr: "Bu fırsatı şimdi ele geçir." },
     { w: "simplify", tr: "basitleştirmek", lv: "B2", ct: "fiiller", pr: "/ˈsɪm.plɪ.faɪ/", ex: "The update simplifies the app.", exTr: "Güncelleme uygulamayı basitleştiriyor." },
-    { w: "smuggle", tr: "kaçakçılık yapmak", lv: "C1", ct: "fiiller", pr: "/ˈsmʌɡ.əl/", ex: "They smuggled goods across the border.", exTr: "Sınırın ötesine eşya kaçırdılar." },
+    { w: "smuggle", tr: "kaçakçılık yapmak / gizlice sokmak", lv: "C1", ct: "fiiller", pr: "/ˈsmʌɡ.əl/", ex: "They smuggled goods across the border.", exTr: "Sınırın ötesine eşya kaçırdılar." },
     { w: "soar", tr: "yükselmek / süzülmek", lv: "B2", ct: "fiiller", pr: "/sɔːr/", ex: "Eagles soar high above the peaks.", exTr: "Kartallar zirvelerin üstünde süzülür." },
     { w: "specify", tr: "belirtmek", lv: "B2", ct: "fiiller", pr: "/ˈspes.ɪ.faɪ/", ex: "Specify your requirements clearly.", exTr: "Gereksinimlerini açıkça belirt." },
     { w: "spill", tr: "dökmek / dökülmek", lv: "B1", ct: "fiiller", pr: "/spɪl/", ex: "Careful not to spill the milk.", exTr: "Sütü dökmemeye dikkat et." },

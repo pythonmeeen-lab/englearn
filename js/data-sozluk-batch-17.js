@@ -269,7 +269,7 @@ KELIMELER.push(
     { w: "constellation", tr: "takımyıldızı", lv: "C1", ct: "isimler", pr: "/ˌkɑnstəˈɫeɪʃən/", ex: "A constellation is a group of stars.", exTr: "Takımyıldızı bir yıldız grubudur." },
     { w: "praise", tr: "övme", lv: "C1", ct: "fiiller", pr: "/ˈpɹeɪzɪŋ/", ex: "Everyone is praising the vase you painted.", exTr: "Herkes boyadığın vazoyu övüyor." },
     { w: "locally", tr: "yerel olarak", lv: "C1", ct: "zarflar", pr: "/ˈɫoʊkəɫi/", ex: "These goods may not be available locally.", exTr: "Bu ürünler yerel olarak mevcut olmayabilir." },
-    { w: "pilar", tr: "sütun", lv: "C1", ct: "genel", pr: "/ˈpaɪɫɝ/", ex: "Pilar grew up with a secular and antifascist education.", exTr: "Pilar laik ve antifaşist bir eğitimle büyüdü." },
+
     { w: "chemo", tr: "kemoterapi", lv: "B1", ct: "genel", pr: "/ˈkimoʊ/", ex: "That last round of chemo really sapped his energy.", exTr: "Kemoterapinin son turu gerçekten enerjisini tüketti." },
     { w: "gunman", tr: "silahlı adam", lv: "B2", ct: "genel", pr: "/ˈɡənmən/", ex: "The crazy gunman threatened to kill me.", exTr: "Çılgın silahlı adam beni öldürmekle tehdit etti." },
     { w: "congressman", tr: "kongre üyesi", lv: "A2", ct: "genel", pr: "/ˈkɑŋɡɹəsmən/", ex: "He had served as a congressman and senator.", exTr: "Kongre üyesi ve senatör olarak görev yapmıştı." },

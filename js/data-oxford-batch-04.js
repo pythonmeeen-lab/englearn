@@ -183,7 +183,7 @@ KELIMELER.push(
     { w: "hello", tr: "Merhaba", lv: "A2", ct: "genel", pr: "/hʌˈloʊ/", ex: "Hello is very important.", exTr: "Merhaba çok önemli." },
     { w: "sort", tr: "düzenlemek", lv: "A2", ct: "isimler", pr: "/ˈsɔrt/", ex: "What sort of flower do you like?", exTr: "Ne tür çiçek seversin?" },
     { w: "israel", tr: "İsrail", lv: "B1", ct: "genel", pr: "/ˈɪzriʌl/", ex: "Israel is very important.", exTr: "İsrail çok önemli." },
-    { w: "philippines", tr: "Filipinler", lv: "B2", ct: "genel", pr: "/ˈfɪlʌˌpinz/", ex: "Philippines is very important.", exTr: "Filipinler çok önemli." },
+
     { w: "indian", tr: "Hint", lv: "B1", ct: "genel", pr: "/ˈɪndiʌn/", ex: "Indian is very important.", exTr: "Hint çok önemli." },
     { w: "terribly", tr: "korkunç derecede", lv: "B2", ct: "fiiller", pr: "/ˈtɛrʌbli/", ex: "They terribly every day.", exTr: "Her gün çok kötüler." },
     { w: "heavily", tr: "ağır bir şekilde", lv: "B1", ct: "fiiller", pr: "/ˈhɛvʌli/", ex: "They heavily every day.", exTr: "Her gün ağır bir şekilde." },
