@@ -261,7 +261,7 @@ KELIMELER.push(
     { w: "ooh", tr: "ah", lv: "A2", ct: "genel", pr: "/ˈu/", ex: "Ooh! It took a weight off my shoulders.", exTr: "Ah! Omuzlarımdan bir yük kalktı." },
     { w: "malpractice", tr: "yanlış uygulama", lv: "C1", ct: "genel", pr: "/mæɫˈpɹæktəs/, /mæɫˈpɹæktɪs/", ex: "The doctor who treated Tom should be sued for malpractice.", exTr: "Tom'u tedavi eden doktor yanlış tedavi nedeniyle dava açılmalı." },
     { w: "influences", tr: "etkiler", lv: "C1", ct: "genel", pr: "/ˈɪnˌfɫuənsɪz/", ex: "Parents have various influences on their children.", exTr: "Ebeveynlerin çocukları üzerinde çeşitli etkileri vardır." },
-    { w: "shalt", tr: "olacak", lv: "B1", ct: "genel", pr: "/ˈʃæɫt/", ex: "Thou shalt respect all weaknesses, and shalt constitute thyself the defender of them.", exTr: "Tüm zayıflıklara saygı duyacaksın ve onların savunucusu olacaksın." },
+
     { w: "stuffy", tr: "havasız", lv: "B2", ct: "genel", pr: "/ˈstəfi/", ex: "The air in this room's very stuffy.", exTr: "Bu odanın havası çok havasız." },
     { w: "needles", tr: "iğneler", lv: "A2", ct: "genel", pr: "/ˈnidəɫz/", ex: "My dog is dead scared of needles.", exTr: "Köpeğim iğneden çok korkuyor." },
     { w: "ozone", tr: "ozon", lv: "C1", ct: "genel", pr: "/ˈoʊˌzoʊn/", ex: "This chart illustrates the function of ozone layer.", exTr: "Bu grafik ozon tabakasının işlevini göstermektedir." },

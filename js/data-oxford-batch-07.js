@@ -37,7 +37,7 @@ KELIMELER.push(
     { w: "lay", tr: "sermek", lv: "B1", ct: "fiiller", pr: "/ˈleɪ/", ex: "They lay every day.", exTr: "Her gün yatıyorlardı." },
     { w: "bug", tr: "böcek", lv: "B2", ct: "isimler", pr: "/ˈbʌɡ/", ex: "We're working to fix this bug.", exTr: "Bu hatayı düzeltmek için çalışıyoruz." },
     { w: "considerably", tr: "önemli ölçüde", lv: "B2", ct: "fiiller", pr: "/kʌˈnsɪdɚʌbli/", ex: "They considerably every day.", exTr: "Her gün önemli ölçüde." },
-    { w: "becomes", tr: "olur", lv: "B1", ct: "genel", pr: "/bɪˈkʌmz/", ex: "That dress becomes her very well.", exTr: "Bu elbise ona çok yakışıyor." },
+
     { w: "leads", tr: "yol göstermek", lv: "B1", ct: "genel", pr: "/ˈlidz/", ex: "This road leads to the station.", exTr: "Bu yol istasyona gidiyor." },
     { w: "maintenance", tr: "Bakım", lv: "C1", ct: "isimler", pr: "/ˈmeɪntʌnʌns/", ex: "Maintenance is very important.", exTr: "Bakım çok önemlidir." },
     { w: "arab", tr: "Arap", lv: "B2", ct: "genel", pr: "/ˈærʌb/", ex: "Arab is very important.", exTr: "Arap çok önemli." },

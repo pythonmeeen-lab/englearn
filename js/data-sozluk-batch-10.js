@@ -195,7 +195,7 @@ KELIMELER.push(
     { w: "vicinity", tr: "civar", lv: "B1", ct: "isimler", pr: "/vəˈsɪnəti/, /vɪˈsɪnɪti/", ex: "There's a post office in the vicinity.", exTr: "Yakınlarda bir postane var." },
     { w: "regal", tr: "muhteşem", lv: "C1", ct: "sıfatlar", pr: "/ˈɹiɡəɫ/", ex: "Her Ladyship entered the parlor with a regal air.", exTr: "Leydi Hazretleri muhteşem bir havayla salona girdi." },
     { w: "ach", tr: "ah", lv: "C1", ct: "genel", pr: "/ˈeɪˈsiˈeɪtʃ/", ex: "Ach, I was almost late to class!", exTr: "Ah, neredeyse derse geç kalıyordum!" },
-    { w: "waffle", tr: "gözleme", lv: "B2", ct: "genel", pr: "/ˈwɑfəɫ/", ex: "We ate a waffle on the jetty.", exTr: "İskelede waffle yedik." },
+    { w: "waffle", tr: "gofret / waffle", lv: "B2", ct: "genel", pr: "/ˈwɑfəɫ/", ex: "We ate a waffle on the jetty.", exTr: "İskelede waffle yedik." },
     { w: "curse", tr: "lanetli", lv: "A2", ct: "fiiller", pr: "/ˈkɝst/", ex: "Cursed be he that first invented war.", exTr: "Savaşı ilk icat edene lanet olsun." },
     { w: "trumpet", tr: "trompet", lv: "B1", ct: "genel", pr: "/ˈtɹəmpət/", ex: "Will you try to play the trumpet?", exTr: "Trompet çalmayı deneyecek misin?" },
     { w: "bathe", tr: "yıkanmak", lv: "B1", ct: "genel", pr: "/ˈbeɪð/", ex: "I want to bathe in the sea.", exTr: "Denizde yıkanmak istiyorum." },

@@ -194,7 +194,7 @@ KELIMELER.push(
     { w: "elm", tr: "karaağaç", lv: "C1", ct: "genel", pr: "/ˈɛɫm/", ex: "Don't ask an elm tree for pears.", exTr: "Karaağaç ağacından armut istemeyin." },
     { w: "wick", tr: "fitil", lv: "B2", ct: "genel", pr: "/ˈwɪk/", ex: "Mary doesn't realise that she gets on everyone's wick.", exTr: "Mary herkesin fitnesine düştüğünün farkında değil." },
     { w: "scenes", tr: "sahneler", lv: "A2", ct: "genel", pr: "/ˈsinz/", ex: "Who's pulling the strings behind the scenes?", exTr: "Perde arkasında ipleri kim elinde tutuyor?" },
-    { w: "marsha", tr: "marşa", lv: "B2", ct: "genel", pr: "/ˈmɑɹʃə/", ex: "Marsha trusted the quiet certainties of daily routine.", exTr: "Marsha günlük rutinin sessiz kesinliğine güveniyordu." },
+
     { w: "hallelujah", tr: "şükürler olsun", lv: "A2", ct: "genel", pr: "/ˌhæɫəˈɫujə/", ex: "You're reading a book without a school assignment? Hallelujah!", exTr: "Okul ödevi olmadan kitap mı okuyorsun? Şükürler olsun!" },
     { w: "syrup", tr: "şurup", lv: "B1", ct: "genel", pr: "/ˈsɝəp/, /ˈsɪɹəp/", ex: "The cough syrup has a licorice flavoring.", exTr: "Öksürük şurubu meyan kökü aromasına sahiptir." },
     { w: "poppy", tr: "haşhaş", lv: "B1", ct: "genel", pr: "/ˈpɑpi/", ex: "The color of the poppy is red.", exTr: "Haşhaşın rengi kırmızıdır." },

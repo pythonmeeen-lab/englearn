@@ -151,7 +151,7 @@ KELIMELER.push(
     { w: "discard", tr: "atmak", lv: "C1", ct: "fiiller", pr: "/dɪˈskɑrd/", ex: "They discard every day.", exTr: "Her gün atıyorlar." },
     { w: "slash", tr: "eğik çizgi", lv: "C1", ct: "fiiller", pr: "/ˈslæʃ/", ex: "They slash every day.", exTr: "Her gün kesiyorlar." },
     { w: "mere", tr: "sadece", lv: "C1", ct: "sıfatlar", pr: "/ˈmɪr/", ex: "A mere 529 spectators watched the game.", exTr: "Maçı yalnızca 529 seyirci izledi." },
-    { w: "chuck", tr: "ayna", lv: "C1", ct: "genel", pr: "/ˈtʃʌk/", ex: "Chuck it in the washing machine.", exTr: "Çamaşır makinesine at." },
+    { w: "chuck", tr: "atmak / fırlatmak", lv: "C1", ct: "genel", pr: "/ˈtʃʌk/", ex: "Chuck it in the washing machine.", exTr: "Çamaşır makinesine at." },
     { w: "labour", tr: "iş gücü", lv: "B2", ct: "isimler", pr: "/ˈleɪbɚ/", ex: "Polls have consistently projected a 47% vote for Labour.", exTr: "Anketler sürekli olarak İşçi Partisi'nin yüzde 47 oranında oy alacağını öngörüyordu." },
     { w: "weird", tr: "garip", lv: "B2", ct: "sıfatlar", pr: "/ˈwɪrd/", ex: "Their problems are sometimes so weird.", exTr: "Sorunları bazen çok tuhaf oluyor." },
     { w: "british", tr: "İngiliz", lv: "A2", ct: "genel", pr: "/ˈbrɪtɪʃ/", ex: "British is very important.", exTr: "İngilizler çok önemli." },

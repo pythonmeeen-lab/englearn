@@ -249,7 +249,7 @@ KELIMELER.push(
     { w: "gorge", tr: "geçit", lv: "B2", ct: "genel", pr: "/ˈɡɔɹdʒ/", ex: "An old, rickety footbridge is the only way to get to the other side of the gorge.", exTr: "Geçidin diğer tarafına geçmenin tek yolu eski, cılız bir yaya köprüsüdür." },
     { w: "dunno", tr: "bilmiyorum", lv: "A2", ct: "genel", pr: "/dəˈnoʊ/", ex: "I dunno what's with ya these days.", exTr: "Bu aralar senin neyin var bilmiyorum." },
     { w: "consequences", tr: "sonuçlar", lv: "A2", ct: "genel", pr: "/ˈkɑnsəˌkwɛnsəz/", ex: "Those consequences are no concern of mine.", exTr: "Bu sonuçlar beni ilgilendirmiyor." },
-    { w: "wad", tr: "tampon", lv: "C1", ct: "genel", pr: "/ˈwɑd/", ex: "Edmundo pulled out a wad of cash.", exTr: "Edmundo bir tomar para çıkardı." },
+    { w: "wad", tr: "tıkın / deste / tampon", lv: "C1", ct: "genel", pr: "/ˈwɑd/", ex: "Edmundo pulled out a wad of cash.", exTr: "Edmundo bir tomar para çıkardı." },
     { w: "atheist", tr: "ateist", lv: "B2", ct: "isimler", pr: "/ˈeɪθiəst/", ex: "Our minister is a vegetarian and an atheist.", exTr: "Bakanımız vejetaryen ve ateisttir." },
     { w: "blasphemy", tr: "küfür", lv: "C1", ct: "genel", pr: "/ˈbɫæsfəmi/", ex: "Transphobia affects real people; blasphemy does not.", exTr: "Transfobi gerçek insanları etkiliyor; küfür işe yaramaz." },
     { w: "rearrange", tr: "yeniden düzenlemek", lv: "C1", ct: "genel", pr: "/ˌɹiɝˈeɪndʒ/", ex: "You can rearrange the furniture in the apartment.", exTr: "Dairedeki mobilyaları yeniden düzenleyebilirsiniz." },

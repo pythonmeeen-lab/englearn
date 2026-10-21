@@ -153,7 +153,7 @@ KELIMELER.push(
     { w: "maniac", tr: "manyak", lv: "A2", ct: "genel", pr: "/ˈmeɪniˌæk/", ex: "I'm not a maniac. You're the maniac.", exTr: "Ben manyak değilim. Sen manyaksın." },
     { w: "bloodbath", tr: "kan banyosu", lv: "C1", ct: "genel", pr: "/ˈbɫədˌbæθ/", ex: "The police wanted to avoid a bloodbath.", exTr: "Polis kan gölünden kaçınmak istedi." },
     { w: "grizzly", tr: "boz", lv: "B2", ct: "zarflar", pr: "/ˈɡɹɪzɫi/", ex: "Tom was attacked by a grizzly bear.", exTr: "Tom bir boz ayı tarafından saldırıya uğradı." },
-    { w: "aiden", tr: "yardımcı", lv: "B1", ct: "genel", pr: "/ˌeɪˈdɛn/", ex: "Aiden helped his neighbor mow the lawn.", exTr: "Aiden komşusunun çimleri biçmesine yardım etti." },
+
     { w: "auspicious", tr: "hayırlı", lv: "B1", ct: "sıfatlar", pr: "/ɑˈspɪʃəs/", ex: "His own debut would be far less auspicious.", exTr: "Kendi çıkışı çok daha az hayırlı olurdu." },
     { w: "wally", tr: "duvar gibi", lv: "A2", ct: "zarflar", pr: "/ˈweɪɫi/, /ˈwɔɫi/", ex: "Who's the wally who's chucked his socks in the loo?", exTr: "Çoraplarını tuvalete fırlatan zavallı kim?" },
     { w: "dom", tr: "ev", lv: "A2", ct: "genel", pr: "/ˈdɑm/", ex: "They perform at Theatro Dom Pedro II all week.", exTr: "Bütün hafta Theatro Dom Pedro II'de sahne alıyorlar." },

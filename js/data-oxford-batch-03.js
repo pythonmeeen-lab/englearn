@@ -59,7 +59,7 @@ KELIMELER.push(
     { w: "if", tr: "eğer", lv: "A2", ct: "genel", pr: "/ˈɪf/", ex: "I don't know if I have the time.", exTr: "Zamanım var mı bilmiyorum." },
     { w: "pub", tr: "birahane", lv: "A2", ct: "isimler", pr: "/ˈpʌb/", ex: "An izakaya is a Japanese-style pub.", exTr: "İzakaya, Japon tarzı bir pubdır." },
     { w: "fancy", tr: "süslü", lv: "B1", ct: "sıfatlar", pr: "/ˈfænsi/", ex: "That watch is a fancy job.", exTr: "Bu saat süslü bir iş." },
-    { w: "covered", tr: "kapalı", lv: "B1", ct: "sıfatlar", pr: "/ˈkʌvɚd/", ex: "The sky is covered with clouds.", exTr: "Gökyüzü bulutlarla kaplı." },
+    { w: "covered", tr: "kaplı / örtülü", lv: "B1", ct: "sıfatlar", pr: "/ˈkʌvɚd/", ex: "The sky is covered with clouds.", exTr: "Gökyüzü bulutlarla kaplı." },
     { w: "articles", tr: "makaleler", lv: "A2", ct: "genel", pr: "/ˈɑrtʌkʌlz/", ex: "These articles are not for sale.", exTr: "Bu makaleler satılık değildir." },
     { w: "with", tr: "ile", lv: "A2", ct: "genel", pr: "/ˈwɪð/", ex: "Would you like to dance with me?", exTr: "Benimle dans etmek ister misin?" },
     { w: "escalate", tr: "gerilimi tırmandırmak", lv: "C1", ct: "fiiller", pr: "/ˈɛskʌˌleɪt/", ex: "They escalate every day.", exTr: "Her geçen gün tırmandırıyorlar." },

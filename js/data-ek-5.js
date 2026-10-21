@@ -143,7 +143,7 @@ KELIMELER.push(
     { w: "strip", tr: "şerit / soymak / çıkarmak", lv: "C1", ct: "genel", pr: "/strɪp/", ex: "He cut the paper into strips.", exTr: "Kağıdı şeritler hâlinde kesti." },
     { w: "stroke", tr: "inme / vuruş / darbe / okşamak", lv: "C1", ct: "sağlık", pr: "/strəʊk/", ex: "He suffered a stroke last year.", exTr: "Geçen yıl bir inme geçirdi." },
     { w: "studio", tr: "stüdyo / atölye", lv: "B1", ct: "sanat", pr: "/ˈstjuː.di.əʊ/", ex: "The artist works in a small studio.", exTr: "Sanatçı küçük bir stüdyoda çalışır." },
-    { w: "stuff", tr: "şey / eşya / tıkamak", lv: "B1", ct: "genel", pr: "/stʌf/", ex: "Put your stuff in the bag.", exTr: "Eşyalarını çantaya koy." },
+    { w: "stuff", tr: "şeyler / malzeme / doldurmak", lv: "B1", ct: "genel", pr: "/stʌf/", ex: "Put your stuff in the bag.", exTr: "Eşyalarını çantaya koy." },
     { w: "style", tr: "tarz / stil / biçim", lv: "B1", ct: "genel", pr: "/staɪl/", ex: "I like her writing style.", exTr: "Onun yazı tarzını severim." },
     { w: "substance", tr: "madde / öz / töz", lv: "B2", ct: "bilim", pr: "/ˈsʌb.stəns/", ex: "Water is a common substance.", exTr: "Su yaygın bir maddedir." },
     { w: "suburb", tr: "banliyö / kenar mahalle", lv: "B2", ct: "şehir", pr: "/ˈsʌb.ɜːb/", ex: "They live in a quiet suburb.", exTr: "Sakin bir banliyöde yaşıyorlar." },

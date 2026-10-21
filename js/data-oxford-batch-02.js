@@ -144,7 +144,7 @@ KELIMELER.push(
     { w: "feat", tr: "ustalık", lv: "C1", ct: "isimler", pr: "/ˈfit/", ex: "Her skating performance was a regular feat.", exTr: "Kayma performansı sıradan bir başarıydı." },
     { w: "boards", tr: "panolar", lv: "B1", ct: "genel", pr: "/ˈbɔrdz/", ex: "The floor is made of boards.", exTr: "Zemin tahtalardan yapılmıştır." },
     { w: "invoke", tr: "çağırmak", lv: "C1", ct: "fiiller", pr: "/ˌɪˈnvoʊk/", ex: "They invoke every day.", exTr: "Her gün çağırıyorlar." },
-    { w: "sweden", tr: "İsveç", lv: "B1", ct: "genel", pr: "/ˈswidʌn/", ex: "Sweden is very important.", exTr: "İsveç çok önemli." },
+
     { w: "load", tr: "yük", lv: "B2", ct: "isimler", pr: "/ˈloʊd/", ex: "He panted under a heavy load.", exTr: "Ağır bir yükün altında nefes nefeseydi." },
     { w: "guidance", tr: "rehberlik", lv: "C1", ct: "isimler", pr: "/ˈɡaɪdʌns/", ex: "Tom looked to Mary for guidance.", exTr: "Tom rehberlik için Mary'ye baktı." },
     { w: "become", tr: "haline gelmek", lv: "A2", ct: "fiiller", pr: "/bɪˈkʌm/", ex: "They become every day.", exTr: "Her gün oluyorlar." },

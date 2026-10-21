@@ -255,7 +255,7 @@ KELIMELER.push(
     { w: "arsenal", tr: "cephanelik", lv: "B1", ct: "sıfatlar", pr: "/ˈɑɹsənəɫ/", ex: "The army surrendered its arsenal to the enemy.", exTr: "Ordu cephaneliğini düşmana teslim etti." },
     { w: "skate", tr: "paten", lv: "B1", ct: "fiiller", pr: "/ˈskeɪt/", ex: "Can we roller-skate in this park?", exTr: "Bu parkta paten kayabilir miyiz?" },
     { w: "informant", tr: "muhbir", lv: "B1", ct: "sıfatlar", pr: "/ˌɪnˈfɔɹmənt/", ex: "Tom is an informant for the FBI.", exTr: "Tom FBI için bir muhbirdir." },
-    { w: "batter", tr: "meyilli", lv: "B1", ct: "isimler", pr: "/ˈbætɝ/", ex: "To be a good batter, you've got to hang loose and follow your instincts.", exTr: "İyi bir vurucu olmak için rahat olmanız ve içgüdülerinizi takip etmeniz gerekir." },
+    { w: "batter", tr: "hamur / vurmak", lv: "B1", ct: "isimler", pr: "/ˈbætɝ/", ex: "To be a good batter, you've got to hang loose and follow your instincts.", exTr: "İyi bir vurucu olmak için rahat olmanız ve içgüdülerinizi takip etmeniz gerekir." },
     { w: "bran", tr: "kepek", lv: "C1", ct: "genel", pr: "/ˈbɹæn/", ex: "I can't eat bran cereal without fruit.", exTr: "Kepekli mısır gevreğini meyve olmadan yiyemem." },
     { w: "measles", tr: "kızamık", lv: "C1", ct: "genel", pr: "/ˈmizəɫz/", ex: "The twins have come down with measles.", exTr: "İkizler kızamığa yakalandı." },
     { w: "penthouse", tr: "çatı katı", lv: "B1", ct: "genel", pr: "/ˈpɛntˌhaʊs/", ex: "Sami lived in a two-storey penthouse.", exTr: "Sami iki katlı bir çatı katında yaşıyordu." },

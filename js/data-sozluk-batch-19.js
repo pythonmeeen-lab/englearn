@@ -138,7 +138,7 @@ KELIMELER.push(
     { w: "dwell", tr: "ikamet etmek", lv: "B1", ct: "genel", pr: "/ˈdwɛɫ/", ex: "Don't dwell too much upon the subject.", exTr: "Konunun üzerinde çok fazla durmayın." },
     { w: "selfie", tr: "özçekim", lv: "B2", ct: "genel", pr: "/ˈsɛɫˌfi/", ex: "Tom and Mary took a selfie together.", exTr: "Tom ve Mary birlikte bir selfie aldılar." },
     { w: "robber", tr: "soyguncu", lv: "B1", ct: "isimler", pr: "/ˈɹɑbɝ/", ex: "The robber stood surrounded by ten policemen.", exTr: "Soyguncunun etrafı on polisle çevriliydi." },
-    { w: "stuff", tr: "doldurma", lv: "B1", ct: "fiiller", pr: "/ˈstəfɪŋ/", ex: "That's not the way Grandma made stuffing.", exTr: "Büyükannem dolmayı bu şekilde yapmazdı." },
+    { w: "stuff", tr: "şeyler / malzeme / doldurmak", lv: "B1", ct: "fiiller", pr: "/ˈstəfɪŋ/", ex: "That's not the way Grandma made stuffing.", exTr: "Büyükannem dolmayı bu şekilde yapmazdı." },
     { w: "urine", tr: "idrar", lv: "A2", ct: "genel", pr: "/ˈjɝən/, /ˈjʊɹən/", ex: "Albumin was found in my urine before.", exTr: "Daha önce idrarımda albumin bulunmuştu." },
     { w: "finch", tr: "ispinoz", lv: "A2", ct: "genel", pr: "/ˈfɪntʃ/", ex: "The finch, chickadee, and warbler eat insects.", exTr: "İspinoz, bülbül ve ötleğen böcekleri yer." },
     { w: "nap", tr: "şekerleme", lv: "A2", ct: "genel", pr: "/ˈnæp/", ex: "My mother takes a nap every afternoon.", exTr: "Annem her öğleden sonra kestirir." },
