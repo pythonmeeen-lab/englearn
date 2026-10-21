@@ -203,7 +203,7 @@ KELIMELER.push(
     { w: "intimacy", tr: "samimiyet", lv: "B1", ct: "genel", pr: "/ˈɪntəməsi/", ex: "Yanni and Rima had inappropriate emotional intimacy.", exTr: "Yanni ve Rima'nın uygunsuz duygusal yakınlığı vardı." },
     { w: "suh", tr: "yani", lv: "C1", ct: "genel", pr: "/ˈsə/", ex: "Suh dude.", exTr: "Ah dostum." },
     { w: "doughnut", tr: "çörek", lv: "B1", ct: "genel", pr: "/ˈdoʊˌnət/", ex: "This is your first doughnut, isn't it?", exTr: "Bu senin ilk çöreğin değil mi?" },
-    { w: "beau", tr: "güzelim", lv: "B1", ct: "genel", pr: "/ˈboʊ/", ex: "Her loquacious new beau was there, talking everyone's heads off.", exTr: "Geveze yeni sevgilisi oradaydı, herkesin kafasını karıştırıyordu." },
+    { w: "beau", tr: "sevgili (erkek) / flört", lv: "B1", ct: "genel", pr: "/ˈboʊ/", ex: "Her loquacious new beau was there, talking everyone's heads off.", exTr: "Geveze yeni sevgilisi oradaydı, herkesin kafasını karıştırıyordu." },
     { w: "silicon", tr: "silikon", lv: "B2", ct: "genel", pr: "/ˈsɪɫəkən/", ex: "Powders of aluminium, magnesium, silicon, etc. explode.", exTr: "Alüminyum, magnezyum, silikon vb. tozları patlar." },
     { w: "viola", tr: "viyola", lv: "B2", ct: "genel", pr: "/vaɪˈoʊɫə/, /viˈoʊɫə/", ex: "Tom knows how to play the viola.", exTr: "Tom viyola çalmayı biliyor." },
     { w: "biopsy", tr: "biyopsi", lv: "B2", ct: "genel", pr: "/ˈbaɪɑpsi/", ex: "The results of Tom's biopsy show that the tumor is cancerous.", exTr: "Tom'un biyopsisinin sonuçları tümörün kanserli olduğunu gösteriyor." },

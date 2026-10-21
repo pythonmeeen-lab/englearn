@@ -298,6 +298,6 @@ KELIMELER.push(
     { w: "quark", tr: "kuark", lv: "C1", ct: "genel", pr: "/ˈkwɑɹk/", ex: "Tom, could you explain to me what a quark is?", exTr: "Tom, kuarkın ne olduğunu bana açıklayabilir misin?" },
     { w: "decker", tr: "katlı", lv: "B1", ct: "isimler", pr: "/ˈdɛkɝ/", ex: "Those double-decker buses are for tourists.", exTr: "O çift katlı otobüsler turistler için." },
     { w: "brood", tr: "kuluçka / düşünmek", lv: "C1", ct: "genel", pr: "/ˈbɹud/", ex: "They are known to scientists as Brood X (Roman numeral 10) periodic cicadas.", exTr: "Bilim adamları tarafından Kuluçka X (Roma rakamı 10) periyodik ağustosböcekleri olarak bilinirler." },
-    { w: "ich", tr: "ben", lv: "B2", ct: "genel", pr: "/ˈɪtʃ/", ex: "'Ich' is German for 'I' while it is also Yucatec Maya for 'eye'.", exTr: "'Ich' Almancada 'ben' anlamına gelirken aynı zamanda Yucatec Maya'da da 'göz' anlamına gelir." },
+
     { w: "croak", tr: "vıraklamak", lv: "C1", ct: "genel", pr: "/ˈkɹoʊk/", ex: "We're basically waiting for someone to croak.", exTr: "Temel olarak birinin vıraklamasını bekliyoruz." },
 );

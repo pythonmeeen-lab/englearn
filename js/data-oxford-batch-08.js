@@ -6,7 +6,7 @@ KELIMELER.push(
     { w: "discharge", tr: "deşarj", lv: "C1", ct: "fiiller", pr: "/dɪˈstʃɑrdʒ/", ex: "They discharge every day.", exTr: "Her gün taburcu oluyorlar." },
     { w: "episode", tr: "bölüm", lv: "B1", ct: "isimler", pr: "/ˈɛpʌˌsoʊd/", ex: "I didn't watch Star Wars episode 1.", exTr: "Star Wars'un 1. bölümünü izlemedim." },
     { w: "converted", tr: "dönüştürülmüş", lv: "B2", ct: "genel", pr: "/kʌˈnvɚtɪd/", ex: "I converted my yen into dollars.", exTr: "Yenimi dolara çevirdim." },
-    { w: "differently", tr: "farklı", lv: "A2", ct: "fiiller", pr: "/ˈdɪfrʌntli/", ex: "They differently every day.", exTr: "Her gün farklılaşıyorlar." },
+    { w: "differently", tr: "farklı olarak", lv: "A2", ct: "fiiller", pr: "/ˈdɪfrʌntli/", ex: "They differently every day.", exTr: "Her gün farklılaşıyorlar." },
     { w: "despite", tr: "aksine", lv: "B1", ct: "genel", pr: "/dɪˈspaɪt/", ex: "I love him despite his faults.", exTr: "Onu hatalarına rağmen seviyorum." },
     { w: "force", tr: "güç", lv: "B1", ct: "isimler", pr: "/ˈfɔrs/", ex: "Don't force the child to eat.", exTr: "Çocuğu yemek yemeye zorlamayın." },
     { w: "instance", tr: "misal", lv: "B2", ct: "isimler", pr: "/ˈɪnstʌns/", ex: "Take, for instance, your family problems.", exTr: "Mesela ailenizdeki sorunları ele alalım." },

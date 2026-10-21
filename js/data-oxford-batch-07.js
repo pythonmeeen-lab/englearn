@@ -116,7 +116,7 @@ KELIMELER.push(
     { w: "neighbourhood", tr: "komşu", lv: "B1", ct: "isimler", pr: "/ˈneɪbɚˌhʊd/", ex: "Mrs Ogawa is familiar with this neighbourhood.", exTr: "Bayan Ogawa bu mahalleye aşinadır." },
     { w: "domains", tr: "alanlar", lv: "B2", ct: "genel", pr: "/doʊˈmeɪnz/", ex: "Language covers virtually all domains of reality.", exTr: "Dil, gerçekliğin neredeyse tüm alanlarını kapsar." },
     { w: "reception", tr: "resepsiyon", lv: "A2", ct: "isimler", pr: "/rɪˈsɛpʃʌn/", ex: "Old friends were invited to the reception.", exTr: "Resepsiyona eski dostlar davet edildi." },
-    { w: "cake", tr: "kek", lv: "A2", ct: "isimler", pr: "/ˈkeɪk/", ex: "Divide the cake among you three.", exTr: "Pastayı üçünüze paylaştırın." },
+    { w: "cake", tr: "kek / pasta", lv: "A2", ct: "isimler", pr: "/ˈkeɪk/", ex: "Divide the cake among you three.", exTr: "Pastayı üçünüze paylaştırın." },
     { w: "genuinely", tr: "gerçekten", lv: "B2", ct: "fiiller", pr: "/ˈdʒɛnjʌwʌnli/", ex: "They genuinely every day.", exTr: "Gerçekten her gün." },
     { w: "preliminary", tr: "ön", lv: "C1", ct: "sıfatlar", pr: "/prɪˈlɪmʌˌnɛri/", ex: "The inquiry's preliminary findings have been published.", exTr: "Soruşturmanın ön bulguları yayımlandı." },
     { w: "extreme", tr: "aşırı", lv: "A2", ct: "sıfatlar", pr: "/ɛˈkstrim/", ex: "Your proposal is a bit extreme.", exTr: "Teklifiniz biraz aşırı." },

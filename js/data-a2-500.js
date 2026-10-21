@@ -16,7 +16,7 @@ KELIMELER.push(
     { w: "garlic", tr: "sarımsak", lv: "A2", ct: "yiyecek", pr: "/ˈɡɑː.lɪk/", ex: "Garlic gives flavour to the food.", exTr: "Sarımda yemeğe lezzet verir." },
     { w: "honey", tr: "bal", lv: "A2", ct: "yiyecek", pr: "/ˈhʌn.i/", ex: "I like honey on my bread.", exTr: "Ekmeğimde bal severim." },
     { w: "jam", tr: "reçel", lv: "A2", ct: "yiyecek", pr: "/dʒæm/", ex: "We eat jam with toast.", exTr: "Tostla reçel yeriz." },
-    { w: "cake", tr: "pasta", lv: "A2", ct: "yiyecek", pr: "/keɪk/", ex: "They made a chocolate cake.", exTr: "Çikolatalı pasta yaptılar." },
+
     { w: "cookie", tr: "kurabiye", lv: "A2", ct: "yiyecek", pr: "/ˈkʊk.i/", ex: "The kids ate all the cookies.", exTr: "Çocuklar bütün kurabiyeleri yedi." },
     { w: "sandwich", tr: "sandviç", lv: "A2", ct: "yiyecek", pr: "/ˈsæn.dwɪtʃ/", ex: "I had a sandwich for lunch.", exTr: "Öğle yemeğinde sandviç yedim." },
     { w: "pizza", tr: "pizza", lv: "A2", ct: "yiyecek", pr: "/ˈpiːt.sə/", ex: "We ordered a large pizza.", exTr: "Büyük bir pizza sipariş ettik." },

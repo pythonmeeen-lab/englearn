@@ -39,7 +39,7 @@ KELIMELER.push(
     { w: "olives", tr: "zeytin", lv: "B1", ct: "genel", pr: "/ˈɑɫɪvz/", ex: "She planted fragrant olives in the garden.", exTr: "Bahçeye güzel kokulu zeytinler ekti." },
     { w: "graduates", tr: "mezunlar", lv: "C1", ct: "genel", pr: "/ˈɡɹædʒəˌweɪts/, /ˈɡɹædʒəwəts/, /ˈɡɹædʒuˌeɪts/, /ˈɡɹædʒuwəts/", ex: "Both you and I are college graduates.", exTr: "Sen de ben de üniversite mezunuyuz." },
     { w: "smelling", tr: "kokulu", lv: "B1", ct: "isimler", pr: "/ˈsmɛɫɪŋ/", ex: "Alice is wearing a sweet-smelling perfume.", exTr: "Alice tatlı kokulu bir parfüm sürüyor." },
-    { w: "derrick", tr: "iskele", lv: "B1", ct: "genel", pr: "/ˈdɛɹɪk/", ex: "Derrick dropped his drawing in the tub and is now trying to salvage it with a hair dryer.", exTr: "Derrick çizimini küvete düşürdü ve şimdi saç kurutma makinesiyle onu kurtarmaya çalışıyor." },
+    { w: "derrick", tr: "vinç / sondaj kulesi", lv: "B1", ct: "genel", pr: "/ˈdɛɹɪk/", ex: "Derrick dropped his drawing in the tub and is now trying to salvage it with a hair dryer.", exTr: "Derrick çizimini küvete düşürdü ve şimdi saç kurutma makinesiyle onu kurtarmaya çalışıyor." },
     { w: "manages", tr: "yönetir", lv: "B1", ct: "genel", pr: "/ˈmænɪdʒɪz/", ex: "The young man manages a big department store.", exTr: "Genç adam büyük bir mağazayı yönetiyor." },
     { w: "snuff", tr: "enfiye", lv: "B2", ct: "genel", pr: "/ˈsnəf/", ex: "But who would like to buy such a bad snuff?", exTr: "Ama kim bu kadar kötü bir enfiye satın almak ister ki?" },
     { w: "cocksucker", tr: "saksocu", lv: "B1", ct: "isimler", pr: "/ˈkɑkˌsəkɝ/", ex: "Don't be a cocksucker.", exTr: "Bir saksocu olmayın." },

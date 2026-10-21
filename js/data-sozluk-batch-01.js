@@ -112,7 +112,7 @@ KELIMELER.push(
     { w: "perceive", tr: "algılanan", lv: "B2", ct: "fiiller", pr: "/pɝˈsivd/", ex: "Perceived shyness is often simply an expression of politeness in waiting to be addressed before speaking.", exTr: "Algılanan utangaçlık genellikle konuşmadan önce kendisine hitap edilmesini bekleyen nezaketin bir ifadesidir." },
     { w: "calculus", tr: "hesap", lv: "C1", ct: "genel", pr: "/ˈkæɫkjəɫəs/", ex: "Learning calculus requires a lot of practice.", exTr: "Matematik öğrenmek çok fazla pratik gerektirir." },
     { w: "brownie", tr: "kek", lv: "B2", ct: "genel", pr: "/ˈbɹaʊni/", ex: "You might just chalk up some brownie points.", exTr: "Sadece bazı kek noktalarını tebeşirle yazabilirsin." },
-    { w: "funk", tr: "korkak", lv: "B1", ct: "genel", pr: "/ˈfəŋk/", ex: "Tom's funk band was in a funk.", exTr: "Tom'un funk grubu bir funk içindeydi." },
+    { w: "funk", tr: "korku / funk (müzik)", lv: "B1", ct: "genel", pr: "/ˈfəŋk/", ex: "Tom's funk band was in a funk.", exTr: "Tom'un funk grubu bir funk içindeydi." },
     { w: "obstinate", tr: "inatçı", lv: "C1", ct: "fiiller", pr: "/ˈɑbstənət/", ex: "You should reckon with his obstinate character.", exTr: "Onun inatçı karakterini hesaba katmalısınız." },
     { w: "tides", tr: "gelgit", lv: "B2", ct: "genel", pr: "/ˈtaɪdz/", ex: "The sun and the moon cause tides.", exTr: "Güneş ve ay gelgitlere neden olur." },
     { w: "adversary", tr: "düşman", lv: "C1", ct: "genel", pr: "/ˈædvɝˌsɛɹi/", ex: "An adversary yesterday is a friend today.", exTr: "Dün düşman olan bugün dosttur." },
