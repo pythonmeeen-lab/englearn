@@ -118,7 +118,7 @@ KELIMELER.push(
     { w: "live", tr: "yaşamak / canlı", lv: "A2", ct: "fiiller", pr: "/ˈlaɪv/", ex: "They live every day.", exTr: "Her gün yaşıyorlar." },
     { w: "ahead", tr: "ilerde", lv: "B1", ct: "fiiller", pr: "/ʌˈhɛd/", ex: "They ahead every day.", exTr: "Her gün öndeler." },
     { w: "prosecute", tr: "dava açmak", lv: "C1", ct: "fiiller", pr: "/ˈprɑsʌˌkjut/", ex: "They prosecute every day.", exTr: "Her gün dava açıyorlar." },
-    { w: "its", tr: "onun", lv: "A2", ct: "genel", pr: "/ˈɪts/", ex: "Every nation has its peculiar character.", exTr: "Her milletin kendine has bir karakteri vardır." },
+    { w: "its", tr: "onun / onunki (cansız)", lv: "A2", ct: "genel", pr: "/ˈɪts/", ex: "Every nation has its peculiar character.", exTr: "Her milletin kendine has bir karakteri vardır." },
     { w: "contents", tr: "içindekiler", lv: "A2", ct: "genel", pr: "/ˈkɑntɛnts/", ex: "Empty the drawer of its contents.", exTr: "Çekmeceyi içindekileri boşaltın." },
     { w: "audience", tr: "kitle", lv: "A2", ct: "isimler", pr: "/ˈɑdiʌns/", ex: "The audience is really charged up.", exTr: "Seyirci gerçekten çok heyecanlı." },
     { w: "supplies", tr: "malzeme / tedarik", lv: "A2", ct: "genel", pr: "/sʌˈplaɪz/", ex: "The cow supplies us with milk.", exTr: "İnek bize süt sağlar." },
