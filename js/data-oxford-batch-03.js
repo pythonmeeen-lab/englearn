@@ -4,7 +4,7 @@
 KELIMELER.push(
     { w: "imprison", tr: "hapis", lv: "C1", ct: "fiiller", pr: "/ˌɪˈmprɪzʌn/", ex: "They imprison every day.", exTr: "Her gün hapse atıyorlar." },
     { w: "fabulous", tr: "efsanevi", lv: "B2", ct: "sıfatlar", pr: "/ˈfæbjʌlʌs/", ex: "The unicorn is a fabulous monster.", exTr: "Tek boynuzlu at muhteşem bir canavardır." },
-    { w: "forge", tr: "dövmek", lv: "C1", ct: "fiiller", pr: "/ˈfɔrdʒ/", ex: "They forge every day.", exTr: "Her gün demir atıyorlar." },
+    { w: "forge", tr: "demir dövmek / sahteleştirmek", lv: "C1", ct: "fiiller", pr: "/ˈfɔrdʒ/", ex: "They forge every day.", exTr: "Her gün demir atıyorlar." },
     { w: "wood", tr: "odun", lv: "A2", ct: "isimler", pr: "/ˈwʊd/", ex: "It is made partly of wood.", exTr: "Kısmen ahşaptan yapılmıştır." },
     { w: "shed", tr: "baraka", lv: "C1", ct: "fiiller", pr: "/ˈʃɛd/", ex: "They shed every day.", exTr: "Her gün döküyorlar." },
     { w: "assistant", tr: "asistan", lv: "A2", ct: "sıfatlar", pr: "/ʌˈsɪstʌnt/", ex: "I work as Mr Eliot's assistant.", exTr: "Bay Eliot'ın asistanı olarak çalışıyorum." },
@@ -48,7 +48,7 @@ KELIMELER.push(
     { w: "browse", tr: "göz at", lv: "A2", ct: "genel", pr: "/ˈbraʊz/", ex: "Tom uses Safari to browse the web.", exTr: "Tom web'e göz atmak için Safari'yi kullanıyor." },
     { w: "unusual", tr: "olağan dışı", lv: "A2", ct: "sıfatlar", pr: "/ʌˈnjuˌʒuʌl/", ex: "The weather has been unusual this year.", exTr: "Bu yıl hava olağandışıydı." },
     { w: "dictate", tr: "dikte", lv: "C1", ct: "fiiller", pr: "/dɪˈkteɪt/", ex: "They dictate every day.", exTr: "Her gün dikte ediyorlar." },
-    { w: "constitutes", tr: "oluşturur", lv: "B1", ct: "genel", pr: "/ˈkɑnstʌˌtuts/", ex: "Music constitutes a part of me.", exTr: "Müzik benim bir parçamı oluşturuyor." },
+
     { w: "horrible", tr: "berbat", lv: "B1", ct: "sıfatlar", pr: "/ˈhɔrʌbʌl/", ex: "Dr. Patterson: Yes, it was horrible.", exTr: "Dr. Patterson: Evet, korkunçtu." },
     { w: "by", tr: "ile", lv: "A2", ct: "genel", pr: "/ˈbaɪ/", ex: "Can I pay by credit card?", exTr: "Kredi kartıyla ödeme yapabilir miyim?" },
     { w: "assure", tr: "garanti etmek", lv: "B2", ct: "fiiller", pr: "/ʌˈʃʊr/", ex: "They assure every day.", exTr: "Her gün güvence veriyorlar." },
@@ -67,7 +67,7 @@ KELIMELER.push(
     { w: "absolutely", tr: "kesinlikle", lv: "B1", ct: "fiiller", pr: "/ˌæbsʌˈlutli/", ex: "They absolutely every day.", exTr: "Kesinlikle her gün." },
     { w: "extent", tr: "kapsam", lv: "B2", ct: "isimler", pr: "/ɪˈkstɛnt/", ex: "To what extent can he be trusted?", exTr: "Ona ne kadar güvenilebilir?" },
     { w: "originate", tr: "kaynaklanmak", lv: "C1", ct: "fiiller", pr: "/ɚˈɪdʒʌˌneɪt/", ex: "They originate every day.", exTr: "Her gün ortaya çıkıyorlar." },
-    { w: "precisely", tr: "açık olarak", lv: "B2", ct: "fiiller", pr: "/prɪˈsaɪsli/", ex: "They precisely every day.", exTr: "Kesinlikle her gün." },
+    { w: "precisely", tr: "tam olarak / kesinlikle", lv: "B2", ct: "fiiller", pr: "/prɪˈsaɪsli/", ex: "They precisely every day.", exTr: "Kesinlikle her gün." },
     { w: "terrify", tr: "dehşete düşürmek", lv: "B2", ct: "fiiller", pr: "/ˈtɛrʌˌfaɪ/", ex: "They terrify every day.", exTr: "Her gün korkutuyorlar." },
     { w: "love", tr: "Aşk", lv: "A2", ct: "isimler", pr: "/ˈlʌv/", ex: "Love is very important.", exTr: "Aşk çok önemlidir." },
     { w: "vary", tr: "çeşitli", lv: "B2", ct: "fiiller", pr: "/ˈvɛri/", ex: "They vary every day.", exTr: "Her gün değişiklik gösterirler." },

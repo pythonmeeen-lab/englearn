@@ -263,7 +263,7 @@ KELIMELER.push(
     { w: "tutor", tr: "özel öğretmen / eğitmek", lv: "C1", ct: "eğitim", pr: "/ˈtjuː.tər/", ex: "She hired a math tutor.", exTr: "Bir matematik öğretmeni tuttu." },
     { w: "twist", tr: "bükmek / burmak / kıvırmak", lv: "B2", ct: "genel", pr: "/twɪst/", ex: "Twist the lid to open it.", exTr: "Açmak için kapağı çevir." },
     { w: "typical", tr: "tipik / tipik olan", lv: "B1", ct: "sıfatlar", pr: "/ˈtɪp.ɪ.kəl/", ex: "This is a typical example.", exTr: "Bu tipik bir örnektir." },
-    { w: "tyre", tr: "lastik / tekerlek", lv: "B1", ct: "ulaşım", pr: "/ˈtaɪ.ər/", ex: "The car has a flat tyre.", exTr: "Arabanın lastiği patlaktır." },
+    { w: "tyre", tr: "lastik", lv: "B1", ct: "ulaşım", pr: "/ˈtaɪ.ər/", ex: "The car has a flat tyre.", exTr: "Arabanın lastiği patlaktır." },
     { w: "ultimate", tr: "nihai / en son / nihai", lv: "C1", ct: "sıfatlar", pr: "/ˈʌl.tɪ.mət/", ex: "Their ultimate goal is peace.", exTr: "Nihai hedefleri barıştır." },
     { w: "unable", tr: "aciz / yapamaz durumda", lv: "B1", ct: "sıfatlar", pr: "/ʌnˈeɪ.bəl/", ex: "He was unable to come.", exTr: "Gelemedi." },
     { w: "underneath", tr: "altında / alt tarafında", lv: "B2", ct: "genel", pr: "/ˌʌn.dəˈniːθ/", ex: "The cat hid underneath the bed.", exTr: "Kedi yatağın altına saklandı." },

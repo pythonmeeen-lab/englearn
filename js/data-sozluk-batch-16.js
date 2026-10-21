@@ -151,7 +151,7 @@ KELIMELER.push(
     { w: "mathematician", tr: "matematikçi", lv: "C1", ct: "genel", pr: "/ˌmæθəməˈtɪʃən/", ex: "A mathematician wouldn't say such a thing.", exTr: "Bir matematikçi böyle bir şey söylemez." },
     { w: "passages", tr: "pasajlar", lv: "C1", ct: "genel", pr: "/ˈpæsədʒəz/, /ˈpæsɪdʒɪz/", ex: "First, Tom read several passages from the Bible.", exTr: "Tom önce İncil'den birkaç pasaj okudu." },
     { w: "rover", tr: "gezici", lv: "B1", ct: "isimler", pr: "/ˈɹoʊvɝ/", ex: "The car-sized Curiosity rover landed in 2012.", exTr: "Araba büyüklüğündeki Curiosity gezgini 2012 yılında iniş yaptı." },
-    { w: "vibes", tr: "vibrafon", lv: "C1", ct: "genel", pr: "/ˈvaɪbz/", ex: "Sami got weird vibes from that guy.", exTr: "Sami o adamdan tuhaf hisler aldı." },
+    { w: "vibes", tr: "hisler / titreşimler", lv: "C1", ct: "genel", pr: "/ˈvaɪbz/", ex: "Sami got weird vibes from that guy.", exTr: "Sami o adamdan tuhaf hisler aldı." },
     { w: "sickness", tr: "hastalık", lv: "A2", ct: "isimler", pr: "/ˈsɪknəs/", ex: "Health is not valued until sickness comes.", exTr: "Hastalık gelmeden sağlığın kıymeti bilinmez." },
     { w: "debate", tr: "tartışma", lv: "C1", ct: "fiiller", pr: "/dəˈbeɪtɪŋ/", ex: "Bill is skillful in arguing and debating.", exTr: "Bill tartışma ve tartışma konusunda yeteneklidir." },
     { w: "tinker", tr: "tamircilik", lv: "B2", ct: "isimler", pr: "/ˈtɪŋkɝ/", ex: "Tom likes to tinker with things because he believes there's always a better way.", exTr: "Tom her zaman daha iyi bir yol olduğuna inandığı için bazı şeyleri tamir etmeyi seviyor." },

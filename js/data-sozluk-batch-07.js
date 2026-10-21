@@ -46,7 +46,7 @@ KELIMELER.push(
     { w: "chopper", tr: "helikopter", lv: "A2", ct: "isimler", pr: "/ˈtʃɑpɝ/", ex: "The chopper rushed Tom to the hospital.", exTr: "Helikopter Tom'u hastaneye götürdü." },
     { w: "mister", tr: "bayım", lv: "A2", ct: "isimler", pr: "/ˈmɪstɝ/", ex: "Hey, mister! I think you dropped this.", exTr: "Merhaba bayım! Sanırım bunu düşürdün." },
     { w: "perish", tr: "yok olmak", lv: "B1", ct: "sıfatlar", pr: "/ˈpɛɹɪʃ/", ex: "If the hunted should perish, the hunter would, too.", exTr: "Avlanan ölürse avcı da yok olur." },
-    { w: "ricky", tr: "riskli", lv: "A2", ct: "genel", pr: "/ˈɹɪˌki/", ex: "Ricky, this is my friend Suzuki.", exTr: "Ricky, bu arkadaşım Suzuki." },
+
     { w: "dismantle", tr: "sökmek", lv: "C1", ct: "genel", pr: "/dɪsˈmænəɫ/, /dɪsˈmæntəɫ/", ex: "It was decided to dismantle the cobblestones.", exTr: "Parke taşlarının sökülmesine karar verildi." },
     { w: "communism", tr: "komünizm", lv: "B1", ct: "isimler", pr: "/ˈkɑmjəˌnɪzəm/", ex: "Left-wing communism is an infantile disorder.", exTr: "Sol komünizm bir çocukluk hastalığıdır." },
     { w: "compassionate", tr: "şefkatli", lv: "B2", ct: "fiiller", pr: "/kəmˈpæʃənət/", ex: "I've been told I'm kind and compassionate.", exTr: "Bana nazik ve şefkatli olduğum söylendi." },

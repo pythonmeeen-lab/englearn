@@ -166,7 +166,7 @@ KELIMELER.push(
     { w: "water down", tr: "sulandırmak", lv: "B2", ct: "PHRASAL", pr: "/ˈwɔː.tər daʊn/", ex: "Do not water down the story.", exTr: "Hikayeyi sulandırma." },
     { w: "weigh down", tr: "ağırlık yapmak", lv: "B2", ct: "PHRASAL", pr: "/weɪ daʊn/", ex: "The bag weighed her down.", exTr: "Çanta ona ağır geldi." },
     { w: "wind down", tr: "yavaş yavaş bitmek", lv: "B2", ct: "PHRASAL", pr: "/waɪnd daʊn/", ex: "The party wound down.", exTr: "Parti yavaşça bitti." },
-    { w: "boil down to", tr: "özetle ... olmak", lv: "C1", ct: "PHRASAL", pr: "/bɔɪl daʊn tuː/", ex: "It boils down to money.", exTr: "Özünde para meselesi." },
+    { w: "boil down to", tr: "özünde ... olmak / özetle", lv: "C1", ct: "PHRASAL", pr: "/bɔɪl daʊn tuː/", ex: "It boils down to money.", exTr: "Özünde para meselesi." },
     { w: "climb down", tr: "inemek (fikirde geri adım)", lv: "B2", ct: "PHRASAL", pr: "/klaɪm daʊn/", ex: "He climbed down from his position.", exTr: "Tavrından geri adım attı." },
     { w: "copy down", tr: "kopyalayıp yazmak", lv: "B1", ct: "PHRASAL", pr: "/ˈkɒp.i daʊn/", ex: "Copy down the notes.", exTr: "Notları yaz." },
     { w: "flag down", tr: "durdurmak (el sallayarak)", lv: "B2", ct: "PHRASAL", pr: "/flæɡ daʊn/", ex: "Flag down a taxi.", exTr: "Taksiyi el sallayarak durdur." },

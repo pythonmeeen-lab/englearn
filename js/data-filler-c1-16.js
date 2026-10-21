@@ -12,7 +12,7 @@ KELIMELER.push(
     { w: "exhibit", tr: "sergilemek", lv: "C1", ct: "fiiller", pr: "/ɪɡˈzɪb.ɪt/", ex: "The gallery exhibits modern art.", exTr: "Galeri modern sanat sergiliyor." },
     { w: "exploit", tr: "sömürmek", lv: "C1", ct: "fiiller", pr: "/ɪkˈsplɔɪt/", ex: "Firms exploit cheap labor.", exTr: "Firmalar ucuz emeği sömürüyor." },
     { w: "foresee", tr: "öngörmek", lv: "C1", ct: "fiiller", pr: "/fɔːˈsiː/", ex: "Nobody foresaw the crisis.", exTr: "Kimse krizi öngörmedi." },
-    { w: "forge", tr: "dövme yapmak / kurmak", lv: "C1", ct: "fiiller", pr: "/fɔːdʒ/", ex: "They forged a strong alliance.", exTr: "Güçlü bir ittifak kurdular." },
+    { w: "forge", tr: "demir dövmek / sahteleştirmek", lv: "C1", ct: "fiiller", pr: "/fɔːdʒ/", ex: "They forged a strong alliance.", exTr: "Güçlü bir ittifak kurdular." },
     { w: "fulfil", tr: "yerine getirmek", lv: "C1", ct: "fiiller", pr: "/fʊlˈfɪl/", ex: "She fulfilled all her duties.", exTr: "Tüm görevlerini yerine getirdi." },
     { w: "glimpse", tr: "göz ucuyla görmek", lv: "C1", ct: "fiiller", pr: "/ɡlɪmps/", ex: "We glimpsed the ocean below.", exTr: "Aşağıdaki okyanusu göz ucuyla gördük." },
     { w: "harbour", tr: "barındırmak / beslemek", lv: "C1", ct: "fiiller", pr: "/ˈhɑː.bər/", ex: "He harboured secret doubts.", exTr: "Gizli şüpheler besledi." },

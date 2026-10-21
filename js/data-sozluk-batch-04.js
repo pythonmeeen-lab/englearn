@@ -94,7 +94,7 @@ KELIMELER.push(
     { w: "porridge", tr: "yulaf lapası", lv: "B1", ct: "genel", pr: "/ˈpɔɹədʒ/", ex: "The old man ate some rice porridge.", exTr: "Yaşlı adam biraz pirinç lapası yedi." },
     { w: "mag", tr: "şarjör", lv: "C1", ct: "genel", pr: "/ˈmæɡ/", ex: "I would have thought about looking up a sci mag on here.", exTr: "Burada bir bilim dergisine bakmayı düşünürdüm." },
     { w: "marbles", tr: "mermerler", lv: "B1", ct: "genel", pr: "/ˈmɑɹbəɫz/", ex: "It sounded like you'd lost your marbles.", exTr: "Bilyelerini kaybetmişsin gibi geldi." },
-    { w: "forge", tr: "dövme", lv: "B1", ct: "fiiller", pr: "/ˈfɔɹdʒd/", ex: "The document is neither genuine nor forged.", exTr: "Belge ne gerçek ne de sahte." },
+    { w: "forge", tr: "demir dövmek / sahteleştirmek", lv: "B1", ct: "fiiller", pr: "/ˈfɔɹdʒd/", ex: "The document is neither genuine nor forged.", exTr: "Belge ne gerçek ne de sahte." },
     { w: "preacher", tr: "vaiz", lv: "A2", ct: "isimler", pr: "/ˈpɹitʃɝ/", ex: "Tom became a preacher like his father.", exTr: "Tom babası gibi bir vaiz oldu." },
     { w: "anyplace", tr: "herhangi bir yer", lv: "B2", ct: "genel", pr: "/ˈɛniˌpɫeɪs/", ex: "Tom couldn't find anyplace decent to rent.", exTr: "Tom kiralamak için uygun bir yer bulamadı." },
     { w: "grieve", tr: "üzülmek", lv: "B1", ct: "genel", pr: "/ˈɡɹiv/", ex: "Do not grieve too much. Be strong.", exTr: "Çok fazla üzülmeyin. Güçlü ol." },

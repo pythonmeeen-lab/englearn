@@ -140,7 +140,7 @@ KELIMELER.push(
     { w: "rehab", tr: "rehabilitasyon", lv: "A2", ct: "genel", pr: "/ɹihæb/", ex: "I don't want to go to rehab.", exTr: "Rehabilitasyona gitmek istemiyorum." },
     { w: "lice", tr: "bitler", lv: "B1", ct: "genel", pr: "/ˈɫaɪs/", ex: "Everyone looks for lice in their neighborhood.", exTr: "Herkes kendi mahallesinde bit arıyor." },
     { w: "cackling", tr: "gıdaklama", lv: "B1", ct: "isimler", pr: "/ˈkækəɫɪŋ/, /ˈkækɫɪŋ/", ex: "Two cackling geese live by the pond.", exTr: "Göletin yanında iki kaz gıcırdayarak yaşıyor." },
-    { w: "ins", tr: "giriş", lv: "C1", ct: "genel", pr: "/ˈaɪˈɛˈnɛs/, /ˈɪnz/", ex: "I am not familiar with the ins and outs of all this.", exTr: "Bütün bunların giriş ve çıkışlarına aşina değilim." },
+
     { w: "techno", tr: "tekno", lv: "B2", ct: "genel", pr: "/ˈtɛknoʊ/", ex: "What's the difference between trance, house, and techno music?", exTr: "Trance, house ve tekno müzik arasındaki fark nedir?" },
     { w: "hernia", tr: "fıtık", lv: "C1", ct: "genel", pr: "/ˈhɝniə/", ex: "He had to have a hernia operation.", exTr: "Fıtık ameliyatı olması gerekiyordu." },
     { w: "favorable", tr: "uygun", lv: "C1", ct: "sıfatlar", pr: "/ˈfeɪvɝəbəɫ/, /ˈfeɪvɹəbəɫ/", ex: "I availed myself of this favorable opportunity.", exTr: "Ben de bu avantajlı fırsattan yararlandım." },

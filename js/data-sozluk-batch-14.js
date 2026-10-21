@@ -248,7 +248,7 @@ KELIMELER.push(
     { w: "chuckles", tr: "kıkırdamalar", lv: "A2", ct: "genel", pr: "/ˈtʃəkəɫz/", ex: "He snorts and chuckles at the sound of his own joke.", exTr: "Kendi şakasının sesiyle homurdanıyor ve kıkırdıyor." },
     { w: "ag", tr: "yaşlanma", lv: "B1", ct: "fiiller", pr: "/ˈeɪdʒɪŋ/", ex: "Physical changes are directly related to aging.", exTr: "Fiziksel değişiklikler yaşlanmayla doğrudan ilişkilidir." },
     { w: "involves", tr: "içerir", lv: "A2", ct: "genel", pr: "/ˌɪnˈvɑɫvz/", ex: "This job involves lots of hard work.", exTr: "Bu iş çok yoğun çalışmayı içeriyor." },
-    { w: "gunshot", tr: "ateşli silah", lv: "A2", ct: "genel", pr: "/ˈɡənˌʃɑt/", ex: "We saw paramedics treating the gunshot victims.", exTr: "Silahla vurulan yaralılara sağlık görevlilerinin müdahale ettiğini gördük." },
+    { w: "gunshot", tr: "silah sesi / kurşun yarası", lv: "A2", ct: "genel", pr: "/ˈɡənˌʃɑt/", ex: "We saw paramedics treating the gunshot victims.", exTr: "Silahla vurulan yaralılara sağlık görevlilerinin müdahale ettiğini gördük." },
     { w: "digestive", tr: "sindirim", lv: "C1", ct: "sıfatlar", pr: "/daɪˈdʒɛstɪv/", ex: "Dates help your digestive system work better.", exTr: "Hurma sindirim sisteminizin daha iyi çalışmasına yardımcı olur." },
     { w: "molecules", tr: "moleküller", lv: "B1", ct: "genel", pr: "/ˈmɑɫəkˌjuɫz/", ex: "Organic matter is formed by large molecules.", exTr: "Organik madde büyük moleküllerden oluşur." },
     { w: "medallion", tr: "madalyon", lv: "B2", ct: "genel", pr: "/məˈdæɫjən/", ex: "What a beautiful medallion!", exTr: "Ne güzel bir madalyon!" },

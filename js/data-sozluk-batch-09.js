@@ -93,7 +93,7 @@ KELIMELER.push(
     { w: "braid", tr: "örgü", lv: "C1", ct: "genel", pr: "/ˈbɹeɪd/", ex: "Let me braid your hair for you.", exTr: "İzin ver senin için saçını öreyim." },
     { w: "sewer", tr: "kanalizasyon", lv: "B1", ct: "isimler", pr: "/ˈsuɝ/", ex: "The sewer was filled to the brim.", exTr: "Kanalizasyon ağzına kadar doldu." },
     { w: "flint", tr: "çakmaktaşı", lv: "B1", ct: "genel", pr: "/ˈfɫɪnt/", ex: "He struck a spark from the flint.", exTr: "Çakmaktaşından bir kıvılcım çıkardı." },
-    { w: "dope", tr: "uyarıcı vermek", lv: "A2", ct: "genel", pr: "/ˈdoʊp/", ex: "Sami was smoking dope in the attic.", exTr: "Sami tavan arasında uyuşturucu içiyordu." },
+    { w: "dope", tr: "uyuşturucu / aptal (argo)", lv: "A2", ct: "genel", pr: "/ˈdoʊp/", ex: "Sami was smoking dope in the attic.", exTr: "Sami tavan arasında uyuşturucu içiyordu." },
     { w: "unlawful", tr: "yasadışı", lv: "C1", ct: "sıfatlar", pr: "/ənˈɫɔfəɫ/", ex: "Segregation of employees on the grounds of race is also unlawful.", exTr: "Çalışanların ırk temelinde ayrılması da yasa dışıdır." },
     { w: "gladiator", tr: "gladyatör", lv: "C1", ct: "isimler", pr: "/ˈɡɫædiˌeɪtɝ/", ex: "Putting his trust in God and taking the bull by the horns, the Christian gladiator defeated many adversaries.", exTr: "Tanrı'ya güvenen ve boğayı boynuzlarından tutan Hıristiyan gladyatör, birçok rakibini yendi." },
     { w: "realize", tr: "gerçekleştirilmiş", lv: "A2", ct: "fiiller", pr: "/ˈɹiəˌɫaɪzd/", ex: "Having realized his hope, he returned home.", exTr: "Umudunun farkına vararak eve döndü." },

@@ -39,7 +39,7 @@ KELIMELER.push(
     { w: "specially", tr: "özel olarak", lv: "B1", ct: "zarflar", pr: "/ˈspɛʃəɫi/, /ˈspɛʃɫi/", ex: "Bob is specially fond of Hungarian beans.", exTr: "Bob özellikle Macar fasulyesini çok seviyor." },
     { w: "millimeter", tr: "milimetre", lv: "C1", ct: "isimler", pr: "/ˈmɪɫəˌmitɝ/", ex: "This windshield chip is about four millimeter wide.", exTr: "Bu ön cam çipi yaklaşık dört milimetre genişliğindedir." },
     { w: "confidential", tr: "gizli", lv: "A2", ct: "sıfatlar", pr: "/ˌkɑnfəˈdɛnʃəɫ/", ex: "He soon became confidential with the man.", exTr: "Kısa süre sonra adamla sır saklamaya başladı." },
-    { w: "civilize", tr: "uygar", lv: "B1", ct: "fiiller", pr: "/ˈsɪvəˌɫaɪzd/", ex: "If it were not for electricity, our civilized life would be impossible.", exTr: "Elektrik olmasaydı uygar yaşamımız imkânsız olurdu." },
+    { w: "civilize", tr: "uygarlaştırmak", lv: "B1", ct: "fiiller", pr: "/ˈsɪvəˌɫaɪzd/", ex: "If it were not for electricity, our civilized life would be impossible.", exTr: "Elektrik olmasaydı uygar yaşamımız imkânsız olurdu." },
     { w: "skinny", tr: "sıska", lv: "A2", ct: "genel", pr: "/ˈskɪni/", ex: "My sister's skinny and me, I'm chubby.", exTr: "Kız kardeşim sıska ve ben tombulum." },
     { w: "clatter", tr: "takırdamak", lv: "B1", ct: "isimler", pr: "/ˈkɫætɝ/", ex: "What clatter is that in the courtyard?", exTr: "Avludaki bu ne gürültü?" },
     { w: "leprechaun", tr: "cüce cin", lv: "C1", ct: "genel", pr: "/ˈɫɛpɝkaʊn/", ex: "A leprechaun isn't funny.", exTr: "Bir cin komik değildir." },

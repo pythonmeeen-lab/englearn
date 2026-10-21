@@ -43,7 +43,7 @@ KELIMELER.push(
     { w: "desperate", tr: "çaresiz", lv: "B2", ct: "sıfatlar", pr: "/ˈdɛsprɪt/", ex: "The family is desperate for clean water.", exTr: "Aile temiz su için çaresiz durumda." },
     { w: "crop", tr: "mahsul", lv: "B2", ct: "isimler", pr: "/ˈkrɑp/", ex: "The heavy rain destroyed the wheat crop.", exTr: "Şiddetli yağmur buğday mahsulünü mahvetti." },
     { w: "traditional", tr: "geleneksel", lv: "A2", ct: "sıfatlar", pr: "/trʌˈdɪʃʌnʌl/", ex: "They serve traditional dishes at the festival.", exTr: "Festivalde geleneksel yemekler sunuyorlar." },
-    { w: "putting", tr: "koyarak", lv: "B2", ct: "genel", pr: "/ˈpʌtɪŋ/", ex: "She is putting her keys on the table.", exTr: "Anahtarlarını masanın üzerine koyarak bırakıyor." },
+    { w: "putting", tr: "koyma / koyarak", lv: "B2", ct: "genel", pr: "/ˈpʌtɪŋ/", ex: "She is putting her keys on the table.", exTr: "Anahtarlarını masanın üzerine koyarak bırakıyor." },
     { w: "blend", tr: "karışım", lv: "C1", ct: "isimler", pr: "/ˈblɛnd/", ex: "The sauce is a blend of spices and herbs.", exTr: "Sos, baharat ve otların bir karışımıdır." },
     { w: "skiing", tr: "kayak yapma", lv: "A2", ct: "isimler", pr: "/ˈskiɪŋ/", ex: "We go skiing in the Alps every winter.", exTr: "Her kış Alpler'de kayak yapmaya gideriz." },
     { w: "wherever", tr: "her yerde", lv: "B2", ct: "genel", pr: "/wɛˈrɛvɚ/", ex: "You will find my books wherever you look.", exTr: "Aradığın her yerde kitaplarımı bulursun." },

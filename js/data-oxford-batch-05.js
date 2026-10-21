@@ -146,7 +146,7 @@ KELIMELER.push(
     { w: "lifetime", tr: "ömür boyu", lv: "B2", ct: "isimler", pr: "/ˈlaɪˌftaɪm/", ex: "This is the chance of a lifetime.", exTr: "Bu hayatının şansı." },
     { w: "span", tr: "açıklık", lv: "C1", ct: "isimler", pr: "/ˈspæn/", ex: "Tom has a short attention span.", exTr: "Tom'un kısa bir dikkat süresi var." },
     { w: "district", tr: "semt", lv: "B2", ct: "isimler", pr: "/ˈdɪstrɪkt/", ex: "The district is short of water.", exTr: "İlçede su sıkıntısı yaşanıyor." },
-    { w: "named", tr: "isim", lv: "B1", ct: "genel", pr: "/ˈneɪmd/", ex: "Thomas was named after his father.", exTr: "Thomas babasının adını almıştır." },
+    { w: "named", tr: "adlı / isimlendirilmiş", lv: "B1", ct: "genel", pr: "/ˈneɪmd/", ex: "Thomas was named after his father.", exTr: "Thomas babasının adını almıştır." },
     { w: "each", tr: "her biri", lv: "A2", ct: "fiiller", pr: "/ˈitʃ/", ex: "They each every day.", exTr: "Her gün." },
     { w: "discard", tr: "atmak", lv: "C1", ct: "fiiller", pr: "/dɪˈskɑrd/", ex: "They discard every day.", exTr: "Her gün atıyorlar." },
     { w: "slash", tr: "eğik çizgi", lv: "C1", ct: "fiiller", pr: "/ˈslæʃ/", ex: "They slash every day.", exTr: "Her gün kesiyorlar." },

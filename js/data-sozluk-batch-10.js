@@ -161,7 +161,7 @@ KELIMELER.push(
     { w: "starve", tr: "açlıktan ölmek", lv: "B1", ct: "fiiller", pr: "/ˈstɑɹvd/", ex: "The old man was starved to death.", exTr: "Yaşlı adam açlıktan öldü." },
     { w: "miniature", tr: "minyatür", lv: "B1", ct: "genel", pr: "/ˈmɪniəˌtʃʊɹ/, /ˈmɪnɪˌtʃʊɹ/", ex: "The boy is his father in miniature.", exTr: "Çocuk babasının minyatürüdür." },
     { w: "quiz", tr: "sınav", lv: "B1", ct: "genel", pr: "/ˈkwɪz/", ex: "I can make nothing of this quiz.", exTr: "Bu sınavdan hiçbir şey yapamam." },
-    { w: "creates", tr: "yaratır", lv: "A2", ct: "genel", pr: "/kɹiˈeɪts/", ex: "This phenomenon creates homophones in spoken language.", exTr: "Bu olgu konuşma dilinde sesteş sözcükler yaratır." },
+
     { w: "bog", tr: "bataklık", lv: "B2", ct: "genel", pr: "/ˈbɑɡ/, /ˈbɔɡ/", ex: "It's back there somewhere, through the bog.", exTr: "Orada bir yerde, bataklığın içinde." },
     { w: "russo", tr: "rusça", lv: "B1", ct: "genel", pr: "/ˈɹusoʊ/", ex: "What is Joe Biden's responsibility in the outbreak of the Russo-Ukrainian War?", exTr: "Rus-Ukrayna Savaşı'nın çıkmasında Joe Biden'ın sorumluluğu nedir?" },
     { w: "agreeable", tr: "hoş", lv: "B2", ct: "sıfatlar", pr: "/əˈɡɹiəbəɫ/", ex: "Thank you very much, you always say more agreeable things than I do.", exTr: "Çok teşekkür ederim, sen her zaman benden daha hoş şeyler söylüyorsun." },
@@ -260,7 +260,7 @@ KELIMELER.push(
     { w: "alchemy", tr: "simya", lv: "C1", ct: "genel", pr: "/ˈæɫkəmi/", ex: "Dr. Faust was well versed in alchemy.", exTr: "Dr. Faust simya konusunda oldukça bilgiliydi." },
     { w: "bailiff", tr: "icra memuru", lv: "B2", ct: "genel", pr: "/ˈbeɪɫəf/, /ˈbeɪɫɪf/", ex: "The defendant handed his paperwork to the bailiff rather than directly to the judge.", exTr: "Sanık evraklarını doğrudan hakime vermek yerine icra memuruna teslim etti." },
     { w: "aboard", tr: "gemide", lv: "A2", ct: "genel", pr: "/əˈbɔɹd/", ex: "The passengers all went aboard the ship.", exTr: "Yolcuların hepsi gemiye bindi." },
-    { w: "wrongly", tr: "yanlış", lv: "B2", ct: "zarflar", pr: "/ˈɹɔŋɫi/", ex: "If it is wrongly used, the medicine will be a poison.", exTr: "Yanlış kullanıldığında ilaç zehir olur." },
+    { w: "wrongly", tr: "yanlışlıkla / hatalı olarak", lv: "B2", ct: "zarflar", pr: "/ˈɹɔŋɫi/", ex: "If it is wrongly used, the medicine will be a poison.", exTr: "Yanlış kullanıldığında ilaç zehir olur." },
     { w: "intimidate", tr: "gözdağı", lv: "B2", ct: "fiiller", pr: "/ˌɪnˈtɪmɪˌdeɪt/", ex: "It's no use trying to intimidate me.", exTr: "Beni korkutmaya çalışmanın faydası yok." },
     { w: "cipher", tr: "şifre", lv: "C1", ct: "isimler", pr: "/ˈsaɪfɝ/", ex: "The information may be given in cipher.", exTr: "Bilgi şifreli olarak verilebilir." },
     { w: "madam", tr: "hanımefendi", lv: "A2", ct: "genel", pr: "/ˈmædəm/", ex: "It is most considerate of you, madam.", exTr: "Çok düşüncelisiniz hanımefendi." },
