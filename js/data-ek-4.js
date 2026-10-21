@@ -37,7 +37,7 @@ KELIMELER.push(
     { w: "mild", tr: "ılıman / hafif", lv: "B1", ct: "hava", pr: "/maɪld/", ex: "The weather is mild today.", exTr: "Bugün hava ılımandır." },
     { w: "military", tr: "askerî / ordu", lv: "B2", ct: "toplum", pr: "/ˈmɪl.ɪ.tər.i/", ex: "He joined the military service.", exTr: "Askerlik hizmetine katıldı." },
     { w: "mill", tr: "değirmen / fabrika", lv: "B2", ct: "iş", pr: "/mɪl/", ex: "The old mill is now a museum.", exTr: "Eski değirmen artık bir müzedir." },
-    { w: "mine", tr: "maden / benimki", lv: "B1", ct: "genel", pr: "/maɪn/", ex: "They work in a coal mine.", exTr: "Bir kömür madeninde çalışıyorlar." },
+    { w: "mine", tr: "benimki / maden", lv: "B1", ct: "genel", pr: "/maɪn/", ex: "They work in a coal mine.", exTr: "Bir kömür madeninde çalışıyorlar." },
     { w: "mineral", tr: "mineral / maden", lv: "B2", ct: "bilim", pr: "/ˈmɪn.ər.əl/", ex: "Water is rich in minerals.", exTr: "Su mineraller bakımından zengindir." },
     { w: "minimum", tr: "asgari / en az", lv: "B1", ct: "matematik", pr: "/ˈmɪn.ɪ.məm/", ex: "The minimum age is eighteen.", exTr: "Asgari yaş on sekizdir." },
     { w: "minister", tr: "bakan / papaz", lv: "B2", ct: "toplum", pr: "/ˈmɪn.ɪ.stər/", ex: "The minister gave a speech.", exTr: "Bakan bir konuşma yaptı." },

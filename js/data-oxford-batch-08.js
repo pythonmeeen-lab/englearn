@@ -136,7 +136,7 @@ KELIMELER.push(
     { w: "manual", tr: "manuel / el kitabı", lv: "B1", ct: "genel", pr: "/ˈmænjuʌl/", ex: "Intelligent equipment has replaced manual labor.", exTr: "Akıllı ekipmanlar manuel emeğin yerini aldı." },
     { w: "front", tr: "ön", lv: "A2", ct: "sıfatlar", pr: "/ˈfrʌnt/", ex: "Life lies in front of you.", exTr: "Hayat önünüzde yatıyor." },
     { w: "relate", tr: "ilgili olmak", lv: "B1", ct: "fiiller", pr: "/rɪˈleɪt/", ex: "They relate every day.", exTr: "Her gün ilişki kuruyorlar." },
-    { w: "himself", tr: "kendisi", lv: "A2", ct: "isimler", pr: "/hɪˈmsɛlf/", ex: "Hasn't he looked at himself in a mirror?", exTr: "Aynada kendine bakmadı mı?" },
+    { w: "himself", tr: "kendisi (erkek)", lv: "A2", ct: "isimler", pr: "/hɪˈmsɛlf/", ex: "Hasn't he looked at himself in a mirror?", exTr: "Aynada kendine bakmadı mı?" },
     { w: "odds", tr: "oran / ihtimal", lv: "C1", ct: "isimler", pr: "/ˈɑdz/", ex: "I offered him odds of 3 to 1.", exTr: "Ona 3'e 1 oran teklif ettim." },
     { w: "engagement", tr: "nişan / angajman", lv: "C1", ct: "isimler", pr: "/ɛˈnɡeɪdʒmʌnt/", ex: "I'm sorry, I have another engagement.", exTr: "Üzgünüm, başka bir nişanım daha var." },
     { w: "involve", tr: "içermek / dahil etmek", lv: "A2", ct: "fiiller", pr: "/ˌɪˈnvɑlv/", ex: "They involve every day.", exTr: "Her gün katılıyorlar." },
