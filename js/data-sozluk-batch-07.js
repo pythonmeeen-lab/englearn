@@ -118,7 +118,7 @@ KELIMELER.push(
     { w: "humiliate", tr: "aşağılanmış", lv: "A2", ct: "fiiller", pr: "/hjuˈmɪɫiˌeɪtɪd/", ex: "To lose face means to be humiliated.", exTr: "İtibarını kaybetmek aşağılanmak demektir." },
     { w: "godfather", tr: "vaftiz babası", lv: "A2", ct: "isimler", pr: "/ˈɡɑdˌfɑðɝ/", ex: "He stood godfather to my first son.", exTr: "İlk oğlumun vaftiz babasıydı." },
     { w: "pronto", tr: "derhal", lv: "B2", ct: "genel", pr: "/ˈpɹɑntoʊ/", ex: "I need you in my office pronto.", exTr: "Sana hemen ofisimde ihtiyacım var." },
-    { w: "outrageous", tr: "çirkin", lv: "A2", ct: "sıfatlar", pr: "/aʊˈtɹeɪdʒəs/", ex: "Sami's letter was filled with outrageous rants.", exTr: "Sami'nin mektubu çirkin sözlerle doluydu." },
+    { w: "outrageous", tr: "çileden çıkarıcı / inanılmaz", lv: "A2", ct: "sıfatlar", pr: "/aʊˈtɹeɪdʒəs/", ex: "Sami's letter was filled with outrageous rants.", exTr: "Sami'nin mektubu çirkin sözlerle doluydu." },
     { w: "typhoon", tr: "tayfun", lv: "B2", ct: "genel", pr: "/ˌtaɪˈfun/", ex: "The tree fell over in the typhoon.", exTr: "Ağaç tayfunda devrildi." },
     { w: "harass", tr: "taciz etmek", lv: "B2", ct: "genel", pr: "/hɝˈæs/", ex: "I don't want you to harass Tom.", exTr: "Tom'u taciz etmeni istemiyorum." },
     { w: "pug", tr: "boksör", lv: "C1", ct: "genel", pr: "/ˈpəɡ/", ex: "I woke up to my Pug licking my face.", exTr: "Pug'ımın yüzümü yalamasıyla uyandım." },

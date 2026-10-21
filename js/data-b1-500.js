@@ -282,7 +282,7 @@ KELIMELER.push(
     { w: "rude", tr: "kaba", lv: "B1", ct: "sıfatlar", pr: "/ruːd/", ex: "It is rude to interrupt.", exTr: "Sözünü kesmek kabalıktır." },
     { w: "polite", tr: "kibarlıklı", lv: "B1", ct: "sıfatlar", pr: "/pəˈlaɪt/", ex: "Be polite to the guests.", exTr: "Misafirlere karşı nazik ol." },
     { w: "patient", tr: "sabırlı", lv: "B1", ct: "sıfatlar", pr: "/ˈpeɪ.ʃənt/", ex: "Teachers must be patient.", exTr: "Öğretmenler sabırlı olmalıdır." },
-    { w: "impolite", tr: "kabalıklı", lv: "B1", ct: "sıfatlar", pr: "/ˌɪm.pəˈlaɪt/", ex: "It is impolite to shout.", exTr: "Bağırmak kabalıktır." },
+    { w: "impolite", tr: "kaba / nezaketsiz", lv: "B1", ct: "sıfatlar", pr: "/ˌɪm.pəˈlaɪt/", ex: "It is impolite to shout.", exTr: "Bağırmak kabalıktır." },
     { w: "actually", tr: "aslında", lv: "B1", ct: "zarflar", pr: "/ˈæk.tʃu.ə.li/", ex: "Actually, he is right.", exTr: "Aslında haklı." },
     { w: "probably", tr: "muhtemelen", lv: "B1", ct: "zarflar", pr: "/ˈprɒb.ə.bli/", ex: "It will probably rain.", exTr: "Muhtemelen yağmur yağacak." },
     { w: "especially", tr: "özellikle", lv: "B1", ct: "zarflar", pr: "/ɪˈspeʃ.əl.i/", ex: "I love fruit, especially apples.", exTr: "Meyveyi severim, özellikle elmayı." },

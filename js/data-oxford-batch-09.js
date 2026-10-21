@@ -95,7 +95,7 @@ KELIMELER.push(
     { w: "alien", tr: "yabancı", lv: "B2", ct: "isimler", pr: "/ˈeɪliʌn/", ex: "Thrift is alien to my nature.", exTr: "Tutumluluk benim doğama yabancıdır." },
     { w: "exchange", tr: "değişme", lv: "B1", ct: "isimler", pr: "/ɪˈkstʃeɪndʒ/", ex: "Would you like to exchange links?", exTr: "Bağlantıları değiştirmek ister misiniz?" },
     { w: "business", tr: "işletme", lv: "A2", ct: "isimler", pr: "/ˈbɪznʌs/", ex: "You should go about your business.", exTr: "Sen işine bakmalısın." },
-    { w: "costa", tr: "Kosta", lv: "B1", ct: "genel", pr: "/ˈkɔstɑ/", ex: "Costa is very important.", exTr: "Costa çok önemli." },
+    { w: "costa", tr: "kaburga (anatomi)", lv: "B1", ct: "genel", pr: "/ˈkɔstɑ/", ex: "Costa is very important.", exTr: "Costa çok önemli." },
     { w: "ladies", tr: "bayanlar", lv: "B1", ct: "genel", pr: "/ˈleɪdiz/", ex: "Please be seated, ladies and gentlemen.", exTr: "Lütfen oturun bayanlar ve baylar." },
     { w: "notices", tr: "bildirimler", lv: "B2", ct: "genel", pr: "/ˈnoʊtʌsʌz/", ex: "I don't think anyone notices what Tom does.", exTr: "Kimsenin Tom'un ne yaptığını fark ettiğini sanmıyorum." },
     { w: "franchise", tr: "imtiyaz", lv: "C1", ct: "isimler", pr: "/ˈfræˌntʃaɪz/", ex: "This movie is a reboot of the franchise.", exTr: "Bu film serinin yeniden başlatılmasıdır." },

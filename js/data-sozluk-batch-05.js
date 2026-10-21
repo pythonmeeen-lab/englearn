@@ -119,7 +119,7 @@ KELIMELER.push(
     { w: "explode", tr: "patlayan", lv: "B1", ct: "fiiller", pr: "/ɪksˈpɫoʊdɪŋ/", ex: "Without a defuser, the soldier would not have been able to prevent the bomb from exploding.", exTr: "Söndürücü olmasaydı asker bombanın patlamasını engelleyemezdi." },
     { w: "sunlight", tr: "güneş ışığı", lv: "A2", ct: "genel", pr: "/ˈsənˌɫaɪt/", ex: "Don't expose the plant to direct sunlight.", exTr: "Bitkiyi doğrudan güneş ışığına maruz bırakmayın." },
     { w: "malignant", tr: "kötü huylu", lv: "C1", ct: "sıfatlar", pr: "/məˈɫɪɡnənt/", ex: "Her face was distorted and malignant with menace.", exTr: "Yüzü çarpıktı ve tehditkar bir şekilde kötü niyetliydi." },
-    { w: "getaway", tr: "kurtulmak", lv: "B1", ct: "genel", pr: "/ˈɡɛtəˌweɪ/", ex: "Yanni and Skura planned a romantic getaway.", exTr: "Yanni ve Skura romantik bir kaçamak planladı." },
+    { w: "getaway", tr: "kaçış / kısa tatil", lv: "B1", ct: "genel", pr: "/ˈɡɛtəˌweɪ/", ex: "Yanni and Skura planned a romantic getaway.", exTr: "Yanni ve Skura romantik bir kaçamak planladı." },
     { w: "starship", tr: "yıldız gemisi", lv: "B2", ct: "isimler", pr: "/ˈstɑɹˌʃɪp/", ex: "I flew a starship to the other galaxy.", exTr: "Diğer galaksiye bir yıldız gemisi uçurdum." },
     { w: "slate", tr: "kayrak", lv: "B1", ct: "fiiller", pr: "/ˈsɫeɪt/", ex: "Let's scrap everything and start again with a clean slate.", exTr: "Her şeyi bir kenara bırakalım ve temiz bir sayfa açarak yeniden başlayalım." },
     { w: "fatter", tr: "daha şişman", lv: "C1", ct: "isimler", pr: "/ˈfætɝ/", ex: "She seems to get fatter and fatter.", exTr: "Gittikçe daha da şişmanlıyor gibi görünüyor." },

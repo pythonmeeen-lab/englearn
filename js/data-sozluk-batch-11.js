@@ -126,7 +126,7 @@ KELIMELER.push(
     { w: "reinstate", tr: "eski durumuna döndürme", lv: "C1", ct: "fiiller", pr: "/ˌɹiɪnˈsteɪtɪd/", ex: "Elon had reinstated Donald Trump's Twitter account.", exTr: "Elon, Donald Trump'ın Twitter hesabını eski durumuna getirmişti." },
     { w: "corroborate", tr: "doğrulamak", lv: "C1", ct: "fiiller", pr: "/kɝˈɑbɝˌeɪt/", ex: "Your story doesn't corroborate what I've heard before.", exTr: "Hikayeniz daha önce duyduklarımı doğrulamıyor." },
     { w: "ghastly", tr: "korkunç", lv: "B2", ct: "zarflar", pr: "/ˈɡæstɫi/", ex: "The idea of some ghastly presence constantly haunted him.", exTr: "Korkunç bir varlığın düşüncesi sürekli aklını kurcalıyordu." },
-    { w: "soothe", tr: "yatıştırıcı", lv: "B2", ct: "fiiller", pr: "/ˈsuðɪŋ/", ex: "Listening to the Quran is very soothing.", exTr: "Kuran dinlemek çok rahatlatıcıdır." },
+    { w: "soothe", tr: "yatıştırmak", lv: "B2", ct: "fiiller", pr: "/ˈsuðɪŋ/", ex: "Listening to the Quran is very soothing.", exTr: "Kuran dinlemek çok rahatlatıcıdır." },
     { w: "shun", tr: "uzak durmak", lv: "B2", ct: "genel", pr: "/ˈʃən/", ex: "I don't care if you shun me.", exTr: "Benden uzak durman umurumda değil." },
     { w: "hangover", tr: "akşamdan kalmalık", lv: "B1", ct: "isimler", pr: "/ˈhæˌŋoʊvɝ/", ex: "Tom woke up with a splitting hangover.", exTr: "Tom şiddetli bir akşamdan kalmalıkla uyandı." },
     { w: "pervert", tr: "sapık", lv: "A2", ct: "genel", pr: "/ˈpɝvɝt/, /pɝˈvɝt/", ex: "Don't look up my skirt, you pervert!", exTr: "Eteğimin yukarısına bakma, seni sapık!" },

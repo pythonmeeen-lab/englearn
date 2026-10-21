@@ -225,7 +225,7 @@ KELIMELER.push(
     { w: "hideout", tr: "saklanma yeri", lv: "B1", ct: "genel", pr: "/ˈhaɪˌdaʊt/", ex: "Damiano know where the alien hideout is.", exTr: "Damiano uzaylıların saklandığı yerin nerede olduğunu biliyor." },
     { w: "unpack", tr: "paketi açmak", lv: "B1", ct: "genel", pr: "/ənˈpæk/", ex: "Yanni doesn't want to pack all his stuff up just to unpack a few more minutes later.", exTr: "Yanni, birkaç dakika sonra paketini açmak için tüm eşyalarını toplamak istemiyor." },
     { w: "landlady", tr: "ev sahibesi", lv: "B1", ct: "genel", pr: "/ˈɫændˌɫeɪdi/", ex: "This lady is Masagokan's landlady, Yoko Someha.", exTr: "Bu bayan Masagokan'ın ev sahibesi Yoko Someha." },
-    { w: "smallpox", tr: "çiçek", lv: "B2", ct: "genel", pr: "/ˈsmɔɫˌpɑks/", ex: "Tom and Mary both died of smallpox.", exTr: "Tom ve Mary'nin ikisi de çiçek hastalığından öldü." },
+    { w: "smallpox", tr: "çiçek hastalığı", lv: "B2", ct: "genel", pr: "/ˈsmɔɫˌpɑks/", ex: "Tom and Mary both died of smallpox.", exTr: "Tom ve Mary'nin ikisi de çiçek hastalığından öldü." },
     { w: "saga", tr: "destan", lv: "B2", ct: "genel", pr: "/ˈsɑɡə/", ex: "The Terminator saga also has a television series.", exTr: "Terminatör destanının bir de televizyon dizisi var." },
     { w: "jasmine", tr: "yasemin", lv: "A2", ct: "genel", pr: "/ˈdʒæzmən/, /ˈdʒæzmɪn/", ex: "I would drink some jasmine green tea.", exTr: "Biraz yaseminli yeşil çay içerdim." },
     { w: "pickle", tr: "turşu", lv: "B2", ct: "fiiller", pr: "/ˈpɪkəɫd/", ex: "Sushi is often served with pickled ginger.", exTr: "Suşi genellikle zencefil turşusu ile servis edilir." },

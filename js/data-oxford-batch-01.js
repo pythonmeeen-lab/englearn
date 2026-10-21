@@ -93,7 +93,7 @@ KELIMELER.push(
     { w: "syndrome", tr: "sendrom", lv: "C1", ct: "isimler", pr: "/ˈsɪˌndroʊm/", ex: "The doctor diagnosed a rare syndrome.", exTr: "Doktor nadir bir sendrom teşhis etti." },
     { w: "starve", tr: "açlıktan ölmek", lv: "B2", ct: "fiiller", pr: "/ˈstɑrv/", ex: "Millions starve each year.", exTr: "Her yıl milyonlarca kişi açlıktan ölüyor." },
     { w: "owner", tr: "mal sahibi", lv: "A2", ct: "isimler", pr: "/ˈoʊnɚ/", ex: "The owner sold the shop.", exTr: "Mal sahibi dükkânı sattı." },
-    { w: "ram", tr: "Veri deposu", lv: "B1", ct: "genel", pr: "/ˈræm/", ex: "The computer needs more ram.", exTr: "Bilgisayar daha fazla veri deposu gerektiriyor." },
+    { w: "ram", tr: "koç / RAM (bellek)", lv: "B1", ct: "genel", pr: "/ˈræm/", ex: "The computer needs more ram.", exTr: "Bilgisayar daha fazla veri deposu gerektiriyor." },
     { w: "permanently", tr: "kalıcı olarak", lv: "B2", ct: "fiiller", pr: "/ˈpɚmʌnʌntli/", ex: "The shop closed permanently last year.", exTr: "Dükkân geçen yıl kalıcı olarak kapandı." },
     { w: "choice", tr: "seçenek", lv: "A2", ct: "isimler", pr: "/ˈtʃɔɪs/", ex: "You have a choice in this matter.", exTr: "Bu konuda bir seçeneğin var." },
     { w: "upper", tr: "üst", lv: "B2", ct: "sıfatlar", pr: "/ˈʌpɚ/", ex: "She lives on the upper floor.", exTr: "Üst katta yaşıyor." },

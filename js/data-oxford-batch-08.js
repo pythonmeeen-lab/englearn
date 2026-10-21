@@ -142,7 +142,7 @@ KELIMELER.push(
     { w: "nonetheless", tr: "yine de", lv: "C1", ct: "fiiller", pr: "/ˌnʌnðʌˈlɛs/", ex: "They nonetheless every day.", exTr: "Yine de her gün." },
     { w: "dual", tr: "çift", lv: "C1", ct: "sıfatlar", pr: "/ˈduʌl/", ex: "I understand you have dual citizenship.", exTr: "Anladığım kadarıyla çifte vatandaşlığınız var." },
     { w: "stroke", tr: "felç", lv: "B2", ct: "isimler", pr: "/ˈstroʊk/", ex: "I had a stroke last year.", exTr: "Geçen yıl felç geçirdim." },
-    { w: "il", tr: "hasta", lv: "B1", ct: "genel", pr: "/ˈɪl/", ex: "Kim Il-sung was named premier.", exTr: "Kim Il-sung başbakan seçildi." },
+
     { w: "producer", tr: "yapımcı", lv: "B1", ct: "isimler", pr: "/prʌˈdusɚ/", ex: "Tom Jackson is the supervising producer.", exTr: "Tom Jackson denetleyici yapımcıdır." },
     { w: "truly", tr: "tamamen", lv: "B2", ct: "fiiller", pr: "/ˈtruli/", ex: "They truly every day.", exTr: "Onlar gerçekten her gün." },
     { w: "nowadays", tr: "bu günlerde", lv: "B2", ct: "fiiller", pr: "/ˈnaʊʌˌdeɪz/", ex: "They nowadays every day.", exTr: "Bugünlerde her gün." },
