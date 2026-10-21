@@ -70,7 +70,7 @@ KELIMELER.push(
     { w: "fully", tr: "tamamen", lv: "B2", ct: "fiiller", pr: "/ˈfʊli/", ex: "They fully every day.", exTr: "Her gün tamamen." },
     { w: "qualification", tr: "vasıf", lv: "B1", ct: "isimler", pr: "/ˌkwɑlʌfʌˈkeɪʃʌn/", ex: "We agreed to the plan without qualification.", exTr: "Planı şart koşmadan kabul ettik." },
     { w: "perform", tr: "rol yapmak", lv: "A2", ct: "fiiller", pr: "/pɚˈfɔrm/", ex: "They perform every day.", exTr: "Her gün gösteri yapıyorlar." },
-    { w: "statement", tr: "ifade", lv: "A2", ct: "isimler", pr: "/ˈsteɪtmʌnt/", ex: "Will you give us a statement?", exTr: "Bize bir açıklama yapacak mısınız?" },
+    { w: "statement", tr: "ifade / beyan / açıklama", lv: "A2", ct: "isimler", pr: "/ˈsteɪtmʌnt/", ex: "Will you give us a statement?", exTr: "Bize bir açıklama yapacak mısınız?" },
     { w: "rub", tr: "ovmak", lv: "B2", ct: "fiiller", pr: "/ˈrʌb/", ex: "They rub every day.", exTr: "Her gün ovalarlar." },
     { w: "motive", tr: "sebep", lv: "C1", ct: "isimler", pr: "/ˈmoʊtɪv/", ex: "What's his motive for committing murder?", exTr: "Cinayeti işleme nedeni nedir?" },
     { w: "denounce", tr: "kınamak", lv: "C1", ct: "fiiller", pr: "/dɪˈnaʊns/", ex: "They denounce every day.", exTr: "Her gün ihbar ediyorlar." },

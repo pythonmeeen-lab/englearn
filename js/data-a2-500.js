@@ -168,7 +168,7 @@ KELIMELER.push(
     { w: "gold", tr: "altın", lv: "A2", ct: "renkler", pr: "/ɡəʊld/", ex: "The ring is made of gold.", exTr: "Yüzük altından yapılmış." },
     { w: "silver", tr: "gümüş", lv: "A2", ct: "renkler", pr: "/ˈsɪl.vər/", ex: "She wears a silver necklace.", exTr: "Gümüş bir kolye takıyor." },
     { w: "uncle", tr: "amca / dayı", lv: "A2", ct: "aile", pr: "/ˈʌŋ.kəl/", ex: "My uncle lives in Izmir.", exTr: "Amcam İzmir'de yaşıyor." },
-    { w: "aunt", tr: "teyze / hala", lv: "A2", ct: "aile", pr: "/ɑːnt/", ex: "My aunt makes great cakes.", exTr: "Teyzem harika kek yapar." },
+    { w: "aunt", tr: "hala / teyze / yenge", lv: "A2", ct: "aile", pr: "/ɑːnt/", ex: "My aunt makes great cakes.", exTr: "Teyzem harika kek yapar." },
     { w: "cousin", tr: "kuzen", lv: "A2", ct: "aile", pr: "/ˈkʌz.ən/", ex: "My cousin is my best friend.", exTr: "Kuzenim en iyi arkadaşımdır." },
     { w: "nephew", tr: "yeğen (erkek)", lv: "A2", ct: "aile", pr: "/ˈnef.juː/", ex: "My nephew is five years old.", exTr: "Yeğenim beş yaşında." },
     { w: "niece", tr: "yeğen (kız)", lv: "A2", ct: "aile", pr: "/niːs/", ex: "My niece loves ice cream.", exTr: "Yeğenim dondurmayı sever." },

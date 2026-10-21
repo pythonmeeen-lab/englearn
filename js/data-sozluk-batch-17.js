@@ -227,7 +227,7 @@ KELIMELER.push(
     { w: "ripple", tr: "dalgalanma", lv: "C1", ct: "genel", pr: "/ˈɹɪpəɫ/", ex: "Ziri watched the breeze ripple through the trees.", exTr: "Ziri, esintinin ağaçlar arasında dalgalanışını izledi." },
     { w: "ambush", tr: "pusuya düşürmek", lv: "A2", ct: "genel", pr: "/ˈæmˌbʊʃ/", ex: "He has a plan to ambush him.", exTr: "Onu pusuya düşürmek için bir planı var." },
     { w: "outcast", tr: "dışlanmış", lv: "C1", ct: "genel", pr: "/ˈaʊtˌkæst/", ex: "I don't want to be an outcast.", exTr: "Dışlanmış biri olmak istemiyorum." },
-    { w: "pine", tr: "çam", lv: "A2", ct: "genel", pr: "/ˈpaɪn/", ex: "This is a well-shaped pine tree.", exTr: "Bu iyi şekilli bir çam ağacıdır." },
+    { w: "pine", tr: "çam / özlemek", lv: "A2", ct: "genel", pr: "/ˈpaɪn/", ex: "This is a well-shaped pine tree.", exTr: "Bu iyi şekilli bir çam ağacıdır." },
     { w: "sparkling", tr: "köpüklü", lv: "B1", ct: "isimler", pr: "/ˈspɑɹkəɫɪŋ/, /ˈspɑɹkɫɪŋ/", ex: "In the era of the Soviets, our sparkling wines were known as Soviet champagne.", exTr: "Sovyetler döneminde köpüklü şaraplarımız Sovyet şampanyası olarak biliniyordu." },
     { w: "melancholy", tr: "melankoli", lv: "B1", ct: "zarflar", pr: "/ˈmɛɫənˌkɑɫi/", ex: "Bach could transform music into pure melancholy.", exTr: "Bach müziği saf melankoliye dönüştürebilirdi." },
     { w: "shorter", tr: "daha kısa", lv: "A2", ct: "isimler", pr: "/ˈʃɔɹtɝ/", ex: "I was the shorter of us two.", exTr: "Ben ikimizden kısa olandım." },

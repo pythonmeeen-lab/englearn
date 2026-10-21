@@ -171,7 +171,7 @@ KELIMELER.push(
     { w: "discourage", tr: "vazgeçirmek", lv: "B2", ct: "fiiller", pr: "/dɪˈskɚɪdʒ/", ex: "They discourage every day.", exTr: "Her gün cesaretlerini kırıyorlar." },
     { w: "dvds", tr: "DVD'ler", lv: "B1", ct: "genel", pr: "/ˌdiˌviˈdiz/", ex: "Dvds is very important.", exTr: "DVD'ler çok önemli." },
     { w: "peace", tr: "barış", lv: "A2", ct: "isimler", pr: "/ˈpis/", ex: "We should try to obtain peace.", exTr: "Barışı sağlamaya çalışmalıyız." },
-    { w: "logged", tr: "oturum açıldı", lv: "B1", ct: "genel", pr: "/ˈlɔɡd/", ex: "Tom logged onto his Facebook account.", exTr: "Tom Facebook hesabına giriş yaptı." },
+    { w: "logged", tr: "kaydedilmiş / giriş yapmış", lv: "B1", ct: "genel", pr: "/ˈlɔɡd/", ex: "Tom logged onto his Facebook account.", exTr: "Tom Facebook hesabına giriş yaptı." },
     { w: "any more", tr: "artık değil", lv: "A2", ct: "fiiller", pr: "/ˌɛ.niˈmɔː/", ex: "They any more every day.", exTr: "Her gün daha da artıyorlar." },
     { w: "grade", tr: "seviye", lv: "B1", ct: "isimler", pr: "/ˈɡreɪd/", ex: "What grade is your sister in?", exTr: "Kız kardeşin kaçıncı sınıfta?" },
     { w: "established", tr: "kurulmuş", lv: "B1", ct: "genel", pr: "/ɪˈstæblɪʃt/", ex: "The English established colonies in America.", exTr: "İngilizler Amerika'da koloniler kurdular." },

@@ -69,7 +69,7 @@ KELIMELER.push(
     { w: "handgun", tr: "tabanca", lv: "C1", ct: "genel", pr: "/ˈhændˌɡən/", ex: "A handgun was sticking out the bag.", exTr: "Çantanın içinden bir tabanca çıkıyordu." },
     { w: "dealership", tr: "bayilik", lv: "C1", ct: "isimler", pr: "/ˈdiɫɝˌʃɪp/", ex: "Sami took his car to the dealership.", exTr: "Sami arabasını bayiye götürdü." },
     { w: "loco", tr: "lokomotif", lv: "B2", ct: "genel", pr: "/ˈɫoʊkoʊ/", ex: "I think we're all a bit loco.", exTr: "Sanırım hepimiz biraz kaçıkız." },
-    { w: "corn", tr: "Mısır", lv: "A2", ct: "genel", pr: "/ˈkɔɹn/", ex: "Birds feed on berries and corn seeds.", exTr: "Kuşlar meyveler ve mısır tohumlarıyla beslenir." },
+    { w: "corn", tr: "mısır (tahıl)", lv: "A2", ct: "genel", pr: "/ˈkɔɹn/", ex: "Birds feed on berries and corn seeds.", exTr: "Kuşlar meyveler ve mısır tohumlarıyla beslenir." },
     { w: "carve", tr: "oyulmuş", lv: "A2", ct: "fiiller", pr: "/ˈkɑɹvd/", ex: "The statue is carved out of stone.", exTr: "Heykel taştan oyulmuştur." },
     { w: "traveler", tr: "gezgin", lv: "B1", ct: "isimler", pr: "/ˈtɹævəɫɝ/, /ˈtɹævɫɝ/", ex: "The traveler stopped at the soldier's challenge.", exTr: "Gezgin, askerin meydan okuması karşısında durdu." },
     { w: "prehistoric", tr: "tarih öncesi", lv: "B2", ct: "sıfatlar", pr: "/ˌpɹihɪˈstɔɹɪk/", ex: "The ice has fossilised many prehistoric animals.", exTr: "Buz birçok tarih öncesi hayvanı fosilleştirdi." },

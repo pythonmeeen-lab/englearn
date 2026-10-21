@@ -68,7 +68,7 @@ KELIMELER.push(
     { w: "quack", tr: "şarlatan", lv: "B1", ct: "genel", pr: "/ˈkwæk/", ex: "My mom thinks the doctor is a quack.", exTr: "Annem doktorun şarlatan olduğunu düşünüyor." },
     { w: "mortar", tr: "harç", lv: "B2", ct: "genel", pr: "/ˈmɔɹtɝ/", ex: "The mortar and pestle always go together.", exTr: "Harç ve havaneli her zaman birlikte gider." },
     { w: "seaweed", tr: "yosun", lv: "B2", ct: "fiiller", pr: "/ˈsiˌwid/", ex: "Our cat is very fond of seaweed.", exTr: "Kedimiz deniz yosununu çok seviyor." },
-    { w: "dumbass", tr: "aptallar", lv: "B1", ct: "genel", pr: "/ˈdəmˌbæs/", ex: "Can't you even understand that, you dumbass?", exTr: "Bunu bile anlayamıyor musun, seni aptal?" },
+    { w: "dumbass", tr: "aptal (argo)", lv: "B1", ct: "genel", pr: "/ˈdəmˌbæs/", ex: "Can't you even understand that, you dumbass?", exTr: "Bunu bile anlayamıyor musun, seni aptal?" },
     { w: "maze", tr: "labirent", lv: "B1", ct: "genel", pr: "/ˈmeɪz/", ex: "Yesterday we went into a huge maze.", exTr: "Dün büyük bir labirente girdik." },
     { w: "exaggerate", tr: "abartılı", lv: "B2", ct: "fiiller", pr: "/ɪɡˈzædʒɝˌeɪtəd/, /ɪɡˈzædʒɝˌeɪtɪd/", ex: "The announcement exaggerated the number of casualties.", exTr: "Açıklamada ölü sayısı abartıldı." },
     { w: "intellect", tr: "akıl", lv: "B2", ct: "genel", pr: "/ˈɪnəˌɫɛkt/, /ˈɪntəˌɫɛkt/", ex: "Opinion is ultimately determined by feelings, and not by the intellect.", exTr: "Görüş sonuçta akıl tarafından değil, duygular tarafından belirlenir." },

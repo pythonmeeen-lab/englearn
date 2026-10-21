@@ -146,7 +146,7 @@ KELIMELER.push(
     { w: "enthusiast", tr: "meraklı", lv: "C1", ct: "isimler", pr: "/ɛˈnθuziˌæst/", ex: "Fyodor was a fellow nature enthusiast.", exTr: "Fyodor bir doğa tutkunuydu." },
     { w: "want", tr: "istek", lv: "A2", ct: "fiiller", pr: "/ˈwɑnt/", ex: "They want every day.", exTr: "Her gün istiyorlar." },
     { w: "delicate", tr: "narin", lv: "C1", ct: "sıfatlar", pr: "/ˈdɛlʌkʌt/", ex: "My brother's health has been delicate.", exTr: "Kardeşimin sağlık durumu hassas." },
-    { w: "vintage", tr: "nostaljik", lv: "B1", ct: "genel", pr: "/ˈvɪntɪdʒ/", ex: "He is buying a vintage hat.", exTr: "Vintage bir şapka satın alıyor." },
+    { w: "vintage", tr: "eski / nostaljik", lv: "B1", ct: "genel", pr: "/ˈvɪntɪdʒ/", ex: "He is buying a vintage hat.", exTr: "Vintage bir şapka satın alıyor." },
     { w: "column", tr: "kolon", lv: "A2", ct: "isimler", pr: "/ˈkɑlʌm/", ex: "Add up this column of figures.", exTr: "Bu rakamlar sütununu toplayın." },
     { w: "necessarily", tr: "mutlaka", lv: "B1", ct: "fiiller", pr: "/ˌnɛsʌˈsɛrʌli/", ex: "They necessarily every day.", exTr: "mutlaka" },
     { w: "enhance", tr: "genişletmek", lv: "B2", ct: "fiiller", pr: "/ɛˈnhæns/", ex: "They enhance every day.", exTr: "Her geçen gün gelişiyorlar." },

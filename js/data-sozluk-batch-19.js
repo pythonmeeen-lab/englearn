@@ -110,7 +110,7 @@ KELIMELER.push(
     { w: "concubine", tr: "cariye", lv: "B2", ct: "genel", pr: "/ˈkɑnkjəˌbaɪn/", ex: "Rima was Gabriel’s concubine.", exTr: "Rima, Gabriel'in cariyesiydi." },
     { w: "puberty", tr: "ergenlik", lv: "B2", ct: "genel", pr: "/ˈpjubɝti/", ex: "The body changes a lot during puberty.", exTr: "Ergenlik döneminde vücut çok değişir." },
     { w: "cosy", tr: "samimi", lv: "B2", ct: "genel", pr: "/ˈkoʊzi/", ex: "The room is warm and cosy now.", exTr: "Oda artık sıcak ve rahat." },
-    { w: "auxiliary", tr: "ek", lv: "B2", ct: "genel", pr: "/ɑɡˈzɪɫiɛɹi/, /ɑɡˈzɪɫjɝi/", ex: "Klingon is my favorite international auxiliary language.", exTr: "Klingonca benim en sevdiğim uluslararası yardımcı dildir." },
+    { w: "auxiliary", tr: "yardımcı / ek", lv: "B2", ct: "genel", pr: "/ɑɡˈzɪɫiɛɹi/, /ɑɡˈzɪɫjɝi/", ex: "Klingon is my favorite international auxiliary language.", exTr: "Klingonca benim en sevdiğim uluslararası yardımcı dildir." },
     { w: "campfire", tr: "kamp ateşi", lv: "C1", ct: "genel", pr: "/ˈkæmpˌfaɪɝ/", ex: "It wasn't Tom who lit the campfire.", exTr: "Kamp ateşini yakan Tom değildi." },
     { w: "redo", tr: "yeniden yapmak", lv: "B2", ct: "genel", pr: "/ɹiˈdu/", ex: "I will not want to redo it.", exTr: "Tekrar yapmak istemeyeceğim." },
     { w: "penicillin", tr: "penisilin", lv: "C1", ct: "genel", pr: "/ˌpɛnəˈsɪɫən/", ex: "I'm allergic to aspirin, penicillin, and sulfamides.", exTr: "Aspirin, penisilin ve sülfamidlere alerjim var." },

@@ -79,7 +79,7 @@ KELIMELER.push(
     { w: "grin", tr: "sırıtış", lv: "C1", ct: "isimler", pr: "/ˈɡrɪn/", ex: "He gave his sudden, goblin like grin.", exTr: "Ani, goblin gibi sırıttı." },
     { w: "narrative", tr: "anlatı", lv: "B1", ct: "sıfatlar", pr: "/ˈnærʌtɪv/", ex: "Storytelling rekindles the interest in narrative.", exTr: "Hikaye anlatımı anlatıya olan ilgiyi yeniden canlandırır." },
     { w: "initial", tr: "ilk", lv: "B2", ct: "sıfatlar", pr: "/ˌɪˈnɪʃʌl/", ex: "We couldn't reach the initial goal.", exTr: "İlk hedefe ulaşamadık." },
-    { w: "belgium", tr: "Belçika", lv: "B1", ct: "genel", pr: "/ˈbɛldʒʌm/", ex: "Belgium is very important.", exTr: "Belçika çok önemli." },
+
     { w: "snap", tr: "patlatmak", lv: "C1", ct: "fiiller", pr: "/ˈsnæp/", ex: "They snap every day.", exTr: "Her gün kopuyorlar." },
     { w: "section", tr: "bölüm", lv: "A2", ct: "isimler", pr: "/ˈsɛkʃʌn/", ex: "Who's in charge of this section?", exTr: "Bu bölümün sorumlusu kim?" },
     { w: "keeping", tr: "tutmak", lv: "B1", ct: "genel", pr: "/ˈkipɪŋ/", ex: "This safe is for keeping valuables.", exTr: "Bu kasa değerli eşyaların saklanması içindir." },

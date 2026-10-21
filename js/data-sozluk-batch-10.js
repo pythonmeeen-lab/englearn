@@ -106,7 +106,7 @@ KELIMELER.push(
     { w: "uptight", tr: "gergin", lv: "B1", ct: "genel", pr: "/əpˈtaɪt/", ex: "Don't be so uptight all the time.", exTr: "Her zaman bu kadar gergin olmayın." },
     { w: "hectic", tr: "ateşli", lv: "C1", ct: "sıfatlar", pr: "/ˈhɛktɪk/", ex: "After a hectic few days at work, Tom is looking forward to a change of pace.", exTr: "İşteki yoğun birkaç günün ardından Tom, tempoda bir değişiklik yapmayı sabırsızlıkla bekliyor." },
     { w: "troublesome", tr: "zahmetli", lv: "B1", ct: "genel", pr: "/ˈtɹəbəɫsəm/", ex: "A fractious child is a troublesome thing to deal with, but a fractious man is far worse.", exTr: "Huysuz bir çocukla uğraşmak zahmetli bir şeydir ama huysuz bir adam çok daha kötüdür." },
-    { w: "hack", tr: "kesmek", lv: "A2", ct: "genel", pr: "/ˈhæk/", ex: "Sami doesn't know how to hack computers.", exTr: "Sami bilgisayarlara nasıl girileceğini bilmiyor." },
+    { w: "hack", tr: "kesmek / hacklemek", lv: "A2", ct: "genel", pr: "/ˈhæk/", ex: "Sami doesn't know how to hack computers.", exTr: "Sami bilgisayarlara nasıl girileceğini bilmiyor." },
     { w: "hereditary", tr: "kalıtsal", lv: "C1", ct: "genel", pr: "/hɝˈɛdəˌtɛɹi/", ex: "The disease we are talking about is hereditary.", exTr: "Bahsettiğimiz hastalık kalıtsaldır." },
     { w: "tuberculosis", tr: "tüberküloz", lv: "C1", ct: "genel", pr: "/təˌbɝkjəˈɫoʊsɪs/, /tuˌbɝkjəˈɫoʊsəs/, /tuˌbɝkjuˈɫoʊsəs/", ex: "These days few people suffer from tuberculosis.", exTr: "Bugünlerde çok az insan tüberkülozdan muzdarip." },
     { w: "fugitives", tr: "kaçaklar", lv: "B2", ct: "genel", pr: "/ˈfjudʒɪtɪvz/", ex: "There is no official worldwide list of most wanted fugitives.", exTr: "Dünya çapında en çok aranan kaçakların resmi bir listesi bulunmuyor." },

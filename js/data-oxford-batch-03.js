@@ -24,7 +24,7 @@ KELIMELER.push(
     { w: "stands", tr: "standlar", lv: "B2", ct: "genel", pr: "/ˈstændz/", ex: "My house stands on a hill.", exTr: "Evim bir tepenin üzerinde duruyor." },
     { w: "ca", tr: "yaklaşık", lv: "A2", ct: "genel", pr: "/ˈkʌ/", ex: "Calcium is a chemical element with the symbol Ca.", exTr: "Kalsiyum, sembolü Ca olan kimyasal bir elementtir." },
     { w: "perspective", tr: "perspektif", lv: "B2", ct: "isimler", pr: "/pɚˈspɛktɪv/", ex: "You need to get a new perspective.", exTr: "Yeni bir bakış açısı kazanmanız gerekiyor." },
-    { w: "litter", tr: "yavrulamak", lv: "B2", ct: "isimler", pr: "/ˈlɪtɚ/", ex: "You mustn't throw litter in the street.", exTr: "Sokağa çöp atmamalısınız." },
+    { w: "litter", tr: "çöp / altlık / yavrulamak", lv: "B2", ct: "isimler", pr: "/ˈlɪtɚ/", ex: "You mustn't throw litter in the street.", exTr: "Sokağa çöp atmamalısınız." },
     { w: "drain", tr: "boşaltmak", lv: "C1", ct: "fiiller", pr: "/ˈdreɪn/", ex: "They drain every day.", exTr: "Her gün boşaltıyorlar." },
     { w: "prescribe", tr: "reçete yazmak", lv: "C1", ct: "fiiller", pr: "/prʌˈskraɪb/", ex: "They prescribe every day.", exTr: "Her gün reçete yazıyorlar." },
     { w: "empirical", tr: "ampirik", lv: "C1", ct: "sıfatlar", pr: "/ˌɛˈmpɪrɪkʌl/", ex: "Empirical data is based solely on observation.", exTr: "Ampirik veriler yalnızca gözlemlere dayanmaktadır." },

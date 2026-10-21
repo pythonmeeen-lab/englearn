@@ -95,7 +95,7 @@ KELIMELER.push(
     { w: "interstate", tr: "eyaletlerarası", lv: "C1", ct: "fiiller", pr: "/ˌɪntɝˈsteɪt/", ex: "Her car broke down on the interstate.", exTr: "Arabası eyaletlerarası yolda bozuldu." },
     { w: "thud", tr: "gümbürtü", lv: "A2", ct: "genel", pr: "/ˈθəd/", ex: "I thought that I heard a thud.", exTr: "Bir ses duyduğumu sandım." },
     { w: "awesome", tr: "Mükemmel", lv: "A2", ct: "genel", pr: "/ˈɑsəm/, /ˈɔsəm/", ex: "You just realised how awesome I am!", exTr: "Ne kadar muhteşem olduğumu yeni fark ettin!" },
-    { w: "vault", tr: "kasa", lv: "A2", ct: "genel", pr: "/ˈvɔɫt/", ex: "Ziri went down to the bank vault.", exTr: "Ziri banka kasasına indi." },
+    { w: "vault", tr: "kasa / tonoz", lv: "A2", ct: "genel", pr: "/ˈvɔɫt/", ex: "Ziri went down to the bank vault.", exTr: "Ziri banka kasasına indi." },
     { w: "pathological", tr: "patolojik", lv: "C1", ct: "sıfatlar", pr: "/ˌpæθəˈɫɑdʒɪkəɫ/", ex: "I know Tom is a pathological liar.", exTr: "Tom'un patolojik bir yalancı olduğunu biliyorum." },
     { w: "leash", tr: "tasma", lv: "B1", ct: "genel", pr: "/ˈɫiʃ/", ex: "Please keep a leash on your dog.", exTr: "Lütfen köpeğinizin tasmasını tutun." },
     { w: "intrigue", tr: "entrika", lv: "C1", ct: "genel", pr: "/ˈɪntɹiɡ/, /ˌɪnˈtɹiɡ/", ex: "He watches for an opportunity to intrigue against his rival.", exTr: "Rakibine karşı entrika çevirme fırsatını kolluyor." },

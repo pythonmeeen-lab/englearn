@@ -229,7 +229,7 @@ KELIMELER.push(
     { w: "muzzle", tr: "namlu", lv: "C1", ct: "genel", pr: "/ˈməzəɫ/", ex: "Why doesn't your dog wear a muzzle?", exTr: "Köpeğiniz neden ağızlık takmıyor?" },
     { w: "gauntlet", tr: "eldiven", lv: "C1", ct: "genel", pr: "/ˈɡɔntɫət/", ex: "Will she be able to pick up the gauntlet?", exTr: "Eldiveni alabilecek mi?" },
     { w: "henceforth", tr: "bundan böyle", lv: "B2", ct: "genel", pr: "/ˈhɛnsˈfɔɹθ/", ex: "Officers will henceforth wear ties at dinner.", exTr: "Memurlar bundan böyle akşam yemeğinde kravat takacak." },
-    { w: "sage", tr: "adaçayı", lv: "A2", ct: "genel", pr: "/ˈseɪdʒ/", ex: "Did you put sage in the pasta?", exTr: "Makarnaya adaçayı koydun mu?" },
+    { w: "sage", tr: "adaçayı / bilge", lv: "A2", ct: "genel", pr: "/ˈseɪdʒ/", ex: "Did you put sage in the pasta?", exTr: "Makarnaya adaçayı koydun mu?" },
     { w: "pledges", tr: "taahhütler", lv: "C1", ct: "genel", pr: "/ˈpɫɛdʒɪz/", ex: "They haze their pledges, but they don't paddle them.", exTr: "Verdikleri sözleri bulanıklaştırıyorlar ama kürek çekmiyorlar." },
     { w: "cleaver", tr: "satır", lv: "B2", ct: "isimler", pr: "/ˈkɫivɝ/", ex: "Ziri asked Rima if he could borrow her cleaver.", exTr: "Ziri, Rima'ya baltasını ödünç alıp alamayacağını sordu." },
     { w: "dick", tr: "çük", lv: "A2", ct: "genel", pr: "/ˈdɪk/", ex: "Bill got mad and called Dick names.", exTr: "Bill sinirlendi ve Dick'e isimler taktı." },

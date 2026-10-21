@@ -228,7 +228,7 @@ KELIMELER.push(
     { w: "practically", tr: "pratik olarak", lv: "A2", ct: "zarflar", pr: "/ˈpɹæktɪkəɫi/, /ˈpɹæktɪkɫi/", ex: "Even today, his theory remains practically irrefutable.", exTr: "Bugün bile teorisi pratikte reddedilemez olmaya devam ediyor." },
     { w: "pathetic", tr: "acınası", lv: "A2", ct: "sıfatlar", pr: "/pəˈθɛtɪk/", ex: "Or rather, is it not just pathetic that I think such whiny thoughts like this?", exTr: "Daha doğrusu, böyle mızmız düşünceler düşünmem çok acıklı değil mi?" },
     { w: "apples", tr: "elmalar", lv: "A2", ct: "genel", pr: "/ˈæpəɫz/", ex: "They sell apples at five dollars each.", exTr: "Elmaları tanesi beş dolardan satıyorlar." },
-    { w: "banjo", tr: "banço", lv: "B2", ct: "genel", pr: "/ˈbænˌdʒoʊ/", ex: "Why don't you play the banjo anymore?", exTr: "Neden artık banjo çalmıyorsun?" },
+    { w: "banjo", tr: "banjo (çalgı)", lv: "B2", ct: "genel", pr: "/ˈbænˌdʒoʊ/", ex: "Why don't you play the banjo anymore?", exTr: "Neden artık banjo çalmıyorsun?" },
     { w: "swipe", tr: "kaydırıldı", lv: "C1", ct: "fiiller", pr: "/ˈswaɪpt/", ex: "Someone has swiped a pen from my desk.", exTr: "Birisi masamdan bir kalem çaldı." },
     { w: "borderline", tr: "sınır çizgisi", lv: "C1", ct: "genel", pr: "/ˈbɔɹdɝˌɫaɪn/", ex: "His girlfriend suffers from borderline personality disorder.", exTr: "Kız arkadaşı borderline kişilik bozukluğundan muzdariptir." },
     { w: "minefield", tr: "mayın tarlası", lv: "C1", ct: "genel", pr: "/ˈmaɪnˌfiɫd/", ex: "Can a hovercraft safely cross a minefield?", exTr: "Bir uçan araç mayın tarlasını güvenli bir şekilde geçebilir mi?" },

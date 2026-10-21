@@ -3,7 +3,7 @@
 // ==================================================
 KELIMELER.push(
     { w: "leverage", tr: "avantaj sağlamak / kullanmak", lv: "C1", ct: "fiiller", pr: "/ˈliː.vər.ɪdʒ/", ex: "We leverage data to decide.", exTr: "Karar vermek için veriden yararlanıyoruz." },
-    { w: "litter", tr: "çöp atmak", lv: "B2", ct: "fiiller", pr: "/ˈlɪt.ər/", ex: "Please do not litter the park.", exTr: "Lütfen parka çöp atmayın." },
+    { w: "litter", tr: "çöp / altlık / yavrulamak", lv: "B2", ct: "fiiller", pr: "/ˈlɪt.ər/", ex: "Please do not litter the park.", exTr: "Lütfen parka çöp atmayın." },
     { w: "loom", tr: "belirmek / yükselmek", lv: "C1", ct: "fiiller", pr: "/luːm/", ex: "A huge peak loomed ahead.", exTr: "Önümüzde dev bir zirve belirdi." },
     { w: "lure", tr: "cezbetmek / kandırmak", lv: "C1", ct: "fiiller", pr: "/lʊər/", ex: "Bright lights lure the tourists.", exTr: "Parlak ışıklar turistleri cezbediyor." },
     { w: "malfunction", tr: "arıza yapmak", lv: "C1", ct: "fiiller", pr: "/ˌmælˈfæŋk.ʃən/", ex: "The device malfunctioned suddenly.", exTr: "Cihaz aniden arıza yaptı." },

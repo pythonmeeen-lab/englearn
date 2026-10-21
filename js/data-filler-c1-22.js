@@ -4,7 +4,7 @@
 KELIMELER.push(
     { w: "defy", tr: "karşı gelmek / meydan okumak", lv: "C1", ct: "fiiller", pr: "/dɪˈfaɪ/", ex: "They defied the storm to reach camp.", exTr: "Kampa ulaşmak için fırtınaya karşı geldiler." },
     { w: "denote", tr: "göstermek / ifade etmek", lv: "C1", ct: "fiiller", pr: "/dɪˈnəʊt/", ex: "A red flag denotes danger.", exTr: "Kırmızı bayrak tehlikeyi gösterir." },
-    { w: "deposit", tr: "yatırmak / biriktirmek", lv: "C1", ct: "fiiller", pr: "/dɪˈpɒz.ɪt/", ex: "Deposit the cheque today.", exTr: "Çeki bugün yatır." },
+    { w: "deposit", tr: "mevduat / yatırmak / tortu", lv: "C1", ct: "fiiller", pr: "/dɪˈpɒz.ɪt/", ex: "Deposit the cheque today.", exTr: "Çeki bugün yatır." },
     { w: "descend", tr: "inmek / aşağı inmek", lv: "C1", ct: "fiiller", pr: "/dɪˈsend/", ex: "We descended into the valley.", exTr: "Vadiye indik." },
     { w: "design", tr: "tasarlamak", lv: "B1", ct: "fiiller", pr: "/dɪˈzaɪn/", ex: "Engineers designed the new bridge.", exTr: "Mühendisler yeni köprüyü tasarladı." },
     { w: "drain", tr: "boşaltmak / tükenmek", lv: "B2", ct: "fiiller", pr: "/dreɪn/", ex: "The project drained all our funds.", exTr: "Proje tüm fonlarımızı tüketti." },
@@ -20,7 +20,7 @@ KELIMELER.push(
     { w: "exhibit", tr: "sergilemek", lv: "C1", ct: "fiiller", pr: "/ɪɡˈzɪb.ɪt/", ex: "The museum exhibits rare fossils.", exTr: "Müze nadir fosiller sergiliyor." },
     { w: "extract", tr: "çıkarmak / özünü almak", lv: "C1", ct: "fiiller", pr: "/ɪkˈstrækt/", ex: "They extract oil from the plant.", exTr: "Bitkiden yağ çıkarıyorlar." },
     { w: "fasten", tr: "bağlamak / sıkılamak", lv: "B2", ct: "fiiller", pr: "/ˈfɑː.sən/", ex: "Fasten your seatbelt, please.", exTr: "Lütfen emniyet kemerini tak." },
-    { w: "ferry", tr: "taşımak", lv: "C1", ct: "fiiller", pr: "/ˈfer.i/", ex: "The boat ferried people to the island.", exTr: "Tekne insanları adaya taşıdı." },
+    { w: "ferry", tr: "feribot / taşımak", lv: "C1", ct: "fiiller", pr: "/ˈfer.i/", ex: "The boat ferried people to the island.", exTr: "Tekne insanları adaya taşıdı." },
     { w: "flicker", tr: "titremek (ışık)", lv: "C1", ct: "fiiller", pr: "/ˈflɪk.ər/", ex: "Candles flickered in the wind.", exTr: "Mumlar rüzgarda titredi." },
     { w: "flock", tr: "akın etmek / toplanmak", lv: "C1", ct: "fiiller", pr: "/flɒk/", ex: "Tourists flock to the coast in July.", exTr: "Turistler temmuzda sahile akın eder." },
     { w: "flourish", tr: "serpilmek / gelişmek", lv: "C1", ct: "fiiller", pr: "/ˈflʌr.ɪʃ/", ex: "Business flourished after the reform.", exTr: "Reformdan sonra işler gelişti." },

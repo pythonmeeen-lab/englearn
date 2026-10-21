@@ -300,7 +300,7 @@ KELIMELER.push(
     { w: "carry away", tr: "kendini kaptırmak", lv: "C1", ct: "PHRASAL", pr: "/ˈkær.i əˈweɪ/", ex: "Do not get carried away.", exTr: "Kendini kaptırma." },
     { w: "blow away", tr: "uçurmak / hayran bırakmak", lv: "B2", ct: "PHRASAL", pr: "/bləʊ əˈweɪ/", ex: "The wind blew away the hats.", exTr: "Rüzgar şapkaları uçurdu." },
     { w: "break away", tr: "kopmak / ayrılmak", lv: "C1", ct: "PHRASAL", pr: "/breɪk əˈweɪ/", ex: "He broke away from the group.", exTr: "Gruptan ayrıldı." },
-    { w: "chase away", tr: "kovalamak", lv: "B1", ct: "PHRASAL", pr: "/tʃeɪs əˈweɪ/", ex: "They chased away the dog.", exTr: "Köpeği kovaladılar." },
+    { w: "chase away", tr: "kovmak / uzaklaştırmak", lv: "B1", ct: "PHRASAL", pr: "/tʃeɪs əˈweɪ/", ex: "They chased away the dog.", exTr: "Köpeği kovaladılar." },
     { w: "drive away", tr: "uzaklaştırmak (araçla)", lv: "B1", ct: "PHRASAL", pr: "/draɪv əˈweɪ/", ex: "She drove away quickly.", exTr: "Hızla uzaklaştı." },
     { w: "explain away", tr: "açıklayıp geçiştirmek", lv: "C1", ct: "PHRASAL", pr: "/ɪkˈspleɪn əˈweɪ/", ex: "He explained away the delay.", exTr: "Gecikmeyi geçiştirdi." },
     { w: "fade away", tr: "yavaşça kaybolmak", lv: "B2", ct: "PHRASAL", pr: "/feɪd əˈweɪ/", ex: "The sound faded away.", exTr: "Ses yavaşça kayboldu." },

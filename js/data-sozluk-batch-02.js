@@ -270,7 +270,7 @@ KELIMELER.push(
     { w: "perk", tr: "dikmek", lv: "C1", ct: "genel", pr: "/ˈpɝk/", ex: "People drink coffee to perk themselves up.", exTr: "İnsanlar kendilerini canlandırmak için kahve içerler." },
     { w: "erratic", tr: "düzensiz", lv: "B2", ct: "sıfatlar", pr: "/ɪˈɹætɪk/", ex: "Dan began an erratic sexual relationship with his youngest aunt, Linda.", exTr: "Dan, en küçük teyzesi Linda ile düzensiz bir cinsel ilişkiye başladı." },
     { w: "raffle", tr: "çekiliş", lv: "C1", ct: "genel", pr: "/ˈɹæfəɫ/", ex: "Have you bought a raffle ticket yet?", exTr: "Henüz çekiliş bileti satın aldınız mı?" },
-    { w: "crib", tr: "beşik", lv: "B1", ct: "genel", pr: "/ˈkɹɪb/", ex: "Tom put the baby in his crib.", exTr: "Tom bebeği beşiğine koydu." },
+    { w: "crib", tr: "beşik / kopya çekmek", lv: "B1", ct: "genel", pr: "/ˈkɹɪb/", ex: "Tom put the baby in his crib.", exTr: "Tom bebeği beşiğine koydu." },
     { w: "ruby", tr: "yakut", lv: "A2", ct: "genel", pr: "/ˈɹubi/", ex: "Which do you prefer, ruby or emerald?", exTr: "Hangisini tercih edersiniz, yakut mu yoksa zümrüt mü?" },
     { w: "compass", tr: "pusula", lv: "B1", ct: "genel", pr: "/ˈkəmpəs/", ex: "Do they have something like a compass?", exTr: "Pusula gibi bir şeyleri var mı?" },
     { w: "unfaithful", tr: "sadakatsiz", lv: "B1", ct: "sıfatlar", pr: "/ənˈfeɪθfəɫ/", ex: "The original is unfaithful to the translation.", exTr: "Orijinal, tercümeye sadık değildir." },

@@ -66,7 +66,7 @@ KELIMELER.push(
     { w: "reunite", tr: "yeniden bir araya gelmek", lv: "B2", ct: "fiiller", pr: "/ˌɹiuˈnaɪtɪd/", ex: "Tom has been reunited with his family.", exTr: "Tom ailesiyle yeniden bir araya geldi." },
     { w: "appetizer", tr: "meze", lv: "C1", ct: "isimler", pr: "/ˈæpəˌtaɪzɝ/", ex: "Squash flowers can be prepared as an appetizer.", exTr: "Kabak çiçekleri meze olarak hazırlanabilir." },
     { w: "slick", tr: "kaygan", lv: "B1", ct: "genel", pr: "/ˈsɫɪk/", ex: "If I don't wash my hair for a day, it becomes slick with oil and flat.", exTr: "Saçlarımı bir gün yıkamazsam yağdan dolayı kayganlaşıyor ve düzleşiyor." },
-    { w: "tug", tr: "römorkör", lv: "B1", ct: "genel", pr: "/ˈtəɡ/", ex: "Sami felt a tug on his blanket.", exTr: "Sami battaniyesinin çekildiğini hissetti." },
+    { w: "tug", tr: "çekmek / römorkör", lv: "B1", ct: "genel", pr: "/ˈtəɡ/", ex: "Sami felt a tug on his blanket.", exTr: "Sami battaniyesinin çekildiğini hissetti." },
     { w: "page", tr: "çağrılı", lv: "B2", ct: "fiiller", pr: "/ˈpeɪdʒd/", ex: "What's the name of the person you want paged?", exTr: "Çağrılmasını istediğiniz kişinin adı nedir?" },
     { w: "lie", tr: "yalan söyledi", lv: "A2", ct: "fiiller", pr: "/ˈɫaɪd/", ex: "He lied his way out of it.", exTr: "Bu durumdan kurtulmak için yalan söyledi." },
     { w: "flee", tr: "kaçtı", lv: "A2", ct: "fiiller", pr: "/ˈfɫɛd/", ex: "After our first attack, the enemy fled.", exTr: "İlk saldırımızdan sonra düşman kaçtı." },
