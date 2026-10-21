@@ -472,7 +472,7 @@ KELIMELER.push(
     { w: "learn about", tr: "öğrenmek", lv: "A2", ct: "PHRASAL", pr: "/lɜːn əˈbaʊt/", ex: "We learned about history.", exTr: "Tarih öğrendik." },
     { w: "know about", tr: "bilmek", lv: "B1", ct: "PHRASAL", pr: "/nəʊ əˈbaʊt/", ex: "I know about this topic.", exTr: "Bu konuyu biliyorum." },
     { w: "ask about", tr: "hakkında sormak", lv: "A2", ct: "PHRASAL", pr: "/ɑːsk əˈbaʊt/", ex: "Ask about the price.", exTr: "Fiyatı sor." },
-    { w: "look forward", tr: "dört gözle beklemek (tekrar yok)", lv: "B2", ct: "PHRASAL", pr: "/lʊk ˈfɔː.wəd/", ex: "I look forward to it.", exTr: "Onu iple çekiyorum." },
+
     { w: "make a decision on", tr: "karara varmak", lv: "C1", ct: "PHRASAL", pr: "/meɪk ə dɪˈsɪʒ.ən ɒn/", ex: "Make a decision on this.", exTr: "Bu konuda karar ver." },
     { w: "be late for", tr: "...e geç kalmak", lv: "A2", ct: "PHRASAL", pr: "/biː leɪt fɔːr/", ex: "I was late for class.", exTr: "Derse geç kaldım." },
     { w: "be ready for", tr: "...e hazır olmak", lv: "A2", ct: "PHRASAL", pr: "/biː ˈred.i fɔːr/", ex: "Are you ready for the test?", exTr: "Teste hazır mısın?" },
