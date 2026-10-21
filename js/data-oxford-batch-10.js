@@ -235,7 +235,7 @@ KELIMELER.push(
     { w: "eventually", tr: "sonunda", lv: "B1", ct: "fiiller", pr: "/ɪˈvɛntʃʌwʌli/", ex: "She eventually found a good job.", exTr: "Sonunda iyi bir iş buldu." },
     { w: "writer", tr: "yazar", lv: "A2", ct: "isimler", pr: "/ˈraɪtɚ/", ex: "The writer signed copies of his book.", exTr: "Yazar kitabının kopyalarını imzaladı." },
     { w: "raid", tr: "yağma", lv: "C1", ct: "isimler", pr: "/ˈreɪd/", ex: "Police launched a dawn raid on the warehouse.", exTr: "Polis depoya şafak vakti bir yağma baskını düzenledi." },
-    { w: "rather", tr: "yerine", lv: "A2", ct: "fiiller", pr: "/ˈræðɚ/", ex: "I would rather walk than drive.", exTr: "Araba sürmek yerine yürümeyi tercih ederim." },
+    { w: "rather", tr: "oldukça / tercihen / yerine", lv: "A2", ct: "fiiller", pr: "/ˈræðɚ/", ex: "I would rather walk than drive.", exTr: "Araba sürmek yerine yürümeyi tercih ederim." },
     { w: "thinking", tr: "düşünme", lv: "A2", ct: "isimler", pr: "/ˈθɪŋkɪŋ/", ex: "Critical thinking is a valuable skill.", exTr: "Eleştirel düşünme değerli bir beceridir." },
     { w: "stage", tr: "sahne", lv: "A2", ct: "isimler", pr: "/ˈsteɪdʒ/", ex: "The singer stepped onto the stage.", exTr: "Şarkıcı sahneye çıktı." },
     { w: "cookies", tr: "Çerezler", lv: "B2", ct: "genel", pr: "/ˈkʊkiz/", ex: "The site asks for your permission to use cookies.", exTr: "Site, Çerezler kullanımı için izninizi istiyor." },

@@ -333,7 +333,7 @@ KELIMELER.push(
     { w: "drive away point", tr: "amacı çiğnemek", lv: "C1", ct: "PHRASAL", pr: "/draɪv əˈweɪ pɔɪnt/", ex: "Do not drive away the point.", exTr: "Konuyu saptırma." },
     { w: "ease away", tr: "yavaşça açılmak", lv: "C1", ct: "PHRASAL", pr: "/iːz əˈweɪ/", ex: "The boat eased away.", exTr: "Tekne yavaşça uzaklaştı." },
     { w: "brush away", tr: "süpürtüp atmak", lv: "B1", ct: "PHRASAL", pr: "/brʌʃ əˈweɪ/", ex: "Brush away the dirt.", exTr: "Tozu silip at." },
-    { w: "list away", tr: "... uzaklaş", lv: "C1", ct: "PHRASAL", pr: "/lɪst əˈweɪ/", ex: "List away from the crowd.", exTr: "Kalabalıktan uzaklaş." },
+
     { w: "carry away by", tr: "...e kapılmak", lv: "C1", ct: "PHRASAL", pr: "/ˈkær.i əˈweɪ baɪ/", ex: "He was carried away by joy.", exTr: "Sevince kapıldı." },
     { w: "double away", tr: "yön değiştirip kaçmak", lv: "C1", ct: "PHRASAL", pr: "/ˈdʌb.əl əˈweɪ/", ex: "The fox doubled away.", exTr: "Tilki yön değiştirip kaçtı." },
     { w: "eat away at", tr: "kemirmek / tüketmek", lv: "C1", ct: "PHRASAL", pr: "/iːt əˈweɪ æt/", ex: "Worry ate away at him.", exTr: "Endişe onu kemiriyordu." },

@@ -220,7 +220,7 @@ KELIMELER.push(
     { w: "peak", tr: "doruğa ulaşmak", lv: "C1", ct: "isimler", pr: "/ˈpik/", ex: "The peak rises above the clouds.", exTr: "Zirve bulutların üzerinde yükseliyor." },
     { w: "depart", tr: "ayrılmak", lv: "B2", ct: "fiiller", pr: "/dɪˈpɑrt/", ex: "They depart every day.", exTr: "Her gün yola çıkıyorlar." },
     { w: "firm", tr: "firma", lv: "B2", ct: "sıfatlar", pr: "/ˈfɚm/", ex: "We made a contract with the firm.", exTr: "Firmayla sözleşme yaptık." },
-    { w: "citation", tr: "Alıntı", lv: "C1", ct: "genel", pr: "/saɪˈteɪʃʌn/", ex: "Citation is very important.", exTr: "Alıntı yapmak çok önemlidir." },
+    { w: "citation", tr: "alıntı / atıf", lv: "C1", ct: "genel", pr: "/saɪˈteɪʃʌn/", ex: "Citation is very important.", exTr: "Alıntı yapmak çok önemlidir." },
     { w: "loom", tr: "tezgâh", lv: "C1", ct: "fiiller", pr: "/ˈlum/", ex: "They loom every day.", exTr: "Her gün ortaya çıkıyorlar." },
     { w: "zero", tr: "sıfır", lv: "A2", ct: "genel", pr: "/ˈzɪroʊ/", ex: "The thermometer went down below zero.", exTr: "Termometre sıfırın altına indi." },
     { w: "attach", tr: "eklemek", lv: "B1", ct: "fiiller", pr: "/ʌˈtætʃ/", ex: "They attach every day.", exTr: "Her gün bağlanıyorlar." },

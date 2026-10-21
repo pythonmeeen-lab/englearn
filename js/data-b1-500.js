@@ -323,7 +323,7 @@ KELIMELER.push(
     { w: "exactly", tr: "tam olarak", lv: "B1", ct: "zarflar", pr: "/ɪɡˈzækt.li/", ex: "Tell me exactly what happened.", exTr: "Bana tam olarak ne olduğunu söyle." },
     { w: "nearly", tr: "neredeyse", lv: "B1", ct: "zarflar", pr: "/ˈnɪə.li/", ex: "The glass is nearly full.", exTr: "Bardak neredeyse dolu." },
     { w: "quite", tr: "oldukça", lv: "B1", ct: "zarflar", pr: "/kwaɪt/", ex: "The test was quite easy.", exTr: "Sınav oldukça kolaydı." },
-    { w: "rather", tr: "biraz / ziyade", lv: "B1", ct: "zarflar", pr: "/ˈrɑː.ðər/", ex: "It is rather cold today.", exTr: "Bugün hava biraz soğuk." },
+    { w: "rather", tr: "oldukça / tercihen / yerine", lv: "B1", ct: "zarflar", pr: "/ˈrɑː.ðər/", ex: "It is rather cold today.", exTr: "Bugün hava biraz soğuk." },
     { w: "rather than", tr: "... yerine", lv: "B1", ct: "zarflar", pr: "/ˈrɑː.ðər ðæn/", ex: "I walk rather than drive.", exTr: "Araba sürmek yerine yürüyorum." },
     { w: "twice", tr: "iki kez", lv: "B1", ct: "zarflar", pr: "/twaɪs/", ex: "I read the page twice.", exTr: "Sayfayı iki kez okudum." },
     { w: "lonely", tr: "yalnız", lv: "B1", ct: "duygular", pr: "/ˈləʊn.li/", ex: "He felt lonely in the crowd.", exTr: "Kalabalıkta yalnız hissetti." },

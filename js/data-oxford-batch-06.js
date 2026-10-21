@@ -14,7 +14,7 @@ KELIMELER.push(
     { w: "equally", tr: "eşit olarak", lv: "B1", ct: "fiiller", pr: "/ˈikwʌli/", ex: "They equally every day.", exTr: "Her gün eşit derecede." },
     { w: "shall", tr: "olacak", lv: "A2", ct: "fiiller", pr: "/ˈʃæl/", ex: "They shall every day.", exTr: "Her gün yapacaklar." },
     { w: "once", tr: "bir kere", lv: "A2", ct: "fiiller", pr: "/ˈwʌns/", ex: "They once every day.", exTr: "Her gün bir kez." },
-    { w: "ni", tr: "hayır", lv: "C1", ct: "genel", pr: "/ˈni/", ex: "Leskovac is located south of Niš.", exTr: "Leskovac, Niş'in güneyinde yer almaktadır." },
+
     { w: "wikipedia", tr: "Vikipedi", lv: "B2", ct: "genel", pr: "/ˈwɪkiˌpiˌdiʌ/", ex: "Wikipedia is very important.", exTr: "Vikipedi çok önemli." },
     { w: "possibly", tr: "muhtemelen", lv: "B1", ct: "fiiller", pr: "/ˈpɑsʌbli/", ex: "They possibly every day.", exTr: "Muhtemelen her gün." },
     { w: "under", tr: "altında", lv: "A2", ct: "fiiller", pr: "/ˈʌndɚ/", ex: "They under every day.", exTr: "Her gün altındalar." },

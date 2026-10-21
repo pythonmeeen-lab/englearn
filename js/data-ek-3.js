@@ -28,7 +28,7 @@ KELIMELER.push(
     { w: "file", tr: "dosya / sıralamak", lv: "B1", ct: "teknoloji", pr: "/faɪl/", ex: "Please save the file on your desktop.", exTr: "Lütfen dosyayı masaüstüne kaydet." },
     { w: "fine", tr: "para cezası / iyi", lv: "A2", ct: "genel", pr: "/faɪn/", ex: "He had to pay a parking fine.", exTr: "Park cezası ödemek zorunda kaldı." },
     { w: "firm", tr: "firma / sağlam", lv: "B2", ct: "iş", pr: "/fɜːm/", ex: "She works for a law firm.", exTr: "Bir hukuk firmasında çalışıyor." },
-    { w: "fit", tr: "uygun / formda", lv: "B1", ct: "sağlık", pr: "/fɪt/", ex: "Running keeps me fit.", exTr: "Koşmak beni formda tutar." },
+    { w: "fit", tr: "uydurmak / oturmak / sığmak", lv: "B1", ct: "sağlık", pr: "/fɪt/", ex: "Running keeps me fit.", exTr: "Koşmak beni formda tutar." },
     { w: "flame", tr: "alev", lv: "B2", ct: "genel", pr: "/fleɪm/", ex: "The flame burned brightly.", exTr: "Alev parlak bir şekilde yandı." },
     { w: "flash", tr: "parlamak / flaş", lv: "B2", ct: "genel", pr: "/flæʃ/", ex: "A flash of lightning lit the sky.", exTr: "Bir şimşek gökyüzünü aydınlattı." },
     { w: "flee", tr: "kaçmak / firar etmek", lv: "C1", ct: "genel", pr: "/fliː/", ex: "The thieves fled the scene.", exTr: "Hırsızlar olay yerinden kaçtı." },

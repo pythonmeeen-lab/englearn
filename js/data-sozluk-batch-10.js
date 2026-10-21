@@ -40,7 +40,7 @@ KELIMELER.push(
     { w: "boiler", tr: "kazan", lv: "B1", ct: "isimler", pr: "/ˈbɔɪɫɝ/", ex: "The door to the boiler room was opened.", exTr: "Kazan dairesinin kapısı açıldı." },
     { w: "squeaky", tr: "gıcırtılı", lv: "B2", ct: "genel", pr: "/ˈskwiki/", ex: "Sami is not the squeaky clean churchgoer that he purported to be.", exTr: "Sami, iddia ettiği gibi kiliseye giden gıcırtılı, temiz biri değil." },
     { w: "prefect", tr: "kaymakam", lv: "B2", ct: "genel", pr: "/ˈpɹiˌfɛkt/", ex: "I can't believe they made Charlie a prefect!", exTr: "Charlie'yi sınıf başkanı yaptıklarına inanamıyorum!" },
-    { w: "jeeves", tr: "Tanrım", lv: "B2", ct: "genel", pr: "/ˈdʒivz/", ex: "'How's the tea, young sir?' 'Exceptional, my dear Jeeves, exceptional.'", exTr: "'Çay nasıl genç efendim?' 'Olağanüstü, sevgili Jeeves, olağanüstü.'" },
+
     { w: "vacancy", tr: "boşluk", lv: "C1", ct: "genel", pr: "/ˈveɪkənsi/", ex: "Unfortunately, that vacancy has already been filled.", exTr: "Ne yazık ki o boşluk çoktan doldu." },
     { w: "obituary", tr: "ölüm ilanı", lv: "C1", ct: "genel", pr: "/oʊˈbɪtʃuˌɛɹi/", ex: "The indifference of Tom's obituary was saddening.", exTr: "Tom'un ölüm ilanındaki kayıtsızlık üzücüydü." },
     { w: "banter", tr: "şaka", lv: "C1", ct: "isimler", pr: "/ˈbæntɝ/", ex: "Tom and Mary engaged in friendly banter.", exTr: "Tom ve Mary dostça şakalaştılar." },

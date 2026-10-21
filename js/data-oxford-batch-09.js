@@ -127,7 +127,7 @@ KELIMELER.push(
     { w: "invasion", tr: "istila", lv: "B2", ct: "isimler", pr: "/ˌɪˈnveɪʒʌn/", ex: "The people could repel the invasion.", exTr: "Halk işgali püskürtebilirdi." },
     { w: "released", tr: "piyasaya sürülmüş", lv: "B1", ct: "genel", pr: "/riˈlist/", ex: "The fighter plane released its bombs.", exTr: "Savaş uçağı bombalarını attı." },
     { w: "older", tr: "daha yaşlı", lv: "B1", ct: "genel", pr: "/ˈoʊldɚ/", ex: "Bill is two years older than I.", exTr: "Bill benden iki yaş büyük." },
-    { w: "died", tr: "ölü", lv: "B1", ct: "genel", pr: "/ˈdaɪd/", ex: "He died, so we might live.", exTr: "O öldü, böylece biz yaşayabiliriz." },
+
     { w: "performed", tr: "rol yapmak", lv: "B1", ct: "genel", pr: "/pɚˈfɔrmd/", ex: "The player performed a wonderful feat.", exTr: "Oyuncu harika bir performans sergiledi." },
     { w: "killing", tr: "öldürme", lv: "B1", ct: "isimler", pr: "/ˈkɪlɪŋ/", ex: "Once we've killed, we enjoy killing.", exTr: "Öldürdükten sonra öldürmekten zevk alırız." },
     { w: "beyond", tr: "öte", lv: "B2", ct: "fiiller", pr: "/bɪˈɑnd/", ex: "They beyond every day.", exTr: "Her günün ötesindeler." },

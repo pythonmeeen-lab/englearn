@@ -88,7 +88,7 @@ KELIMELER.push(
     { w: "fore", tr: "ön", lv: "B2", ct: "genel", pr: "/ˈfɔɹ/", ex: "Daniel sat down at the fore table.", exTr: "Daniel ön masaya oturdu." },
     { w: "coaster", tr: "bardak altlığı", lv: "B1", ct: "isimler", pr: "/ˈkoʊstɝ/", ex: "Life is like a roller coaster ride.", exTr: "Hayat bir rollercoaster yolculuğu gibidir." },
     { w: "lager", tr: "bira", lv: "C1", ct: "isimler", pr: "/ˈɫɑɡɝ/", ex: "What's the difference between ale and lager?", exTr: "Ale ve lager arasındaki fark nedir?" },
-    { w: "forsake", tr: "vazgeçmek", lv: "C1", ct: "genel", pr: "/fɔɹˈseɪk/", ex: "I can't forsake a friend in trouble.", exTr: "Başı belada olan bir arkadaşımı yüz üstü bırakamam." },
+    { w: "forsake", tr: "terk etmek", lv: "C1", ct: "genel", pr: "/fɔɹˈseɪk/", ex: "I can't forsake a friend in trouble.", exTr: "Başı belada olan bir arkadaşımı yüz üstü bırakamam." },
     { w: "disorderly", tr: "düzensiz", lv: "C1", ct: "zarflar", pr: "/dɪˈsɔɹdɝɫi/", ex: "After a while, the protesting mob became disorderly.", exTr: "Bir süre sonra protestocu kalabalığın düzeni bozuldu." },
     { w: "pike", tr: "turna balığı", lv: "B1", ct: "genel", pr: "/ˈpaɪk/", ex: "There is a pike in the pond.", exTr: "Gölette bir turna balığı var." },
     { w: "yarn", tr: "iplik", lv: "C1", ct: "genel", pr: "/ˈjɑɹn/", ex: "This yarn feels soft to the touch.", exTr: "Bu iplik dokunuşta yumuşaktır." },

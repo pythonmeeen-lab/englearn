@@ -65,7 +65,7 @@ KELIMELER.push(
     { w: "foster", tr: "bakmak", lv: "C1", ct: "fiiller", pr: "/ˈfɑstɚ/", ex: "They foster every day.", exTr: "Her gün büyütüyorlar." },
     { w: "detection", tr: "algılama", lv: "C1", ct: "isimler", pr: "/dɪˈtɛkʃʌn/", ex: "Fake news detection uses natural language processing.", exTr: "Sahte haber tespiti doğal dil işlemeyi kullanır." },
     { w: "worship", tr: "tapmak", lv: "C1", ct: "isimler", pr: "/ˈwɚʃʌp/", ex: "Morning worship begins at eleven o'clock.", exTr: "Sabah ibadeti saat on birde başlıyor." },
-    { w: "rome", tr: "Roma", lv: "B2", ct: "genel", pr: "/ˈroʊm/", ex: "Rome is very important.", exTr: "Roma çok önemli." },
+
     { w: "ups", tr: "Güç kaynağı", lv: "B1", ct: "genel", pr: "/ˈʌps/", ex: "Ups is very important.", exTr: "Ups çok önemli." },
     { w: "skill", tr: "yetenek", lv: "A2", ct: "isimler", pr: "/ˈskɪl/", ex: "The new job challenged his skill.", exTr: "Yeni iş becerisine meydan okuyordu." },
     { w: "needed", tr: "gerekli", lv: "A2", ct: "genel", pr: "/ˈnidʌd/", ex: "The school needed a new teacher.", exTr: "Okulun yeni bir öğretmene ihtiyacı vardı." },

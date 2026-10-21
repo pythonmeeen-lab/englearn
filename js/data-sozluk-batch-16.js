@@ -102,7 +102,7 @@ KELIMELER.push(
     { w: "unconditional", tr: "koşulsuz", lv: "C1", ct: "sıfatlar", pr: "/ˌənkənˈdɪʃənəɫ/", ex: "An unconditional love is love without coercion.", exTr: "Koşulsuz sevgi, zorlama olmadan sevgidir." },
     { w: "limp", tr: "gevşek", lv: "B1", ct: "genel", pr: "/ˈɫɪmp/", ex: "The hat got wet and went limp.", exTr: "Şapka ıslandı ve gevşedi." },
     { w: "contestant", tr: "yarışmacı", lv: "B1", ct: "sıfatlar", pr: "/kənˈtɛstənt/", ex: "In this show, the contestant can't answer.", exTr: "Bu gösteride yarışmacı cevap veremez." },
-    { w: "fateful", tr: "kader", lv: "C1", ct: "sıfatlar", pr: "/ˈfeɪtfəɫ/", ex: "Under Bouteflika, Algeria made many fateful economic errors.", exTr: "Buteflika döneminde Cezayir birçok önemli ekonomik hata yaptı." },
+    { w: "fateful", tr: "kader belirleyici / önemli", lv: "C1", ct: "sıfatlar", pr: "/ˈfeɪtfəɫ/", ex: "Under Bouteflika, Algeria made many fateful economic errors.", exTr: "Buteflika döneminde Cezayir birçok önemli ekonomik hata yaptı." },
     { w: "prep", tr: "hazırlık", lv: "A2", ct: "genel", pr: "/ˈpɹɛp/", ex: "I'm a gym teacher at a university prep school.", exTr: "Üniversite hazırlık okulunda beden eğitimi öğretmeniyim." },
     { w: "rites", tr: "ayinler", lv: "B2", ct: "genel", pr: "/ˈɹaɪts/", ex: "Let no one lightly discuss the subject of rites.", exTr: "Kimsenin ayinler konusunu hafife almasına izin vermeyin." },
     { w: "juices", tr: "meyve suları", lv: "C1", ct: "genel", pr: "/ˈdʒusəz/, /ˈdʒusɪz/", ex: "What kinds of fruit juices do you have?", exTr: "Ne tür meyve sularınız var?" },

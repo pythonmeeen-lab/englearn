@@ -100,7 +100,7 @@ KELIMELER.push(
     { w: "hangman", tr: "cellat", lv: "C1", ct: "genel", pr: "/ˈhæŋmən/", ex: "I'd rather be hanged than a hangman.", exTr: "Cellat olmaktansa asılmayı tercih ederim." },
     { w: "withdrew", tr: "geri çekildi", lv: "B2", ct: "genel", pr: "/wɪðˈdɹu/, /wɪθˈdɹu/", ex: "He withdrew his hand from the table.", exTr: "Elini masadan çekti." },
     { w: "whistling", tr: "ıslık çalmak", lv: "A2", ct: "isimler", pr: "/ˈhwɪsɫɪŋ/, /ˈwɪsɫɪŋ/", ex: "The boomerang hurtled whistling through the air.", exTr: "Bumerang havada ıslık çalarak uçtu." },
-    { w: "carrie", tr: "taşıma", lv: "A2", ct: "genel", pr: "/ˈkɛɹi/", ex: "Carrie was 40 and single when she decided to adopt a baby.", exTr: "Carrie bir bebek evlat edinmeye karar verdiğinde 40 yaşındaydı ve bekardı." },
+
     { w: "barrow", tr: "el arabası", lv: "B2", ct: "genel", pr: "/ˈbæɹoʊ/, /ˈbɛɹoʊ/", ex: "There are tall menhirs at Egil's barrow.", exTr: "Egil'in höyüğünde uzun menhirler var." },
     { w: "motorcycles", tr: "motosikletler", lv: "C1", ct: "genel", pr: "/ˈmoʊtɝˌsaɪkəɫz/", ex: "In France, many young people have motorcycles.", exTr: "Fransa'da birçok gencin motosikleti var." },
     { w: "hormone", tr: "hormon", lv: "B2", ct: "genel", pr: "/ˈhɔɹˌmoʊn/", ex: "Your thyroid-stimulating hormone was high again.", exTr: "Tiroid uyarıcı hormonunuz yine yüksek çıktı." },

@@ -153,7 +153,7 @@ KELIMELER.push(
     { w: "incomprehensible", tr: "anlaşılmaz", lv: "C1", ct: "sıfatlar", pr: "/ˌɪŋˌkɑmpɹəˈhɛnsɪbəɫ/", ex: "Everything that is not me is incomprehensible.", exTr: "Ben olmayan her şey anlaşılmazdır." },
     { w: "abdomen", tr: "karın", lv: "B1", ct: "genel", pr: "/ˈæbdəmən/, /æbˈdoʊmən/", ex: "Tom was shot twice in the abdomen.", exTr: "Tom karnından iki kez vuruldu." },
     { w: "sheesh", tr: "şeyh", lv: "C1", ct: "genel", pr: "/ˈʃiʃ/", ex: "Sheesh. I wish I had come here sooner.", exTr: "Şeyh. Keşke buraya daha erken gelseydim." },
-    { w: "squeal", tr: "ciyaklama", lv: "A2", ct: "sıfatlar", pr: "/ˈskwiɫ/", ex: "Vladimir ran up to Mom with an ear-piercing squeal.", exTr: "Vladimir kulak delici bir ciyaklamayla annemin yanına koştu." },
+    { w: "squeal", tr: "cıyaklama / çığlık", lv: "A2", ct: "sıfatlar", pr: "/ˈskwiɫ/", ex: "Vladimir ran up to Mom with an ear-piercing squeal.", exTr: "Vladimir kulak delici bir ciyaklamayla annemin yanına koştu." },
     { w: "slutty", tr: "sürtük", lv: "B2", ct: "genel", pr: "/ˈsɫəˌti/", ex: "Sami is still dating that slutty girl.", exTr: "Sami hâlâ o sürtük kızla çıkıyor." },
     { w: "hath", tr: "sahip", lv: "A2", ct: "genel", pr: "/ˈhæθ/", ex: "He who hath many friends hath none.", exTr: "Çok arkadaşı olanın hiç arkadaşı yoktur." },
     { w: "sled", tr: "kızak", lv: "B2", ct: "fiiller", pr: "/ˈsɫɛd/", ex: "Tom sat on the sled behind Mary.", exTr: "Tom Mary'nin arkasındaki kızağa oturdu." },

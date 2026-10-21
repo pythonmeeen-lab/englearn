@@ -84,7 +84,7 @@ KELIMELER.push(
     { w: "section", tr: "bölüm", lv: "A2", ct: "isimler", pr: "/ˈsɛkʃʌn/", ex: "Who's in charge of this section?", exTr: "Bu bölümün sorumlusu kim?" },
     { w: "keeping", tr: "tutmak", lv: "B1", ct: "genel", pr: "/ˈkipɪŋ/", ex: "This safe is for keeping valuables.", exTr: "Bu kasa değerli eşyaların saklanması içindir." },
     { w: "grief", tr: "yas", lv: "C1", ct: "isimler", pr: "/ˈɡrif/", ex: "Crying is an expression of grief.", exTr: "Ağlamak üzüntünün ifadesidir." },
-    { w: "fit", tr: "yerleştirmek", lv: "A2", ct: "sıfatlar", pr: "/ˈfɪt/", ex: "You're not fit to be seen.", exTr: "Görülmeye uygun değilsin." },
+    { w: "fit", tr: "uydurmak / oturmak / sığmak", lv: "A2", ct: "sıfatlar", pr: "/ˈfɪt/", ex: "You're not fit to be seen.", exTr: "Görülmeye uygun değilsin." },
     { w: "posted", tr: "gönderildi", lv: "A2", ct: "genel", pr: "/ˈpoʊstɪd/", ex: "My grandmother posted the letter this morning.", exTr: "Büyükannem mektubu bu sabah gönderdi." },
     { w: "mass", tr: "yığın", lv: "B2", ct: "sıfatlar", pr: "/ˈmæs/", ex: "He is a mass of faults.", exTr: "O bir kusurlar yığınıdır." },
     { w: "waste", tr: "atık", lv: "B1", ct: "sıfatlar", pr: "/ˈweɪst/", ex: "Students are apt to waste time.", exTr: "Öğrenciler zaman kaybetmeye eğilimlidirler." },
@@ -93,7 +93,7 @@ KELIMELER.push(
     { w: "pursuit", tr: "kovalama", lv: "B2", ct: "isimler", pr: "/pɚˈsut/", ex: "I am in pursuit of points.", exTr: "Puan peşindeyim." },
     { w: "tight", tr: "sıkı", lv: "B1", ct: "sıfatlar", pr: "/ˈtaɪt/", ex: "These shoes are too tight. They hurt.", exTr: "Bu ayakkabılar çok dar. Acıttılar." },
     { w: "segment", tr: "bölüm", lv: "C1", ct: "isimler", pr: "/ˈsɛɡmʌnt/", ex: "Divide this line segment into twenty equal parts.", exTr: "Bu doğru parçasını yirmi eşit parçaya bölün." },
-    { w: "delaware", tr: "Delaware'de", lv: "B2", ct: "genel", pr: "/ˈdɛlʌˌwɛr/", ex: "Delaware is very important.", exTr: "Delaware çok önemli." },
+
     { w: "position", tr: "konum", lv: "A2", ct: "isimler", pr: "/pʌˈzɪʃʌn/", ex: "Take a mean position in everything.", exTr: "Her şeyde ortalama bir pozisyon alın." },
     { w: "mood", tr: "mod", lv: "B1", ct: "isimler", pr: "/ˈmud/", ex: "This music suits my present mood.", exTr: "Bu müzik şu anki ruh halime uyuyor." },
     { w: "secondly", tr: "ikinci olarak", lv: "A2", ct: "fiiller", pr: "/ˈsɛkʌndli/", ex: "They secondly every day.", exTr: "Her gün ikinci sıradalar." },
@@ -182,7 +182,6 @@ KELIMELER.push(
     { w: "crew", tr: "mürettebat", lv: "B2", ct: "isimler", pr: "/ˈkru/", ex: "The tanker has a small crew.", exTr: "Tankerin küçük bir mürettebatı var." },
     { w: "hello", tr: "Merhaba", lv: "A2", ct: "genel", pr: "/hʌˈloʊ/", ex: "Hello is very important.", exTr: "Merhaba çok önemli." },
     { w: "sort", tr: "düzenlemek", lv: "A2", ct: "isimler", pr: "/ˈsɔrt/", ex: "What sort of flower do you like?", exTr: "Ne tür çiçek seversin?" },
-    { w: "israel", tr: "İsrail", lv: "B1", ct: "genel", pr: "/ˈɪzriʌl/", ex: "Israel is very important.", exTr: "İsrail çok önemli." },
 
     { w: "indian", tr: "Hint", lv: "B1", ct: "genel", pr: "/ˈɪndiʌn/", ex: "Indian is very important.", exTr: "Hint çok önemli." },
     { w: "terribly", tr: "korkunç derecede", lv: "B2", ct: "fiiller", pr: "/ˈtɛrʌbli/", ex: "They terribly every day.", exTr: "Her gün çok kötüler." },

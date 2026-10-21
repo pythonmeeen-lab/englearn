@@ -147,7 +147,7 @@ KELIMELER.push(
     { w: "razor", tr: "jilet", lv: "A2", ct: "isimler", pr: "/ˈɹeɪzɝ/", ex: "Remove the hair with a razor blade.", exTr: "Tüyleri bir tıraş bıçağıyla çıkarın." },
     { w: "sticker", tr: "etiket", lv: "B2", ct: "isimler", pr: "/ˈstɪkɝ/", ex: "Yanni took that sticker off his windshield.", exTr: "Yanni ön camındaki etiketi çıkardı." },
     { w: "jingle", tr: "şıngırdama", lv: "A2", ct: "genel", pr: "/ˈdʒɪŋɡəɫ/", ex: "I shake the money box to hear it jingle.", exTr: "Zangırdadığını duymak için para kutusunu sallıyorum." },
-    { w: "incapable", tr: "beceriksiz", lv: "B1", ct: "sıfatlar", pr: "/ˌɪnˈkeɪpəbəɫ/", ex: "He is incapable of telling a lie.", exTr: "Yalan söylemeyi beceremiyor." },
+    { w: "incapable", tr: "yetersiz / aciz", lv: "B1", ct: "sıfatlar", pr: "/ˌɪnˈkeɪpəbəɫ/", ex: "He is incapable of telling a lie.", exTr: "Yalan söylemeyi beceremiyor." },
     { w: "vegetarian", tr: "vejetaryen", lv: "B1", ct: "genel", pr: "/ˌvɛdʒəˈtɛˌɹiən/", ex: "As a vegetarian, she doesn't eat meat.", exTr: "Vejetaryen olduğundan et yemiyor." },
     { w: "fart", tr: "osuruk", lv: "A2", ct: "genel", pr: "/ˈfɑɹt/", ex: "The old lady is bound to fart.", exTr: "Yaşlı kadının osurması kaçınılmazdır." },
     { w: "boulder", tr: "kaya", lv: "B2", ct: "isimler", pr: "/ˈboʊɫdɝ/", ex: "Move that boulder away from the barn.", exTr: "O kayayı ahırdan uzaklaştırın." },

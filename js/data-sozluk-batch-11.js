@@ -130,7 +130,7 @@ KELIMELER.push(
     { w: "shun", tr: "uzak durmak", lv: "B2", ct: "genel", pr: "/ˈʃən/", ex: "I don't care if you shun me.", exTr: "Benden uzak durman umurumda değil." },
     { w: "hangover", tr: "akşamdan kalmalık", lv: "B1", ct: "isimler", pr: "/ˈhæˌŋoʊvɝ/", ex: "Tom woke up with a splitting hangover.", exTr: "Tom şiddetli bir akşamdan kalmalıkla uyandı." },
     { w: "pervert", tr: "sapık", lv: "A2", ct: "genel", pr: "/ˈpɝvɝt/, /pɝˈvɝt/", ex: "Don't look up my skirt, you pervert!", exTr: "Eteğimin yukarısına bakma, seni sapık!" },
-    { w: "vibrates", tr: "titreşir", lv: "B1", ct: "genel", pr: "/ˈvaɪbɹeɪts/", ex: "This smart pillow vibrates when you snore.", exTr: "Bu akıllı yastık horladığınızda titreşir." },
+
     { w: "cove", tr: "koy", lv: "B1", ct: "genel", pr: "/ˈkoʊv/", ex: "The secret cove was a aesthete's dream.", exTr: "Gizli koy bir estetiğin hayaliydi." },
     { w: "originate", tr: "kökenli", lv: "B2", ct: "fiiller", pr: "/ɝˈɪdʒəˌneɪtəd/, /ɔˈɹɪdʒəˌneɪtɪd/", ex: "That custom originated with the American Indians.", exTr: "Bu gelenek Amerikan Kızılderililerinden kaynaklandı." },
     { w: "lodge", tr: "yerleşmiş", lv: "B2", ct: "fiiller", pr: "/ˈɫɑdʒd/", ex: "Tom lodged his complaint with the manager.", exTr: "Tom şikayetini yöneticiye iletti." },
