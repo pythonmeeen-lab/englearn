@@ -18,7 +18,6 @@ KELIMELER.push(
     { w: "feather", tr: "tüy", lv: "B2", ct: "isimler", pr: "/ˈfɛðɚ/", ex: "Birds of a feather flock together.", exTr: "Tüylü kuşlar bir araya akın ediyor." },
     { w: "cooperate", tr: "işbirliği yapmak", lv: "C1", ct: "fiiller", pr: "/koʊˈɑpɚˌeɪt/", ex: "They cooperate every day.", exTr: "Her gün işbirliği yapıyorlar." },
     { w: "ending", tr: "bitiş", lv: "A2", ct: "isimler", pr: "/ˈɛndɪŋ/", ex: "The story had a happy ending.", exTr: "Hikayenin mutlu sonu vardı." },
-    { w: "held", tr: "tutulmuş", lv: "A2", ct: "genel", pr: "/ˈhɛld/", ex: "The meeting will be held tomorrow.", exTr: "Toplantı yarın yapılacak." },
     { w: "manager", tr: "müdür", lv: "A2", ct: "isimler", pr: "/ˈmænʌdʒɚ/", ex: "The manager bestowed a trophy on him.", exTr: "Yönetici ona kupayı verdi." },
     { w: "associates", tr: "ortaklar", lv: "B1", ct: "genel", pr: "/ʌˈsoʊsiʌts/", ex: "He associates only with prestigious people.", exTr: "Sadece prestijli insanlarla arkadaşlık kurar." },
     { w: "magistrate", tr: "yargıç", lv: "C1", ct: "isimler", pr: "/ˈmædʒʌˌstreɪt/", ex: "A magistrate was assassinated by the mafia.", exTr: "Bir hakim mafya tarafından öldürüldü." },

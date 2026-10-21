@@ -128,7 +128,6 @@ KELIMELER.push(
     { w: "meets", tr: "buluşuyor", lv: "B2", ct: "genel", pr: "/ˈmits/", ex: "The committee meets every Monday.", exTr: "Komite her pazartesi buluşuyor." },
     { w: "confine", tr: "sınırlamak", lv: "C1", ct: "fiiller", pr: "/kʌˈnfaɪn/", ex: "Please confine your remarks to five minutes.", exTr: "Konuşmanızı beş dakikayla sınırlayın." },
     { w: "elementary", tr: "temel", lv: "B2", ct: "sıfatlar", pr: "/ˌɛlʌˈmɛntri/", ex: "She teaches elementary mathematics.", exTr: "Temel matematik öğretiyor." },
-    { w: "meant", tr: "anlamına gelen", lv: "B2", ct: "genel", pr: "/ˈmɛnt/", ex: "The warning meant a serious danger ahead.", exTr: "Uyarı, önlerinde ciddi bir tehlike anlamına gelen işaretti." },
     { w: "crown", tr: "taç", lv: "C1", ct: "isimler", pr: "/ˈkraʊn/", ex: "The queen wore a golden crown.", exTr: "Kraliçe altın bir taç taktı." },
     { w: "cognitive", tr: "bilişsel", lv: "C1", ct: "sıfatlar", pr: "/ˈkɑɡnɪtɪv/", ex: "Puzzles can improve cognitive skills.", exTr: "Bilmeceler bilişsel becerileri geliştirebilir." },
     { w: "recovery", tr: "iyileşmek", lv: "B2", ct: "isimler", pr: "/rɪˈkʌvri/", ex: "To recover quickly is vital after surgery.", exTr: "Ameliyattan sonra hızla iyileşmek çok önemlidir." },

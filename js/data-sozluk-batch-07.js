@@ -171,7 +171,6 @@ KELIMELER.push(
     { w: "momma", tr: "anne", lv: "A2", ct: "genel", pr: "/ˈmɑmə/", ex: "Yo momma so cross-eyed, she thought we was havin a threesome.", exTr: "Annenin gözleri o kadar şaşı ki üçlü seks yaptığımızı sanıyordu." },
     { w: "truce", tr: "ateşkes", lv: "B1", ct: "genel", pr: "/ˈtɹus/", ex: "Shall I report a truce or war?", exTr: "Ateşkes mi yoksa savaş mı bildireceğim?" },
     { w: "persuasive", tr: "ikna edici", lv: "B2", ct: "sıfatlar", pr: "/pɝˈsweɪsɪv/", ex: "I know how persuasive Tom can be.", exTr: "Tom'un ne kadar ikna edici olabileceğini biliyorum." },
-    { w: "wept", tr: "ağladı", lv: "B2", ct: "genel", pr: "/ˈwɛpt/", ex: "She wept and prayed for poor Inge.", exTr: "Zavallı Inge için ağladı ve dua etti." },
     { w: "terrace", tr: "teras", lv: "A2", ct: "genel", pr: "/ˈtɛɹəs/", ex: "You can only smoke on the terrace.", exTr: "Sadece terasta sigara içebilirsiniz." },
     { w: "mutton", tr: "koyun eti", lv: "B2", ct: "genel", pr: "/ˈmətən/", ex: "He is a mutton-headed old mugwump.", exTr: "Koyun kafalı, yaşlı bir serseri." },
     { w: "superhero", tr: "süper kahraman", lv: "B1", ct: "genel", pr: "/ˌsupɝˈhiɹoʊ/", ex: "Batman is, above all else, a superhero.", exTr: "Batman her şeyden önce bir süper kahramandır." },

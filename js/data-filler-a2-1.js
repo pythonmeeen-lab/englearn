@@ -6,7 +6,6 @@ KELIMELER.push(
     { w: "arrive", tr: "varmak", lv: "A2", ct: "fiiller", pr: "/əˈraɪv/", ex: "We arrived at the station on time.", exTr: "İstasyona zamanında vardık." },
     { w: "ask", tr: "sormak / istemek", lv: "A2", ct: "fiiller", pr: "/ɑːsk/", ex: "Can I ask you a question?", exTr: "Sana bir soru sorabilir miyim?" },
     { w: "borrow", tr: "ödünç almak", lv: "A2", ct: "fiiller", pr: "/ˈbɒr.əʊ/", ex: "Can I borrow your pen?", exTr: "Kalemini ödünç alabilir miyim?" },
-    { w: "brought", tr: "getirmek", lv: "A2", ct: "fiiller", pr: "/brɔːt/", ex: "She brought some food to the party.", exTr: "Partiye biraz yiyecek getirdi." },
     { w: "carry", tr: "taşımak", lv: "A2", ct: "fiiller", pr: "/ˈkær.i/", ex: "He carried the heavy box upstairs.", exTr: "Ağır kutuyu yukarı taşıdı." },
     { w: "catch", tr: "yakalamak", lv: "A2", ct: "fiiller", pr: "/kætʃ/", ex: "I caught the ball with one hand.", exTr: "Topu tek elle yakaladım." },
     { w: "change", tr: "değiştirmek", lv: "A2", ct: "fiiller", pr: "/tʃeɪndʒ/", ex: "We changed our travel plans.", exTr: "Seyahat planlarımızı değiştirdik." },
