@@ -1675,19 +1675,20 @@ const YazmaUygulamasi = {
         const kutular = document.querySelectorAll('#yazma-slots .letter-slot');
         let kullaniciIndeks = 0;
         for (let i = 0; i < kutular.length; i++) {
-            if (this.ipucuKonumlari.has(i)) {
-                // İpucu ile dolu konum: doğru harf, dokunulmaz
-                kutular[i].textContent = this.gecerliCevap[i] || '_';
-                kutular[i].classList.add('dolu', 'ipucu-verildi');
+            const el = kutular[i];
+            if (el.classList.contains('space-slot')) continue;   // boşluk kutusuna dokunma
+            const idx = parseInt(el.dataset.indeks, 10);
+            if (this.ipucuKonumlari.has(idx)) {
+                el.textContent = this.gecerliCevap[idx] || '_';
+                el.classList.add('dolu', 'ipucu-verildi');
             } else if (kullaniciIndeks < deger.length) {
-                // Kullanıcı harfi: soldan sağa boş konumlara
-                kutular[i].textContent = deger[kullaniciIndeks].toLowerCase();
-                kutular[i].classList.add('dolu');
-                kutular[i].classList.remove('ipucu-verildi');
+                el.textContent = deger[kullaniciIndeks].toLowerCase();
+                el.classList.add('dolu');
+                el.classList.remove('ipucu-verildi');
                 kullaniciIndeks++;
             } else {
-                kutular[i].textContent = '_';
-                kutular[i].classList.remove('dolu', 'ipucu-verildi');
+                el.textContent = '_';
+                el.classList.remove('dolu', 'ipucu-verildi');
             }
         }
     },
@@ -1696,7 +1697,7 @@ const YazmaUygulamasi = {
     gizliInputDinle() {
         // Gizli input aktifken: yazılan harfleri al ve kutulara dök
         const girdi = document.getElementById('yazma-girdi');
-        let deger = girdi.value.replace(/[^a-zA-Z\s'-]/g, '');
+        let deger = girdi.value.replace(/[^a-zA-Z'-]/g, '');
         // Yazılabilecek maksimum harf: toplam uzunluk - ipucuyla dolu konumlar
         const bosSayisi = this.gecerliCevap.length - this.ipucuKonumlari.size;
         deger = deger.slice(0, bosSayisi);
@@ -1706,7 +1707,7 @@ const YazmaUygulamasi = {
     // Birleşik cevap: ipucu harfleri + kullanıcı harfleri (boş konumlar dahil)
     bilesikCevap() {
         const cevap = this.gecerliCevap;
-        const girdi = document.getElementById('yazma-girdi').value.replace(/[^a-zA-Z\s'-]/g, '').toLowerCase();
+        const girdi = document.getElementById('yazma-girdi').value.replace(/[^a-zA-Z'-]/g, '').toLowerCase();
         const dizi = new Array(cevap.length).fill('');
         // İpucu konumlarını doldur
         for (const konum of this.ipucuKonumlari) {
@@ -1777,18 +1778,24 @@ const YazmaUygulamasi = {
         const kutular = document.querySelectorAll('#yazma-slots .letter-slot');
         const cevap = this.gecerliCevap;
         for (let i = 0; i < kutular.length; i++) {
-            const harf = kutular[i].textContent.toLowerCase();
+            const el = kutular[i];
+            if (el.classList.contains('space-slot')) continue;
+            const idx = parseInt(el.dataset.indeks, 10);
+            const harf = el.textContent.toLowerCase();
             if (harf === '_') {
-                kutular[i].classList.add('bos');
-            } else if (i < cevap.length && harf === cevap[i]) {
-                kutular[i].classList.add('harf-dogru');
+                el.classList.add('bos');
+            } else if (idx >= 0 && idx < cevap.length && harf === cevap[idx]) {
+                el.classList.add('harf-dogru');
             } else {
-                kutular[i].classList.add('harf-yanlis');
+                el.classList.add('harf-yanlis');
             }
         }
         // İpucu: doğru kelimeyi kutulara yaz (yanıt göster)
         for (let i = 0; i < kutular.length; i++) {
-            kutular[i].textContent = cevap[i] !== undefined ? cevap[i].toLowerCase() : '_';
+            const el = kutular[i];
+            if (el.classList.contains('space-slot')) continue;
+            const idx = parseInt(el.dataset.indeks, 10);
+            el.textContent = (idx >= 0 && idx < cevap.length) ? cevap[idx].toLowerCase() : '_';
         }
     },
 
