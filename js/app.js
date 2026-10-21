@@ -1511,8 +1511,40 @@ const YazmaUygulamasi = {
     ipucuKonumlari: new Set(), // ipucu ile açılan harf konumları (indeksler)
     ipucuHakki: 3,     // her kelime için 3 ipucu hakkı
 
+    // Kelime Yazma havuzu: SADECE gerçek kök kelimeler
+    // - argo/sokak dili ve ünlemler hariç
+    // - fiil çekimleri (-ed/-ing/-s), sıfat karşılaştırma (-er/-est), düzensiz geçmiş hariç
+    yazmaHavuzu() {
+        var ARGO = new Set(('fuck fucking shit shitty bitch bastard asshole ass arse damn hell crap piss dick cock ' +
+            'pussy cunt whore slut hooker fag dumbass jackass retard spastic pervert boobs tits wanker bugger ' +
+            'bollocks twat prick douche douchebag motherfucker gonna gotta wanna ain\'t dunno kinda sorta outta cuz ' +
+            'bro dude yo nah yeah yep nope ugh ahh ah yum phew wow hurrah oops shoo').split(' '));
+        var IRREG = new Set(('went ran took gave saw came got made knew said found told thought brought bought caught ' +
+            'taught fought drank drove wrote spoke broke chose flew grew threw wore began won lost left felt kept slept ' +
+            'meant paid sold sent spent built held stood met sat led fed hid rode rose sang swam fell forgot froze ' +
+            'shook struck woke did does is are was were has had been being').split(' '));
+        var sozluk = new Set();
+        KELIMELER.forEach(function (k) { if (k && k.w) sozluk.add(k.w.toLowerCase().trim()); });
+        return KELIMELER.filter(function (k) {
+            if (!k || !k.w) return false;
+            var w = k.w.toLowerCase().trim();
+            if (!w || ARGO.has(w) || IRREG.has(w)) return false;
+            var ct = (k.ct || '').toLowerCase();
+            var fiil = ct.indexOf('fiil') >= 0 || ct === 'phrasal';
+            if (fiil) {
+                if (/(ed|ing)$/.test(w)) return false;                  // geçmiş / -ing
+                if (/[^s]s$/.test(w) && sozluk.has(w.slice(0, -1))) return false; // 3. tekil
+            }
+            if (ct.indexOf('sıfat') >= 0) {
+                if (/er$/.test(w) && sozluk.has(w.slice(0, -2))) return false;   // better? -> bet yok; büyük/küçük
+                if (/est$/.test(w) && sozluk.has(w.slice(0, -3))) return false;
+            }
+            return true;
+        });
+    },
+
     baslat() {
-        this.liste = this.karistir([...KELIMELER]);
+        this.liste = this.karistir(this.yazmaHavuzu());
         this.filtreleriBagla();
         this.soruGoster();
         this.olaylariBagla();
