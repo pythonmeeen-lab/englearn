@@ -147,11 +147,11 @@ KELIMELER.push(
     { w: "steal", tr: "hırsızlık yapmak", lv: "A2", ct: "fiiller", pr: "/ˈstil/", ex: "They steal every day.", exTr: "Her gün hırsızlık yapıyorlar." },
     { w: "makes", tr: "yapar", lv: "A2", ct: "genel", pr: "/ˈmeɪks/", ex: "Your smile always makes me happy.", exTr: "Gülüşün beni her zaman mutlu ediyor." },
     { w: "bit", tr: "biraz", lv: "A2", ct: "isimler", pr: "/ˈbɪt/", ex: "Clear up your desk a bit.", exTr: "Masanızı biraz temizleyin." },
-    { w: "africa", tr: "Afrika", lv: "A2", ct: "genel", pr: "/ˈæfrʌkɑ/", ex: "Africa is very important.", exTr: "Afrika çok önemli." },
+
     { w: "switch", tr: "anahtar", lv: "B1", ct: "fiiller", pr: "/ˈswɪtʃ/", ex: "They switch every day.", exTr: "Her gün yer değiştiriyorlar." },
     { w: "dignity", tr: "itibar", lv: "C1", ct: "isimler", pr: "/ˈdɪɡnʌti/", ex: "Your action has offended his dignity.", exTr: "Eyleminiz onun onurunu zedeledi." },
     { w: "transportation", tr: "toplu taşıma", lv: "B2", ct: "isimler", pr: "/ˌtrænspɚˈteɪʃʌn/", ex: "This place isn't convenient to public transportation.", exTr: "Burası toplu ulaşıma uygun değil." },
-    { w: "singapore", tr: "Singapur", lv: "B1", ct: "genel", pr: "/ˈsɪŋʌˌpɔr/", ex: "Singapore is very important.", exTr: "Singapur çok önemli." },
+
     { w: "essentially", tr: "esasen", lv: "B2", ct: "fiiller", pr: "/ɛˈsɛnʃʌli/", ex: "They essentially every day.", exTr: "Aslında her gün." },
     { w: "nothing", tr: "Hiçbir şey", lv: "A2", ct: "isimler", pr: "/ˈnʌθɪŋ/", ex: "Nothing is very important.", exTr: "Hiçbir şey çok önemli değil." },
     { w: "oblige", tr: "mecbur etmek", lv: "C1", ct: "fiiller", pr: "/ʌˈblaɪdʒ/", ex: "They oblige every day.", exTr: "Her gün mecbur kalıyorlar." },

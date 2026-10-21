@@ -75,7 +75,7 @@ KELIMELER.push(
     { w: "weave", tr: "örgü", lv: "C1", ct: "fiiller", pr: "/ˈwiv/", ex: "They weave every day.", exTr: "Her gün örüyorlar." },
     { w: "operate", tr: "işletmek", lv: "B2", ct: "fiiller", pr: "/ˈɑpɚˌeɪt/", ex: "They operate every day.", exTr: "Her gün faaliyet gösteriyorlar." },
     { w: "destructive", tr: "yıkıcı", lv: "C1", ct: "sıfatlar", pr: "/dɪˈstrʌktɪv/", ex: "Small children can be very destructive.", exTr: "Küçük çocuklar çok yıkıcı olabilir." },
-    { w: "europe", tr: "Avrupa", lv: "A2", ct: "genel", pr: "/ˈjʊrʌp/", ex: "Europe is very important.", exTr: "Avrupa çok önemli." },
+
     { w: "nor", tr: "ne de", lv: "B1", ct: "fiiller", pr: "/ˈnɔr/", ex: "They nor every day.", exTr: "Ne de her gün." },
     { w: "infamous", tr: "rezil", lv: "C1", ct: "sıfatlar", pr: "/ˈɪnfʌmʌs/", ex: "Sami was infamous for that shit.", exTr: "Sami bu bokla ünlüydü." },
     { w: "pace", tr: "adımlamak", lv: "B2", ct: "isimler", pr: "/ˈpeɪs/", ex: "I can't keep pace with your plan.", exTr: "Planınıza ayak uyduramıyorum." },

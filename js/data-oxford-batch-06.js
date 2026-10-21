@@ -80,7 +80,7 @@ KELIMELER.push(
     { w: "likewise", tr: "aynı şekilde", lv: "B2", ct: "fiiller", pr: "/ˈlaɪˌkwaɪz/", ex: "They likewise every day.", exTr: "Onlar da her gün." },
     { w: "guys", tr: "Çocuklar", lv: "B1", ct: "genel", pr: "/ˈɡaɪz/", ex: "Guys is very important.", exTr: "Arkadaşlar çok önemli." },
     { w: "vow", tr: "yemin", lv: "C1", ct: "fiiller", pr: "/ˈvaʊ/", ex: "They vow every day.", exTr: "Her gün yemin ediyorlar." },
-    { w: "iraq", tr: "Irak", lv: "B1", ct: "genel", pr: "/ˌɪˈrɑk/", ex: "Iraq is very important.", exTr: "Irak çok önemli." },
+
     { w: "attract", tr: "cezbetmek", lv: "B1", ct: "fiiller", pr: "/ʌˈtrækt/", ex: "They attract every day.", exTr: "Her gün çekiyorlar." },
     { w: "constant", tr: "devamlı", lv: "B2", ct: "sıfatlar", pr: "/ˈkɑnstʌnt/", ex: "The sick man required constant attention.", exTr: "Hasta adamın sürekli ilgiye ihtiyacı vardı." },
     { w: "breaking", tr: "kırma", lv: "B1", ct: "genel", pr: "/ˈbreɪkɪŋ/", ex: "Fashion designers are breaking with tradition.", exTr: "Moda tasarımcıları gelenekten kopuyor." },
@@ -122,7 +122,7 @@ KELIMELER.push(
     { w: "current", tr: "akım", lv: "B1", ct: "sıfatlar", pr: "/ˈkɚʌnt/", ex: "The current is rapid around here.", exTr: "Burada akıntı çok hızlı." },
     { w: "goodbye", tr: "Güle güle", lv: "A2", ct: "genel", pr: "/ˌɡʊˈdbaɪ/", ex: "Goodbye is very important.", exTr: "Veda çok önemlidir." },
     { w: "indoors", tr: "Kapalı alanlarda", lv: "B1", ct: "fiiller", pr: "/ˈɪˌndɔrz/", ex: "They indoors every day.", exTr: "Her gün içerideler." },
-    { w: "denmark", tr: "Danimarka", lv: "B2", ct: "genel", pr: "/ˈdɛˌnmɑrk/", ex: "Denmark is very important.", exTr: "Danimarka çok önemli." },
+
     { w: "chart", tr: "çizelge", lv: "A2", ct: "isimler", pr: "/ˈtʃɑrt/", ex: "I've been going over Tom's chart.", exTr: "Tom'un haritasının üzerinden geçiyordum." },
     { w: "sadly", tr: "ne yazık ki", lv: "A2", ct: "fiiller", pr: "/ˈsædli/", ex: "They sadly every day.", exTr: "Ne yazık ki her gün." },
     { w: "small", tr: "küçük", lv: "A2", ct: "sıfatlar", pr: "/ˈsmɔl/", ex: "Compared with yours, my car is small.", exTr: "Seninkiyle karşılaştırıldığında benim arabam küçük." },

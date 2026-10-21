@@ -81,7 +81,7 @@ KELIMELER.push(
     { w: "work", tr: "iş", lv: "A2", ct: "isimler", pr: "/ˈwɚk/", ex: "Does it also work without registration?", exTr: "Kayıt olmadan da çalışıyor mu?" },
     { w: "immense", tr: "engin", lv: "C1", ct: "sıfatlar", pr: "/ˌɪˈmɛns/", ex: "That play was an immense success.", exTr: "Bu oyun büyük bir başarıydı." },
     { w: "ride", tr: "sürmek", lv: "A2", ct: "fiiller", pr: "/ˈraɪd/", ex: "They ride every day.", exTr: "Her gün biniyorlar." },
-    { w: "indonesia", tr: "Endonezya", lv: "B2", ct: "genel", pr: "/ˌɪndoʊˈniʒʌ/", ex: "Indonesia is very important.", exTr: "Endonezya çok önemli." },
+
     { w: "occurrence", tr: "meydana gelme", lv: "C1", ct: "isimler", pr: "/ʌˈkɚʌns/", ex: "What happened is a rare occurrence.", exTr: "Yaşananlar nadir görülen bir olay." },
     { w: "aunt", tr: "hala / teyze / yenge", lv: "A2", ct: "isimler", pr: "/ˈænt/", ex: "My aunt lives in New York.", exTr: "Teyzem New York'ta yaşıyor." },
     { w: "recruitment", tr: "işe alım", lv: "B2", ct: "isimler", pr: "/rʌˈkrutmʌnt/", ex: "The recruitment team looked for promising employees.", exTr: "İşe alım ekibi gelecek vaat eden çalışanları aradı." },
@@ -124,7 +124,7 @@ KELIMELER.push(
     { w: "somewhat", tr: "biraz", lv: "B2", ct: "fiiller", pr: "/ˈsʌˈmwʌt/", ex: "They somewhat every day.", exTr: "Her gün biraz." },
     { w: "prayer", tr: "namaz", lv: "B1", ct: "isimler", pr: "/ˈprɛr/", ex: "Nothing has resulted from her prayer.", exTr: "Duasından hiçbir sonuç çıkmadı." },
     { w: "wife", tr: "eş", lv: "A2", ct: "isimler", pr: "/ˈwaɪf/", ex: "I lost my wife last year.", exTr: "Geçen yıl karımı kaybettim." },
-    { w: "london", tr: "Londra", lv: "A2", ct: "genel", pr: "/ˈlʌndʌn/", ex: "London is very important.", exTr: "Londra çok önemli." },
+
     { w: "slip", tr: "kayma", lv: "B2", ct: "fiiller", pr: "/ˈslɪp/", ex: "They slip every day.", exTr: "Her gün kayıyorlar." },
     { w: "respective", tr: "saygılı", lv: "C1", ct: "sıfatlar", pr: "/rɪˈspɛktɪv/", ex: "They went home to their respective houses.", exTr: "Kendi evlerine gittiler." },
     { w: "include", tr: "katmak", lv: "A2", ct: "fiiller", pr: "/ˌɪˈnklud/", ex: "They include every day.", exTr: "Bunlara her gün dahildir." },
@@ -161,7 +161,6 @@ KELIMELER.push(
     { w: "colleague", tr: "iş arkadaşı", lv: "A2", ct: "isimler", pr: "/ˈkɑliɡ/", ex: "Go and speak to my colleague.", exTr: "Git ve meslektaşımla konuş." },
     { w: "bad", tr: "kötü", lv: "A2", ct: "sıfatlar", pr: "/ˈbæd/", ex: "He wishes to erase bad memories.", exTr: "Kötü anıları silmek istiyor." },
 
-    { w: "african", tr: "Afrika", lv: "B1", ct: "genel", pr: "/ˈæfrʌkʌn/", ex: "African is very important.", exTr: "Afrika çok önemli." },
     { w: "delete", tr: "silmek", lv: "B2", ct: "fiiller", pr: "/dɪˈlit/", ex: "They delete every day.", exTr: "Her gün siliyorlar." },
     { w: "void", tr: "geçersiz", lv: "B1", ct: "genel", pr: "/ˈvɔɪd/", ex: "This contract is null and void.", exTr: "Bu sözleşme geçersiz ve hükümsüzdür." },
     { w: "subsequently", tr: "daha sonra", lv: "B2", ct: "fiiller", pr: "/ˈsʌbsʌkwʌntli/", ex: "They subsequently every day.", exTr: "Daha sonra her gün." },

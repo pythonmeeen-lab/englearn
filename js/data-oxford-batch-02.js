@@ -165,7 +165,7 @@ KELIMELER.push(
     { w: "fortunately", tr: "neyse ki", lv: "A2", ct: "fiiller", pr: "/ˈfɔrtʃʌnʌtli/", ex: "They fortunately every day.", exTr: "Neyse ki her gün." },
     { w: "python", tr: "piton", lv: "B2", ct: "genel", pr: "/ˈpaɪθɑn/", ex: "Life's short, so I use Python!", exTr: "Hayat kısa, bu yüzden Python kullanıyorum!" },
     { w: "wonderful", tr: "müthiş", lv: "A2", ct: "sıfatlar", pr: "/ˈwʌndɚfʌl/", ex: "It's a wonderful work of art.", exTr: "Harika bir sanat eseri." },
-    { w: "austria", tr: "Avusturya", lv: "B1", ct: "genel", pr: "/ˈɔstriʌ/", ex: "Austria is very important.", exTr: "Avusturya çok önemli." },
+
     { w: "suggestion", tr: "telkin", lv: "A2", ct: "isimler", pr: "/sʌˈdʒɛstʃʌn/", ex: "Your suggestion amounts to an order.", exTr: "Öneriniz bir sipariş niteliğindedir." },
     { w: "compose", tr: "beste yapmak", lv: "B2", ct: "fiiller", pr: "/kʌˈmpoʊz/", ex: "They compose every day.", exTr: "Her gün beste yapıyorlar." },
     { w: "appear", tr: "belli olmak", lv: "A2", ct: "fiiller", pr: "/ʌˈpɪr/", ex: "They appear every day.", exTr: "Her gün ortaya çıkıyorlar." },

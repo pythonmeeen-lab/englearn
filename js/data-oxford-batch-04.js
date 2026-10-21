@@ -7,7 +7,7 @@ KELIMELER.push(
     { w: "am", tr: "ben", lv: "A2", ct: "genel", pr: "/ˈæm/", ex: "You don't know who I am.", exTr: "Kim olduğumu bilmiyorsun." },
     { w: "applicant", tr: "başvuru sahibi", lv: "B2", ct: "isimler", pr: "/ˈæplɪkʌnt/", ex: "The applicant impressed the examiner favorably.", exTr: "Başvuru sahibi, denetçiyi olumlu bir şekilde etkilemiştir." },
     { w: "effectiveness", tr: "verimlilik", lv: "C1", ct: "isimler", pr: "/ɪˈfɛktɪvnʌs/", ex: "Don't doubt the effectiveness of this medicine.", exTr: "Bu ilacın etkinliğinden şüphe etmeyin." },
-    { w: "california", tr: "Kaliforniya", lv: "A2", ct: "genel", pr: "/ˌkælʌˈfɔrnjʌ/", ex: "California is very important.", exTr: "Kaliforniya çok önemli." },
+
     { w: "worker", tr: "işçi", lv: "A2", ct: "isimler", pr: "/ˈwɚkɚ/", ex: "My father is an office worker.", exTr: "Babam ofis çalışanıdır." },
     { w: "exactly", tr: "tam olarak / aynen", lv: "A2", ct: "fiiller", pr: "/ɪˈɡzæktli/", ex: "They exactly every day.", exTr: "Kesinlikle" },
     { w: "home", tr: "Ev", lv: "A2", ct: "fiiller", pr: "/ˈhoʊm/", ex: "They home every day.", exTr: "Her gün evdeler." },
@@ -164,7 +164,7 @@ KELIMELER.push(
     { w: "entirely", tr: "tamamen", lv: "B2", ct: "fiiller", pr: "/ɪˈntaɪɚli/", ex: "They entirely every day.", exTr: "Tamamen her gün." },
     { w: "relatively", tr: "nispeten", lv: "B2", ct: "fiiller", pr: "/ˈrɛlʌtɪvli/", ex: "They relatively every day.", exTr: "Nispeten her gün." },
     { w: "pursuant", tr: "uyarınca", lv: "B2", ct: "genel", pr: "/pɚˈsuʌnt/", ex: "I have acted pursuant to your wishes.", exTr: "Sizin istekleriniz doğrultusunda hareket ettim." },
-    { w: "norway", tr: "Norveç", lv: "B2", ct: "genel", pr: "/ˈnɔˌrweɪ/", ex: "Norway is very important.", exTr: "Norveç çok önemli." },
+
     { w: "temporarily", tr: "geçici olarak", lv: "B2", ct: "fiiller", pr: "/ˌtɛmpɚˈɛrʌli/", ex: "They temporarily every day.", exTr: "Her gün geçici olarak." },
     { w: "problematic", tr: "problemli", lv: "C1", ct: "sıfatlar", pr: "/ˌprɑblʌˈmætɪk/", ex: "This is going to be problematic.", exTr: "Bu sorun yaratacak." },
     { w: "width", tr: "Genişlik", lv: "C1", ct: "isimler", pr: "/ˈwɪdθ/", ex: "Width is very important.", exTr: "Genişlik çok önemlidir." },

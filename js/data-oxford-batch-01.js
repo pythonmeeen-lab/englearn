@@ -134,7 +134,7 @@ KELIMELER.push(
     { w: "images", tr: "görseller", lv: "A2", ct: "genel", pr: "/ˈɪmʌdʒʌz/", ex: "She explained her ideas with images.", exTr: "Fikirlerini görsellerle anlattı." },
     { w: "german", tr: "Almanca", lv: "B1", ct: "genel", pr: "/ˈdʒɚmʌn/", ex: "German is very important.", exTr: "Almanca çok önemli." },
     { w: "happen", tr: "olmak", lv: "A2", ct: "fiiller", pr: "/ˈhæpʌn/", ex: "They happen every day.", exTr: "Bunlar her gün oluyor." },
-    { w: "korea", tr: "Kore", lv: "B1", ct: "genel", pr: "/ˌkɔˈriʌ/", ex: "Korea is very important.", exTr: "Kore çok önemli." },
+
     { w: "ironically", tr: "ironik bir şekilde", lv: "C1", ct: "fiiller", pr: "/aɪˈrɑnɪkli/", ex: "They ironically every day.", exTr: "Her gün ironik bir şekilde konuşuyorlar." },
     { w: "lead", tr: "yol göstermek", lv: "A2", ct: "fiiller", pr: "/ˈlɛd/", ex: "They lead every day.", exTr: "Her gün liderlik ediyorlar." },
     { w: "domain", tr: "alan", lv: "C1", ct: "isimler", pr: "/doʊˈmeɪn/", ex: "Is that a public domain book?", exTr: "Bu kamuya açık bir kitap mı?" },

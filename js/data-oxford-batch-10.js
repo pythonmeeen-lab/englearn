@@ -32,7 +32,7 @@ KELIMELER.push(
     { w: "whereby", tr: "bu sayede", lv: "C1", ct: "fiiller", pr: "/wɛˈrbaɪ/", ex: "They signed an agreement whereby both sides would disarm.", exTr: "İki tarafın da silahsızlanmasını öngören bir anlaşma imzaladılar; bu sayede gerilim azaldı." },
     { w: "folk", tr: "halk", lv: "B1", ct: "sıfatlar", pr: "/ˈfoʊk/", ex: "She sings traditional folk songs.", exTr: "Geleneksel halk şarkıları söyler." },
     { w: "clip", tr: "klip", lv: "B2", ct: "isimler", pr: "/ˈklɪp/", ex: "The music clip reached a million views.", exTr: "Müzik klibi bir milyon görüntülemeye ulaştı." },
-    { w: "poland", tr: "Polonya", lv: "B2", ct: "genel", pr: "/ˈpoʊlʌnd/", ex: "We drove from Berlin to Poland in three hours.", exTr: "Berlin'den Polonya'ya üç saatte sürdük." },
+
     { w: "fixture", tr: "fikstür", lv: "C1", ct: "isimler", pr: "/ˈfɪkstʃɚ/", ex: "United face a tough away fixture on Saturday.", exTr: "United, cumartesi günü zorlu bir deplasman fikstürüne çıkıyor." },
     { w: "ship", tr: "gemi", lv: "A2", ct: "isimler", pr: "/ˈʃɪp/", ex: "The ship arrived at the port at dawn.", exTr: "Gemi şafak vakti limana vardı." },
     { w: "atomic", tr: "atomik", lv: "C1", ct: "genel", pr: "/ʌˈtɑmɪk/", ex: "Scientists built the first atomic bomb in 1945.", exTr: "Bilim insanları ilk atomik bombayı 1945'te yaptı." },
@@ -211,7 +211,7 @@ KELIMELER.push(
     { w: "helmet", tr: "kask", lv: "B2", ct: "isimler", pr: "/ˈhɛlmʌt/", ex: "Always wear a helmet when cycling.", exTr: "Bisiklet sürerken her zaman kask tak." },
     { w: "etc", tr: "vesaire", lv: "B1", ct: "genel", pr: "/ˌɛˈtsɛtɚʌ/", ex: "Bring pens, paper, etc.", exTr: "Kalem, kâğıt vs. getir." },
     { w: "permissions", tr: "izinler", lv: "C1", ct: "genel", pr: "/pɚˈmɪʃʌnz/", ex: "The app requests access permissions.", exTr: "Uygulama erişim izinleri istiyor." },
-    { w: "roman", tr: "Roma", lv: "B2", ct: "genel", pr: "/ˈroʊmʌn/", ex: "Roman ruins are found across Turkey.", exTr: "Roma harabeleri Türkiye'nin her yerinde bulunur." },
+
     { w: "protective", tr: "koruyucu", lv: "C1", ct: "sıfatlar", pr: "/prʌˈtɛktɪv/", ex: "Wear protective gloves when cleaning.", exTr: "Temizlik yaparken koruyucu eldiven giy." },
     { w: "per cent", tr: "yüzde", lv: "A2", ct: "sıfatlar", pr: "/pəˈsɛnt/", ex: "The bank pays three per cent interest.", exTr: "Banka yüzde üç faiz ödüyor." },
     { w: "colour", tr: "renk", lv: "A2", ct: "isimler", pr: "/ˈkʌlɚ/", ex: "My favourite colour is blue.", exTr: "En sevdiğim renk mavidir." },
@@ -363,7 +363,7 @@ KELIMELER.push(
     { w: "descend", tr: "inmek", lv: "C1", ct: "fiiller", pr: "/dɪˈsɛnd/", ex: "The plane began to descend slowly.", exTr: "Uçak yavaşça inmeye başladı." },
     { w: "background", tr: "arka plan", lv: "A2", ct: "isimler", pr: "/ˈbæˌkɡraʊnd/", ex: "The photo shows a blurry background.", exTr: "Fotoğrafta arka plan bulanık görünüyor." },
     { w: "parameter", tr: "parametre", lv: "C1", ct: "isimler", pr: "/pɚˈæmʌtɚ/", ex: "Set the parameter before running the script.", exTr: "Betiği çalıştırmadan önce parametreyi ayarlayın." },
-    { w: "malaysia", tr: "Malezya", lv: "B2", ct: "genel", pr: "/mʌˈleɪʒʌ/", ex: "Kuala Lumpur is the capital of Malaysia.", exTr: "Kuala Lumpur, Malezya'nın başkentidir." },
+
     { w: "sacrifice", tr: "kurban etmek", lv: "C1", ct: "isimler", pr: "/ˈsækrʌˌfaɪs/", ex: "They made a big sacrifice for the children.", exTr: "Çocuklar için büyük bir fedakarlık yaptılar." },
     { w: "loyal", tr: "sadık", lv: "B2", ct: "sıfatlar", pr: "/ˈlɔɪʌl/", ex: "The dog stayed loyal to its owner.", exTr: "Köpek sahibine sadık kaldı." },
     { w: "link", tr: "bağlantı", lv: "A2", ct: "isimler", pr: "/ˈlɪŋk/", ex: "Click the link to open the page.", exTr: "Sayfayı açmak için bağlantıya tıklayın." },
@@ -407,7 +407,7 @@ KELIMELER.push(
     { w: "predecessor", tr: "öncül", lv: "C1", ct: "isimler", pr: "/ˈprɛdʌˌsɛsɚ/", ex: "The new coach praised his predecessor.", exTr: "Yeni teknik direktör öncülünü övdü." },
 
     { w: "annually", tr: "yıllık", lv: "B2", ct: "fiiller", pr: "/ˈænjuʌli/", ex: "The fair is held annually.", exTr: "Fuar her yıl yıllık olarak düzenlenir." },
-    { w: "portugal", tr: "Portekiz", lv: "B2", ct: "genel", pr: "/ˈpɔrtʃʌɡʌl/", ex: "We flew to Portugal in June.", exTr: "Haziranda Portekiz'e uçtuk." },
+
     { w: "studies", tr: "çalışmalar", lv: "A2", ct: "genel", pr: "/ˈstʌdiz/", ex: "Her studies focus on rare birds.", exTr: "Çalışmaları nadir kuşlar üzerinedir." },
     { w: "coastal", tr: "kıyı", lv: "C1", ct: "sıfatlar", pr: "/ˈkoʊstʌl/", ex: "A coastal road runs along the sea.", exTr: "Deniz kıyısında bir sahil yolu uzanır." },
     { w: "none", tr: "hiçbiri", lv: "A2", ct: "isimler", pr: "/ˈnʌn/", ex: "None of them called back.", exTr: "Onların hiçbiri geri aramadı." },

@@ -19,7 +19,7 @@ KELIMELER.push(
     { w: "absent", tr: "mevcut olmayan", lv: "C1", ct: "sıfatlar", pr: "/ˈæbsʌnt/", ex: "Half of the students are absent.", exTr: "Öğrencilerin yarısı devamsız." },
     { w: "cattle", tr: "sığır", lv: "C1", ct: "isimler", pr: "/ˈkætʌl/", ex: "Cattle were grazing in the field.", exTr: "Tarlada sığırlar otluyordu." },
     { w: "rules", tr: "kural", lv: "A2", ct: "genel", pr: "/ˈrulz/", ex: "You should conform to the rules.", exTr: "Kurallara uymalısınız." },
-    { w: "usa", tr: "Amerika", lv: "A2", ct: "genel", pr: "/ˌjuˌɛˈseɪ/", ex: "Usa is very important.", exTr: "Amerika" },
+
     { w: "additionally", tr: "ayrıca", lv: "B2", ct: "fiiller", pr: "/ʌˈdɪʃʌˌnʌli/", ex: "They additionally every day.", exTr: "Ayrıca her gün." },
     { w: "illustrate", tr: "göstermek", lv: "B2", ct: "fiiller", pr: "/ˈɪlʌˌstreɪt/", ex: "They illustrate every day.", exTr: "Her gün resim yapıyorlar." },
     { w: "grip", tr: "kavramak", lv: "C1", ct: "isimler", pr: "/ˈɡrɪp/", ex: "The wrestler has a formidable grip.", exTr: "Güreşçinin müthiş bir tutuşu var." },
@@ -119,7 +119,7 @@ KELIMELER.push(
     { w: "significantly", tr: "önemli ölçüde", lv: "B2", ct: "fiiller", pr: "/sɪˈɡnɪfɪkʌntli/", ex: "They significantly every day.", exTr: "Her gün önemli ölçüde." },
     { w: "profound", tr: "engin", lv: "C1", ct: "sıfatlar", pr: "/proʊˈfaʊnd/", ex: "I feel profound sympathy for the victims.", exTr: "Kurbanlara derin bir sempati duyuyorum." },
     { w: "process", tr: "işlem", lv: "A2", ct: "isimler", pr: "/ˈprɑˌsɛs/", ex: "I explained the process to him.", exTr: "Ona süreci anlattım." },
-    { w: "netherlands", tr: "Hollanda", lv: "B1", ct: "genel", pr: "/ˈnɛðɚlʌndz/", ex: "Netherlands is very important.", exTr: "Hollanda çok önemli." },
+
     { w: "description", tr: "Tanım", lv: "A2", ct: "isimler", pr: "/dɪˈskrɪpʃʌn/", ex: "Description is very important.", exTr: "Açıklama çok önemlidir." },
     { w: "twice", tr: "iki kere", lv: "A2", ct: "fiiller", pr: "/ˈtwaɪs/", ex: "They twice every day.", exTr: "Her gün iki kez." },
     { w: "thereafter", tr: "bundan sonra", lv: "C1", ct: "fiiller", pr: "/ðɛˈræftɚ/", ex: "They thereafter every day.", exTr: "Bundan sonra her gün." },
@@ -153,7 +153,7 @@ KELIMELER.push(
     { w: "inclusion", tr: "içerme", lv: "C1", ct: "isimler", pr: "/ˌɪˈnkluʒʌn/", ex: "Recognition paves the way for inclusion.", exTr: "Tanınma, dahil olmanın yolunu açar." },
     { w: "pm", tr: "öğleden sonra", lv: "A2", ct: "genel", pr: "/ˈpiˈɛm/", ex: "Can we meet February 28, around 3:00 pm?", exTr: "28 Şubat'ta saat 15:00 civarında buluşabilir miyiz?" },
     { w: "pursue", tr: "izlemek", lv: "B2", ct: "fiiller", pr: "/pɚˈsu/", ex: "They pursue every day.", exTr: "izlemek" },
-    { w: "european", tr: "Avrupa", lv: "A2", ct: "genel", pr: "/ˌjʊrʌˈpiʌn/", ex: "European is very important.", exTr: "Avrupa çok önemli." },
+
     { w: "grasp", tr: "sıkı sıkı tutmak", lv: "C1", ct: "isimler", pr: "/ˈɡræsp/", ex: "The situation is beyond my grasp.", exTr: "Durum benim kavrayışımın ötesinde." },
     { w: "conducted", tr: "yürütülen", lv: "B1", ct: "genel", pr: "/kʌˈndʌktʌd/", ex: "He conducted a tour through Europe.", exTr: "Avrupa'da bir tur düzenledi." },
     { w: "manual", tr: "manuel", lv: "B1", ct: "genel", pr: "/ˈmænjuʌl/", ex: "Intelligent equipment has replaced manual labor.", exTr: "Akıllı ekipmanlar manuel emeğin yerini aldı." },
@@ -170,7 +170,7 @@ KELIMELER.push(
     { w: "frequency", tr: "sıklık", lv: "B2", ct: "isimler", pr: "/ˈfrikwʌnsi/", ex: "What's the frequency of the processor?", exTr: "İşlemcinin frekansı nedir?" },
     { w: "suit", tr: "uygun olmak", lv: "A2", ct: "isimler", pr: "/ˈsut/", ex: "I'll make you a new suit.", exTr: "Sana yeni bir takım elbise yapacağım." },
     { w: "vast", tr: "büyüklük", lv: "B2", ct: "sıfatlar", pr: "/ˈvæst/", ex: "The Sahara is a vast desert.", exTr: "Sahra geniş bir çöldür." },
-    { w: "australian", tr: "Avustralya", lv: "B1", ct: "genel", pr: "/ɔˈstreɪljʌn/", ex: "Australian is very important.", exTr: "Avustralya çok önemli." },
+
     { w: "pregnancy", tr: "gebelik", lv: "C1", ct: "isimler", pr: "/ˈprɛɡnʌnsi/", ex: "I had toxemia during my pregnancy.", exTr: "Hamileliğim sırasında toksemi geçirdim." },
     { w: "sack", tr: "çuval", lv: "C1", ct: "fiiller", pr: "/ˈsæk/", ex: "They sack every day.", exTr: "Her gün çuvallıyorlar." },
     { w: "into", tr: "içine", lv: "A2", ct: "genel", pr: "/ˈɪntu/", ex: "The car crashed into the wall.", exTr: "Araba duvara çarptı." },

@@ -156,7 +156,7 @@ KELIMELER.push(
     { w: "barely", tr: "neredeyse", lv: "B2", ct: "fiiller", pr: "/ˈbɛrli/", ex: "They barely every day.", exTr: "Neredeyse her gün." },
     { w: "instead", tr: "yerine", lv: "A2", ct: "fiiller", pr: "/ˌɪˈnstɛd/", ex: "They instead every day.", exTr: "Bunun yerine her gün." },
     { w: "involved", tr: "dahil olmuş", lv: "B1", ct: "sıfatlar", pr: "/ˌɪˈnvɑlvd/", ex: "You are deeply involved with this.", exTr: "Bu konuyla derinden ilgileniyorsunuz." },
-    { w: "australia", tr: "Avustralya", lv: "A2", ct: "genel", pr: "/ɔˈstreɪljʌ/", ex: "Australia is very important.", exTr: "Avustralya çok önemli." },
+
     { w: "cruise", tr: "dolaşmak", lv: "B2", ct: "isimler", pr: "/ˈkruz/", ex: "In Hawaii, you can cruise all year round.", exTr: "Hawaii'de tüm yıl boyunca yolculuk yapabilirsiniz." },
     { w: "evolve", tr: "evrim geçirmek", lv: "B2", ct: "fiiller", pr: "/ɪˈvɑlv/", ex: "They evolve every day.", exTr: "Her gün gelişiyorlar." },
     { w: "my", tr: "Benim", lv: "A2", ct: "genel", pr: "/ˈmaɪ/", ex: "My is very important.", exTr: "Benimki çok önemli." },
@@ -174,7 +174,7 @@ KELIMELER.push(
     { w: "skin", tr: "deri", lv: "A2", ct: "isimler", pr: "/ˈskɪn/", ex: "Ayako's skin is sensitive to chemicals.", exTr: "Ayako'nun cildi kimyasallara karşı hassastır." },
     { w: "deals", tr: "anlaşmak", lv: "A2", ct: "genel", pr: "/ˈdilz/", ex: "The manager deals with many problems.", exTr: "Yönetici birçok sorunla ilgilenir." },
     { w: "compute", tr: "hesaplama", lv: "C1", ct: "fiiller", pr: "/kʌˈmpjut/", ex: "They compute every day.", exTr: "Her gün hesap yapıyorlar." },
-    { w: "columbia", tr: "Kolombiya", lv: "B1", ct: "genel", pr: "/kʌˈlʌmbiʌ/", ex: "Columbia is very important.", exTr: "Kolombiya çok önemli." },
+
     { w: "suck", tr: "emmek", lv: "C1", ct: "fiiller", pr: "/ˈsʌk/", ex: "They suck every day.", exTr: "Her gün emiyorlar." },
     { w: "say", tr: "söylemek", lv: "A2", ct: "fiiller", pr: "/ˈseɪ/", ex: "They say every day.", exTr: "Her gün söylüyorlar." },
     { w: "substantial", tr: "varlıklı", lv: "C1", ct: "sıfatlar", pr: "/sʌˈbstænʃʌl/", ex: "Human vices provide substantial government income.", exTr: "İnsan ahlaksızlıkları önemli miktarda hükümet geliri sağlar." },
