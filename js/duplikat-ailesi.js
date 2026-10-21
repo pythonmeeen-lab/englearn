@@ -17,6 +17,9 @@
         if (ta.length > 3 && tb.length > 3 && (ta.indexOf(tb) === 0 || tb.indexOf(ta) === 0)) return true;
         return false;
     };
+    // Zamirler korunur (hers/its/itself gibi türev sayılıp silinmesin)
+    var ZAMIR = new Set(('i me my mine myself you your yours yourself he him his himself ' +
+        'she her hers herself it its itself we us our ours ourselves they them their theirs themselves').split(' '));
 
     function kokAdaylar(w) {
         var a = [];
@@ -51,10 +54,11 @@
         var liste = gorulen[e.w] || (gorulen[e.w] = []);
         var cakisan = false;
         for (var j = 0; j < liste.length; j++) { if (iliskili(liste[j], e.tr)) { cakisan = true; break; } }
-        if (cakisan) silinecek.add(idx); else liste.push(e.tr);
+        if (cakisan && !ZAMIR.has(e.w)) silinecek.add(idx); else liste.push(e.tr);
     });
     entries.forEach(function (e, idx) {
         if (silinecek.has(idx)) return;
+        if (ZAMIR.has(e.w)) return;
         var kokler = kokAdaylar(e.w);
         for (var j = 0; j < kokler.length; j++) {
             var b = kokler[j];
