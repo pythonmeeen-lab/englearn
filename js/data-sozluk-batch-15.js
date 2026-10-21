@@ -23,7 +23,7 @@ KELIMELER.push(
     { w: "golly", tr: "Allah aşkına", lv: "B1", ct: "zarflar", pr: "/ˈɡɑɫi/", ex: "By golly, look at the time, I must be on my way.", exTr: "Allah aşkına, saate bak, yola çıkmalıyım." },
     { w: "bottle", tr: "şişelenmiş", lv: "B2", ct: "fiiller", pr: "/ˈbɑtəɫd/", ex: "This bottled water comes from an iceberg.", exTr: "Bu şişelenmiş su bir buzdağından geliyor." },
     { w: "masturbate", tr: "mastürbasyon yapmak", lv: "B2", ct: "fiiller", pr: "/ˈmæstɝˌbeɪt/", ex: "I saw a boy masturbate in public.", exTr: "Bir çocuğun toplum içinde mastürbasyon yaptığını gördüm." },
-    { w: "wrench", tr: "İngiliz anahtarı", lv: "B1", ct: "genel", pr: "/ˈɹɛntʃ/", ex: "A wrench is a commonly used tool.", exTr: "İngiliz anahtarı yaygın olarak kullanılan bir araçtır." },
+    { w: "wrench", tr: "somun anahtarı / İngiliz anahtarı", lv: "B1", ct: "genel", pr: "/ˈɹɛntʃ/", ex: "A wrench is a commonly used tool.", exTr: "İngiliz anahtarı yaygın olarak kullanılan bir araçtır." },
     { w: "radius", tr: "yarıçap", lv: "B1", ct: "genel", pr: "/ˈɹeɪdiəs/", ex: "The radius of the Earth is 6400 km.", exTr: "Dünyanın yarıçapı 6400 km'dir." },
     { w: "communicate", tr: "iletişim kurmak / iletmek", lv: "B1", ct: "fiiller", pr: "/kəmˈjunəˌkeɪtɪŋ/", ex: "Sami and Layla have been communicating again.", exTr: "Sami ve Layla yeniden iletişim kuruyorlar." },
     { w: "shaky", tr: "titrek", lv: "B1", ct: "genel", pr: "/ˈʃeɪki/", ex: "The legs of the table are shaky.", exTr: "Masanın ayakları sallanıyor." },

@@ -11,7 +11,7 @@ KELIMELER.push(
     { w: "infantry", tr: "piyade", lv: "B1", ct: "genel", pr: "/ˈɪnfəntɹi/", ex: "Dan studied psychological warfare techniques at infantry academy.", exTr: "Dan, piyade akademisinde psikolojik savaş teknikleri okudu." },
     { w: "crotch", tr: "kasık", lv: "B2", ct: "genel", pr: "/ˈkɹɑtʃ/", ex: "Sami caught Layla staring at his crotch.", exTr: "Sami, Layla'yı kasıklarına bakarken yakaladı." },
     { w: "madman", tr: "deli adam", lv: "A2", ct: "genel", pr: "/ˈmædˌmæn/", ex: "Many people also considered him a madman.", exTr: "Birçok kişi de onu deli olarak görüyordu." },
-    { w: "bulldog", tr: "Buldog", lv: "B2", ct: "genel", pr: "/ˈbʊɫˌdɔɡ/", ex: "This bulldog is happy. The other one isn't.", exTr: "Bu bulldog mutlu. Diğeri değil." },
+    { w: "bulldog", tr: "buldog", lv: "B2", ct: "genel", pr: "/ˈbʊɫˌdɔɡ/", ex: "This bulldog is happy. The other one isn't.", exTr: "Bu bulldog mutlu. Diğeri değil." },
     { w: "parachute", tr: "paraşüt", lv: "B1", ct: "genel", pr: "/ˈpɛɹəˌʃut/", ex: "Kalman was still fiddling with the parachute.", exTr: "Kalman hâlâ paraşütle oynuyordu." },
     { w: "radiology", tr: "radyoloji", lv: "C1", ct: "genel", pr: "/ˌɹeɪdiˈɑɫədʒi/", ex: "A number of imaging techniques are employed in radiology, such as X-ray, MRI, and ultrasound.", exTr: "Radyolojide röntgen, MRI ve ultrason gibi bir dizi görüntüleme tekniği kullanılmaktadır." },
     { w: "orchard", tr: "meyve bahçesi", lv: "B2", ct: "genel", pr: "/ˈɔɹtʃɝd/", ex: "I'm not taking advantage of your orchard.", exTr: "Meyve bahçenizden faydalanmıyorum." },

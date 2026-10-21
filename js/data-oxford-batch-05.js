@@ -22,7 +22,7 @@ KELIMELER.push(
     { w: "still", tr: "hâlâ / huzurlu", lv: "A2", ct: "fiiller", pr: "/ˈstɪl/", ex: "They still every day.", exTr: "Hala her gün." },
     { w: "ultimately", tr: "sonuçta", lv: "B2", ct: "fiiller", pr: "/ˈʌltʌmʌtli/", ex: "They ultimately every day.", exTr: "Sonuçta her gün." },
     { w: "lots", tr: "çok / bir sürü", lv: "B1", ct: "genel", pr: "/ˈlɑts/", ex: "Our plan has lots of advantages.", exTr: "Planımızın birçok avantajı var." },
-    { w: "identification", tr: "Tanılama", lv: "C1", ct: "isimler", pr: "/aɪˌdɛntʌfʌˈkeɪʃʌn/", ex: "Identification is very important.", exTr: "Kimlik tespiti çok önemlidir." },
+    { w: "identification", tr: "kimlik / tanımlama", lv: "C1", ct: "isimler", pr: "/aɪˌdɛntʌfʌˈkeɪʃʌn/", ex: "Identification is very important.", exTr: "Kimlik tespiti çok önemlidir." },
     { w: "assess", tr: "değerlendirmek / değer biçmek", lv: "B2", ct: "fiiller", pr: "/ʌˈsɛs/", ex: "They assess every day.", exTr: "Her gün değerlendirme yapıyorlar." },
     { w: "disposal", tr: "bertaraf / imha", lv: "C1", ct: "isimler", pr: "/dɪˈspoʊzʌl/", ex: "The money is at your disposal.", exTr: "Para emrinizde." },
     { w: "newly", tr: "yeni", lv: "B2", ct: "fiiller", pr: "/ˈnuli/", ex: "They newly every day.", exTr: "Her gün yeniler." },

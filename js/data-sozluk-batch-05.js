@@ -41,7 +41,7 @@ KELIMELER.push(
     { w: "blurry", tr: "bulanık", lv: "B2", ct: "genel", pr: "/ˈbɫɝi/", ex: "All became blurry and Ziri blacked out.", exTr: "Her şey bulanıklaştı ve Ziri bilincini kaybetti." },
     { w: "mellow", tr: "yumuşak", lv: "B1", ct: "genel", pr: "/ˈmɛɫoʊ/", ex: "She has got a mellow, round voice.", exTr: "Yumuşak, yuvarlak bir sesi var." },
     { w: "seizures", tr: "nöbetler", lv: "B2", ct: "genel", pr: "/ˈsiʒɝz/", ex: "Ziri had at least four seizures in a row.", exTr: "Ziri art arda en az dört nöbet geçirdi." },
-    { w: "asshole", tr: "Pislik", lv: "A2", ct: "genel", pr: "/ˈæshoʊɫ/", ex: "Do you get paid for being such an asshole?", exTr: "Bu kadar pislik olduğun için para mı alıyorsun?" },
+    { w: "asshole", tr: "pislik", lv: "A2", ct: "genel", pr: "/ˈæshoʊɫ/", ex: "Do you get paid for being such an asshole?", exTr: "Bu kadar pislik olduğun için para mı alıyorsun?" },
     { w: "fez", tr: "fes", lv: "B2", ct: "genel", pr: "/ˈfɛz/", ex: "Tom wore a fez.", exTr: "Tom bir fes giydi." },
     { w: "lifeguard", tr: "cankurtaran", lv: "B2", ct: "genel", pr: "/ˈɫaɪfˌɡɑɹd/", ex: "No swimming unless a lifeguard is present!", exTr: "Cankurtaran olmadığı sürece yüzme yasaktır!" },
     { w: "hitman", tr: "kiralık katil", lv: "C1", ct: "genel", pr: "/ˈhɪtˌmæn/", ex: "Sami hired a hitman to kill Layla.", exTr: "Sami, Layla'yı öldürmesi için bir kiralık katil tuttu." },

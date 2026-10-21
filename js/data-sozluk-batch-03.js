@@ -108,7 +108,6 @@ KELIMELER.push(
     { w: "distraction", tr: "dikkat dağıtma", lv: "A2", ct: "isimler", pr: "/dɪˈstɹækʃən/", ex: "My only distraction is the game Go.", exTr: "Dikkatimi dağıtan tek şey Go oyunu." },
     { w: "mule", tr: "katır", lv: "A2", ct: "genel", pr: "/ˈmjuɫ/", ex: "This mule can't carry a heavier load.", exTr: "Bu katır daha ağır bir yük taşıyamaz." },
     { w: "redhead", tr: "kızıl saçlı", lv: "B1", ct: "genel", pr: "/ˈɹɛdˌhɛd/", ex: "I'm a natural redhead, so I most definitely freckle.", exTr: "Ben doğuştan kızıl kafalıyım, bu yüzden kesinlikle çilliyim." },
-    { w: "gabrielle", tr: "Cebrail", lv: "A2", ct: "genel", pr: "/ˈɡæbɹiɛɫ/", ex: "Gabrielle is a gem of a girl. She always helps us out with things whenever she can.", exTr: "Gabrielle mücevher gibi bir kız. Elinden geldiğince her konuda bize yardımcı oluyor." },
     { w: "uninvited", tr: "davetsiz", lv: "C1", ct: "fiiller", pr: "/ˌənɪnˈvaɪtɪd/", ex: "An uninvited guest is a pleasant surprise.", exTr: "Davetsiz bir misafir hoş bir sürprizdir." },
     { w: "hull", tr: "gövde", lv: "B1", ct: "genel", pr: "/ˈhəɫ/", ex: "The artist painted a vibrant mural on the ship's hull, making it unique and captivating.", exTr: "Sanatçı, geminin gövdesine canlı bir duvar resmi çizerek onu benzersiz ve büyüleyici kıldı." },
     { w: "hereafter", tr: "bundan sonra", lv: "B2", ct: "isimler", pr: "/hɪˈɹæftɝ/", ex: "As a Muslim, I believe in the hereafter.", exTr: "Bir Müslüman olarak ahirete inanıyorum." },

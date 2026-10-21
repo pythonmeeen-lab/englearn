@@ -145,7 +145,7 @@ KELIMELER.push(
     { w: "violate", tr: "ihlal etmek / bozmak", lv: "C1", ct: "fiiller", pr: "/ˈvaɪʌleɪt/", ex: "They violate every day.", exTr: "Her gün ihlal ediyorlar." },
     { w: "suggest", tr: "tavsiye etmek", lv: "A2", ct: "fiiller", pr: "/sʌˈdʒɛst/", ex: "They suggest every day.", exTr: "Her gün öneriyorlar." },
     { w: "bold", tr: "gözü pek", lv: "B2", ct: "sıfatlar", pr: "/ˈboʊld/", ex: "We marveled at his bold attempt.", exTr: "Onun cesur girişimine hayran kaldık." },
-    { w: "seriously", tr: "Cidden", lv: "B1", ct: "fiiller", pr: "/ˈsɪriʌsli/", ex: "They seriously every day.", exTr: "Her gün ciddi bir şekilde." },
+    { w: "seriously", tr: "cidden / ciddi olarak", lv: "B1", ct: "fiiller", pr: "/ˈsɪriʌsli/", ex: "They seriously every day.", exTr: "Her gün ciddi bir şekilde." },
     { w: "complement", tr: "tamamlamak / tamamlayıcı", lv: "C1", ct: "fiiller", pr: "/ˈkɑmplʌmʌnt/", ex: "They complement every day.", exTr: "Her gün tamamlıyorlar." },
     { w: "originally", tr: "aslen", lv: "B1", ct: "fiiller", pr: "/ɚˈɪdʒʌnʌli/", ex: "They originally every day.", exTr: "Başlangıçta her gün." },
     { w: "promise", tr: "söz / söz vermek", lv: "A2", ct: "isimler", pr: "/ˈprɑmʌs/", ex: "You must stick to your promise.", exTr: "Verdiğiniz söze sadık kalmalısınız." },

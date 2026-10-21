@@ -137,7 +137,6 @@ KELIMELER.push(
     { w: "statistics", tr: "istatistik / istatistikler", lv: "A2", ct: "genel", pr: "/stʌˈtɪstɪks/", ex: "Official statistics show rising unemployment.", exTr: "Resmi istatistikler işsizliğin arttığını gösteriyor." },
     { w: "likely", tr: "muhtemel / olası / büyük ihtimalle", lv: "A2", ct: "sıfatlar", pr: "/ˈlaɪkli/", ex: "Heavy rain is likely tomorrow.", exTr: "Yarın sağanak yağmur büyük ihtimalle." },
     { w: "reasonably", tr: "makul olarak", lv: "B2", ct: "fiiller", pr: "/ˈrizʌnʌbli/", ex: "She explains difficult topics well.", exTr: "Zor konuları makul olarak iyi açıklıyor." },
-    { w: "saturday", tr: "Cumartesi", lv: "A2", ct: "isimler", pr: "/ˈsætɚdi/", ex: "We visit our grandparents on Saturday.", exTr: "Büyükanne ve büyükbabamızı Cumartesi günü ziyaret ederiz." },
     { w: "psychological", tr: "psikolojik", lv: "B2", ct: "sıfatlar", pr: "/ˌsaɪkʌˈlɑdʒɪkʌl/", ex: "The study examines stress and its effects.", exTr: "Çalışma stresi ve psikolojik etkilerini inceliyor." },
 
     { w: "stupid", tr: "aptal", lv: "A2", ct: "sıfatlar", pr: "/ˈstupʌd/", ex: "He felt stupid for leaving the keys inside.", exTr: "Anahtarları içeride bıraktığı için kendini aptal hissetti." },
@@ -236,7 +235,7 @@ KELIMELER.push(
     { w: "death", tr: "ölüm", lv: "A2", ct: "isimler", pr: "/ˈdɛθ/", ex: "The king's death shocked the nation.", exTr: "Kralın ölümü ülkeyi sarstı." },
     { w: "tonight", tr: "bu gece / bu akşam", lv: "A2", ct: "fiiller", pr: "/tʌˈnaɪt/", ex: "We have visitors tonight.", exTr: "Bu akşam misafirimiz var." },
     { w: "cooker", tr: "ocak / fırın", lv: "A2", ct: "isimler", pr: "/ˈkʊkɚ/", ex: "The gas cooker needs repair.", exTr: "Gazlı ocağın tamiri gerekiyor." },
-    { w: "ultimate", tr: "nihai", lv: "B2", ct: "sıfatlar", pr: "/ˈʌltʌmʌt/", ex: "Winning the cup was their ultimate goal.", exTr: "Kupayı kazanmak nihai hedefleriydi." },
+    { w: "ultimate", tr: "nihai / son / en iyi", lv: "B2", ct: "sıfatlar", pr: "/ˈʌltʌmʌt/", ex: "Winning the cup was their ultimate goal.", exTr: "Kupayı kazanmak nihai hedefleriydi." },
     { w: "sequence", tr: "dizi / sıra / sıralamak", lv: "B2", ct: "isimler", pr: "/ˈsikwʌns/", ex: "The sequence of events is still unclear.", exTr: "Olayların sekansı hâlâ belirsiz." },
     { w: "tremendous", tr: "muazzam", lv: "C1", ct: "sıfatlar", pr: "/trʌˈmɛndʌs/", ex: "She made a tremendous effort.", exTr: "Muazzam bir çaba gösterdi." },
     { w: "hosting", tr: "barındırma", lv: "A2", ct: "genel", pr: "/ˈhoʊstɪŋ/", ex: "We pay for web hosting each year.", exTr: "Web barındırma için her yıl ödeme yaparız." },
