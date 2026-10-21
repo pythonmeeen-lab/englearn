@@ -14,7 +14,7 @@ KELIMELER.push(
     { w: "topography", tr: "topoğrafya / yer şekilleri", lv: "C1", ct: "C1-bilim", pr: "/təˈpɒɡ.rə.fi/", ex: "The topography of the region is extremely varied.", exTr: "Bölgenin topoğrafyası son derece çeşitlidir." },
     { w: "geology", tr: "jeoloji", lv: "C1", ct: "C1-bilim", pr: "/dʒiˈɒl.ə.dʒi/", ex: "Geology explains how mountains were formed.", exTr: "Jeoloji dağların nasıl oluştuğunu açıklar." },
     { w: "expeditionary", tr: "keşif amaçlı", lv: "C1", ct: "C1-bilim", pr: "/ˌek.spəˈdɪʃ.ən.ər.i/", ex: "They prepared an expeditionary team for the poles.", exTr: "Kutuplar için bir keşif ekibi hazırladılar." },
-    { w: "phenomenon", tr: "olgu / fenomem", lv: "C1", ct: "C1-bilim", pr: "/fəˈnɒm.ɪ.nən/", ex: "The northern lights are a natural phenomenon.", exTr: "Kuzey ışıkları doğal bir fenomendir." },
+    { w: "phenomenon", tr: "olgu / fenomen", lv: "C1", ct: "C1-bilim", pr: "/fəˈnɒm.ɪ.nən/", ex: "The northern lights are a natural phenomenon.", exTr: "Kuzey ışıkları doğal bir fenomendir." },
     { w: "biodiversity index", tr: "biyoçeşitlilik endeksi", lv: "C1", ct: "C1-bilim", pr: "/ˌbaɪ.oʊ.daɪˈvɜː.sə.ti ˈɪn.deks/", ex: "Scientists use a biodiversity index to compare regions.", exTr: "Bilim insanları bölgeleri karşılaştırmak için biyoçeşitlilik endeksi kullanır." },
     { w: "sedentary", tr: "yerleşik", lv: "C1", ct: "C1-bilim", pr: "/ˈsed.ən.tər.i/", ex: "Farming led to sedentary communities.", exTr: "Tarım yerleşik topluluklara yol açtı." },
     { w: "nomadic", tr: "göçebe", lv: "C1", ct: "C1-bilim", pr: "/nəʊˈmæd.ɪk/", ex: "Nomadic herders follow the changing seasons.", exTr: "Göçebe çobanlar değişen mevsimleri takip eder." },
@@ -39,8 +39,8 @@ KELIMELER.push(
     { w: "erosion", tr: "erozyon", lv: "C1", ct: "C1-coğrafya", pr: "/ɪˈrəʊ.ʒən/", ex: "Wind and water cause soil erosion.", exTr: "Rüzgar ve su toprak erozyonuna neden olur." },
     // ---- C1 Fiiller & İfadeler ----
     { w: "flourish", tr: "gelişmek / serpilmek", lv: "C1", ct: "C1-fiiller", pr: "/ˈflʌr.ɪʃ/", ex: "Life flourishes in the warm wetland.", exTr: "Sıcak sulak alanda yaşam serpilir." },
-    { w: "thrive", tr: "gürlemek / çok iyi gelişmek", lv: "C1", ct: "C1-fiiller", pr: "/θraɪv/", ex: "These plants thrive in tropical climates.", exTr: "Bu bitkiler tropikal iklimde çok iyi gelişir." },
-    { w: "dwindle", tr: "azalmak", lv: "C1", ct: "C1-fiiller", pr: "/ˈdwɪn.dəl/", ex: "Fish populations are dwindling in the ocean.", exTr: "Okyanuslarda balık popülasyonları azalıyor." },
-    { w: "prosper", tr: "refah içinde olmak", lv: "C1", ct: "C1-fiiller", pr: "/ˈprɒs.pər/", ex: "Communities prosper with clean water.", exTr: "Temiz suyla topluluklar refaha kavuşur." },
+    { w: "thrive", tr: "gelişmek / serpilmek", lv: "C1", ct: "C1-fiiller", pr: "/θraɪv/", ex: "These plants thrive in tropical climates.", exTr: "Bu bitkiler tropikal iklimde çok iyi gelişir." },
+    { w: "dwindle", tr: "azalmak / tükenmek", lv: "C1", ct: "C1-fiiller", pr: "/ˈdwɪn.dəl/", ex: "Fish populations are dwindling in the ocean.", exTr: "Okyanuslarda balık popülasyonları azalıyor." },
+    { w: "prosper", tr: "refaha ermek / gelişmek", lv: "C1", ct: "C1-fiiller", pr: "/ˈprɒs.pər/", ex: "Communities prosper with clean water.", exTr: "Temiz suyla topluluklar refaha kavuşur." },
     { w: "preserve", tr: "korumak / muhafaza etmek", lv: "C1", ct: "C1-fiiller", pr: "/prɪˈzɜːv/", ex: "We must preserve our oceans for future generations.", exTr: "Gelecek nesiller için okyanuslarımızı korumalıyız." }
 );

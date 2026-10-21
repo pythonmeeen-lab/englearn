@@ -15,7 +15,7 @@ const KELIMELER = [
     { w: "journey", tr: "yolculuk", lv: "A2", ct: "seyahat", pr: "/ˈdʒɜː.ni/", ex: "The journey by train took six hours.", exTr: "Tren yolculuğu altı saat sürdü." },
     { w: "abroad", tr: "yurt dışında", lv: "A2", ct: "seyahat", pr: "/əˈbrɔːd/", ex: "She wants to study abroad next year.", exTr: "Gelecek yıl yurt dışında okumak istiyor." },
     { w: "luggage", tr: "bagaj", lv: "A2", ct: "seyahat", pr: "/ˈlʌɡ.ɪdʒ/", ex: "Please keep your luggage with you.", exTr: "Lütfen bagajınızı yanınızda tutun." },
-    { w: "guide", tr: "rehber", lv: "A2", ct: "seyahat", pr: "/ɡaɪd/", ex: "The guide showed us around the city.", exTr: "Rehber bize şehri gezdirdi." },
+    { w: "guide", tr: "rehber / yönlendirmek / yol göstermek", lv: "A2", ct: "seyahat", pr: "/ɡaɪd/", ex: "The guide showed us around the city.", exTr: "Rehber bize şehri gezdirdi." },
     // ---- Hava & Doğa (A2) ----
     { w: "nature", tr: "doğa", lv: "A2", ct: "çevre", pr: "/ˈneɪ.tʃər/", ex: "We spent the weekend close to nature.", exTr: "Hafta sonunu doğanın içinde geçirdik." },
     { w: "forest", tr: "orman", lv: "A2", ct: "çevre", pr: "/ˈfɒr.ɪst/", ex: "The forest is home to many animals.", exTr: "Orman birçok hayvana ev sahipliği yapar." },
@@ -36,7 +36,7 @@ const KELIMELER = [
     { w: "brave", tr: "cesur", lv: "A2", ct: "duygular", pr: "/breɪv/", ex: "The explorers were brave and careful.", exTr: "Kâşifler cesur ve dikkatliydi." },
     // ---- Eğitim & İş (A2) ----
     { w: "university", tr: "üniversite", lv: "A2", ct: "eğitim", pr: "/ˌjuː.nɪˈvɜː.sə.ti/", ex: "She studies biology at the university.", exTr: "Üniversitede biyoloji okuyor." },
-    { w: "subject", tr: "ders / konu", lv: "A2", ct: "eğitim", pr: "/ˈsʌb.dʒekt/", ex: "Geography is my favourite subject.", exTr: "Coğrafya en sevdiğim derstir." },
+    { w: "subject", tr: "ders / konu / özne", lv: "A2", ct: "eğitim", pr: "/ˈsʌb.dʒekt/", ex: "Geography is my favourite subject.", exTr: "Coğrafya en sevdiğim derstir." },
     { w: "exam", tr: "sınav", lv: "A2", ct: "eğitim", pr: "/ɪɡˈzæm/", ex: "I have my final exam next week.", exTr: "Gelecek hafta final sınavım var." },
     { w: "company", tr: "şirket", lv: "A2", ct: "iş", pr: "/ˈkʌm.pə.ni/", ex: "He works for an international company.", exTr: "Uluslararası bir şirkette çalışıyor." },
     { w: "meeting", tr: "toplantı", lv: "A2", ct: "iş", pr: "/ˈmiː.tɪŋ/", ex: "The meeting starts at ten o'clock.", exTr: "Toplantı saat onda başlıyor." }

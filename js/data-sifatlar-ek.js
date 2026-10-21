@@ -11,7 +11,7 @@
         'nature':     [{ w: 'natural',    tr: 'doğal',         lv: 'B1' }],
         'sun':        [{ w: 'sunny',      tr: 'güneşli',       lv: 'A2' }],
         'rain':       [{ w: 'rainy',      tr: 'yağmurlu',      lv: 'A2' }],
-        'wind':       [{ w: 'windy',      tr: 'rüzgârlı',      lv: 'A2' }],
+        'wind':       [{ w: 'windy',      tr: 'rüzgarlı',      lv: 'A2' }],
         'cloud':      [{ w: 'cloudy',     tr: 'bulutlu',       lv: 'A2' }],
         'fog':        [{ w: 'foggy',      tr: 'sisli',         lv: 'B1' }],
         'snow':       [{ w: 'snowy',      tr: 'karlı',         lv: 'B1' }],
