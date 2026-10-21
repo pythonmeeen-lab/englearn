@@ -226,7 +226,7 @@ KELIMELER.push(
     { w: "fly", tr: "uçmak", lv: "A2", ct: "fiiller", pr: "/flaɪ/", ex: "Birds fly in the sky.", exTr: "Kuşlar gökyüzünde uçar." },
     { w: "sail", tr: "yelken açmak", lv: "A2", ct: "fiiller", pr: "/seɪl/", ex: "We sail on the lake at noon.", exTr: "Öğleyin gölde yelken açarız." },
     { w: "row", tr: "kürek çekmek", lv: "A2", ct: "fiiller", pr: "/rəʊ/", ex: "They rowed across the lake.", exTr: "Gölü kürek çekerek geçtiler." },
-    { w: "cycle", tr: "bisiklete binmek", lv: "A2", ct: "fiiller", pr: "/ˈsaɪ.kəl/", ex: "We cycle in the park.", exTr: "Parkta bisiklete bineriz." },
+    { w: "cycle", tr: "döngü / bisiklete binmek", lv: "A2", ct: "fiiller", pr: "/ˈsaɪ.kəl/", ex: "We cycle in the park.", exTr: "Parkta bisiklete bineriz." },
     { w: "park", tr: "park etmek", lv: "A2", ct: "fiiller", pr: "/pɑːk/", ex: "Park the car here.", exTr: "Arabayı buraya park et." },
     { w: "stop", tr: "durmak", lv: "A2", ct: "fiiller", pr: "/stɒp/", ex: "The bus stops at the corner.", exTr: "Otobüs köşede durur." },
     { w: "start", tr: "başlamak", lv: "A2", ct: "fiiller", pr: "/stɑːt/", ex: "The game starts at noon.", exTr: "Oyun öğle saatinde başlar." },

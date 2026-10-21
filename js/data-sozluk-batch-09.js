@@ -25,7 +25,7 @@ KELIMELER.push(
     { w: "eulogy", tr: "methiye", lv: "C1", ct: "genel", pr: "/ˈjuɫədʒi/", ex: "Tom gave the eulogy at Mary's funeral.", exTr: "Tom Mary'nin cenazesinde methiye yaptı." },
     { w: "graduate", tr: "mezun olmak", lv: "B2", ct: "fiiller", pr: "/ˈɡɹædʒəˌweɪtɪŋ/, /ˈɡɹædʒuˌeɪtɪŋ/", ex: "On graduating from college, she got married.", exTr: "Üniversiteden mezun olduktan sonra evlendi." },
     { w: "damn", tr: "lanet etmek", lv: "A2", ct: "genel", pr: "/ˈdæm/", ex: "I'd do any damn thing for you.", exTr: "Senin için her şeyi yaparım." },
-    { w: "bumpy", tr: "pürtüklü görünüm", lv: "B2", ct: "genel", pr: "/ˈbəmpi/", ex: "The road is very bumpy in this area.", exTr: "Bu bölgede yol çok engebeli." },
+    { w: "bumpy", tr: "engebeli / pürüzlü", lv: "B2", ct: "genel", pr: "/ˈbəmpi/", ex: "The road is very bumpy in this area.", exTr: "Bu bölgede yol çok engebeli." },
     { w: "stupidest", tr: "en aptal", lv: "B2", ct: "genel", pr: "/ˈstupɪdəst/", ex: "That's the stupidest thing I've ever said.", exTr: "Bu şimdiye kadar söylediğim en aptalca şey." },
     { w: "extortion", tr: "gasp", lv: "B1", ct: "isimler", pr: "/ɛkˈstɔɹʃən/", ex: "Tom was the victim of an extortion attempt.", exTr: "Tom bir gasp girişiminin kurbanıydı." },
     { w: "pang", tr: "sancı", lv: "C1", ct: "genel", pr: "/ˈpæŋ/", ex: "Each time I remember Kabylie, I feel a small pang of sadness.", exTr: "Kabylie'yi her hatırladığımda küçük bir üzüntü hissediyorum." },

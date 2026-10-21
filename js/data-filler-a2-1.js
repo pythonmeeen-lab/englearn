@@ -14,7 +14,7 @@ KELIMELER.push(
     { w: "climb", tr: "tırmanmak", lv: "A2", ct: "fiiller", pr: "/klaɪm/", ex: "We climbed to the top of the hill.", exTr: "Tepenin zirvesine tırmandık." },
     { w: "close", tr: "kapatmak", lv: "A2", ct: "fiiller", pr: "/kləʊz/", ex: "Please close the window.", exTr: "Lütfen pencereyi kapat." },
     { w: "cook", tr: "pişirmek", lv: "A2", ct: "fiiller", pr: "/kʊk/", ex: "My father cooks dinner on Sundays.", exTr: "Babam pazar günleri akşam yemeği pişirir." },
-    { w: "cost", tr: "fiyatı olmak", lv: "A2", ct: "fiiller", pr: "/kɒst/", ex: "The ticket costs twenty dollars.", exTr: "Biletin fiyatı yirmi dolar." },
+    { w: "cost", tr: "tutmak (fiyat) / maliyet", lv: "A2", ct: "fiiller", pr: "/kɒst/", ex: "The ticket costs twenty dollars.", exTr: "Biletin fiyatı yirmi dolar." },
     { w: "count", tr: "saymak", lv: "A2", ct: "fiiller", pr: "/kaʊnt/", ex: "Count the coins, please.", exTr: "Lütfen paraları say." },
     { w: "cry", tr: "ağlamak", lv: "A2", ct: "fiiller", pr: "/kraɪ/", ex: "The baby cried all night.", exTr: "Bebek bütün gece ağladı." },
     { w: "dance", tr: "dans etmek", lv: "A2", ct: "fiiller", pr: "/dɑːns/", ex: "They danced at the wedding.", exTr: "Düğünde dans ettiler." },

@@ -215,7 +215,7 @@ KELIMELER.push(
     { w: "electromagnetic", tr: "elektromanyetik", lv: "B1", ct: "sıfatlar", pr: "/ˌɪˌɫɛktɹoʊmæɡˈnɛtɪk/", ex: "Sound needs matter to propagate through. However, cosmic noise and electromagnetic waves don't.", exTr: "Sesin yayılması için maddeye ihtiyacı vardır. Ancak kozmik gürültü ve elektromanyetik dalgalar bunu yapmaz." },
     { w: "shroud", tr: "kefen", lv: "C1", ct: "genel", pr: "/ˈʃɹaʊd/", ex: "A special online exhibition of the Shroud of Turin took place on Holy Saturday.", exTr: "Kutsal Cumartesi günü Torino Kefeni'nin özel bir çevrimiçi sergisi düzenlendi." },
     { w: "slimy", tr: "sümüksü", lv: "B2", ct: "genel", pr: "/ˈsɫaɪmi/", ex: "The stinkhorn has a slimy conical cap.", exTr: "Kokuşmuş boynuzun sümüksü konik bir başlığı vardır." },
-    { w: "hors", tr: "hor", lv: "C1", ct: "genel", pr: "/ˈhɔɹz/, /ˌɔɹ/", ex: "Hors d'oeuvre are small dishes served before a meal.", exTr: "Hors d'oeuvre, yemekten önce servis edilen küçük yemeklerdir." },
+
     { w: "wanker", tr: "mastürbasyon", lv: "B1", ct: "isimler", pr: "/ˈwɑŋkɝ/", ex: "I didn't know you were such a wanker.", exTr: "Bu kadar salak olduğunu bilmiyordum." },
     { w: "cockpit", tr: "kokpit", lv: "B2", ct: "genel", pr: "/ˈkɑkˌpɪt/", ex: "The pilot came out of the cockpit.", exTr: "Pilot kokpitten çıktı." },
     { w: "flee", tr: "kaçmak", lv: "B1", ct: "fiiller", pr: "/ˈfɫiɪŋ/", ex: "Sami saw Layla fleeing from the scene.", exTr: "Sami, Leyla'nın olay yerinden kaçtığını gördü." },

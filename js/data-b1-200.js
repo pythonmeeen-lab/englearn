@@ -150,7 +150,7 @@ KELIMELER.push(
     { w: "account", tr: "hesap", lv: "B1", ct: "para", pr: "/əˈkaʊnt/", ex: "I have a savings account.", exTr: "Birikim hesabım var." },
     { w: "cash", tr: "nakit", lv: "B1", ct: "para", pr: "/kæʃ/", ex: "Can I pay in cash?", exTr: "Nakit ödeyebilir miyim?" },
     { w: "coin", tr: "madeni para", lv: "B1", ct: "para", pr: "/kɔɪn/", ex: "He found a gold coin.", exTr: "Altın bir para buldu." },
-    { w: "cost", tr: "maliyet / tutar", lv: "B1", ct: "para", pr: "/kɒst/", ex: "The cost of living is rising.", exTr: "Yaşam maliyeti artıyor." },
+    { w: "cost", tr: "tutmak (fiyat) / maliyet", lv: "B1", ct: "para", pr: "/kɒst/", ex: "The cost of living is rising.", exTr: "Yaşam maliyeti artıyor." },
     { w: "discount", tr: "indirim", lv: "B1", ct: "para", pr: "/ˈdɪs.kaʊnt/", ex: "We got a ten percent discount.", exTr: "Yüzde on indirim aldık." },
     { w: "budget", tr: "bütçe", lv: "B1", ct: "para", pr: "/ˈbʌdʒ.ɪt/", ex: "Keep within the budget.", exTr: "Bütçenin içinde kal." },
     { w: "average", tr: "ortalama", lv: "B1", ct: "sıfatlar", pr: "/ˈæv.ər.ɪdʒ/", ex: "The average temperature is low.", exTr: "Ortalama sıcaklık düşüktür." },

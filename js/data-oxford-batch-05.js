@@ -3,7 +3,7 @@
 // ==================================================
 KELIMELER.push(
     { w: "responses", tr: "yanıtlar", lv: "B1", ct: "genel", pr: "/rɪˈspɑnsɪz/", ex: "You'll probably be swamped with responses.", exTr: "Muhtemelen yanıtlara boğulacaksınız." },
-    { w: "provided", tr: "sağlamak", lv: "A2", ct: "genel", pr: "/prʌˈvaɪdɪd/", ex: "My neighbors provided food for me.", exTr: "Komşularım bana yiyecek sağladı." },
+    { w: "provided", tr: "sağlandı / ... koşuluyla", lv: "A2", ct: "genel", pr: "/prʌˈvaɪdɪd/", ex: "My neighbors provided food for me.", exTr: "Komşularım bana yiyecek sağladı." },
     { w: "sophisticated", tr: "komplike", lv: "B2", ct: "sıfatlar", pr: "/sʌˈfɪstʌˌkeɪtɪd/", ex: "Tom is a pretty sophisticated guy.", exTr: "Tom oldukça sofistike bir adam." },
     { w: "revelation", tr: "vahiy", lv: "C1", ct: "isimler", pr: "/ˌrɛvʌˈleɪʃʌn/", ex: "It was a revelation to me.", exTr: "Bu benim için bir aydınlanmaydı." },
     { w: "accordingly", tr: "buna göre", lv: "C1", ct: "fiiller", pr: "/ʌˈkɔrdɪŋli/", ex: "They accordingly every day.", exTr: "Buna göre her gün." },

@@ -89,7 +89,7 @@ KELIMELER.push(
     { w: "skate", tr: "paten kaymak", lv: "B1", ct: "fiiller", pr: "/ˈskeɪtɪŋ/", ex: "We had a lot of fun skating.", exTr: "Buz pateni yaparken çok eğlendik." },
     { w: "homey", tr: "ev gibi", lv: "B1", ct: "genel", pr: "/ˈhoʊmi/", ex: "Johnson transformed the interior of her shop into a welcoming, homey environment.", exTr: "Johnson, mağazasının iç mekanını davetkar, ev sıcaklığında bir ortama dönüştürdü." },
     { w: "manicure", tr: "manikür", lv: "C1", ct: "genel", pr: "/ˈmænɪkjɝ/", ex: "I got a facial, a manicure and a pedicure.", exTr: "Yüz bakımı, manikür ve pedikür yaptırdım." },
-    { w: "feisty", tr: "alıngan", lv: "C1", ct: "genel", pr: "/ˈfaɪsti/", ex: "The elderly woman was frail but feisty.", exTr: "Yaşlı kadın zayıf ama alıngandı." },
+    { w: "feisty", tr: "cesur / canlı / agresif", lv: "C1", ct: "genel", pr: "/ˈfaɪsti/", ex: "The elderly woman was frail but feisty.", exTr: "Yaşlı kadın zayıf ama alıngandı." },
     { w: "caviar", tr: "havyar", lv: "B1", ct: "genel", pr: "/ˈkæviˌɑɹ/", ex: "Steak and caviar are my favorite dishes.", exTr: "Biftek ve havyar en sevdiğim yemeklerdir." },
     { w: "caravan", tr: "karavan", lv: "B1", ct: "genel", pr: "/ˈkæɹəˌvæn/, /ˈkɛɹəˌvæn/", ex: "Dogs bark when the caravan passes by.", exTr: "Kervan geçerken köpekler havlıyor." },
     { w: "youthful", tr: "genç", lv: "B2", ct: "sıfatlar", pr: "/ˈjuθfəɫ/", ex: "She always has such glowing youthful skin.", exTr: "Her zaman çok parlak, genç bir cildi var." },

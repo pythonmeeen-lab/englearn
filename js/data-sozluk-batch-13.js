@@ -28,7 +28,7 @@ KELIMELER.push(
     { w: "secure", tr: "güvenli", lv: "A2", ct: "fiiller", pr: "/sɪkˈjʊɹd/", ex: "The bank secured the city from a flood.", exTr: "Banka şehri su baskınından korudu." },
     { w: "lockdown", tr: "karantina", lv: "B1", ct: "genel", pr: "/ˈɫɑkˌdaʊn/", ex: "People won't put up with the lockdown.", exTr: "İnsanlar karantinaya dayanamayacak." },
     { w: "unhealthy", tr: "sağlıksız", lv: "B2", ct: "genel", pr: "/ənˈhɛɫθi/", ex: "She is quite pretty, but looks unhealthy.", exTr: "Oldukça güzel ama sağlıksız görünüyor." },
-    { w: "everytime", tr: "her zaman", lv: "C1", ct: "genel", pr: "/ˈɛvɹiˌtaɪm/", ex: "Everytime we get reunited, my love feelings towards him go right back in full swing.", exTr: "Ne zaman yeniden bir araya gelsek, ona olan aşk duygularım tüm hızıyla geri dönüyor." },
+
     { w: "trout", tr: "alabalık", lv: "B1", ct: "genel", pr: "/ˈtɹaʊt/", ex: "What's your favorite way to cook trout?", exTr: "Alabalık pişirmenin en sevdiğiniz yolu nedir?" },
     { w: "sleepless", tr: "uykusuz", lv: "B2", ct: "sıfatlar", pr: "/ˈsɫipɫəs/", ex: "The affair cost me many sleepless nights.", exTr: "Bu ilişki bana birçok uykusuz geceye mal oldu." },
     { w: "refresh", tr: "yenileme", lv: "B2", ct: "genel", pr: "/ɹɪˈfɹɛʃ/", ex: "Refresh yourself with a cup of tea.", exTr: "Bir fincan çay ile kendinizi yenileyin." },

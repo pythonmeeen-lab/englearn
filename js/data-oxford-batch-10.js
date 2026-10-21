@@ -158,7 +158,7 @@ KELIMELER.push(
     { w: "reasonably", tr: "makul olarak", lv: "B2", ct: "fiiller", pr: "/ˈrizʌnʌbli/", ex: "She explains difficult topics well.", exTr: "Zor konuları makul olarak iyi açıklıyor." },
     { w: "saturday", tr: "Cumartesi", lv: "A2", ct: "isimler", pr: "/ˈsætɚdi/", ex: "We visit our grandparents on Saturday.", exTr: "Büyükanne ve büyükbabamızı Cumartesi günü ziyaret ederiz." },
     { w: "psychological", tr: "psikolojik", lv: "B2", ct: "sıfatlar", pr: "/ˌsaɪkʌˈlɑdʒɪkʌl/", ex: "The study examines stress and its effects.", exTr: "Çalışma stresi ve psikolojik etkilerini inceliyor." },
-    { w: "cycle", tr: "döngü", lv: "A2", ct: "isimler", pr: "/ˈsaɪkʌl/", ex: "The water cycle is vital for life.", exTr: "Su döngüsü yaşam için hayati önemdedir." },
+
     { w: "stupid", tr: "aptal", lv: "A2", ct: "sıfatlar", pr: "/ˈstupʌd/", ex: "He felt stupid for leaving the keys inside.", exTr: "Anahtarları içeride bıraktığı için kendini aptal hissetti." },
     { w: "devil", tr: "şeytan", lv: "C1", ct: "isimler", pr: "/ˈdɛvʌl/", ex: "The story is about a clever devil.", exTr: "Hikâye kurnaz bir şeytan hakkında." },
     { w: "director", tr: "müdür", lv: "A2", ct: "isimler", pr: "/dɚˈɛktɚ/", ex: "The director arrived late to the meeting.", exTr: "Müdür toplantıya geç kaldı." },

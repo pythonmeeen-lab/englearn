@@ -24,7 +24,7 @@ KELIMELER.push(
     { w: "convene", tr: "toplanmak / toplantı düzenlemek", lv: "C1", ct: "fiiller", pr: "/kənˈviːn/", ex: "Experts convened for the summit.", exTr: "Uzmanlar zirve için bir araya geldi." },
     { w: "convey", tr: "iletmek / aktarmak", lv: "C1", ct: "fiiller", pr: "/kənˈveɪ/", ex: "The map conveys key information.", exTr: "Harita önemli bilgiyi aktarıyor." },
     { w: "craft", tr: "özenle yapmak", lv: "C1", ct: "fiiller", pr: "/krɑːft/", ex: "Artisans craft beautiful pottery.", exTr: "Zanaatkarlar güzel seramikler yapıyor." },
-    { w: "cycle", tr: "bisiklete binmek", lv: "A2", ct: "fiiller", pr: "/ˈsaɪ.kəl/", ex: "We cycle along the river path.", exTr: "Nehir yolunda bisiklet sürüyoruz." },
+    { w: "cycle", tr: "döngü / bisiklete binmek", lv: "A2", ct: "fiiller", pr: "/ˈsaɪ.kəl/", ex: "We cycle along the river path.", exTr: "Nehir yolunda bisiklet sürüyoruz." },
     { w: "declare", tr: "beyan etmek / ilan etmek", lv: "B2", ct: "fiiller", pr: "/dɪˈkleər/", ex: "They declared their support openly.", exTr: "Desteklerini açıkça ilan ettiler." },
     { w: "dedicate", tr: "adamak / ithaf etmek", lv: "C1", ct: "fiiller", pr: "/ˈded.ɪ.keɪt/", ex: "He dedicated the book to his mentor.", exTr: "Kitabı akıl hocasına ithaf etti." }
 );

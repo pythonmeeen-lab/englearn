@@ -160,7 +160,7 @@ KELIMELER.push(
     { w: "ones", tr: "olanlar", lv: "B1", ct: "genel", pr: "/ˈwʌnz/", ex: "Odd numbers alternate with even ones.", exTr: "Tek sayılar çift sayılarla dönüşümlü olarak kullanılır." },
     { w: "colleague", tr: "iş arkadaşı", lv: "A2", ct: "isimler", pr: "/ˈkɑliɡ/", ex: "Go and speak to my colleague.", exTr: "Git ve meslektaşımla konuş." },
     { w: "bad", tr: "kötü", lv: "A2", ct: "sıfatlar", pr: "/ˈbæd/", ex: "He wishes to erase bad memories.", exTr: "Kötü anıları silmek istiyor." },
-    { w: "opened", tr: "açıldı", lv: "B1", ct: "genel", pr: "/ˈoʊpʌnd/", ex: "The party opened with his speech.", exTr: "Parti onun konuşmasıyla açıldı." },
+
     { w: "african", tr: "Afrika", lv: "B1", ct: "genel", pr: "/ˈæfrʌkʌn/", ex: "African is very important.", exTr: "Afrika çok önemli." },
     { w: "delete", tr: "silmek", lv: "B2", ct: "fiiller", pr: "/dɪˈlit/", ex: "They delete every day.", exTr: "Her gün siliyorlar." },
     { w: "void", tr: "geçersiz", lv: "B1", ct: "genel", pr: "/ˈvɔɪd/", ex: "This contract is null and void.", exTr: "Bu sözleşme geçersiz ve hükümsüzdür." },
