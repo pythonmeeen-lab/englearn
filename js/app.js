@@ -1539,6 +1539,16 @@ const YazmaUygulamasi = {
                 if (/er$/.test(w) && sozluk.has(w.slice(0, -2))) return false;   // better? -> bet yok; büyük/küçük
                 if (/est$/.test(w) && sozluk.has(w.slice(0, -3))) return false;
             }
+            // ÇOĞUL: anlamı Türkçe çoğulsa ve İngilizce kelime de çoğul görünüyorsa → sorulmasın
+            var trIlk = (k.tr || '').toLowerCase().split('/')[0].trim();
+            if (/(lar|ler)$/.test(trIlk)) {
+                var IRREG_COGUL = new Set(('people children men women mice feet teeth geese oxen data criteria phenomena police').split(' '));
+                var ingCogul = (/ies$/.test(w) && sozluk.has(w.slice(0, -3) + 'y')) ||
+                               (/es$/.test(w) && sozluk.has(w.slice(0, -2))) ||
+                               (/[^s]s$/.test(w) && sozluk.has(w.slice(0, -1))) ||
+                               IRREG_COGUL.has(w);
+                if (ingCogul) return false;
+            }
             return true;
         });
     },
