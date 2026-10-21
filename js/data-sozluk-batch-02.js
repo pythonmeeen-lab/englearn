@@ -246,7 +246,7 @@ KELIMELER.push(
     { w: "abbot", tr: "başrahip", lv: "B1", ct: "genel", pr: "/ˈæbət/", ex: "The abbot gave rice to the vixen.", exTr: "Başrahip cadıya pirinç verdi." },
     { w: "mamma", tr: "anne", lv: "B1", ct: "genel", pr: "/ˈmɑmə/", ex: "Mamma Leone’s, in New York, helped bring Italian cuisine to the American masses.", exTr: "New York'taki Mamma Leone's, İtalyan mutfağının Amerikalı kitlelere ulaştırılmasına yardımcı oldu." },
     { w: "felicity", tr: "mutluluk", lv: "B1", ct: "isimler", pr: "/fɪˈɫɪsəti/", ex: "His speech was pleased by its accuracy, felicity, and fluency.", exTr: "Konuşmasının doğruluğu, saadeti ve akıcılığı memnun etti." },
-    { w: "pong", tr: "tenis", lv: "B2", ct: "genel", pr: "/ˈpɔŋ/", ex: "Ping-Pong is also called table tennis.", exTr: "Ping-Pong'a masa tenisi de denir." },
+    { w: "pong", tr: "pis koku / ping-pong", lv: "B2", ct: "genel", pr: "/ˈpɔŋ/", ex: "Ping-Pong is also called table tennis.", exTr: "Ping-Pong'a masa tenisi de denir." },
     { w: "slit", tr: "yarık", lv: "B1", ct: "genel", pr: "/ˈsɫɪt/", ex: "Tom refused to slit the sheep's throat.", exTr: "Tom koyunun boğazını kesmeyi reddetti." },
     { w: "chaperone", tr: "refakatçi", lv: "B2", ct: "genel", pr: "/ˈʃæpɝˌoʊn/", ex: "Tom and Mary don't need a chaperone.", exTr: "Tom ve Mary'nin bir refakatçiye ihtiyacı yok." },
     { w: "cerebral", tr: "beyinsel", lv: "B2", ct: "sıfatlar", pr: "/ˈsɛɹəbɹəɫ/, /sɝˈibɹəɫ/", ex: "Tom died from a sudden cerebral stroke.", exTr: "Tom ani bir beyin felçinden öldü." },

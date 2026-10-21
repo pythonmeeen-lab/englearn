@@ -405,7 +405,7 @@ KELIMELER.push(
     { w: "experimental", tr: "deneysel", lv: "C1", ct: "sıfatlar", pr: "/ɪˌkspɛrɪˈmɛntʌl/", ex: "The treatment is still experimental.", exTr: "Tedavi hâlâ deneysel aşamada." },
     { w: "walking", tr: "yürüme", lv: "B1", ct: "genel", pr: "/ˈwɔkɪŋ/", ex: "Walking in the park relaxes me.", exTr: "Parkta yürüme beni rahatlatıyor." },
     { w: "predecessor", tr: "öncül", lv: "C1", ct: "isimler", pr: "/ˈprɛdʌˌsɛsɚ/", ex: "The new coach praised his predecessor.", exTr: "Yeni teknik direktör öncülünü övdü." },
-    { w: "cole", tr: "kola", lv: "C1", ct: "genel", pr: "/ˈkoʊl/", ex: "He ordered a cola with his meal.", exTr: "Yemeğin yanında bir kola ısmarladı." },
+
     { w: "annually", tr: "yıllık", lv: "B2", ct: "fiiller", pr: "/ˈænjuʌli/", ex: "The fair is held annually.", exTr: "Fuar her yıl yıllık olarak düzenlenir." },
     { w: "portugal", tr: "Portekiz", lv: "B2", ct: "genel", pr: "/ˈpɔrtʃʌɡʌl/", ex: "We flew to Portugal in June.", exTr: "Haziranda Portekiz'e uçtuk." },
     { w: "studies", tr: "çalışmalar", lv: "A2", ct: "genel", pr: "/ˈstʌdiz/", ex: "Her studies focus on rare birds.", exTr: "Çalışmaları nadir kuşlar üzerinedir." },

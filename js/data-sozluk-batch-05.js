@@ -29,7 +29,7 @@ KELIMELER.push(
     { w: "circle", tr: "daire içine alınmış", lv: "C1", ct: "fiiller", pr: "/ˈsɝkəɫd/", ex: "The hawk circled round in the sky.", exTr: "Şahin gökyüzünde daireler çiziyordu." },
     { w: "horsepower", tr: "beygir gücü", lv: "B2", ct: "isimler", pr: "/ˈhɔɹˌspaʊɝ/", ex: "How much horsepower does a horse have?", exTr: "Bir atın ne kadar beygir gücü vardır?" },
     { w: "dos", tr: "yapılacaklar", lv: "B2", ct: "genel", pr: "/ˈdoʊs/, /ˈdɔs/", ex: "Here's the dos and don'ts of being a teacher.", exTr: "İşte öğretmen olmanın yapılması ve yapılmaması gerekenler." },
-    { w: "stellar", tr: "yıldız", lv: "C1", ct: "genel", pr: "/ˈstɛɫɝ/", ex: "Who are you, dweller of this tiny stellar corpse?", exTr: "Kimsin sen, bu minik yıldız cesedinin sakini?" },
+    { w: "stellar", tr: "yıldızla ilgili / mükemmel", lv: "C1", ct: "genel", pr: "/ˈstɛɫɝ/", ex: "Who are you, dweller of this tiny stellar corpse?", exTr: "Kimsin sen, bu minik yıldız cesedinin sakini?" },
     { w: "hesitation", tr: "tereddüt", lv: "B1", ct: "isimler", pr: "/ˌhɛzəˈteɪʃən/", ex: "He sold his own car without hesitation.", exTr: "Hiç tereddüt etmeden kendi arabasını sattı." },
     { w: "sentence", tr: "mahkum", lv: "A2", ct: "fiiller", pr: "/ˈsɛntənst/", ex: "The presiding judge sentenced the defendant to death.", exTr: "Mahkeme başkanı sanığa idam cezası verdi." },
     { w: "delete", tr: "silindi", lv: "B1", ct: "fiiller", pr: "/dɪˈɫitəd/", ex: "Your name was deleted from the list.", exTr: "Adınız listeden silindi." },

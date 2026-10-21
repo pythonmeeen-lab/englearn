@@ -280,5 +280,5 @@ KELIMELER.push(
     { w: "reincarnation", tr: "reenkarnasyon", lv: "B2", ct: "isimler", pr: "/ˌɹiɪnkɑɹˈneɪʃən/", ex: "Yanni believed he was the reincarnation of Jesus.", exTr: "Yanni kendisinin İsa'nın reenkarnasyonu olduğuna inanıyordu." },
     { w: "circles", tr: "daireler", lv: "A2", ct: "genel", pr: "/ˈsɝkəɫz/", ex: "It seems like we just keep going around in circles, doing the same old thing.", exTr: "Görünüşe göre aynı eski şeyi yaparak bir daire içinde dönüp duruyoruz." },
     { w: "ransom", tr: "fidye", lv: "A2", ct: "genel", pr: "/ˈɹænsəm/", ex: "Tom denies that he paid ransom money.", exTr: "Tom fidye parası ödediğini reddediyor." },
-    { w: "doggone", tr: "inatçı", lv: "C1", ct: "genel", pr: "/ˈdɔɡɔn/", ex: "I'm so doggone exhausted, I can't even think straight.", exTr: "O kadar bitkin durumdayım ki, doğru düzgün düşünemiyorum bile." },
+    { w: "doggone", tr: "lanet (hafif ünlem)", lv: "C1", ct: "genel", pr: "/ˈdɔɡɔn/", ex: "I'm so doggone exhausted, I can't even think straight.", exTr: "O kadar bitkin durumdayım ki, doğru düzgün düşünemiyorum bile." },
 );

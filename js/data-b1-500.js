@@ -493,7 +493,7 @@ KELIMELER.push(
     { w: "athlete", tr: "sporcu", lv: "B1", ct: "iş", pr: "/ˈæθ.liːt/", ex: "The athlete broke a record.", exTr: "Sporcu bir rekor kırdı." },
     { w: "nurse", tr: "hemşire", lv: "B1", ct: "iş", pr: "/nɜːs/", ex: "The nurse cares for patients.", exTr: "Hemşire hastalarla ilgilenir." },
     { w: "security", tr: "güvenlik (kişi)", lv: "B1", ct: "iş", pr: "/sɪˈkjʊə.rə.ti/", ex: "The security opened the gate.", exTr: "Güvenlik kapıyı açtı." },
-    { w: "apply", tr: "başvurmak", lv: "B1", ct: "iş", pr: "/əˈplaɪ/", ex: "Apply for the job online.", exTr: "İşe internetten başvur." },
+    { w: "apply", tr: "uygulamak", lv: "B1", ct: "iş", pr: "/əˈplaɪ/", ex: "Apply for the job online.", exTr: "İşe internetten başvur." },
     { w: "attend", tr: "katılmak (eğitim)", lv: "B1", ct: "eğitim", pr: "/əˈtend/", ex: "We attended the summer course.", exTr: "Yaz kursuna katıldık." },
     { w: "lecture", tr: "konferans (ders)", lv: "B1", ct: "eğitim", pr: "/ˈlek.tʃər/", ex: "The lecture begins at ten.", exTr: "Ders saat onda başlıyor." },
     { w: "library", tr: "kütüphane", lv: "B1", ct: "eğitim", pr: "/ˈlaɪ.brər.i", ex: "/", exTr: "She studies in the library." },

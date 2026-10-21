@@ -27,7 +27,7 @@ KELIMELER.push(
     { w: "waste", tr: "heba olmuş", lv: "A2", ct: "fiiller", pr: "/ˈweɪstɪd/", ex: "I regret that I wasted the money.", exTr: "Parayı çöpe attığıma pişman oldum." },
     { w: "elixir", tr: "iksir", lv: "C1", ct: "genel", pr: "/ɪˈɫɪksɝ/", ex: "Have I accidentally created a magical elixir?", exTr: "Yanlışlıkla sihirli bir iksir mi yarattım?" },
     { w: "abuse", tr: "taciz", lv: "B2", ct: "fiiller", pr: "/əbˈjuzɪŋ/", ex: "He was arrested for abusing public funds.", exTr: "Kamu fonlarını kötüye kullanmaktan tutuklandı." },
-    { w: "oliver", tr: "zeytin", lv: "A2", ct: "isimler", pr: "/ˈɑɫəvɝ/, /ˈɑɫɪvɝ/", ex: "Mary was concerned that Oliver had a secret girlfriend.", exTr: "Mary, Oliver'ın gizli bir kız arkadaşı olduğundan endişeliydi." },
+
     { w: "detour", tr: "dolambaçlı yol", lv: "B1", ct: "genel", pr: "/ˈditʊɹ/, /dɪˈtʊɹ/", ex: "There was a detour on the road.", exTr: "Yolda bir sapma vardı." },
     { w: "cracker", tr: "kraker", lv: "B1", ct: "isimler", pr: "/ˈkɹækɝ/", ex: "You're being one crabby cracker this morning. Did you get enough sleep?", exTr: "Bu sabah tam bir huysuz kraker gibisin. Yeterince uyudun mu?" },
     { w: "knives", tr: "bıçaklar", lv: "A2", ct: "genel", pr: "/ˈnaɪvz/", ex: "Keep the children away from the knives.", exTr: "Çocukları bıçaklardan uzak tutun." },

@@ -9,7 +9,7 @@ KELIMELER.push(
     { w: "admit", tr: "itiraf etmek / kabul etmek", lv: "B1", ct: "fiiller", pr: "/ədˈmɪt/", ex: "He admitted his mistake.", exTr: "Hatasını itiraf etti." },
     { w: "allow", tr: "izin vermek", lv: "B1", ct: "fiiller", pr: "/əˈlaʊ/", ex: "They don't allow pets here.", exTr: "Burada evcil hayvana izin vermiyorlar." },
     { w: "appear", tr: "görünmek", lv: "B1", ct: "fiiller", pr: "/əˈpɪər/", ex: "A ship appeared on the horizon.", exTr: "Ufukta bir gemi göründü." },
-    { w: "apply", tr: "başvurmak / uygulamak", lv: "B1", ct: "fiiller", pr: "/əˈplaɪ/", ex: "She applied for the scholarship.", exTr: "Burs için başvurdu." },
+    { w: "apply", tr: "uygulamak", lv: "B1", ct: "fiiller", pr: "/əˈplaɪ/", ex: "She applied for the scholarship.", exTr: "Burs için başvurdu." },
     { w: "argue", tr: "tartışmak", lv: "B1", ct: "fiiller", pr: "/ˈɑːɡ.juː/", ex: "They argued about the price.", exTr: "Fiyat hakkında tartıştılar." },
     { w: "avoid", tr: "kaçınmak", lv: "B1", ct: "fiiller", pr: "/əˈvɔɪd/", ex: "Avoid driving in the snow.", exTr: "Karda araç sürmekten kaçının." },
     { w: "believe", tr: "inanmak", lv: "B1", ct: "fiiller", pr: "/bɪˈliːv/", ex: "I believe you are telling the truth.", exTr: "Doğruyu söylediğine inanıyorum." },

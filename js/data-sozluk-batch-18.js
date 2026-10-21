@@ -142,7 +142,7 @@ KELIMELER.push(
     { w: "unclean", tr: "kirli", lv: "C1", ct: "genel", pr: "/ənˈkɫin/", ex: "According to Islamic principles, pigs are considered unclean.", exTr: "İslami prensiplere göre domuzlar kirli kabul edilir." },
     { w: "nag", tr: "dırdır", lv: "B1", ct: "genel", pr: "/ˈnæɡ/", ex: "Don't nag at me about washing the dishes.", exTr: "Bulaşıkları yıkama konusunda bana dırdır etme." },
     { w: "schoolteacher", tr: "öğretmen", lv: "C1", ct: "isimler", pr: "/ˈskuɫˌtitʃɝ/", ex: "Tom's dream is to be a schoolteacher.", exTr: "Tom'un hayali bir okul öğretmeni olmaktır." },
-    { w: "whines", tr: "sızlanır", lv: "B2", ct: "genel", pr: "/ˈhwaɪnz/, /ˈwaɪnz/", ex: "My dog doesn't really bark. He sort of just whines.", exTr: "Köpeğim gerçekten havlamıyor. Bir nevi sızlanıyor." },
+
     { w: "lard", tr: "domuz yağı", lv: "C1", ct: "genel", pr: "/ˈɫɑɹd/", ex: "Lard from the supermarket also of course works wonderfully.", exTr: "Süpermarketten alınan domuz yağı da elbette harika çalışıyor." },
     { w: "neutron", tr: "nötron", lv: "C1", ct: "genel", pr: "/ˈnuˌtɹɑn/", ex: "Magnetars are a type of neutron star with powerful magnetic fields.", exTr: "Magnetarlar güçlü manyetik alanlara sahip bir tür nötron yıldızıdır." },
     { w: "clockwork", tr: "saat işleyişi", lv: "B2", ct: "genel", pr: "/ˈkɫɑˌkwɝk/", ex: "The public transportation system runs like clockwork.", exTr: "Toplu taşıma sistemi saat gibi işliyor." },

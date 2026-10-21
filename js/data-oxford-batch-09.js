@@ -4,7 +4,7 @@
 KELIMELER.push(
     { w: "slam", tr: "çarpmak", lv: "C1", ct: "fiiller", pr: "/ˈslæm/", ex: "They slam every day.", exTr: "Her gün çarpıyorlar." },
     { w: "withdraw", tr: "geri çekilmek", lv: "B2", ct: "fiiller", pr: "/wɪˈðdrɔ/", ex: "They withdraw every day.", exTr: "Her gün geri çekiliyorlar." },
-    { w: "able", tr: "hünerli", lv: "A2", ct: "sıfatlar", pr: "/ˈeɪbʌl/", ex: "Are you not able to speak English?", exTr: "İngilizce konuşamıyor musun?" },
+    { w: "able", tr: "yetenekli / muktedir", lv: "A2", ct: "sıfatlar", pr: "/ˈeɪbʌl/", ex: "Are you not able to speak English?", exTr: "İngilizce konuşamıyor musun?" },
     { w: "nevertheless", tr: "yine de", lv: "B2", ct: "fiiller", pr: "/ˌnɛvɚðʌˈlɛs/", ex: "They nevertheless every day.", exTr: "Yine de her gün." },
     { w: "somehow", tr: "bir şekilde", lv: "B2", ct: "fiiller", pr: "/ˈsʌˌmhaʊ/", ex: "They somehow every day.", exTr: "Bir şekilde her gün." },
     { w: "italian", tr: "İtalyan", lv: "B1", ct: "genel", pr: "/ˌɪˈtæljʌn/", ex: "Italian is very important.", exTr: "İtalyanca çok önemli." },
