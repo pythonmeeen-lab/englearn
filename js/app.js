@@ -1576,9 +1576,10 @@ const YazmaUygulamasi = {
     },
 
     seciliSevyeyeUy() {
+        var havuz = this.yazmaHavuzu();
         return this.seciliSeviye === 'all'
-            ? [...KELIMELER]
-            : KELIMELER.filter((k) => k.lv === this.seciliSeviye);
+            ? havuz
+            : havuz.filter((k) => k.lv === this.seciliSeviye);
     },
 
     soruGoster() {
