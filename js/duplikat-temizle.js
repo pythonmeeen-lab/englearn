@@ -79,4 +79,34 @@
     }
     KELIMELER.length = 0;
     KELIMELER.push.apply(KELIMELER, fiilTemiz);
+
+    // 5) TÜM sözlükte aynı kelimeyi TEK kayda indir, anlamları birleştir
+    //    (ör. "book"=kitap + "book"=rezervasyon → "book = kitap / rezervasyon")
+    var birlesik = {};
+    var sira = [];
+    for (var bi = 0; bi < KELIMELER.length; bi++) {
+        var bk = KELIMELER[bi];
+        if (!bk || !bk.w) continue;
+        var bkey = norm(bk.w);
+        if (!birlesik[bkey]) {
+            birlesik[bkey] = {
+                w: bk.w, tr: (bk.tr || ''), lv: (bk.lv || ''), ct: (bk.ct || ''),
+                pr: (bk.pr || ''), ex: (bk.ex || ''), exTr: (bk.exTr || '')
+            };
+            sira.push(bkey);
+        } else {
+            var bm = birlesik[bkey];
+            var anlamlar = String(bm.tr || '').split('/').map(function (s) { return s.trim(); }).filter(Boolean);
+            String(bk.tr || '').split('/').forEach(function (t) {
+                t = t.trim();
+                if (t && anlamlar.indexOf(t) < 0) anlamlar.push(t);
+            });
+            bm.tr = anlamlar.slice(0, 4).join(' / ');
+            if (!bm.pr && bk.pr) bm.pr = bk.pr;
+            if (!bm.ex && bk.ex) bm.ex = bk.ex;
+            if (!bm.exTr && bk.exTr) bm.exTr = bk.exTr;
+        }
+    }
+    KELIMELER.length = 0;
+    sira.forEach(function (key) { KELIMELER.push(birlesik[key]); });
 })();
