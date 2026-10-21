@@ -19,7 +19,7 @@ KELIMELER.push(
     { w: "pulmonary", tr: "akciğer", lv: "C1", ct: "genel", pr: "/ˈpʊɫməˌnɛɹi/", ex: "I need to perform a pulmonary angiography.", exTr: "Pulmoner anjiyografi yapmam gerekiyor." },
     { w: "describes", tr: "açıklar", lv: "B1", ct: "genel", pr: "/dɪsˈkɹaɪbz/", ex: "He describes himself as a great statesman.", exTr: "Kendisini büyük bir devlet adamı olarak tanımlıyor." },
     { w: "statute", tr: "yasa", lv: "B2", ct: "genel", pr: "/ˈstætʃut/", ex: "Such crimes have no statute of limitations.", exTr: "Bu tür suçlarda zaman aşımı yoktur." },
-    { w: "wake", tr: "uyanma", lv: "A2", ct: "fiiller", pr: "/ˈweɪkɪŋ/", ex: "Waking on the street, he met Jim.", exTr: "Sokakta uyandığında Jim'le tanıştı." },
+    { w: "wake", tr: "uyanmak / uyandırmak", lv: "A2", ct: "fiiller", pr: "/ˈweɪkɪŋ/", ex: "Waking on the street, he met Jim.", exTr: "Sokakta uyandığında Jim'le tanıştı." },
     { w: "tracker", tr: "izci", lv: "B1", ct: "isimler", pr: "/ˈtɹækɝ/", ex: "Sami is a fugitive tracker from the Toronto police department.", exTr: "Sami, Toronto polis departmanından kaçak bir izcidir." },
     { w: "granddad", tr: "büyükbaba", lv: "A2", ct: "genel", pr: "/ˈɡɹænˌdæd/", ex: "Mennad is a granddad.", exTr: "Mennad bir büyükbaba." },
     { w: "accordion", tr: "akordeon", lv: "B2", ct: "genel", pr: "/əˈkɔɹdiən/", ex: "Tom played the accordion while Mary danced.", exTr: "Mary dans ederken Tom akordeon çaldı." },

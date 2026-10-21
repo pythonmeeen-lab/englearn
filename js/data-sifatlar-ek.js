@@ -62,7 +62,7 @@
         'confidence': [{ w: 'confident',  tr: 'kendine güvenen',lv: 'B1' }],
         'difference': [{ w: 'different',  tr: 'farklı',        lv: 'A2' }],
         'importance': [{ w: 'important',  tr: 'önemli',        lv: 'A2' }],
-        'freedom':    [{ w: 'free',       tr: 'özgür',         lv: 'B1' }],
+        'freedom':    [{ w: 'free',       tr: 'özgür / ücretsiz / boş / serbest bırakmak',         lv: 'B1' }],
         'truth':      [{ w: 'true',       tr: 'doğru',         lv: 'A2' }],
         'strength':   [{ w: 'strong',     tr: 'güçlü',         lv: 'A2' }],
     };

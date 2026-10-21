@@ -95,7 +95,7 @@ KELIMELER.push(
     { w: "confine", tr: "sınırlı", lv: "B1", ct: "fiiller", pr: "/kənˈfaɪnd/", ex: "Soccer is not necessarily confined to men.", exTr: "Futbol sadece erkeklerle sınırlı değildir." },
     { w: "wormhole", tr: "solucan deliği", lv: "B1", ct: "genel", pr: "/ˈwɝmˌhɔɫ/", ex: "These two portals are connected via a wormhole.", exTr: "Bu iki portal bir solucan deliği aracılığıyla birbirine bağlanıyor." },
     { w: "acquitted", tr: "beraat etti", lv: "B2", ct: "fiiller", pr: "/əˈkwɪtɪd/", ex: "The jury acquitted him of the crime.", exTr: "Jüri onu suçtan beraat ettirdi." },
-    { w: "free", tr: "serbest bırakıldı", lv: "A2", ct: "fiiller", pr: "/ˈfɹid/", ex: "The Thirteenth Amendment freed all Negro slaves.", exTr: "On Üçüncü Değişiklik tüm zenci köleleri serbest bıraktı." },
+    { w: "free", tr: "özgür / ücretsiz / boş / serbest bırakmak", lv: "A2", ct: "fiiller", pr: "/ˈfɹid/", ex: "The Thirteenth Amendment freed all Negro slaves.", exTr: "On Üçüncü Değişiklik tüm zenci köleleri serbest bıraktı." },
     { w: "rupture", tr: "kopma", lv: "C1", ct: "genel", pr: "/ˈɹəptʃɝ/", ex: "Becoming rivals in love caused the rupture of friendship.", exTr: "Aşkta rakip olmak dostluğun kopmasına neden oldu." },
     { w: "behold", tr: "işte", lv: "A2", ct: "genel", pr: "/bɪˈhoʊɫd/", ex: "Behold, the Lamb of God, who takes away the sins of the world!", exTr: "İşte, dünyanın günahlarını ortadan kaldıran Tanrı Kuzusu!" },
     { w: "plates", tr: "plakalar", lv: "A2", ct: "genel", pr: "/ˈpɫeɪts/", ex: "Our picnic plates are made of plastic.", exTr: "Piknik tabaklarımız plastikten yapılmıştır." },

@@ -70,7 +70,7 @@ KELIMELER.push(
     { w: "geese", tr: "kazlar", lv: "B2", ct: "genel", pr: "/ˈɡis/", ex: "They watched the geese till it was dark.", exTr: "Hava kararana kadar kazları izlediler." },
     { w: "unmarked", tr: "işaretsiz", lv: "C1", ct: "fiiller", pr: "/ənˈmɑɹkt/", ex: "At least 200 others were buried in marked or unmarked graves on Carlisle grounds.", exTr: "En az 200 kişi de Carlisle arazisindeki işaretli veya işaretsiz mezarlara gömüldü." },
     { w: "pier", tr: "iskele", lv: "A2", ct: "isimler", pr: "/ˈpɪɹ/", ex: "Tom keeps his boat at the pier.", exTr: "Tom teknesini iskelede tutuyor." },
-    { w: "taste", tr: "tatma", lv: "B1", ct: "fiiller", pr: "/ˈteɪstɪŋ/", ex: "You eat such unpleasant-tasting things often. Your palate is strange, isn't it?", exTr: "Sık sık böyle tatsız şeyler yiyorsunuz. Damak zevkiniz tuhaf değil mi?" },
+    { w: "taste", tr: "tat / tatmak / lezzet", lv: "B1", ct: "fiiller", pr: "/ˈteɪstɪŋ/", ex: "You eat such unpleasant-tasting things often. Your palate is strange, isn't it?", exTr: "Sık sık böyle tatsız şeyler yiyorsunuz. Damak zevkiniz tuhaf değil mi?" },
     { w: "handicap", tr: "engelli", lv: "B1", ct: "fiiller", pr: "/ˈhændiˌkæpt/", ex: "Tom and Mary adopted a handicapped child.", exTr: "Tom ve Mary engelli bir çocuğu evlat edindiler." },
     { w: "urge", tr: "ısrarla", lv: "C1", ct: "fiiller", pr: "/ˈɝdʒd/", ex: "Our teacher urged us to study harder.", exTr: "Öğretmenimiz bizi daha çok çalışmaya teşvik etti." },
     { w: "decree", tr: "kararname", lv: "B1", ct: "isimler", pr: "/dɪˈkɹi/", ex: "I need to escape from this decree.", exTr: "Bu karardan kurtulmam lazım." },

@@ -17,7 +17,7 @@ KELIMELER.push(
     { w: "cost", tr: "tutmak (fiyat) / maliyet", lv: "A2", ct: "fiiller", pr: "/kɒst/", ex: "The ticket costs twenty dollars.", exTr: "Biletin fiyatı yirmi dolar." },
     { w: "count", tr: "saymak", lv: "A2", ct: "fiiller", pr: "/kaʊnt/", ex: "Count the coins, please.", exTr: "Lütfen paraları say." },
     { w: "cry", tr: "ağlamak", lv: "A2", ct: "fiiller", pr: "/kraɪ/", ex: "The baby cried all night.", exTr: "Bebek bütün gece ağladı." },
-    { w: "dance", tr: "dans etmek", lv: "A2", ct: "fiiller", pr: "/dɑːns/", ex: "They danced at the wedding.", exTr: "Düğünde dans ettiler." },
+    { w: "dance", tr: "dans etmek / dans", lv: "A2", ct: "fiiller", pr: "/dɑːns/", ex: "They danced at the wedding.", exTr: "Düğünde dans ettiler." },
     { w: "decide", tr: "karar vermek", lv: "A2", ct: "fiiller", pr: "/dɪˈsaɪd/", ex: "We decided to leave early.", exTr: "Erken ayrılmaya karar verdik." },
     { w: "describe", tr: "tanımlamak", lv: "A2", ct: "fiiller", pr: "/dɪˈskraɪb/", ex: "Describe the man you saw.", exTr: "Gördüğün adamı tanımla." },
     { w: "draw", tr: "çizmek", lv: "A2", ct: "fiiller", pr: "/drɔː/", ex: "She drew a picture of a house.", exTr: "Bir ev resmi çizdi." },

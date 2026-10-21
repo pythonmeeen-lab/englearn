@@ -20,7 +20,7 @@ KELIMELER.push(
     { w: "lead", tr: "yönetmek / öncülük etmek", lv: "B1", ct: "fiiller", pr: "/liːd/", ex: "She leads the research team.", exTr: "Araştırma ekibini yönetiyor." },
     { w: "lie", tr: "yatmak / uzanmak", lv: "A2", ct: "fiiller", pr: "/laɪ/", ex: "He lay on the grass for hours.", exTr: "Saatlerce çimenlerde uzandı." },
     { w: "lift", tr: "kaldırmak", lv: "A2", ct: "fiiller", pr: "/lɪft/", ex: "Help me lift this box.", exTr: "Bu kutuyu kaldırmama yardım et." },
-    { w: "light", tr: "yakmak / aydınlatmak", lv: "A2", ct: "fiiller", pr: "/laɪt/", ex: "He lit a candle in the dark.", exTr: "Karanlıkta bir mum yaktı." },
+    { w: "light", tr: "ışık / hafif / aydınlatmak", lv: "A2", ct: "fiiller", pr: "/laɪt/", ex: "He lit a candle in the dark.", exTr: "Karanlıkta bir mum yaktı." },
     { w: "make", tr: "yapmak", lv: "A2", ct: "fiiller", pr: "/meɪk/", ex: "She made a beautiful cake.", exTr: "Güzel bir kek yaptı." },
     { w: "marry", tr: "evlenmek", lv: "A2", ct: "fiiller", pr: "/ˈmær.i/", ex: "They married in May.", exTr: "Mayıs ayında evlendiler." },
     { w: "mean", tr: "anlamına gelmek", lv: "A2", ct: "fiiller", pr: "/miːn/", ex: "What does this word mean?", exTr: "Bu kelime ne anlama geliyor?" },

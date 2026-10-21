@@ -117,7 +117,7 @@ KELIMELER.push(
     { w: "pole", tr: "kutup", lv: "C1", ct: "isimler", pr: "/ˈpoʊl/", ex: "The engineer climbed the telephone pole.", exTr: "Mühendis telefon direğine tırmandı." },
     { w: "nursery", tr: "kreş", lv: "C1", ct: "isimler", pr: "/ˈnɚsɚi/", ex: "The nursery toilet door was shut.", exTr: "Çocuk odası tuvaletinin kapısı kapalıydı." },
     { w: "order", tr: "emir", lv: "A2", ct: "isimler", pr: "/ˈɔrdɚ/", ex: "Your room is out of order.", exTr: "Odanız bozuk." },
-    { w: "pretty", tr: "tatlı", lv: "A2", ct: "sıfatlar", pr: "/ˈprɪti/", ex: "Lucy is a pretty little girl.", exTr: "Lucy çok güzel bir kız." },
+    { w: "pretty", tr: "güzel / hoş", lv: "A2", ct: "sıfatlar", pr: "/ˈprɪti/", ex: "Lucy is a pretty little girl.", exTr: "Lucy çok güzel bir kız." },
     { w: "blues", tr: "hüzün", lv: "B1", ct: "genel", pr: "/ˈbluz/", ex: "There go the twelve bars blues.", exTr: "İşte on iki bar blues." },
     { w: "naturally", tr: "doğal olarak", lv: "B1", ct: "fiiller", pr: "/ˈnætʃɚʌli/", ex: "They naturally every day.", exTr: "Doğal olarak her gün." },
     { w: "consequently", tr: "sonuç olarak", lv: "B2", ct: "fiiller", pr: "/ˈkɑnsʌkwʌntli/", ex: "They consequently every day.", exTr: "Sonuç olarak her gün." },

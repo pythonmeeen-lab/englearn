@@ -184,7 +184,7 @@ KELIMELER.push(
     { w: "baroness", tr: "barones", lv: "B1", ct: "isimler", pr: "/ˈbɛɹənɪs/", ex: "The baroness cuckolded the baron.", exTr: "Barones baronu boynuzladı." },
     { w: "squares", tr: "kareler", lv: "B2", ct: "genel", pr: "/ˈskwɛɹz/", ex: "He drew two squares on the blackboard.", exTr: "Tahtaya iki kare çizdi." },
     { w: "embrace", tr: "kucaklandı", lv: "B2", ct: "fiiller", pr: "/ɛmˈbɹeɪst/", ex: "He embraced his relatives before he left.", exTr: "Ayrılmadan önce yakınlarıyla kucaklaştı." },
-    { w: "free", tr: "serbest bırakmak", lv: "C1", ct: "fiiller", pr: "/ˈfɹiɪŋ/", ex: "Miroslav attempted to stop Rima from freeing the beast.", exTr: "Miroslav, Rima'nın canavarı serbest bırakmasını engellemeye çalıştı." },
+    { w: "free", tr: "özgür / ücretsiz / boş / serbest bırakmak", lv: "C1", ct: "fiiller", pr: "/ˈfɹiɪŋ/", ex: "Miroslav attempted to stop Rima from freeing the beast.", exTr: "Miroslav, Rima'nın canavarı serbest bırakmasını engellemeye çalıştı." },
     { w: "rustle", tr: "hışırtı", lv: "C1", ct: "genel", pr: "/ˈɹəsəɫ/", ex: "Yanni heard something rustle in the bush.", exTr: "Yanni çalıların arasında bir şeyin hışırtısını duydu." },
     { w: "pooch", tr: "köpek", lv: "C1", ct: "genel", pr: "/ˈputʃ/", ex: "Mary doesn't have a pooch; she has a kitten.", exTr: "Mary'nin köpeği yok; bir kedi yavrusu var." },
     { w: "conclude", tr: "sonuçlandırıldı", lv: "B1", ct: "fiiller", pr: "/kənˈkɫudəd/, /kənˈkɫudɪd/", ex: "The concert concluded with the national anthem.", exTr: "Konser, İstiklal Marşı'nın okunmasıyla sona erdi." },

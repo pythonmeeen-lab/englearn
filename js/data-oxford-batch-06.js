@@ -178,7 +178,7 @@ KELIMELER.push(
     { w: "frequent", tr: "sık", lv: "B2", ct: "sıfatlar", pr: "/ˈfrikwʌnt/", ex: "We had frequent snowfalls last year.", exTr: "Geçen yıl sık sık kar yağışı yaşadık." },
     { w: "trick", tr: "kandırmak", lv: "B1", ct: "isimler", pr: "/ˈtrɪk/", ex: "It's just a trick of the wind.", exTr: "Bu sadece rüzgarın bir oyunu." },
     { w: "since", tr: "o zamandan beri", lv: "A2", ct: "genel", pr: "/ˈsɪns/", ex: "He changed a lot since the last time.", exTr: "Son seferden bu yana çok değişti." },
-    { w: "light", tr: "ışık", lv: "A2", ct: "sıfatlar", pr: "/ˈlaɪt/", ex: "Give me a light, would you?", exTr: "Bana bir ışık ver, olur mu?" },
+    { w: "light", tr: "ışık / hafif / aydınlatmak", lv: "A2", ct: "sıfatlar", pr: "/ˈlaɪt/", ex: "Give me a light, would you?", exTr: "Bana bir ışık ver, olur mu?" },
     { w: "essence", tr: "öz", lv: "C1", ct: "isimler", pr: "/ˈɛsʌns/", ex: "The essence of mathematics is liberty.", exTr: "Matematiğin özü özgürlüktür." },
     { w: "rubber", tr: "lastik", lv: "B2", ct: "sıfatlar", pr: "/ˈrʌbɚ/", ex: "I have wads of rubber bands.", exTr: "Bir sürü lastik bantım var." },
     { w: "large", tr: "büyük", lv: "A2", ct: "sıfatlar", pr: "/ˈlɑrdʒ/", ex: "Examinations play a large part in education.", exTr: "Sınavların eğitimde büyük payı vardır." },

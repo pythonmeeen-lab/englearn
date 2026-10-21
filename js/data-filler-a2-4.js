@@ -23,7 +23,7 @@ KELIMELER.push(
     { w: "wait", tr: "beklemek", lv: "A2", ct: "fiiller", pr: "/weɪt/", ex: "Wait for me at the door.", exTr: "Kapıda beni bekle." },
     { w: "wake", tr: "uyanmak / uyandırmak", lv: "A2", ct: "fiiller", pr: "/weɪk/", ex: "I wake up at seven.", exTr: "Yedide uyanırım." },
     { w: "wear", tr: "giymek", lv: "A2", ct: "fiiller", pr: "/weər/", ex: "She wore a red dress.", exTr: "Kırmızı bir elbise giydi." },
-    { w: "win", tr: "kazanmak", lv: "A2", ct: "fiiller", pr: "/wɪn/", ex: "Our team won the match.", exTr: "Takımımız maçı kazandı." },
+    { w: "win", tr: "kazanmak / galibiyet", lv: "A2", ct: "fiiller", pr: "/wɪn/", ex: "Our team won the match.", exTr: "Takımımız maçı kazandı." },
     { w: "wish", tr: "dilemek / istemek", lv: "A2", ct: "fiiller", pr: "/wɪʃ/", ex: "I wish you good luck.", exTr: "Sana iyi şanslar diliyorum." },
     { w: "worry", tr: "endişelenmek", lv: "A2", ct: "fiiller", pr: "/ˈwʌr.i/", ex: "Don't worry about the test.", exTr: "Test için endişelenme." },
     { w: "write", tr: "yazmak", lv: "A2", ct: "fiiller", pr: "/raɪt/", ex: "She writes in her journal.", exTr: "Günlüğüne yazıyor." }

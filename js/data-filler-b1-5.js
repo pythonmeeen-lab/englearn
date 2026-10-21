@@ -17,7 +17,7 @@ KELIMELER.push(
     { w: "want", tr: "istemek", lv: "B1", ct: "fiiller", pr: "/wɒnt/", ex: "I want to learn more.", exTr: "Daha fazlasını öğrenmek istiyorum." },
     { w: "watch", tr: "izlemek", lv: "B1", ct: "fiiller", pr: "/wɒtʃ/", ex: "We watched a documentary.", exTr: "Bir belgesel izledik." },
     { w: "wear", tr: "giymek", lv: "B1", ct: "fiiller", pr: "/weər/", ex: "Wear a helmet on the bike.", exTr: "Bisiklette kask tak." },
-    { w: "win", tr: "kazanmak", lv: "B1", ct: "fiiller", pr: "/wɪn/", ex: "She won first prize.", exTr: "Birincilik ödülünü kazandı." },
+    { w: "win", tr: "kazanmak / galibiyet", lv: "B1", ct: "fiiller", pr: "/wɪn/", ex: "She won first prize.", exTr: "Birincilik ödülünü kazandı." },
     { w: "wonder", tr: "merak etmek", lv: "B1", ct: "fiiller", pr: "/ˈwʌn.dər/", ex: "I wonder why he left.", exTr: "Neden gittiğini merak ediyorum." },
     { w: "work", tr: "çalışmak", lv: "B1", ct: "fiiller", pr: "/wɜːk/", ex: "She works for a bank.", exTr: "Bir bankada çalışıyor." },
     { w: "worry", tr: "endişelenmek", lv: "B1", ct: "fiiller", pr: "/ˈwʌr.i/", ex: "Don't worry, everything is fine.", exTr: "Endişelenme, her şey yolunda." },

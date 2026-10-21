@@ -15,7 +15,7 @@ KELIMELER.push(
     { w: "respond", tr: "cevap vermek", lv: "B1", ct: "fiiller", pr: "/rɪˈspɒnd/", ex: "She responded to my email quickly.", exTr: "E-postama hızlı cevap verdi." },
     { w: "return", tr: "geri dönmek", lv: "B1", ct: "fiiller", pr: "/rɪˈtɜːn/", ex: "He returned home late.", exTr: "Eve geç döndü." },
     { w: "rise", tr: "yükselmek", lv: "B1", ct: "fiiller", pr: "/raɪz/", ex: "The sun rises in the east.", exTr: "Güneş doğudan doğar." },
-    { w: "run", tr: "koşmak / yürütmek", lv: "B1", ct: "fiiller", pr: "/rʌn/", ex: "She runs a small business.", exTr: "Küçük bir işletme yürütüyor." },
+    { w: "run", tr: "koşmak / yürütmek / işletmek", lv: "B1", ct: "fiiller", pr: "/rʌn/", ex: "She runs a small business.", exTr: "Küçük bir işletme yürütüyor." },
     { w: "save", tr: "kurtarmak / biriktirmek", lv: "B1", ct: "fiiller", pr: "/seɪv/", ex: "The rescue team saved the climber.", exTr: "Kurtarma ekibi dağcıyı kurtardı." },
     { w: "seem", tr: "görünmek / gibi gelmek", lv: "B1", ct: "fiiller", pr: "/siːm/", ex: "You seem very happy today.", exTr: "Bugün çok mutlu görünüyorsun." },
     { w: "serve", tr: "hizmet etmek / servis yapmak", lv: "B1", ct: "fiiller", pr: "/sɜːv/", ex: "They serve great coffee here.", exTr: "Burada harika kahve servis ediyorlar." },
@@ -26,5 +26,5 @@ KELIMELER.push(
     { w: "support", tr: "desteklemek", lv: "B1", ct: "fiiller", pr: "/səˈpɔːt/", ex: "My family supports my plans.", exTr: "Ailem planlarımı destekliyor." },
     { w: "suppose", tr: "varsaymak / sanmak", lv: "B1", ct: "fiiller", pr: "/səˈpəʊz/", ex: "I suppose you are right.", exTr: "Sanırım haklısın." },
     { w: "survive", tr: "hayatta kalmak", lv: "B1", ct: "fiiller", pr: "/səˈvaɪv/", ex: "Some plants survive in the desert.", exTr: "Bazı bitkiler çölde hayatta kalır." },
-    { w: "tell", tr: "anlatmak", lv: "B1", ct: "fiiller", pr: "/tel/", ex: "Tell me the whole story.", exTr: "Bana tüm hikayeyi anlat." }
+    { w: "tell", tr: "söylemek / anlatmak", lv: "B1", ct: "fiiller", pr: "/tel/", ex: "Tell me the whole story.", exTr: "Bana tüm hikayeyi anlat." }
 );

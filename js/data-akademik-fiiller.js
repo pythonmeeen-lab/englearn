@@ -49,7 +49,7 @@
         { w: "avoid", tr: "kaçınmak", lv: "B2" },
         { w: "balance", tr: "dengelemek", lv: "B2" },
         { w: "base", tr: "dayandırmak", lv: "B2" },
-        { w: "bear", tr: "taşımak / katlanmak", lv: "B2" },
+        { w: "bear", tr: "ayı / taşımak / katlanmak", lv: "B2" },
         { w: "benefit", tr: "faydalanmak", lv: "B2" },
         { w: "calculate", tr: "hesaplamak", lv: "C1" },
         { w: "capture", tr: "yakalamak / yansıtmak", lv: "B2" },

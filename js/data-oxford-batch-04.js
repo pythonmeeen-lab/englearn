@@ -156,7 +156,7 @@ KELIMELER.push(
     { w: "slowly", tr: "yavaşça", lv: "A2", ct: "fiiller", pr: "/ˈsloʊli/", ex: "They slowly every day.", exTr: "Her gün yavaş yavaş." },
     { w: "huge", tr: "büyük", lv: "A2", ct: "sıfatlar", pr: "/ˈhjudʒ/", ex: "New York is a huge city.", exTr: "New York çok büyük bir şehir." },
     { w: "devise", tr: "tasarlamak", lv: "C1", ct: "fiiller", pr: "/dɪˈvaɪz/", ex: "They devise every day.", exTr: "tasarlamak" },
-    { w: "tell", tr: "söylemek", lv: "A2", ct: "fiiller", pr: "/ˈtɛl/", ex: "They tell every day.", exTr: "Her gün anlatıyorlar." },
+    { w: "tell", tr: "söylemek / anlatmak", lv: "A2", ct: "fiiller", pr: "/ˈtɛl/", ex: "They tell every day.", exTr: "Her gün anlatıyorlar." },
     { w: "borrow", tr: "borç almak", lv: "A2", ct: "fiiller", pr: "/ˈbɑˌroʊ/", ex: "They borrow every day.", exTr: "Her gün borç alıyorlar." },
     { w: "broken", tr: "kırık", lv: "A2", ct: "sıfatlar", pr: "/ˈbroʊkʌn/", ex: "Don't step on the broken glass.", exTr: "Kırık camın üzerine basmayın." },
     { w: "magic", tr: "büyü", lv: "B1", ct: "sıfatlar", pr: "/ˈmædʒɪk/", ex: "I wish I could use magic.", exTr: "Keşke sihir kullanabilseydim." },
