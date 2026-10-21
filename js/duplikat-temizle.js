@@ -61,24 +61,8 @@
     KELIMELER.length = 0;
     KELIMELER.push.apply(KELIMELER, son);
 
-    // 4) FİİL kategorisinde aynı kelimeden TEK kayıt kalsın
-    //    (çekim/çeviri artıklarından oluşan "conclude x4" gibi tekrarlar)
-    var fiilGor = new Set();
-    var fiilTemiz = [];
-    for (var fi = 0; fi < KELIMELER.length; fi++) {
-        var fk = KELIMELER[fi];
-        if (!fk || !fk.w) continue;
-        var fct = (fk.ct || '').toLowerCase();
-        var fiilMi = fct.indexOf('fiil') >= 0 || fct === 'phrasal';
-        if (fiilMi) {
-            var fkey = norm(fk.w);
-            if (fiilGor.has(fkey)) continue;   // aynı fiil zaten var → atla
-            fiilGor.add(fkey);
-        }
-        fiilTemiz.push(fk);
-    }
-    KELIMELER.length = 0;
-    KELIMELER.push.apply(KELIMELER, fiilTemiz);
+    // 4) (Kaldırıldı) Fiil tekilleştirmeyi aşağıdaki genel birleştirme yapıyor;
+    //    böylece çok anlamlı fiillerin anlamları korunur.
 
     // 5) TÜM sözlükte aynı kelimeyi TEK kayda indir, anlamları birleştir
     //    (ör. "book"=kitap + "book"=rezervasyon → "book = kitap / rezervasyon")
