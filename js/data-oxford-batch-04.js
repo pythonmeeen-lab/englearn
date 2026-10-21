@@ -47,7 +47,7 @@ KELIMELER.push(
     { w: "dare", tr: "cesaret", lv: "B2", ct: "fiiller", pr: "/ˈdɛr/", ex: "They dare every day.", exTr: "Her gün cesaret ediyorlar." },
     { w: "evil", tr: "fenalık", lv: "B2", ct: "sıfatlar", pr: "/ˈivʌl/", ex: "Do you know good from evil?", exTr: "İyiyi kötüden bilir misin?" },
     { w: "styles", tr: "stiller", lv: "B1", ct: "genel", pr: "/ˈstaɪlz/", ex: "Antonio tested his new kung fu styles.", exTr: "Antonio yeni kung fu stillerini denedi." },
-    { w: "gets", tr: "alır", lv: "B1", ct: "genel", pr: "/ˈɡɛts/", ex: "My joints ache when it gets cold.", exTr: "Havalar soğuduğunda eklemlerim ağrıyor." },
+
     { w: "one", tr: "bir", lv: "A2", ct: "genel", pr: "/ˈwʌn/", ex: "I'd like to stay for one night.", exTr: "Bir gece kalmak isterim." },
     { w: "looks", tr: "görünüyor", lv: "B1", ct: "genel", pr: "/ˈlʊks/", ex: "The sea looks calm and smooth.", exTr: "Deniz sakin ve pürüzsüz görünüyor." },
     { w: "presently", tr: "şu anda", lv: "C1", ct: "fiiller", pr: "/ˈprɛzʌntli/", ex: "They presently every day.", exTr: "Şu anda her gün." },

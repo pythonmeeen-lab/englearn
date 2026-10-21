@@ -244,7 +244,7 @@ KELIMELER.push(
     { w: "handshake", tr: "el sıkışma", lv: "B1", ct: "genel", pr: "/ˈhændˌʃeɪk/", ex: "I greeted the students with a handshake.", exTr: "Öğrencileri el sıkışarak selamladım." },
     { w: "fearless", tr: "korkusuz", lv: "B1", ct: "sıfatlar", pr: "/ˈfɪɹɫəs/", ex: "I want to find my energetic, fearless brother.", exTr: "Enerjik, korkusuz kardeşimi bulmak istiyorum." },
     { w: "serenity", tr: "sakinlik", lv: "B2", ct: "isimler", pr: "/sɝˈɛnəti/", ex: "Mary can face death with so much serenity.", exTr: "Meryem ölümle büyük bir sükunetle yüzleşebilir." },
-    { w: "slid", tr: "kaymış", lv: "C1", ct: "genel", pr: "/ˈsɫɪd/", ex: "As the door slid open, he almost fell onto the platform.", exTr: "Kapı kayarak açıldığında neredeyse platforma düşüyordu." },
+
     { w: "clutch", tr: "debriyaj", lv: "B1", ct: "genel", pr: "/ˈkɫətʃ/", ex: "Just after Tom had a new gearbox fitted to his car, his clutch packed it in.", exTr: "Tom arabasına yeni bir vites kutusu taktıktan hemen sonra debriyajı onu doldurdu." },
     { w: "honorable", tr: "onurlu", lv: "A2", ct: "sıfatlar", pr: "/ˈɑnɝəbəɫ/", ex: "I'm certain that your intentions are honorable.", exTr: "Niyetinizin onurlu olduğundan eminim." },
     { w: "betsy", tr: "Besy", lv: "B1", ct: "genel", pr: "/ˈbɛtsi/", ex: "Betsy asked Tom for the sun, the moon and the stars; for Mary his love was enough.", exTr: "Betsy, Tom'dan güneşi, ayı ve yıldızları istedi; Meryem için onun sevgisi yeterliydi." },

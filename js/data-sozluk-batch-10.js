@@ -31,7 +31,7 @@ KELIMELER.push(
     { w: "assumes", tr: "varsayar", lv: "C1", ct: "genel", pr: "/əˈsumz/", ex: "No systematical study in economics assumes solidarity.", exTr: "İktisatta hiçbir sistematik çalışma dayanışmayı varsaymaz." },
     { w: "arithmetic", tr: "aritmetik", lv: "C1", ct: "sıfatlar", pr: "/ˌɛɹɪθˈmɛtɪk/, /ɝˈɪθməˌtɪk/", ex: "Tom is very good at mental arithmetic.", exTr: "Tom zihinsel aritmetikte çok iyidir." },
     { w: "unborn", tr: "doğmamış", lv: "B2", ct: "genel", pr: "/ˈənˈbɔɹn/", ex: "Can paint fumes affect my unborn baby?", exTr: "Boya dumanları doğmamış bebeğimi etkileyebilir mi?" },
-    { w: "drool", tr: "saçmalamak", lv: "B2", ct: "genel", pr: "/ˈdɹuɫ/", ex: "Half the girls in this town drool over him.", exTr: "Bu kasabadaki kızların yarısının ağzının suyu akıyor." },
+    { w: "drool", tr: "salya akıtmak", lv: "B2", ct: "genel", pr: "/ˈdɹuɫ/", ex: "Half the girls in this town drool over him.", exTr: "Bu kasabadaki kızların yarısının ağzının suyu akıyor." },
     { w: "inaudible", tr: "duyulamayan", lv: "A2", ct: "sıfatlar", pr: "/ˌɪˈnɔdəbəɫ/", ex: "Some multilingual people think that English is somewhat inaudible.", exTr: "Bazı çok dilli insanlar İngilizcenin biraz duyulamaz olduğunu düşünüyor." },
     { w: "cork", tr: "mantar", lv: "B1", ct: "genel", pr: "/ˈkɔɹk/", ex: "Harvesting cork causes the tree no harm.", exTr: "Mantar toplamak ağaca zarar vermez." },
     { w: "flirt", tr: "flört", lv: "A2", ct: "genel", pr: "/ˈfɫɝt/", ex: "I saw Tom flirt with my wife.", exTr: "Tom'un karımla flört ettiğini gördüm." },

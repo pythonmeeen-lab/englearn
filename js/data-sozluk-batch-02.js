@@ -138,7 +138,7 @@ KELIMELER.push(
     { w: "illustrious", tr: "ünlü", lv: "C1", ct: "sıfatlar", pr: "/ˌɪˈɫəstɹiəs/", ex: "Massinissa was the most illustrious king of Numidia.", exTr: "Massinissa, Numidia'nın en ünlü kralıydı." },
     { w: "panther", tr: "panter", lv: "B1", ct: "isimler", pr: "/ˈpænθɝ/", ex: "The black panther prowled silently through the jungle.", exTr: "Kara panter ormanda sessizce geziniyordu." },
     { w: "shuffle", tr: "karıştır", lv: "B2", ct: "genel", pr: "/ˈʃəfəɫ/", ex: "Ziri taught Rima how to shuffle dance.", exTr: "Ziri, Rima'ya dansı nasıl karıştıracağını öğretti." },
-    { w: "audition", tr: "seçme", lv: "A2", ct: "isimler", pr: "/ɑˈdɪʃən/", ex: "Sami didn't pay attention to Layla's audition.", exTr: "Sami, Leyla'nın seçmelerine dikkat etmedi." },
+    { w: "audition", tr: "seçme sınavı / deneme", lv: "A2", ct: "isimler", pr: "/ɑˈdɪʃən/", ex: "Sami didn't pay attention to Layla's audition.", exTr: "Sami, Leyla'nın seçmelerine dikkat etmedi." },
     { w: "vacate", tr: "boşaltmak", lv: "B2", ct: "fiiller", pr: "/ˈveɪkeɪt/", ex: "We must vacate the house before next month.", exTr: "Gelecek aydan önce evi boşaltmamız gerekiyor." },
     { w: "bridges", tr: "köprüler", lv: "A2", ct: "genel", pr: "/ˈbɹɪdʒəz/, /ˈbɹɪdʒɪz/", ex: "Bridges are burning and chances are few.", exTr: "Köprüler yanıyor ve şans çok az." },
     { w: "abbey", tr: "manastır", lv: "B1", ct: "genel", pr: "/ˈæbi/", ex: "Isaac Newton was buried in Westminster Abbey.", exTr: "Isaac Newton, Westminster Abbey'e gömüldü." },

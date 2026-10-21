@@ -68,7 +68,7 @@ KELIMELER.push(
     { w: "otherwise", tr: "aksi takdirde", lv: "B2", ct: "fiiller", pr: "/ˈʌðɚˌwaɪz/", ex: "They otherwise every day.", exTr: "Aksi takdirde her gün." },
     { w: "provincial", tr: "il", lv: "C1", ct: "sıfatlar", pr: "/prʌˈvɪnʃʌl/", ex: "I live in a provincial town.", exTr: "Bir taşra kasabasında yaşıyorum." },
     { w: "essentials", tr: "temeller", lv: "C1", ct: "genel", pr: "/ɛˈsɛnʃʌlz/", ex: "Tuaregs survive on the barest essentials.", exTr: "Tuaregler en temel ihtiyaçlarla hayatta kalıyor." },
-    { w: "overnight", tr: "gecede", lv: "B2", ct: "fiiller", pr: "/ˈoʊvɚˈnaɪt/", ex: "They overnight every day.", exTr: "Her gün geceliyorlar." },
+    { w: "overnight", tr: "geceleyin / bir gecede", lv: "B2", ct: "fiiller", pr: "/ˈoʊvɚˈnaɪt/", ex: "They overnight every day.", exTr: "Her gün geceliyorlar." },
     { w: "speculate", tr: "spekülasyon yapmak", lv: "B2", ct: "fiiller", pr: "/ˈspɛkjʌˌleɪt/", ex: "They speculate every day.", exTr: "Her gün spekülasyon yapıyorlar." },
     { w: "residential", tr: "yerleşim", lv: "C1", ct: "sıfatlar", pr: "/ˌrɛzɪˈdɛnʃʌl/", ex: "Layla lived in a residential area.", exTr: "Layla bir yerleşim bölgesinde yaşıyordu." },
     { w: "whatsoever", tr: "ne olursa olsun", lv: "C1", ct: "fiiller", pr: "/ˌwʌtsoʊˈɛvɚ/", ex: "They whatsoever every day.", exTr: "Her gün ne olursa olsun." },
@@ -183,5 +183,5 @@ KELIMELER.push(
     { w: "rubber", tr: "lastik", lv: "B2", ct: "sıfatlar", pr: "/ˈrʌbɚ/", ex: "I have wads of rubber bands.", exTr: "Bir sürü lastik bantım var." },
     { w: "large", tr: "büyük", lv: "A2", ct: "sıfatlar", pr: "/ˈlɑrdʒ/", ex: "Examinations play a large part in education.", exTr: "Sınavların eğitimde büyük payı vardır." },
     { w: "very", tr: "çok", lv: "A2", ct: "fiiller", pr: "/ˈvɛri/", ex: "They very every day.", exTr: "Onlar her gün." },
-    { w: "raised", tr: "kabarık", lv: "B1", ct: "genel", pr: "/ˈreɪzd/", ex: "The store raised all the prices.", exTr: "Mağaza tüm fiyatları artırdı." },
+    { w: "raised", tr: "yükseltilmiş / büyütülmüş", lv: "B1", ct: "genel", pr: "/ˈreɪzd/", ex: "The store raised all the prices.", exTr: "Mağaza tüm fiyatları artırdı." },
 );

@@ -350,7 +350,7 @@ KELIMELER.push(
     { w: "willing", tr: "istekli / gönüllü / hazır", lv: "B1", ct: "sıfatlar", pr: "/ˈwɪl.ɪŋ/", ex: "I am willing to help.", exTr: "Yardım etmeye istekliyim." },
     { w: "wine", tr: "şarap", lv: "A2", ct: "yiyecek", pr: "/waɪn/", ex: "They drank red wine with dinner.", exTr: "Akşam yemeğinde kırmızı şarap içtiler." },
     { w: "wing", tr: "kanat / kanat (bina) / uçmak", lv: "A2", ct: "doğa", pr: "/wɪŋ/", ex: "The bird hurt its wing.", exTr: "Kuş kanadını yaraladı." },
-    { w: "wipe", tr: "silmek / silmek (temizlemek)", lv: "B1", ct: "genel", pr: "/waɪp/", ex: "Wipe the table after dinner.", exTr: "Akşam yemeğinden sonra masayı sil." },
+    { w: "wipe", tr: "silmek / temizlemek", lv: "B1", ct: "genel", pr: "/waɪp/", ex: "Wipe the table after dinner.", exTr: "Akşam yemeğinden sonra masayı sil." },
     { w: "wisdom", tr: "bilgelik / hikmet", lv: "C1", ct: "genel", pr: "/ˈwɪz.dəm/", ex: "With age comes wisdom.", exTr: "Yaşla birlikte bilgelik gelir." },
     { w: "wise", tr: "bilge / akıllıca", lv: "B1", ct: "sıfatlar", pr: "/waɪz/", ex: "It was a wise choice.", exTr: "Bu akıllıca bir seçimdi." },
     { w: "within", tr: "içinde / dahilinde", lv: "B1", ct: "genel", pr: "/wɪˈðɪn/", ex: "Please reply within a week.", exTr: "Lütfen bir hafta içinde cevapla." },

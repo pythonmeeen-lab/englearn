@@ -73,7 +73,7 @@ KELIMELER.push(
     { w: "open", tr: "açık", lv: "A2", ct: "sıfatlar", pr: "/ˈoʊpʌn/", ex: "Don't open before the train stops.", exTr: "Tren durmadan açmayın." },
     { w: "species", tr: "türler", lv: "B2", ct: "isimler", pr: "/ˈspiʃiz/", ex: "The tiger is a vanishing species.", exTr: "Kaplan nesli tükenmekte olan bir türdür." },
     { w: "successfully", tr: "başarıyla", lv: "B1", ct: "fiiller", pr: "/sʌˈksɛsfʌli/", ex: "They successfully every day.", exTr: "Her gün başarıyla çalışıyorlar." },
-    { w: "conclusion", tr: "çözüm", lv: "B1", ct: "isimler", pr: "/kʌˈnkluʒʌn/", ex: "What led you to this conclusion?", exTr: "Bu sonuca varmanıza ne sebep oldu?" },
+    { w: "conclusion", tr: "sonuç / çıkarım", lv: "B1", ct: "isimler", pr: "/kʌˈnkluʒʌn/", ex: "What led you to this conclusion?", exTr: "Bu sonuca varmanıza ne sebep oldu?" },
     { w: "amend", tr: "değiştirmek", lv: "C1", ct: "fiiller", pr: "/ʌˈmɛnd/", ex: "They amend every day.", exTr: "Her gün değiştiriyorlar." },
     { w: "growing", tr: "büyümek", lv: "B1", ct: "genel", pr: "/ˈɡroʊɪŋ/", ex: "A growing child requires more food.", exTr: "Büyüyen bir çocuğun daha fazla yiyeceğe ihtiyacı vardır." },
     { w: "damage", tr: "zarar", lv: "B1", ct: "isimler", pr: "/ˈdæmʌdʒ/", ex: "We are liable for the damage.", exTr: "Zarardan biz sorumluyuz." },

@@ -51,7 +51,7 @@ KELIMELER.push(
     { w: "stud", tr: "damızlık", lv: "B1", ct: "genel", pr: "/ˈstəd/", ex: "She came home with a stud in her nose.", exTr: "Eve burnunda damızlık ile geldi." },
     { w: "filmmaker", tr: "film yapımcısı", lv: "B2", ct: "isimler", pr: "/ˈfɪɫˌmeɪkɝ/", ex: "Michael Glawogger was an Austrian filmmaker who was well known for his documentary films.", exTr: "Michael Glawogger, belgesel filmleriyle tanınan Avusturyalı bir film yapımcısıydı." },
     { w: "chow", tr: "yemek", lv: "A2", ct: "genel", pr: "/ˈtʃaʊ/", ex: "As for me, I don't eat meat, so I ordered veg chow mein.", exTr: "Ben et yemem, bu yüzden sebze yemeği sipariş ettim." },
-    { w: "flush", tr: "floş", lv: "A2", ct: "genel", pr: "/ˈfɫəʃ/", ex: "Did you forget to flush the toilet?", exTr: "Tuvaletin sifonu çekmeyi mi unuttun?" },
+    { w: "flush", tr: "kızarmak / sifonu çekmek / floş", lv: "A2", ct: "genel", pr: "/ˈfɫəʃ/", ex: "Did you forget to flush the toilet?", exTr: "Tuvaletin sifonu çekmeyi mi unuttun?" },
     { w: "plaster", tr: "alçı", lv: "B1", ct: "isimler", pr: "/ˈpɫæstɝ/", ex: "Mom applied the plaster to the cut.", exTr: "Annem kesiğe alçıyı uyguladı." },
     { w: "toxin", tr: "toksin", lv: "B2", ct: "genel", pr: "/ˈtɑksən/", ex: "The neurological system is compromised by this toxin.", exTr: "Nörolojik sistem bu toksin tarafından tehlikeye atılır." },
     { w: "considerate", tr: "düşünceli", lv: "B1", ct: "fiiller", pr: "/kənˈsɪdɝət/", ex: "My friend Kei is beautiful, but she is not considerate to others.", exTr: "Arkadaşım Kei çok güzel ama başkalarına karşı düşünceli değil." },

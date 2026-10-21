@@ -149,7 +149,7 @@ KELIMELER.push(
     { w: "guidance", tr: "rehberlik", lv: "C1", ct: "isimler", pr: "/ˈɡaɪdʌns/", ex: "Tom looked to Mary for guidance.", exTr: "Tom rehberlik için Mary'ye baktı." },
     { w: "become", tr: "haline gelmek", lv: "A2", ct: "fiiller", pr: "/bɪˈkʌm/", ex: "They become every day.", exTr: "Her gün oluyorlar." },
     { w: "called", tr: "isminde", lv: "A2", ct: "genel", pr: "/ˈkɔld/", ex: "Meg called you during your absence.", exTr: "Meg yokluğunda seni aradı." },
-    { w: "wipe", tr: "silip süpürmek", lv: "C1", ct: "fiiller", pr: "/ˈwaɪp/", ex: "They wipe every day.", exTr: "Her gün siliyorlar." },
+    { w: "wipe", tr: "silmek / temizlemek", lv: "C1", ct: "fiiller", pr: "/ˈwaɪp/", ex: "They wipe every day.", exTr: "Her gün siliyorlar." },
     { w: "emerge", tr: "meydana gelmek", lv: "B2", ct: "fiiller", pr: "/ɪˈmɚdʒ/", ex: "They emerge every day.", exTr: "Her gün ortaya çıkıyorlar." },
     { w: "combat", tr: "dövüş", lv: "C1", ct: "isimler", pr: "/ˈkɑmbæt/", ex: "There is nothing like reality to combat illusions.", exTr: "İllüzyonlarla mücadele etmek için gerçeklik gibisi yoktur." },
     { w: "tiny", tr: "minik", lv: "B1", ct: "sıfatlar", pr: "/ˈtaɪni/", ex: "Tiny pets are in fashion now.", exTr: "Minik evcil hayvanlar artık moda." },

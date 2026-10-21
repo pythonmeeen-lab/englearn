@@ -293,7 +293,7 @@ KELIMELER.push(
     { w: "terminate", tr: "sona erdirmek", lv: "B2", ct: "fiiller", pr: "/ˈtɜː.mɪ.neɪt/", ex: "We terminated the contract.", exTr: "Sözleşmeyi sona erdirdik." },
     { w: "testify", tr: "tanıklık etmek", lv: "B2", ct: "fiiller", pr: "/ˈtes.tɪ.faɪ/", ex: "She testified in court.", exTr: "Mahkemede tanıklık etti." },
     { w: "thrive", tr: "gelişmek", lv: "B2", ct: "fiiller", pr: "/θraɪv/", ex: "The business thrived quickly.", exTr: "İş hızla gelişti." },
-    { w: "tolerate", tr: "tahammül etmek", lv: "B2", ct: "fiiller", pr: "/ˈtɒl.ər.eɪt/", ex: "Plants cannot tolerate frost.", exTr: "Bitkiler kırağıya dayanamaz." },
+    { w: "tolerate", tr: "hoşgörmek / tahammül etmek", lv: "B2", ct: "fiiller", pr: "/ˈtɒl.ər.eɪt/", ex: "Plants cannot tolerate frost.", exTr: "Bitkiler kırağıya dayanamaz." },
     { w: "trace", tr: "izini sürmek", lv: "B2", ct: "fiiller", pr: "/treɪs/", ex: "Trace the call's origin.", exTr: "Aramanın kaynağını takip et." },
     { w: "transform", tr: "dönüştürmek", lv: "B2", ct: "fiiller", pr: "/trænsˈfɔːm/", ex: "Technology transformed our lives.", exTr: "Teknoloji hayatımızı dönüştürdü." },
     { w: "transmit", tr: "iletmek (sinyal)", lv: "B2", ct: "fiiller", pr: "/trænzˈmɪt/", ex: "The tower transmits the signal.", exTr: "Kule sinyali iletir." },

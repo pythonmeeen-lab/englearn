@@ -87,7 +87,7 @@ KELIMELER.push(
     { w: "category", tr: "kategori", lv: "B2", ct: "akademik", pr: "/ˈkæt.ə.ɡər.i/", ex: "Sort the items by category.", exTr: "Eşyaları kategoriye göre sırala." },
     { w: "circumstance", tr: "koşul / durum", lv: "B2", ct: "akademik", pr: "/ˈsɜː.kəm.stɑːns/", ex: "We must adapt to the circumstances.", exTr: "Koşullara uyum sağlamalıyız." },
     { w: "concept", tr: "kavram", lv: "B2", ct: "akademik", pr: "/ˈkɒn.sept/", ex: "Freedom is a broad concept.", exTr: "Özgürlük geniş bir kavramdır." },
-    { w: "conclusion", tr: "sonuç", lv: "B2", ct: "akademik", pr: "/kənˈkluː.ʒən/", ex: "We reached a clear conclusion.", exTr: "Net bir sonuca vardık." },
+    { w: "conclusion", tr: "sonuç / çıkarım", lv: "B2", ct: "akademik", pr: "/kənˈkluː.ʒən/", ex: "We reached a clear conclusion.", exTr: "Net bir sonuca vardık." },
     { w: "consequence", tr: "sonuç / netice", lv: "B2", ct: "akademik", pr: "/ˈkɒn.sɪ.kwəns/", ex: "Think about the consequences.", exTr: "Sonuçlarını düşün." },
     { w: "criterion", tr: "ölçüt", lv: "B2", ct: "akademik", pr: "/kraɪˈtɪə.ri.ən/", ex: "Price is an important criterion.", exTr: "Fiyat önemli bir ölçüttür." },
     { w: "data", tr: "veri", lv: "B2", ct: "akademik", pr: "/ˈdeɪ.tə/", ex: "We collected data for the study.", exTr: "Çalışma için veri topladık." },

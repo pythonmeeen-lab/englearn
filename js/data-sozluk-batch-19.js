@@ -83,7 +83,7 @@ KELIMELER.push(
     { w: "shipment", tr: "sevkiyat", lv: "A2", ct: "isimler", pr: "/ˈʃɪpmənt/", ex: "The shipment was damaged by the rain.", exTr: "Yağmurdan dolayı kargo hasar gördü." },
     { w: "giraffe", tr: "zürafa", lv: "B2", ct: "genel", pr: "/dʒɝˈæf/", ex: "A giraffe extends its neck to get food.", exTr: "Zürafa yiyecek almak için boynunu uzatır." },
     { w: "meatloaf", tr: "köfte", lv: "C1", ct: "genel", pr: "/ˈmitɫoʊf/", ex: "Tom and I ate meatloaf for dinner.", exTr: "Tom ve ben akşam yemeğinde köfte yedik." },
-    { w: "wipe", tr: "silme", lv: "B1", ct: "fiiller", pr: "/ˈwaɪpɪŋ/", ex: "You're wiping your hands with a towel.", exTr: "Ellerinizi havluyla siliyorsunuz." },
+    { w: "wipe", tr: "silmek / temizlemek", lv: "B1", ct: "fiiller", pr: "/ˈwaɪpɪŋ/", ex: "You're wiping your hands with a towel.", exTr: "Ellerinizi havluyla siliyorsunuz." },
     { w: "analyze", tr: "analiz edildi", lv: "B2", ct: "fiiller", pr: "/ˈænəˌɫaɪzd/", ex: "The expert analyzed the statistics in detail.", exTr: "Uzman istatistikleri detaylı bir şekilde analiz etti." },
     { w: "populate", tr: "nüfuslu", lv: "C1", ct: "fiiller", pr: "/ˈpɑpjəˌɫeɪtɪd/", ex: "Which continent is the most populated one?", exTr: "En kalabalık kıta hangi kıtadır?" },
     { w: "gall", tr: "safra", lv: "B2", ct: "genel", pr: "/ˈɡɔɫ/", ex: "Even a nightingale isn't without its gall.", exTr: "Bir bülbül bile safrasından yoksun değildir." },

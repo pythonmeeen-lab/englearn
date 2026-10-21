@@ -189,7 +189,7 @@ KELIMELER.push(
     { w: "wire", tr: "kablolama", lv: "B2", ct: "fiiller", pr: "/ˈwaɪɹɪŋ/", ex: "The workers are wiring the new house.", exTr: "İşçiler yeni evin kablolarını çekiyor." },
     { w: "separate", tr: "ayıran", lv: "B2", ct: "fiiller", pr: "/ˈsɛpɝˌeɪtɪŋ/", ex: "English is one language separating two nations.", exTr: "İngilizce iki ulusu ayıran tek dildir." },
     { w: "muster", tr: "toplanma", lv: "B2", ct: "isimler", pr: "/ˈməstɝ/", ex: "I'm sure it'll work out, so muster your courage!", exTr: "Eminim işe yarayacaktır, o yüzden cesaretinizi toplayın!" },
-    { w: "appearances", tr: "görünüşe", lv: "B1", ct: "genel", pr: "/əˈpɪɹənsəz/", ex: "To all appearances, they don't study hard.", exTr: "Görünüşe göre çok fazla çalışmıyorlar." },
+    { w: "appearances", tr: "görünüşler", lv: "B1", ct: "genel", pr: "/əˈpɪɹənsəz/", ex: "To all appearances, they don't study hard.", exTr: "Görünüşe göre çok fazla çalışmıyorlar." },
     { w: "wimp", tr: "pısırık", lv: "B1", ct: "genel", pr: "/ˈwɪmp/", ex: "Tom was a wimp in high school.", exTr: "Tom lisede pısırık biriydi." },
     { w: "uncles", tr: "amcalar", lv: "B1", ct: "genel", pr: "/ˈəŋkəɫz/", ex: "Tom and John aren't really my uncles.", exTr: "Tom ve John aslında amcam değiller." },
     { w: "medic", tr: "doktor", lv: "B1", ct: "sıfatlar", pr: "/ˈmɛdɪk/", ex: "Everything I told my medic was true.", exTr: "Doktoruma söylediğim her şey doğruydu." },

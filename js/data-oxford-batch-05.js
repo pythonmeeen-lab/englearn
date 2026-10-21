@@ -52,7 +52,7 @@ KELIMELER.push(
     { w: "consider", tr: "dikkate almak", lv: "A2", ct: "fiiller", pr: "/kʌˈnsɪdɚ/", ex: "They consider every day.", exTr: "Her gün düşünüyorlar." },
     { w: "recreation", tr: "rekreasyon", lv: "B1", ct: "genel", pr: "/ˌrɛkriˈeɪʃʌn/", ex: "This park lends itself to recreation.", exTr: "Bu park rekreasyona uygundur." },
     { w: "friends", tr: "Arkadaşlar", lv: "A2", ct: "genel", pr: "/ˈfrɛndz/", ex: "Friends is very important.", exTr: "Arkadaşlar çok önemli." },
-    { w: "driven", tr: "tahrikli", lv: "B2", ct: "genel", pr: "/ˈdrɪvʌn/", ex: "We were driven to the wall.", exTr: "Duvara doğru sürüldük." },
+    { w: "driven", tr: "azimli / pürüten", lv: "B2", ct: "genel", pr: "/ˈdrɪvʌn/", ex: "We were driven to the wall.", exTr: "Duvara doğru sürüldük." },
     { w: "veteran", tr: "kıdemli", lv: "C1", ct: "isimler", pr: "/ˈvɛtɚʌn/", ex: "Tom is a disabled military veteran.", exTr: "Tom engelli bir askeri gazidir." },
     { w: "tempt", tr: "baştan çıkarmak", lv: "C1", ct: "fiiller", pr: "/ˈtɛmpt/", ex: "They tempt every day.", exTr: "Her gün kışkırtıyorlar." },
     { w: "objective", tr: "amaç", lv: "B2", ct: "sıfatlar", pr: "/ʌˈbdʒɛktɪv/", ex: "The objective of law is justice.", exTr: "Hukukun amacı adalettir." },

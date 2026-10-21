@@ -17,7 +17,7 @@ KELIMELER.push(
     { w: "withdraw", tr: "geri çekmek / çekilmek", lv: "C1", ct: "fiiller", pr: "/wɪðˈdrɔː/", ex: "She withdrew money from the bank.", exTr: "Bankadan para çekti." },
     { w: "withstand", tr: "dayanmak", lv: "C1", ct: "fiiller", pr: "/wɪðˈstænd/", ex: "The bridge withstood the storm.", exTr: "Köprü fırtınaya dayandı." },
     { w: "witness", tr: "tanık olmak", lv: "C1", ct: "fiiller", pr: "/ˈwɪt.nəs/", ex: "We witnessed a rare event.", exTr: "Nadir bir olaya tanık olduk." },
-    { w: "arise", tr: "ortaya çıkmak", lv: "C1", ct: "fiiller", pr: "/əˈraɪz/", ex: "New problems arose after the storm.", exTr: "Fırtınadan sonra yeni sorunlar ortaya çıktı." },
+    { w: "arise", tr: "ortaya çıkmak / meydana gelmek", lv: "C1", ct: "fiiller", pr: "/əˈraɪz/", ex: "New problems arose after the storm.", exTr: "Fırtınadan sonra yeni sorunlar ortaya çıktı." },
     { w: "ascend", tr: "yükselmek / yukarı çıkmak", lv: "C1", ct: "fiiller", pr: "/əˈsend/", ex: "We ascended the ancient stairs.", exTr: "Antik merdivenlerden yukarı çıktık." },
     { w: "aspire", tr: "arzulamak / hedeflemek", lv: "C1", ct: "fiiller", pr: "/əˈspaɪər/", ex: "She aspires to become a pilot.", exTr: "Pilot olmayı hedefliyor." },
     { w: "cherish", tr: "kıymet vermek", lv: "C1", ct: "fiiller", pr: "/ˈtʃer.ɪʃ/", ex: "I cherish these quiet moments.", exTr: "Bu sakin anlara kıymet veriyorum." },

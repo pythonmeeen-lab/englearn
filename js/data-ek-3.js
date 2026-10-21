@@ -126,7 +126,7 @@ KELIMELER.push(
     { w: "ignorance", tr: "cehalet / bilgisizlik", lv: "C1", ct: "genel", pr: "/ˈɪɡ.nər.əns/", ex: "His ignorance surprised me.", exTr: "Cehaleti beni şaşırttı." },
     { w: "illegal", tr: "yasa dışı", lv: "B1", ct: "hukuk", pr: "/ɪˈliː.ɡəl/", ex: "It is illegal to park here.", exTr: "Buraya park etmek yasa dışıdır." },
     { w: "illusion", tr: "yanılsama / yanılgı", lv: "C1", ct: "genel", pr: "/ɪˈluː.ʒən/", ex: "The mirror creates an illusion.", exTr: "Ayna bir yanılsama yaratır." },
-    { w: "image", tr: "imaj / görüntü", lv: "A2", ct: "genel", pr: "/ˈɪm.ɪdʒ/", ex: "The company cares about its image.", exTr: "Şirket imajına önem verir." },
+    { w: "image", tr: "görüntü / imaj / resim", lv: "A2", ct: "genel", pr: "/ˈɪm.ɪdʒ/", ex: "The company cares about its image.", exTr: "Şirket imajına önem verir." },
     { w: "imagination", tr: "hayal gücü", lv: "B1", ct: "genel", pr: "/ɪˌmædʒ.ɪˈneɪ.ʃən/", ex: "Children have great imagination.", exTr: "Çocukların büyük hayal gücü vardır." },
     { w: "immediate", tr: "acil / ani", lv: "B1", ct: "sıfatlar", pr: "/ɪˈmiː.di.ət/", ex: "We need an immediate answer.", exTr: "Derhal bir cevaba ihtiyacımız var." },
     { w: "immense", tr: "muazzam / uçsuz bucaksız", lv: "C1", ct: "sıfatlar", pr: "/ɪˈmens/", ex: "The desert is immense.", exTr: "Çöl uçsuz bucaksızdır." },

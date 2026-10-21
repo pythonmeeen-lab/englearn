@@ -91,7 +91,7 @@ KELIMELER.push(
     { w: "highland", tr: "yayla", lv: "C1", ct: "genel", pr: "/ˈhaɪɫənd/", ex: "The city lies on the border between the coastal area and the neighboring highland.", exTr: "Şehir, kıyı bölgesi ile komşu yayla arasındaki sınırda yer almaktadır." },
     { w: "muddy", tr: "çamurlu", lv: "B1", ct: "genel", pr: "/ˈmədi/", ex: "Your shoes need brushing. They are muddy.", exTr: "Ayakkabılarınızın fırçalanmaya ihtiyacı var. Çamurlular." },
     { w: "biker", tr: "motorcu", lv: "B2", ct: "isimler", pr: "/ˈbaɪkɝ/", ex: "Mennad tried to swerve into the biker.", exTr: "Mennad motorcuya doğru direksiyonu çevirmeye çalıştı." },
-    { w: "yearbook", tr: "yıllığı", lv: "B2", ct: "genel", pr: "/ˈjɪɹˌbʊk/", ex: "Tom wanted Mary to sign his yearbook.", exTr: "Tom Mary'nin yıllığını imzalamasını istedi." },
+    { w: "yearbook", tr: "yıllık", lv: "B2", ct: "genel", pr: "/ˈjɪɹˌbʊk/", ex: "Tom wanted Mary to sign his yearbook.", exTr: "Tom Mary'nin yıllığını imzalamasını istedi." },
     { w: "frown", tr: "kaşlarını çatmak", lv: "B2", ct: "genel", pr: "/ˈfɹaʊn/", ex: "A frown may express anger or displeasure.", exTr: "Kaşlarını çatmak öfkeyi veya hoşnutsuzluğu ifade edebilir." },
     { w: "doorstep", tr: "kapı eşiği", lv: "B1", ct: "genel", pr: "/ˈdɔɹˌstɛp/", ex: "Yanni met his neighbor at his doorstep.", exTr: "Yanni komşusuyla kapısının önünde buluştu." },
     { w: "rule", tr: "hüküm sürdü", lv: "A2", ct: "fiiller", pr: "/ˈɹuɫd/", ex: "Napoleon Bonaparte ruled France at that time.", exTr: "O dönemde Fransa'yı Napolyon Bonapart yönetiyordu." },

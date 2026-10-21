@@ -2,7 +2,7 @@
 // EngLearn — En Sık Kullanılan Fiiller (B2-C1 — Bölüm 20)
 // ==================================================
 KELIMELER.push(
-    { w: "tolerate", tr: "hoş görmek / tolere etmek", lv: "C1", ct: "fiiller", pr: "/ˈtɒl.ər.eɪt/", ex: "Plants tolerate dry conditions.", exTr: "Bitkiler kurak koşullara dayanır." },
+    { w: "tolerate", tr: "hoşgörmek / tahammül etmek", lv: "C1", ct: "fiiller", pr: "/ˈtɒl.ər.eɪt/", ex: "Plants tolerate dry conditions.", exTr: "Bitkiler kurak koşullara dayanır." },
     { w: "trace", tr: "izini sürmek", lv: "C1", ct: "fiiller", pr: "/ˈtreɪ.sɪŋ/", ex: "They are tracing the animal's route.", exTr: "Hayvanın rotasının izini sürüyorlar." },
     { w: "transform", tr: "dönüştürmek", lv: "B2", ct: "fiiller", pr: "/trænsˈfɔːm/", ex: "Solar panels transformed the town.", exTr: "Güneş panelleri kasabayı dönüştürdü." },
     { w: "transmit", tr: "iletmek / yaymak", lv: "C1", ct: "fiiller", pr: "/trænzˈmɪt/", ex: "The signal travels across the valley.", exTr: "Sinyal vadi boyunca yayılıyor." },
