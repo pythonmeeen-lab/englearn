@@ -14,7 +14,7 @@ KELIMELER.push(
     { w: "inn", tr: "han", lv: "A2", ct: "genel", pr: "/ˈɪn/", ex: "As it was late at night and I was very tired, I put up at an inn.", exTr: "Gece geç vakit olduğundan ve çok yorgun olduğumdan bir handa konakladım." },
     { w: "bison", tr: "bizon", lv: "C1", ct: "genel", pr: "/ˈbaɪsən/", ex: "The bison were stampeding across the plain.", exTr: "Bizonlar ovada koşuşuyordu." },
     { w: "eclipse", tr: "tutulma", lv: "B1", ct: "genel", pr: "/əˈkɫɪps/, /iˈkɫɪps/, /ɪˈkɫɪps/", ex: "Did you see yesterday's total lunar eclipse?", exTr: "Dünkü tam ay tutulmasını gördünüz mü?" },
-    { w: "curt", tr: "kısa", lv: "B2", ct: "genel", pr: "/ˈkɝt/", ex: "Don't you think it's rude to give people such a curt reply like that?", exTr: "İnsanlara bu kadar sert bir cevap vermenin kabalık olduğunu düşünmüyor musun?" },
+    { w: "curt", tr: "kısa ve ters / nezaketsiz", lv: "B2", ct: "genel", pr: "/ˈkɝt/", ex: "Don't you think it's rude to give people such a curt reply like that?", exTr: "İnsanlara bu kadar sert bir cevap vermenin kabalık olduğunu düşünmüyor musun?" },
     { w: "meatball", tr: "köfte", lv: "B2", ct: "genel", pr: "/ˈmitˌbɔɫ/", ex: "He stuck a meatball with his fork.", exTr: "Çatalıyla bir köfte sapladı." },
     { w: "tow", tr: "çekici", lv: "B1", ct: "genel", pr: "/ˈtoʊ/", ex: "The policeman didn't tow your car away.", exTr: "Polis arabanı çekmedi." },
     { w: "junkyard", tr: "hurdalık", lv: "C1", ct: "genel", pr: "/ˈdʒəŋˌkjɑɹd/", ex: "He found this bicycle in a junkyard.", exTr: "Bu bisikleti hurdalıkta buldu." },

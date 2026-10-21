@@ -155,7 +155,7 @@ KELIMELER.push(
     { w: "grizzly", tr: "boz", lv: "B2", ct: "zarflar", pr: "/ˈɡɹɪzɫi/", ex: "Tom was attacked by a grizzly bear.", exTr: "Tom bir boz ayı tarafından saldırıya uğradı." },
 
     { w: "auspicious", tr: "hayırlı", lv: "B1", ct: "sıfatlar", pr: "/ɑˈspɪʃəs/", ex: "His own debut would be far less auspicious.", exTr: "Kendi çıkışı çok daha az hayırlı olurdu." },
-    { w: "wally", tr: "duvar gibi", lv: "A2", ct: "zarflar", pr: "/ˈweɪɫi/, /ˈwɔɫi/", ex: "Who's the wally who's chucked his socks in the loo?", exTr: "Çoraplarını tuvalete fırlatan zavallı kim?" },
+    { w: "wally", tr: "ahmak (argo)", lv: "A2", ct: "zarflar", pr: "/ˈweɪɫi/, /ˈwɔɫi/", ex: "Who's the wally who's chucked his socks in the loo?", exTr: "Çoraplarını tuvalete fırlatan zavallı kim?" },
     { w: "dom", tr: "ev", lv: "A2", ct: "genel", pr: "/ˈdɑm/", ex: "They perform at Theatro Dom Pedro II all week.", exTr: "Bütün hafta Theatro Dom Pedro II'de sahne alıyorlar." },
     { w: "abuse", tr: "istismar edilmiş", lv: "A2", ct: "fiiller", pr: "/əbˈjuzd/", ex: "Tom frequently abused his wife and children.", exTr: "Tom sık sık karısını ve çocuklarını istismar etti." },
     { w: "ivory", tr: "fildişi", lv: "B1", ct: "genel", pr: "/ˈaɪvɝi/, /ˈaɪvɹi/", ex: "Elephant tusks are made out of ivory.", exTr: "Fil dişleri fildişinden yapılmıştır." },

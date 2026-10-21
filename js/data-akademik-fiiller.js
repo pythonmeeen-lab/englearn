@@ -18,7 +18,7 @@
         { w: "adopt", tr: "benimsemek", lv: "B2" },
         { w: "advocate", tr: "savunmak", lv: "B2" },
         { w: "affect", tr: "etkilemek", lv: "B2" },
-        { w: "aggregate", tr: "bir araya getirmek / toplamak", lv: "C1" },
+        { w: "aggregate", tr: "toplam / toplamak", lv: "C1" },
         { w: "allocate", tr: "tahsis etmek", lv: "B2" },
         { w: "alter", tr: "değiştirmek", lv: "B2" },
         { w: "amplify", tr: "güçlendirmek / genişletmek", lv: "B2" },

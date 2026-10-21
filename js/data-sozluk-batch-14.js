@@ -220,7 +220,7 @@ KELIMELER.push(
     { w: "tallest", tr: "en uzun", lv: "C1", ct: "genel", pr: "/ˈtɔɫɪst/", ex: "Mike is the tallest of the three.", exTr: "Mike üçü arasında en uzun olanı." },
     { w: "goddess", tr: "tanrıça", lv: "A2", ct: "genel", pr: "/ˈɡɑdəs/", ex: "Selene is the goddess of the moon.", exTr: "Selene ay tanrıçasıdır." },
     { w: "implicate", tr: "karışmış", lv: "C1", ct: "fiiller", pr: "/ˈɪmpɫɪˌkeɪtɪd/", ex: "Yanni's kids implicated him in the crime.", exTr: "Yanni'nin çocukları onu suça karıştırdı." },
-    { w: "contemplate", tr: "düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈkɑntəmˌpɫeɪtɪŋ/", ex: "She is contemplating visiting Europe this summer.", exTr: "Bu yaz Avrupa'yı ziyaret etmeyi düşünüyor." },
+    { w: "contemplate", tr: "derinlemesine düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈkɑntəmˌpɫeɪtɪŋ/", ex: "She is contemplating visiting Europe this summer.", exTr: "Bu yaz Avrupa'yı ziyaret etmeyi düşünüyor." },
     { w: "brewery", tr: "bira fabrikası", lv: "C1", ct: "genel", pr: "/ˈbɹuɝi/", ex: "It smells like a brewery in here.", exTr: "Burası bira fabrikası gibi kokuyor." },
     { w: "haystack", tr: "saman yığını", lv: "B2", ct: "genel", pr: "/ˈheɪˌstæk/", ex: "That's like finding a needle in a haystack.", exTr: "Samanlıkta iğne aramak gibi bir şey bu." },
     { w: "fruitcake", tr: "meyveli kek", lv: "C1", ct: "genel", pr: "/ˈfɹutˌkeɪk/", ex: "He is as nutty as a fruitcake.", exTr: "O bir meyveli kek kadar çılgındır." },

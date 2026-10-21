@@ -10,7 +10,7 @@ KELIMELER.push(
     { w: "confront", tr: "yüzleşmek / karşı karşıya kalmak", lv: "C1", ct: "fiiller", pr: "/kənˈfrʌnt/", ex: "We must confront the problem.", exTr: "Sorunla yüzleşmeliyiz." },
     { w: "consolidate", tr: "sağlamlaştırmak", lv: "C1", ct: "fiiller", pr: "/kənˈsɒl.ɪ.deɪt/", ex: "They consolidated their position.", exTr: "Konumlarını sağlamlaştırdılar." },
     { w: "constitute", tr: "oluşturmak / meydana getirmek", lv: "C1", ct: "fiiller", pr: "/ˈkɒn.stɪ.tʃuːt/", ex: "Women constitute half of the team.", exTr: "Kadınlar ekibin yarısını oluşturur." },
-    { w: "contemplate", tr: "derin düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈkɒn.təm.pleɪt/", ex: "He contemplated the future.", exTr: "Geleceği derinlemesine düşündü." },
+    { w: "contemplate", tr: "derinlemesine düşünmek", lv: "C1", ct: "fiiller", pr: "/ˈkɒn.təm.pleɪt/", ex: "He contemplated the future.", exTr: "Geleceği derinlemesine düşündü." },
     { w: "contradict", tr: "çelişmek / karşı çıkmak", lv: "C1", ct: "fiiller", pr: "/ˌkɒn.trəˈdɪkt/", ex: "His words contradict his actions.", exTr: "Sözleri eylemleriyle çelişiyor." },
     { w: "contribute", tr: "katkıda bulunmak", lv: "C1", ct: "fiiller", pr: "/kənˈtrɪb.juːt/", ex: "Everyone contributed to the project.", exTr: "Herkes projeye katkıda bulundu." },
     { w: "correlate", tr: "ilişkilendirmek", lv: "C1", ct: "fiiller", pr: "/ˈkɒr.ə.leɪt/", ex: "Stress correlates with poor sleep.", exTr: "Stres kötü uykuyla ilişkilidir." },

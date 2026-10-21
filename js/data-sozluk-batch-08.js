@@ -257,7 +257,7 @@ KELIMELER.push(
     { w: "stag", tr: "geyik", lv: "B2", ct: "genel", pr: "/ˈstæɡ/", ex: "The stag beetle disappeared into the sky.", exTr: "Geyik böceği gökyüzünde kayboldu." },
     { w: "unwind", tr: "gevşemek", lv: "C1", ct: "genel", pr: "/ənˈwaɪnd/", ex: "Yanni played on his laptop to unwind.", exTr: "Yanni rahatlamak için dizüstü bilgisayarında oyun oynadı." },
     { w: "stir", tr: "karıştırılmış", lv: "B2", ct: "fiiller", pr: "/ˈstɝd/", ex: "She stirred the milk into her coffee.", exTr: "Sütü kahvesine karıştırdı." },
-    { w: "endure", tr: "dayanıklı", lv: "C1", ct: "fiiller", pr: "/ɛnˈdjʊɹɪŋ/, /ɪnˈdʊɹɪŋ/", ex: "Parts of Scandinavia are enduring scorching temperatures.", exTr: "İskandinavya'nın bazı kısımları kavurucu sıcaklıklara dayanıyor." },
+    { w: "endure", tr: "dayanmak / katlanmak", lv: "C1", ct: "fiiller", pr: "/ɛnˈdjʊɹɪŋ/, /ɪnˈdʊɹɪŋ/", ex: "Parts of Scandinavia are enduring scorching temperatures.", exTr: "İskandinavya'nın bazı kısımları kavurucu sıcaklıklara dayanıyor." },
     { w: "dress", tr: "soyunma", lv: "A2", ct: "fiiller", pr: "/ˈdɹɛsɪŋ/", ex: "I want Italian dressing on my salad.", exTr: "Salatamda İtalyan sosu istiyorum." },
     { w: "cabbage", tr: "lahana", lv: "B1", ct: "genel", pr: "/ˈkæbədʒ/, /ˈkæbɪdʒ/", ex: "What's the difference between cabbage and lettuce?", exTr: "Lahana ve marul arasındaki fark nedir?" },
     { w: "secretly", tr: "gizlice", lv: "A2", ct: "zarflar", pr: "/ˈsikɹɪtɫi/", ex: "The FBI secretly bugged the mobster's hangout.", exTr: "FBI, gangsterin takıldığı yeri gizlice dinledi." },

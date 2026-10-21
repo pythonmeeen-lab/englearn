@@ -126,7 +126,7 @@ KELIMELER.push(
     { w: "treasures", tr: "hazineler", lv: "B1", ct: "genel", pr: "/ˈtɹɛʒɝz/", ex: "It's rumoured there are treasures hidden there.", exTr: "Orada hazinelerin saklandığı söyleniyor." },
     { w: "commune", tr: "komün", lv: "B2", ct: "genel", pr: "/ˈkɑmjun/, /kəmˈjun/", ex: "Tom and Mary lived in a commune.", exTr: "Tom ve Mary bir komünde yaşadılar." },
     { w: "gosh", tr: "Tanrım", lv: "A2", ct: "genel", pr: "/ˈɡɑʃ/", ex: "Oh my gosh. I will be late for lessons.", exTr: "Aman Tanrım. Derslere geç kalacağım." },
-    { w: "conditioner", tr: "Saç Kremi", lv: "B2", ct: "isimler", pr: "/kənˈdɪʃənɝ/", ex: "The air conditioner makes too much noise.", exTr: "Klima çok fazla ses çıkarıyor." },
+    { w: "conditioner", tr: "saç kremi / klima", lv: "B2", ct: "isimler", pr: "/kənˈdɪʃənɝ/", ex: "The air conditioner makes too much noise.", exTr: "Klima çok fazla ses çıkarıyor." },
     { w: "propose", tr: "teklif etmek", lv: "B1", ct: "fiiller", pr: "/pɹəˈpoʊzɪŋ/", ex: "Are you proposing, knowing that this won't be my first marriage?", exTr: "Bunun benim ilk evliliğim olmayacağını bilerek mi evlenme teklif ediyorsun?" },
     { w: "mumbling", tr: "mırıldanma", lv: "A2", ct: "isimler", pr: "/ˈməmbəɫɪŋ/, /ˈməmbɫɪŋ/", ex: "He started mumbling again and I could barely understand him.", exTr: "Tekrar mırıldanmaya başladı ve onu zar zor anlayabiliyordum." },
     { w: "princes", tr: "prensler", lv: "B1", ct: "genel", pr: "/ˈpɹɪnsəz/, /ˈpɹɪnsɪz/", ex: "Unfortunately, princes don't tend to be handsome.", exTr: "Ne yazık ki prensler yakışıklı olma eğiliminde değiller." },

@@ -22,7 +22,7 @@ KELIMELER.push(
     { w: "taco", tr: "tako", lv: "B1", ct: "genel", pr: "/ˈtɑkoʊ/", ex: "She always shows up for taco Tuesdays.", exTr: "Her zaman salı günleri taco'ya gelir." },
     { w: "thrill", tr: "heyecan", lv: "A2", ct: "genel", pr: "/ˈθɹɪɫ/", ex: "It's always a thrill to play with you.", exTr: "Seninle oynamak her zaman heyecan verici." },
     { w: "bipolar", tr: "iki kutuplu", lv: "C1", ct: "genel", pr: "/baɪˈpoʊɫɝ/", ex: "Tom has been diagnosed with bipolar disorder.", exTr: "Tom'a bipolar bozukluk teşhisi konuldu." },
-    { w: "mindy", tr: "akıllı", lv: "B1", ct: "genel", pr: "/ˈmɪndi/", ex: "'Mindy, talk to Zara about Esperanto.' 'Okay, I will.'", exTr: "'Mindy, Zara ile Esperanto hakkında konuş.' 'Tamam, yapacağım.'" },
+
     { w: "comma", tr: "virgül", lv: "C1", ct: "genel", pr: "/ˈkɑmə/", ex: "In another paragraph, he put in a comma.", exTr: "Başka bir paragrafta virgül koymuş." },
     { w: "kitty", tr: "kedicik", lv: "A2", ct: "genel", pr: "/ˈkɪti/", ex: "I want a Hello Kitty pencil board.", exTr: "Hello Kitty kalem tahtası istiyorum." },
     { w: "uranium", tr: "uranyum", lv: "B1", ct: "genel", pr: "/jɝˈeɪniəm/", ex: "Actinium-227 is a decay product of uranium-235.", exTr: "Aktinyum-227, uranyum-235'in bozunma ürünüdür." },

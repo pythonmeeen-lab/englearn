@@ -124,7 +124,7 @@ KELIMELER.push(
     { w: "empower", tr: "güçlendirmek (yetki)", lv: "B2", ct: "fiiller", pr: "/ɪmˈpaʊ.ər/", ex: "Education empowers people.", exTr: "Eğitim insanları güçlendirir." },
     { w: "enact", tr: "yasalaştırmak", lv: "B2", ct: "fiiller", pr: "/ɪˈnækt/", ex: "The state enacted a new law.", exTr: "Devlet yeni bir yasa çıkardı." },
     { w: "endorse", tr: "onaylamak (desteklemek)", lv: "B2", ct: "fiiller", pr: "/ɪnˈdɔːs/", ex: "The mayor endorsed the project.", exTr: "Belediye başkanı projeyi onayladı." },
-    { w: "endure", tr: "dayanmak", lv: "B2", ct: "fiiller", pr: "/ɪnˈdjʊər/", ex: "They endured the harsh winter.", exTr: "Sert kışa dayandılar." },
+    { w: "endure", tr: "dayanmak / katlanmak", lv: "B2", ct: "fiiller", pr: "/ɪnˈdjʊər/", ex: "They endured the harsh winter.", exTr: "Sert kışa dayandılar." },
     { w: "enforce", tr: "uygulamak (yasa)", lv: "B2", ct: "fiiller", pr: "/ɪnˈfɔːs/", ex: "The police enforce the rules.", exTr: "Polis kuralları uygular." },
     { w: "enhance", tr: "artırmak / güzelleştirmek", lv: "B2", ct: "fiiller", pr: "/ɪnˈhɑːns/", ex: "New lights enhance the room.", exTr: "Yeni ışıklar odayı güzelleştiriyor." },
     { w: "envision", tr: "tasavvur etmek", lv: "B2", ct: "fiiller", pr: "/ɪnˈvɪʒ.ən/", ex: "Envision the final result.", exTr: "Final sonucunu tasavvur et." },

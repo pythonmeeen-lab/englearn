@@ -143,7 +143,7 @@ KELIMELER.push(
     { w: "anybody", tr: "herhangi biri", lv: "A2", ct: "isimler", pr: "/ˈɛnibʌdi/", ex: "There wasn't anybody in the house.", exTr: "Evde kimse yoktu." },
     { w: "advertisement", tr: "reklamcılık", lv: "A2", ct: "isimler", pr: "/æˈdvɚtʌzmʌnt/", ex: "The job advertisement specifically requested females.", exTr: "İş ilanı özellikle kadınları talep ediyordu." },
     { w: "string", tr: "sicim", lv: "B1", ct: "isimler", pr: "/ˈstrɪŋ/", ex: "Pull the string and the water flushes.", exTr: "İpi çekin ve su akacaktır." },
-    { w: "lib", tr: "kitap", lv: "B1", ct: "genel", pr: "/ˈlɪb/", ex: "She played a part in the women's lib movement.", exTr: "Kadın özgürlüğü hareketinde rol oynadı." },
+    { w: "lib", tr: "kütüphane (kıs.)", lv: "B1", ct: "genel", pr: "/ˈlɪb/", ex: "She played a part in the women's lib movement.", exTr: "Kadın özgürlüğü hareketinde rol oynadı." },
     { w: "acquire", tr: "elde etmek", lv: "B2", ct: "fiiller", pr: "/ʌˈkwaɪɚ/", ex: "They acquire every day.", exTr: "Her gün kazanıyorlar." },
     { w: "downstairs", tr: "alt katta", lv: "A2", ct: "fiiller", pr: "/ˈdaʊˈnstɛrz/", ex: "They downstairs every day.", exTr: "Her gün aşağıya iniyorlar." },
     { w: "outlook", tr: "görünüm", lv: "C1", ct: "isimler", pr: "/ˈaʊˌtlʊk/", ex: "The outlook for our business isn't good.", exTr: "İşimizin görünümü iyi değil." },

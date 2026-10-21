@@ -247,7 +247,7 @@ KELIMELER.push(
     { w: "cripple", tr: "sakat", lv: "B1", ct: "genel", pr: "/ˈkɹɪpəɫ/", ex: "When Ziri called Rima a cripple, well... you can guess what she did.", exTr: "Ziri, Rima'ya sakat dediğinde ne yaptığını tahmin edebilirsin." },
     { w: "luxurious", tr: "lüks", lv: "B2", ct: "sıfatlar", pr: "/ɫəɡˈʒɝiəs/", ex: "Thank you sincerely for the luxurious present.", exTr: "Bu lüks hediye için içtenlikle teşekkür ederim." },
     { w: "sprung", tr: "yaylı", lv: "B2", ct: "genel", pr: "/ˈspɹəŋ/", ex: "Our raft sprung a leak and we barely made it ashore.", exTr: "Salımızda bir sızıntı oluştu ve kıyıya zar zor ulaşabildik." },
-    { w: "fag", tr: "ibne", lv: "A2", ct: "genel", pr: "/ˈfæɡ/", ex: "Now we're at the fag end of the year.", exTr: "Artık yılın sonuna geldik." },
+    { w: "fag", tr: "sigara (İng.) / ibne (aşağılayıcı)", lv: "A2", ct: "genel", pr: "/ˈfæɡ/", ex: "Now we're at the fag end of the year.", exTr: "Artık yılın sonuna geldik." },
     { w: "repaid", tr: "geri ödenmiş", lv: "C1", ct: "genel", pr: "/ɹiˈpeɪd/", ex: "I think that he repaid the money.", exTr: "Sanırım parayı geri ödedi." },
     { w: "primal", tr: "ilkel", lv: "C1", ct: "sıfatlar", pr: "/ˈpɹaɪməɫ/", ex: "There's a certain primal joy in building a fire.", exTr: "Ateş yakmanın belli bir ilkel neşesi var." },
     { w: "dictatorship", tr: "diktatörlük", lv: "B2", ct: "isimler", pr: "/dɪkˈteɪtɝˌʃɪp/", ex: "Democracy is the dictatorship of the majority.", exTr: "Demokrasi çoğunluğun diktatörlüğüdür." },

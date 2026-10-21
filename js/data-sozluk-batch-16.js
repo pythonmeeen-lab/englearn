@@ -144,7 +144,7 @@ KELIMELER.push(
     { w: "woe", tr: "yazık", lv: "B1", ct: "genel", pr: "/ˈwoʊ/", ex: "Woe to those who presume that they are destined to ‘enlighten’ others, not themselves!", exTr: "Yazıklar olsun kendilerinin değil, başkalarını ‘aydınlatmanın’ kaderlerinde olduğunu sananların!" },
     { w: "raisin", tr: "kuru üzüm", lv: "C1", ct: "genel", pr: "/ˈɹeɪzɪn/", ex: "He sprinkled raisin on top of the couscous.", exTr: "Kuskusun üzerine kuru üzüm serpti." },
     { w: "canoe", tr: "kano", lv: "B2", ct: "genel", pr: "/kəˈnu/", ex: "We went down a river by canoe.", exTr: "Kanoyla nehrin aşağısına gittik." },
-    { w: "justine", tr: "adalet", lv: "B1", ct: "genel", pr: "/dʒəˈstin/", ex: "Justine made short work of her opponents in her own personal variant of chess.", exTr: "Justine satrancın kendi kişisel versiyonunda rakipleriyle ilgili kısa bir çalışma yaptı." },
+
     { w: "coroner", tr: "adli tabip", lv: "A2", ct: "isimler", pr: "/ˈkɔɹənɝ/", ex: "The coroner couldn't say for sure how Tom died.", exTr: "Adli tabip Tom'un nasıl öldüğünü kesin olarak söyleyemedi." },
     { w: "circumstantial", tr: "ikinci dereceden", lv: "B2", ct: "sıfatlar", pr: "/ˌsɝkəmˈstænʃəɫ/", ex: "The evidence was circumstantial.", exTr: "Kanıtlar ikinci dereceydi." },
     { w: "mascara", tr: "maskara", lv: "C1", ct: "genel", pr: "/mæˈskɛɹə/", ex: "Her lashes were painted with dark mascara.", exTr: "Kirpikleri koyu renkli maskarayla boyanmıştı." },

@@ -11,7 +11,7 @@ KELIMELER.push(
     { w: "adverse", tr: "olumsuz / ters", lv: "C1", ct: "sıfatlar", pr: "/ˈæd.vɜːs/", ex: "The drug had adverse effects.", exTr: "İlacın olumsuz etkileri oldu." },
     { w: "aesthetic", tr: "estetik", lv: "C1", ct: "sıfatlar", pr: "/iːsˈθet.ɪk/", ex: "The design has aesthetic value.", exTr: "Tasarımın estetik değeri var." },
     { w: "affiliate", tr: "bağlı kuruluş", lv: "C1", ct: "iş", pr: "/əˈfɪl.i.ət/", ex: "The school is an affiliate of the university.", exTr: "Okul üniversiteye bağlı bir kuruluştur." },
-    { w: "aggregate", tr: "toplam / toplam", lv: "C1", ct: "genel", pr: "/ˈæɡ.rɪ.ɡət/", ex: "The aggregate score was high.", exTr: "Toplam skor yüksekti." },
+    { w: "aggregate", tr: "toplam / toplamak", lv: "C1", ct: "genel", pr: "/ˈæɡ.rɪ.ɡət/", ex: "The aggregate score was high.", exTr: "Toplam skor yüksekti." },
     { w: "alienate", tr: "yabancılaştırmak", lv: "C1", ct: "duygular", pr: "/ˈeɪ.li.ə.neɪt/", ex: "His behaviour alienated his friends.", exTr: "Davranışı arkadaşlarını yabancılaştırdı." },
     { w: "ample", tr: "bol / geniş", lv: "C1", ct: "sıfatlar", pr: "/ˈæm.pəl/", ex: "There is ample space here.", exTr: "Burada bol alan var." },
     { w: "anonymous", tr: "anonim / isimsiz", lv: "B2", ct: "sıfatlar", pr: "/əˈnɒn.ɪ.məs/", ex: "The letter was anonymous.", exTr: "Mektup anonimdi." },
