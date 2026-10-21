@@ -101,7 +101,7 @@ KELIMELER.push(
     { w: "boil", tr: "kaynamak", lv: "A2", ct: "fiiller", pr: "/ˈbɔɪl/", ex: "They boil every day.", exTr: "Her gün kaynatıyorlar." },
     { w: "get", tr: "almak / ulaşmak / elde etmek", lv: "A2", ct: "fiiller", pr: "/ˈɡɛt/", ex: "They get every day.", exTr: "Her gün alıyorlar." },
     { w: "infect", tr: "bulaştırmak / enfekte etmek", lv: "C1", ct: "fiiller", pr: "/ˌɪˈnfɛkt/", ex: "They infect every day.", exTr: "Her gün bulaşıyorlar." },
-    { w: "downwards", tr: "aşağı doğru", lv: "B2", ct: "fiiller", pr: "/ˈdaʊnwɚdz/", ex: "They downwards every day.", exTr: "Her gün aşağıya doğru gidiyorlar." },
+    { w: "downwards", tr: "aşağı doğru", lv: "B2", ct: "zarflar", pr: "/ˈdaʊnwɚdz/", ex: "They downwards every day.", exTr: "Her gün aşağıya doğru gidiyorlar." },
     { w: "bake", tr: "fırında pişirmek / pişirmek", lv: "B1", ct: "fiiller", pr: "/ˈbeɪk/", ex: "They bake every day.", exTr: "Her gün pişiriyorlar." },
     { w: "contemporary", tr: "modern", lv: "B2", ct: "sıfatlar", pr: "/kʌˈntɛmpɚˌɛri/", ex: "Scott was a contemporary of Byron.", exTr: "Scott, Byron'ın çağdaşıydı." },
     { w: "related", tr: "ilgili", lv: "B1", ct: "sıfatlar", pr: "/rɪˈleɪtɪd/", ex: "Kuniko is related to Mr Nagai.", exTr: "Kuniko, Bay Nagai'nin akrabasıdır." },

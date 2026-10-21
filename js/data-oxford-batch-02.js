@@ -89,7 +89,7 @@ KELIMELER.push(
     { w: "politician", tr: "politikacı", lv: "B1", ct: "isimler", pr: "/ˌpɑlʌˈtɪʃʌn/", ex: "Mr. White is a liberal politician.", exTr: "Bay White liberal bir politikacıdır." },
     { w: "strict", tr: "sıkı", lv: "B2", ct: "sıfatlar", pr: "/ˈstrɪkt/", ex: "Scott received a very strict education.", exTr: "Scott çok sıkı bir eğitim aldı." },
     { w: "await", tr: "beklemek", lv: "C1", ct: "fiiller", pr: "/ʌˈweɪt/", ex: "They await every day.", exTr: "Her gün bekliyorlar." },
-    { w: "upwards", tr: "yukarı", lv: "B2", ct: "fiiller", pr: "/ˈʌpwɚdz/", ex: "They upwards every day.", exTr: "Her gün yukarıya doğru çıkıyorlar." },
+    { w: "upwards", tr: "yukarı", lv: "B2", ct: "zarflar", pr: "/ˈʌpwɚdz/", ex: "They upwards every day.", exTr: "Her gün yukarıya doğru çıkıyorlar." },
     { w: "genre", tr: "tür", lv: "B2", ct: "isimler", pr: "/ˈʒɑnrʌ/", ex: "What's your favourite video game genre?", exTr: "En sevdiğiniz video oyunu türü nedir?" },
     { w: "for", tr: "için", lv: "A2", ct: "genel", pr: "/ˈfɔr/", ex: "Don't expect others to think for you!", exTr: "Başkalarının sizin yerinize düşünmesini beklemeyin!" },
     { w: "stylish", tr: "şık", lv: "C1", ct: "genel", pr: "/ˈstaɪlɪʃ/", ex: "She's beautiful, stylish and well-educated.", exTr: "O güzel, şık ve iyi eğitimli." },

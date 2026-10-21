@@ -103,7 +103,7 @@ KELIMELER.push(
     { w: "solely", tr: "sadece", lv: "C1", ct: "fiiller", pr: "/ˈsoʊʌli/", ex: "They solely every day.", exTr: "Onlar sadece her gün." },
     { w: "current", tr: "akım", lv: "B1", ct: "sıfatlar", pr: "/ˈkɚʌnt/", ex: "The current is rapid around here.", exTr: "Burada akıntı çok hızlı." },
     { w: "goodbye", tr: "hoşça kal / güle güle", lv: "A2", ct: "genel", pr: "/ˌɡʊˈdbaɪ/", ex: "Goodbye is very important.", exTr: "Veda çok önemlidir." },
-    { w: "indoors", tr: "kapalı alanda / içeride", lv: "B1", ct: "fiiller", pr: "/ˈɪˌndɔrz/", ex: "They indoors every day.", exTr: "Her gün içerideler." },
+    { w: "indoors", tr: "kapalı alanda / içeride", lv: "B1", ct: "zarflar", pr: "/ˈɪˌndɔrz/", ex: "They indoors every day.", exTr: "Her gün içerideler." },
 
     { w: "chart", tr: "çizelge / grafik / grafikle göstermek", lv: "A2", ct: "isimler", pr: "/ˈtʃɑrt/", ex: "I've been going over Tom's chart.", exTr: "Tom'un haritasının üzerinden geçiyordum." },
     { w: "sadly", tr: "ne yazık ki", lv: "A2", ct: "fiiller", pr: "/ˈsædli/", ex: "They sadly every day.", exTr: "Ne yazık ki her gün." },
@@ -135,7 +135,7 @@ KELIMELER.push(
     { w: "handle", tr: "başa çıkmak / ele almak / tutamak", lv: "B2", ct: "isimler", pr: "/ˈhændʌl/", ex: "It's hard to handle crying babies.", exTr: "Ağlayan bebeklerle baş etmek zordur." },
     { w: "mention", tr: "değinmek", lv: "A2", ct: "fiiller", pr: "/ˈmɛnʃʌn/", ex: "They mention every day.", exTr: "Her gün bahsediyorlar." },
     { w: "altogether", tr: "tamamen", lv: "B2", ct: "fiiller", pr: "/ˌɔltʌˈɡɛðɚ/", ex: "They altogether every day.", exTr: "Hepsi her gün." },
-    { w: "backwards", tr: "geriye doğru", lv: "B1", ct: "fiiller", pr: "/ˈbækwɚdz/", ex: "They backwards every day.", exTr: "Her gün geriye gidiyorlar." },
+    { w: "backwards", tr: "geriye doğru", lv: "B1", ct: "zarflar", pr: "/ˈbækwɚdz/", ex: "They backwards every day.", exTr: "Her gün geriye gidiyorlar." },
     { w: "frequently", tr: "sıklıkla", lv: "B1", ct: "fiiller", pr: "/ˈfrikwʌntli/", ex: "They frequently every day.", exTr: "Her gün sıklıkla." },
     { w: "apart", tr: "ayrı", lv: "B1", ct: "fiiller", pr: "/ʌˈpɑrt/", ex: "They apart every day.", exTr: "Her gün birbirlerinden ayrılıyorlar." },
     { w: "obsess", tr: "takıntı yapmak / kafaya takmak", lv: "C1", ct: "fiiller", pr: "/ʌˈbsɛs/", ex: "They obsess every day.", exTr: "Her gün takıntı yapıyorlar." },
