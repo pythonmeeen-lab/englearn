@@ -10,6 +10,7 @@ const DUZENSIZ_FIILLER = [
     { v1: "beat", v2: "beat", v3: "beaten", tr: "yenmek/vurmak" },
     { v1: "become", v2: "became", v3: "become", tr: "olmak (hâline gelmek)" },
     { v1: "begin", v2: "began", v3: "begun", tr: "başlamak" },
+    { v1: "bid", v2: "bid", v3: "bid/bidden", tr: "teklif vermek / emretmek" },
     { v1: "bind", v2: "bound", v3: "bound", tr: "bağlamak / ciltlemek" },
     { v1: "bite", v2: "bit", v3: "bitten", tr: "ısırmak" },
     { v1: "bleed", v2: "bled", v3: "bled", tr: "kanamak / kanatmak" },
