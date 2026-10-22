@@ -164,6 +164,9 @@ const DUZENSIZ_FIILLER = [
     { v1: "wear", v2: "wore", v3: "worn", tr: "giymek" },
     { v1: "weave", v2: "wove", v3: "woven", tr: "dokumak / örmek" },
     { v1: "weep", v2: "wept", v3: "wept", tr: "ağlamak / gözyaşı dökmek" },
+    { v1: "withdraw", v2: "withdrew", v3: "withdrawn", tr: "geri çekilmek / para çekmek" },
+    { v1: "withhold", v2: "withheld", v3: "withheld", tr: "alıkoymak / esirgemek" },
+    { v1: "withstand", v2: "withstood", v3: "withstood", tr: "dayanmak / göğüs germek" },
     { v1: "win", v2: "won", v3: "won", tr: "kazanmak" },
     { v1: "wring", v2: "wrung", v3: "wrung", tr: "sıkmak / bükmek" },
     { v1: "write", v2: "wrote", v3: "written", tr: "yazmak" }
