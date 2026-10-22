@@ -1816,7 +1816,11 @@ select:focus {
 }
 
 [data-theme="dark"] .sozluk-arama {
-    color: var(--beyaz);
+    color: #f8fafc;              /* koyu zeminde net görünen açık yazı */
+    caret-color: #c4b5fd;        /* imleç mor */
+}
+[data-theme="dark"] .sozluk-arama::placeholder {
+    color: #94a3b8;
 }
 
 #btn-sozluk-temizle {
