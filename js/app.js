@@ -790,7 +790,7 @@ const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'co
 const FIIL_CIFTLE_L = new Set(['cancel', 'counsel', 'dial', 'distil', 'enamel', 'enrol', 'equal', 'fuel', 'initial', 'label', 'marvel', 'model', 'panel', 'patrol', 'pencil', 'quarrel', 'signal', 'travel', 'tunnel', 'worship']);
 const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
 // Fiil olmayan ama "fiiller" kategorisine düşmüş kelimeler (V2/V3 gösterilmez)
-const FIIL_NONVERB = new Set(['altogether', 'bloodshed', 'born', 'deathbed', 'either', 'even', 'ever', 'forever', 'however', 'infrared', 'later', 'moreover', 'often', 'over', 'rather', 'somewhat', 'thereafter', 'under', 'whatsoever', 'why']);
+const FIIL_NONVERB = new Set(['altogether', 'bloodshed', 'born', 'deathbed', 'either', 'even', 'ever', 'forever', 'however', 'infrared', 'later', 'might', 'moreover', 'often', 'over', 'rather', 'somewhat', 'thereafter', 'under', 'whatsoever', 'why']);
 // Çok kelimeli fiiller (phrasal / kalıp): çekim fiil gövdesine yapılır
 // -ed/-ing ile biten gerçek fiil kökleri (diğerleri çekimli biçimdir, V2 gösterilmez)
 const FIIL_ED_KOK = new Set(['embed', 'exceed', 'heed', 'need', 'proceed', 'succeed', 'shred', 'sled', 'ting', 'wed']);
