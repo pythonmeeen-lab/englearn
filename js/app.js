@@ -780,13 +780,26 @@ const KartUygulamasi = {
 /* ==================================================
    FİİL ÇEKİMLERİ (V2 / V3 / -ing) gösterimi
    ================================================== */
+const FIIL_MODAL = {
+    can: ['could', '—'], may: ['might', '—'], shall: ['should', '—'],
+    will: ['would', '—'], must: ['must', '—'], cannot: ['could not', '—']
+};
+// Son hecesi vurgulu olduğu için son ünsüzü çiftlenen fiiller
+const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'concur', 'confer', 'control', 'defer', 'demur', 'dispel', 'embed', 'emit', 'equip', 'excel', 'expel', 'fulfil', 'impel', 'incur', 'infer', 'instil', 'kidnap', 'occur', 'offset', 'omit', 'overlap', 'permit', 'prefer', 'propel', 'rebel', 'refer', 'regret', 'remit', 'repel', 'retrofit', 'submit', 'transfer', 'transmit', 'upset', 'zigzag']);
+// -l ile biten çok heceli fiiller (BrE yazımı)
+const FIIL_CIFTLE_L = new Set(['cancel', 'counsel', 'dial', 'distil', 'enamel', 'enrol', 'equal', 'fuel', 'initial', 'label', 'marvel', 'model', 'panel', 'patrol', 'pencil', 'quarrel', 'signal', 'travel', 'tunnel', 'worship']);
+const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
+// Fiil olmayan ama "fiiller" kategorisine düşmüş kelimeler (V2/V3 gösterilmez)
+const FIIL_NONVERB = new Set(['altogether', 'bloodshed', 'deathbed', 'either', 'even', 'ever', 'forever', 'however', 'infrared', 'later', 'moreover', 'often', 'over', 'rather', 'somewhat', 'thereafter', 'under', 'whatsoever']);
 const FiilCekim = {
     ingYap(w) {
         w = w.toLowerCase();
         if (w === 'be') return 'being';
+        if (FIIL_CKLI.test(w)) return w + 'king';
         if (w.endsWith('ie')) return w.slice(0, -2) + 'ying';
-        if (w.endsWith('e') && !w.endsWith('ee')) return w.slice(0, -1) + 'ing';
-        if (/[^aeiou][aeiou][^aeiouwxy]$/.test(w)) return w + w.slice(-1) + 'ing';
+        if (w.endsWith('ee') || w.endsWith('ye') || w.endsWith('oe')) return w + 'ing';
+        if (w.endsWith('e')) return w.slice(0, -1) + 'ing';
+        if (this.ciftlenir(w)) return w + w.slice(-1) + 'ing';
         return w + 'ing';
     },
     duzenli(w) {
