@@ -7,16 +7,16 @@
 //   - Dış kaynaklar (font/TTS)-> sadece ağ
 // ==================================================
 
-const SURUM = 'englearn-v15';
+const SURUM = 'englearn-v16';
 const ONBELLEK = `onbellek-${SURUM}`;
 
 // index.html ve anasayfa.html bu stil/skriptleri sürüm parametresiyle istiyor.
 // Kabuk listesi parametresiz yazılmıştı; bu yüzden tek bir istekle bile
 // eşleşmeyip boşa önbellekleme yapıyordu. Artık aynı URL'yi kullanıyoruz.
-const S = '?v=50';
-const C = '?v=50';
-const N = '?v=50';
-const K = '?v=50';
+const S = '?v=64';
+const C = '?v=64';
+const N = '?v=64';
+const K = '?v=64';
 
 // Kabuk dosyaları (ilk kurulumda önbelleğe alınır)
 const KABUK = [

@@ -802,18 +802,28 @@ const FiilCekim = {
         if (this.ciftlenir(w)) return w + w.slice(-1) + 'ing';
         return w + 'ing';
     },
+    ciftlenir(w) {
+        const e = w.toLowerCase();
+        if (FIIL_CIFTLE.has(e) || FIIL_CIFTLE_L.has(e)) return true;
+        if (!/[^aeiou][aeiou][^aeiouwxy]$/.test(e)) return false;
+        // Yalnızca tek heceli fiillerde (plan -> planned)
+        return (e.match(/[aeiou]+/g) || []).length === 1;
+    },
     duzenli(w) {
         const e = w.toLowerCase();
+        if (FIIL_MODAL[e]) return { v2: FIIL_MODAL[e][0], v3: FIIL_MODAL[e][1] };
+        if (FIIL_CKLI.test(e)) return { v2: e + 'cked', v3: e + 'cked' };
         if (e.endsWith('e')) return { v2: e + 'd', v3: e + 'd' };
         if (/[^aeiou]y$/.test(e)) return { v2: e.slice(0, -1) + 'ied', v3: e.slice(0, -1) + 'ied' };
-        if (/[^aeiou][aeiou][^aeiouwxy]$/.test(e)) { const d = e.slice(-1); return { v2: e + d + 'ed', v3: e + d + 'ed' }; }
+        if (this.ciftlenir(e)) { const d = e.slice(-1); return { v2: e + d + 'ed', v3: e + d + 'ed' }; }
         return { v2: e + 'ed', v3: e + 'ed' };
     },
     metin(k) {
         if (!k || !k.w) return '';
         const ir = (typeof DUZENSIZ_FIILLER !== 'undefined')
             ? DUZENSIZ_FIILLER.find((f) => f.v1.toLowerCase() === k.w.toLowerCase()) : null;
-        if (k.ct !== 'fiiller' && !ir) return '';
+        if (k.ct !== 'fiiller' && k.ct !== 'akademik fiiller' && !ir) return '';
+        if (FIIL_NONVERB.has(k.w.toLowerCase()) && !ir) return '';
         let v2, v3;
         if (ir) { v2 = ir.v2; v3 = ir.v3; }
         else { const d = this.duzenli(k.w); v2 = d.v2; v3 = d.v3; }
