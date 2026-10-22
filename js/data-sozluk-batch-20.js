@@ -125,7 +125,7 @@ KELIMELER.push(
     { w: "whoop", tr: "bağırma / nara", lv: "B1", ct: "genel", pr: "/ˈhwup/, /ˈwup/", ex: "Tom let out a whoop of delight.", exTr: "Tom sevinçle bir çığlık attı." },
     { w: "nauseous", tr: "mide bulandırıcı", lv: "B2", ct: "sıfatlar", pr: "/ˈnɔʃəs/", ex: "Mary said she felt dizzy and nauseous.", exTr: "Mary başının döndüğünü ve midesinin bulandığını söyledi." },
     { w: "freighter", tr: "yük gemisi", lv: "B2", ct: "isimler", pr: "/ˈfɹeɪtɝ/", ex: "Tom used to be a freighter captain.", exTr: "Tom eskiden bir yük gemisi kaptanıydı." },
-    { w: "compromise", tr: "uzlaşma / uzlaşmak", lv: "B2", ct: "fiiller", pr: "/ˈkɑmpɹəˌmaɪzɪŋ/", ex: "I think you should consider compromising with Tom.", exTr: "Tom'la uzlaşmayı düşünmen gerektiğini düşünüyorum." },
+    { w: "compromise", tr: "uzlaşma / uzlaşmak / tehlikeye atmak / zedelemek", lv: "B2", ct: "fiiller", pr: "/ˈkɑmpɹəˌmaɪzɪŋ/", ex: "I think you should consider compromising with Tom.", exTr: "Tom'la uzlaşmayı düşünmen gerektiğini düşünüyorum." },
     { w: "harass", tr: "taciz etmek", lv: "B1", ct: "fiiller", pr: "/hɝˈæsɪŋ/", ex: "Sami was harassing Layla on the Internet.", exTr: "Sami, Leyla'yı internette taciz ediyordu." },
     { w: "worship", tr: "tapmak / ibadet etmek / tapınma", lv: "B2", ct: "fiiller", pr: "/ˈwɝʃəpt/", ex: "Ancient people worshipped many gods and goddesses.", exTr: "Eski insanlar birçok tanrı ve tanrıçaya tapıyorlardı." },
     { w: "buckle", tr: "toka", lv: "B1", ct: "genel", pr: "/ˈbəkəɫ/", ex: "In these times of crisis, many people have to buckle down.", exTr: "Bu kriz zamanlarında birçok insan diz çökmek zorunda kalıyor." },

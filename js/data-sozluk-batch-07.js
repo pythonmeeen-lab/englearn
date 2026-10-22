@@ -36,7 +36,7 @@ KELIMELER.push(
     { w: "discourage", tr: "cesaretini kırmak / vazgeçirmek", lv: "B2", ct: "fiiller", pr: "/dɪˈskɝədʒd/, /dɪˈskɝɪdʒd/", ex: "The rain discouraged us from going out.", exTr: "Yağmur dışarı çıkmamızı engelledi." },
     { w: "believable", tr: "inandırıcı", lv: "B2", ct: "sıfatlar", pr: "/bəˈɫivəbəɫ/", ex: "His story is strange, but it's believable.", exTr: "Hikayesi tuhaf ama inandırıcı." },
     { w: "monstrous", tr: "canavarca", lv: "B1", ct: "sıfatlar", pr: "/ˈmɑnstɹəs/", ex: "The prisoners were treated with monstrous cruelty.", exTr: "Mahkumlara korkunç bir zulüm uygulandı." },
-    { w: "compromise", tr: "uzlaşma / uzlaşmak", lv: "A2", ct: "fiiller", pr: "/ˈkɑmpɹəˌmaɪzd/", ex: "I compromised with her on the point.", exTr: "Bu konuda onunla uzlaştım." },
+    { w: "compromise", tr: "uzlaşma / uzlaşmak / tehlikeye atmak / zedelemek", lv: "A2", ct: "fiiller", pr: "/ˈkɑmpɹəˌmaɪzd/", ex: "I compromised with her on the point.", exTr: "Bu konuda onunla uzlaştım." },
     { w: "janitor", tr: "hademe", lv: "A2", ct: "isimler", pr: "/ˈdʒænətɝ/", ex: "Don't ask me. I'm just the janitor.", exTr: "Bana sorma. Ben sadece temizlikçiyim." },
     { w: "treacherous", tr: "hain", lv: "B1", ct: "sıfatlar", pr: "/ˈtɹɛtʃɝəs/", ex: "Treacherous fire, bring relief to my torment.", exTr: "Hain ateş, azabımı hafiflet." },
     { w: "chopper", tr: "helikopter", lv: "A2", ct: "isimler", pr: "/ˈtʃɑpɝ/", ex: "The chopper rushed Tom to the hospital.", exTr: "Helikopter Tom'u hastaneye götürdü." },

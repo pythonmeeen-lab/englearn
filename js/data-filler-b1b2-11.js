@@ -19,7 +19,7 @@ KELIMELER.push(
     { w: "struggle", tr: "çabalamak / mücadele etmek", lv: "B2", ct: "fiiller", pr: "/ˈstrʌɡ.əl/", ex: "They struggled against the current.", exTr: "Akıntıya karşı mücadele ettiler." },
     { w: "succeed", tr: "başarmak", lv: "B1", ct: "fiiller", pr: "/səkˈsiːd/", ex: "She succeeded in finishing first.", exTr: "İlk bitirmeyi başardı." },
     { w: "suffer", tr: "acı çekmek", lv: "B1", ct: "fiiller", pr: "/ˈsʌf.ər/", ex: "Many people suffer from stress.", exTr: "Birçok insan stresten muzdarip." },
-    { w: "supply", tr: "tedarik etmek", lv: "B2", ct: "fiiller", pr: "/səˈplaɪ/", ex: "The firm supplies local shops.", exTr: "Firma yerel dükkanlara tedarik sağlar." },
+    { w: "supply", tr: "tedarik etmek / sağlamak / arz / tedarik", lv: "B2", ct: "fiiller", pr: "/səˈplaɪ/", ex: "The firm supplies local shops.", exTr: "Firma yerel dükkanlara tedarik sağlar." },
     { w: "suppose", tr: "varsaymak / sanmak", lv: "B2", ct: "fiiller", pr: "/səˈpəʊz/", ex: "Suppose the train is late.", exTr: "Trenin geciktiğini varsay." },
     { w: "survey", tr: "anket / incelemek", lv: "B2", ct: "fiiller", pr: "/səˈveɪ/", ex: "They surveyed local residents.", exTr: "Yerel sakinlere anket yaptılar." },
     { w: "survive", tr: "hayatta kalmak / atlatmak", lv: "B2", ct: "fiiller", pr: "/səˈvaɪv/", ex: "The birds survived the winter.", exTr: "Kuşlar kışı atlattı." },

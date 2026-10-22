@@ -20,7 +20,7 @@ KELIMELER.push(
     { w: "clarify", tr: "netleştirmek / açıklamak", lv: "B2", ct: "fiiller", pr: "/ˈklær.ɪ.faɪ/", ex: "Let me clarify the situation.", exTr: "Durumu netleştireyim." },
     { w: "combine", tr: "birleştirmek", lv: "B2", ct: "fiiller", pr: "/kəmˈbaɪn/", ex: "Combine the ingredients in a bowl.", exTr: "Malzemeleri bir kapta birleştir." },
     { w: "comprehend", tr: "anlamak / kavramak", lv: "B2", ct: "fiiller", pr: "/ˌkɒm.prɪˈhend/", ex: "It is hard to comprehend the theory.", exTr: "Teoriyi kavramak zor." },
-    { w: "compromise", tr: "uzlaşma / uzlaşmak", lv: "B2", ct: "fiiller", pr: "/ˈkɒm.prə.maɪz/", ex: "They compromised on the price.", exTr: "Fiyat konusunda uzlaştılar." },
+    { w: "compromise", tr: "uzlaşma / uzlaşmak / tehlikeye atmak / zedelemek", lv: "B2", ct: "fiiller", pr: "/ˈkɒm.prə.maɪz/", ex: "They compromised on the price.", exTr: "Fiyat konusunda uzlaştılar." },
     { w: "concede", tr: "kabul etmek / teslim olmak", lv: "B2", ct: "fiiller", pr: "/kənˈsiːd/", ex: "He conceded that he was wrong.", exTr: "Hatalı olduğunu kabul etti." },
     { w: "confirm", tr: "doğrulamak / onaylamak / teyit etmek", lv: "B2", ct: "fiiller", pr: "/kənˈfɜːm/", ex: "Please confirm your reservation.", exTr: "Lütfen rezervasyonunu onayla." },
     { w: "confront", tr: "yüzleşmek", lv: "B2", ct: "fiiller", pr: "/kənˈfrʌnt/", ex: "We must confront the problem.", exTr: "Sorunla yüzleşmeliyiz." },

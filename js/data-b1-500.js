@@ -88,7 +88,7 @@ KELIMELER.push(
     { w: "solve", tr: "çözmek", lv: "B1", ct: "fiiller", pr: "/sɒlv/", ex: "We solved the mystery.", exTr: "Gizemi çözdük." },
     { w: "succeed", tr: "başarılı olmak", lv: "B1", ct: "fiiller", pr: "/səkˈsiːd/", ex: "They succeeded in the exam.", exTr: "Sınavda başarılı oldular." },
     { w: "support", tr: "desteklemek / destek", lv: "B1", ct: "fiiller", pr: "/səˈpɔːt/", ex: "The fans support the home team.", exTr: "Taraftarlar ev sahibi takımı destekliyor." },
-    { w: "supply", tr: "tedarik etmek", lv: "B1", ct: "fiiller", pr: "/səˈplaɪ/", ex: "The shop supplies fresh fruit.", exTr: "Dükkan taze meyve tedarik ediyor." },
+    { w: "supply", tr: "tedarik etmek / sağlamak / arz / tedarik", lv: "B1", ct: "fiiller", pr: "/səˈplaɪ/", ex: "The shop supplies fresh fruit.", exTr: "Dükkan taze meyve tedarik ediyor." },
     { w: "suggest", tr: "önermek", lv: "B1", ct: "fiiller", pr: "/səˈdʒest/", ex: "I suggest a short break.", exTr: "Kısa bir mola öneriyorum." },
     { w: "survive", tr: "hayatta kalmak / atlatmak", lv: "B1", ct: "fiiller", pr: "/səˈvaɪv/", ex: "Few plants survive the drought.", exTr: "Birkaç bitki kuraklığa dayanır." },
     { w: "transfer", tr: "aktarmak / transfer", lv: "B1", ct: "fiiller", pr: "/trænsˈfɜːr/", ex: "Transfer the money to my account.", exTr: "Parayı hesabıma aktar." },
