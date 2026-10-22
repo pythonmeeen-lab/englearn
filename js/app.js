@@ -791,6 +791,26 @@ const FIIL_CIFTLE_L = new Set(['cancel', 'counsel', 'dial', 'distil', 'enamel', 
 const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
 // Fiil olmayan ama "fiiller" kategorisine düşmüş kelimeler (V2/V3 gösterilmez)
 const FIIL_NONVERB = new Set(['altogether', 'bloodshed', 'deathbed', 'either', 'even', 'ever', 'forever', 'however', 'infrared', 'later', 'moreover', 'often', 'over', 'rather', 'somewhat', 'thereafter', 'under', 'whatsoever']);
+// Çok kelimeli fiiller (phrasal / kalıp): çekim fiil gövdesine yapılır
+const FIIL_OZEL = {
+    'turn on': ['turned on', 'turned on', 'turning on'],
+    'turn off': ['turned off', 'turned off', 'turning off'],
+    'look for': ['looked for', 'looked for', 'looking for'],
+    'lose weight': ['lost weight', 'lost weight', 'losing weight'],
+    'pass away': ['passed away', 'passed away', 'passing away'],
+    'sell out': ['sold out', 'sold out', 'selling out'],
+    'shake hands': ['shook hands', 'shaken hands', 'shaking hands'],
+    'spend time': ['spent time', 'spent time', 'spending time'],
+    'succeed in': ['succeeded in', 'succeeded in', 'succeeding in'],
+    'travel by air': ['travelled by air', 'travelled by air', 'travelling by air'],
+    'settle for': ['settled for', 'settled for', 'settling for'],
+    'expand on': ['expanded on', 'expanded on', 'expanding on'],
+    'grow up': ['grew up', 'grown up', 'growing up'],
+    'root for': ['rooted for', 'rooted for', 'rooting for'],
+    'have to': ['had to', 'had to', 'having to'],
+    'roughly estimate': ['roughly estimated', 'roughly estimated', 'roughly estimating'],
+    'barely see': ['barely saw', 'barely seen', 'barely seeing']
+};
 const FiilCekim = {
     ingYap(w) {
         w = w.toLowerCase();
