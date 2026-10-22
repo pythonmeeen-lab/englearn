@@ -48,6 +48,7 @@ KELIMELER.push(
     { w: "experience", tr: "deneyim / tecrübe / deneyimlemek", lv: "A2", ct: "isimler", pr: "/ɪkˈspɪə.ri.əns/", ex: "She has years of teaching experience.", exTr: "Yıllarca öğretmenlik deneyimi var." },
     { w: "adventure", tr: "macera", lv: "A2", ct: "isimler", pr: "/ədˈven.tʃər/", ex: "The trip was a real adventure.", exTr: "Gezi gerçek bir maceraydı." },
     { w: "achievement", tr: "başarı", lv: "B2", ct: "isimler", pr: "/əˈtʃiːv.mənt/", ex: "Winning the prize was a great achievement.", exTr: "Ödülü kazanmak büyük bir başarıydı." },
+    { w: "credential", tr: "yeterlilik belgesi / referans; (bilgisayarda) kimlik bilgisi", lv: "C1", ct: "isimler", pr: "/krɪˈden.ʃəl/", ex: "The job requires strong academic credentials.", exTr: "İş, güçlü akademik referanslar gerektiriyor." },
     { w: "advice", tr: "tavsiye", lv: "A2", ct: "isimler", pr: "/ədˈvaɪs/", ex: "Let me give you some advice.", exTr: "Sana biraz tavsiye vereyim." },
     { w: "century", tr: "yüzyıl", lv: "B1", ct: "tarih", pr: "/ˈsen.tʃər.i/", ex: "The castle is from the fifteenth century.", exTr: "Kale on beşinci yüzyıldan kalma." },
     { w: "customer", tr: "müşteri", lv: "B1", ct: "iş", pr: "/ˈkʌs.tə.mər/", ex: "The customer is always right.", exTr: "Müşteri her zaman haklıdır." },
