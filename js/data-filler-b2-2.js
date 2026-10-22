@@ -25,6 +25,6 @@ KELIMELER.push(
     { w: "cooperate", tr: "iş birliği yapmak", lv: "B2", ct: "fiiller", pr: "/kəʊˈɒp.ər.eɪt/", ex: "The teams cooperated well.", exTr: "Ekipler iyi iş birliği yaptı." },
     { w: "defend", tr: "savunmak", lv: "B2", ct: "fiiller", pr: "/dɪˈfend/", ex: "They defended their city bravely.", exTr: "Şehirlerini cesurca savundular." },
     { w: "define", tr: "tanımlamak", lv: "B2", ct: "fiiller", pr: "/dɪˈfaɪn/", ex: "Define this word in English.", exTr: "Bu sözcüğü İngilizce tanımla." },
-    { w: "deliver", tr: "teslim etmek", lv: "B2", ct: "fiiller", pr: "/dɪˈlɪv.ər/", ex: "The courier delivered the parcel.", exTr: "Kurye paketi teslim etti." },
+    { w: "deliver", tr: "teslim etmek / ulaştırmak / dağıtmak / doğurtmak / sunmak (konuşma)", lv: "B2", ct: "fiiller", pr: "/dɪˈlɪv.ər/", ex: "The courier delivered the parcel.", exTr: "Kurye paketi teslim etti." },
     { w: "deny", tr: "inkâr etmek / reddetmek", lv: "B2", ct: "fiiller", pr: "/dɪˈnaɪ/", ex: "He denied breaking the vase.", exTr: "Vazoyu kırdığını inkar etti." }
 );

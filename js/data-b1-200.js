@@ -18,7 +18,7 @@ KELIMELER.push(
     { w: "create", tr: "yaratmak", lv: "B1", ct: "fiiller", pr: "/kriˈeɪt/", ex: "The artist creates beautiful paintings.", exTr: "Sanatçı güzel resimler yaratıyor." },
     { w: "decide", tr: "karar vermek", lv: "B1", ct: "fiiller", pr: "/dɪˈsaɪd/", ex: "We decided to stay at home.", exTr: "Evde kalmaya karar verdik." },
     { w: "decrease", tr: "azalmak / azaltmak", lv: "B1", ct: "fiiller", pr: "/dɪˈkriːs/", ex: "The number of visitors decreased.", exTr: "Ziyaretçi sayısı azaldı." },
-    { w: "deliver", tr: "teslim etmek", lv: "B1", ct: "fiiller", pr: "/dɪˈlɪv.ər/", ex: "The package was delivered this morning.", exTr: "Paket bu sabah teslim edildi." },
+    { w: "deliver", tr: "teslim etmek / ulaştırmak / dağıtmak / doğurtmak / sunmak (konuşma)", lv: "B1", ct: "fiiller", pr: "/dɪˈlɪv.ər/", ex: "The package was delivered this morning.", exTr: "Paket bu sabah teslim edildi." },
     { w: "describe", tr: "tanımlamak / betimlemek / tarif etmek", lv: "B1", ct: "fiiller", pr: "/dɪˈskraɪb/", ex: "Can you describe the thief?", exTr: "Hırsızı tanımlayabilir misin?" },
     { w: "develop", tr: "geliştirmek", lv: "B1", ct: "fiiller", pr: "/dɪˈvel.əp/", ex: "The company develops new software.", exTr: "Şirket yeni yazılımlar geliştiriyor." },
     { w: "disappear", tr: "kaybolmak", lv: "B1", ct: "fiiller", pr: "/ˌdɪs.əˈpɪər/", ex: "The sun disappeared behind the clouds.", exTr: "Güneş bulutların arkasında kayboldu." },
