@@ -6,7 +6,9 @@
     var LISTE = [
         { w: 'investigation', tr: 'araştırma / soruşturma / inceleme', lv: 'B1', ct: 'isimler' },
         { w: 'ongoing', tr: 'devam eden / süren / süregelen', lv: 'B2', ct: 'sıfatlar' },
-        { w: 'retirement', tr: 'emeklilik / emeklilik dönemi', lv: 'B1', ct: 'isimler' }
+        { w: 'retirement', tr: 'emeklilik / emeklilik dönemi', lv: 'B1', ct: 'isimler' },
+        { w: 'sense of', tr: '…duygusu / …hissi (ör. sense of humor = mizah duygusu)', lv: 'B1', ct: 'ifadeler' },
+        { w: 'sense of humor', tr: 'mizah duygusu', lv: 'B1', ct: 'ifadeler' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
