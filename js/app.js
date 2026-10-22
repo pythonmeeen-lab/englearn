@@ -785,7 +785,7 @@ const FIIL_MODAL = {
     will: ['would', '—'], must: ['must', '—'], cannot: ['could not', '—']
 };
 // Son hecesi vurgulu olduğu için son ünsüzü çiftlenen fiiller
-const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'concur', 'confer', 'control', 'defer', 'demur', 'dispel', 'embed', 'emit', 'equip', 'excel', 'expel', 'fulfil', 'handicap', 'impel', 'incur', 'infer', 'instil', 'kidnap', 'occur', 'offset', 'omit', 'overlap', 'permit', 'prefer', 'propel', 'rebel', 'refer', 'regret', 'remit', 'repel', 'retrofit', 'submit', 'transfer', 'transmit', 'upset', 'zigzag']);
+const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'concur', 'confer', 'control', 'defer', 'demur', 'dispel', 'embed', 'emit', 'equip', 'excel', 'expel', 'fulfil', 'handicap', 'impel', 'incur', 'infer', 'instil', 'kidnap', 'occur', 'omit', 'overlap', 'permit', 'prefer', 'propel', 'rebel', 'refer', 'regret', 'remit', 'repel', 'retrofit', 'submit', 'transfer', 'transmit', 'upset', 'zigzag']);
 // -l ile biten çok heceli fiiller (BrE yazımı)
 const FIIL_CIFTLE_L = new Set(['cancel', 'counsel', 'dial', 'distil', 'enamel', 'enrol', 'equal', 'fuel', 'initial', 'label', 'marvel', 'model', 'panel', 'patrol', 'pencil', 'quarrel', 'signal', 'travel', 'tunnel', 'worship']);
 const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
