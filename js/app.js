@@ -841,8 +841,11 @@ const FiilCekim = {
     },
     metin(k) {
         if (!k || !k.w) return '';
+        const oz = FIIL_OZEL[k.w.toLowerCase()];
+        if (oz) return `Geçmiş (V2): <b>${oz[0]}</b> · Participle (V3): <b>${oz[1]}</b> · Şimdiki (-ing): <b>${oz[2]}</b>`;
         const ir = (typeof DUZENSIZ_FIILLER !== 'undefined')
             ? DUZENSIZ_FIILLER.find((f) => f.v1.toLowerCase() === k.w.toLowerCase()) : null;
+        if (k.w.trim().includes(' ') && !ir) return '';
         if (k.ct !== 'fiiller' && k.ct !== 'akademik fiiller' && !ir) return '';
         if (FIIL_NONVERB.has(k.w.toLowerCase()) && !ir) return '';
         let v2, v3;
