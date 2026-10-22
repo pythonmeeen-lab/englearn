@@ -102,6 +102,7 @@ const DUZENSIZ_FIILLER = [
     { v1: "put", v2: "put", v3: "put", tr: "koymak" },
     { v1: "quit", v2: "quit", v3: "quit", tr: "bırakmak/ayrılmak" },
     { v1: "read", v2: "read", v3: "read", tr: "okumak" },
+    { v1: "recast", v2: "recast", v3: "recast", tr: "yeniden dökmek / değiştirmek" },
     { v1: "rebuild", v2: "rebuilt", v3: "rebuilt", tr: "yeniden inşa etmek" },
     { v1: "rid", v2: "rid", v3: "rid", tr: "kurtarmak / başından savmak" },
     { v1: "ride", v2: "rode", v3: "ridden", tr: "binmek" },
