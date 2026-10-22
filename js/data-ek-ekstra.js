@@ -8,7 +8,8 @@
         { w: 'ongoing', tr: 'devam eden / süren / süregelen', lv: 'B2', ct: 'sıfatlar' },
         { w: 'retirement', tr: 'emeklilik / emeklilik dönemi', lv: 'B1', ct: 'isimler' },
         { w: 'sense of', tr: '…duygusu / …hissi (ör. sense of humor = mizah duygusu)', lv: 'B1', ct: 'ifadeler' },
-        { w: 'sense of humor', tr: 'mizah duygusu', lv: 'B1', ct: 'ifadeler' }
+        { w: 'sense of humor', tr: 'mizah duygusu', lv: 'B1', ct: 'ifadeler' },
+        { w: 'several', tr: 'birkaç / birçok / çeşitli', lv: 'A2', ct: 'sıfatlar' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
