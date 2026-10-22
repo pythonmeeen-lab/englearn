@@ -785,7 +785,7 @@ const FIIL_MODAL = {
     will: ['would', '—'], must: ['must', '—'], cannot: ['could not', '—']
 };
 // Son hecesi vurgulu olduğu için son ünsüzü çiftlenen fiiller
-const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'concur', 'confer', 'control', 'defer', 'demur', 'dispel', 'embed', 'emit', 'equip', 'excel', 'expel', 'fulfil', 'impel', 'incur', 'infer', 'instil', 'kidnap', 'occur', 'offset', 'omit', 'overlap', 'permit', 'prefer', 'propel', 'rebel', 'refer', 'regret', 'remit', 'repel', 'retrofit', 'submit', 'transfer', 'transmit', 'upset', 'zigzag']);
+const FIIL_CIFTLE = new Set(['acquit', 'admit', 'allot', 'commit', 'compel', 'concur', 'confer', 'control', 'defer', 'demur', 'dispel', 'embed', 'emit', 'equip', 'excel', 'expel', 'fulfil', 'handicap', 'impel', 'incur', 'infer', 'instil', 'kidnap', 'occur', 'offset', 'omit', 'overlap', 'permit', 'prefer', 'propel', 'rebel', 'refer', 'regret', 'remit', 'repel', 'retrofit', 'submit', 'transfer', 'transmit', 'upset', 'zigzag']);
 // -l ile biten çok heceli fiiller (BrE yazımı)
 const FIIL_CIFTLE_L = new Set(['cancel', 'counsel', 'dial', 'distil', 'enamel', 'enrol', 'equal', 'fuel', 'initial', 'label', 'marvel', 'model', 'panel', 'patrol', 'pencil', 'quarrel', 'signal', 'travel', 'tunnel', 'worship']);
 const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
@@ -795,6 +795,7 @@ const FiilCekim = {
     ingYap(w) {
         w = w.toLowerCase();
         if (w === 'be') return 'being';
+        if (FIIL_MODAL[w]) return '—';
         if (FIIL_CKLI.test(w)) return w + 'king';
         if (w.endsWith('ie')) return w.slice(0, -2) + 'ying';
         if (w.endsWith('ee') || w.endsWith('ye') || w.endsWith('oe')) return w + 'ing';
@@ -812,7 +813,7 @@ const FiilCekim = {
     duzenli(w) {
         const e = w.toLowerCase();
         if (FIIL_MODAL[e]) return { v2: FIIL_MODAL[e][0], v3: FIIL_MODAL[e][1] };
-        if (FIIL_CKLI.test(e)) return { v2: e + 'cked', v3: e + 'cked' };
+        if (FIIL_CKLI.test(e)) return { v2: e + 'ked', v3: e + 'ked' };
         if (e.endsWith('e')) return { v2: e + 'd', v3: e + 'd' };
         if (/[^aeiou]y$/.test(e)) return { v2: e.slice(0, -1) + 'ied', v3: e.slice(0, -1) + 'ied' };
         if (this.ciftlenir(e)) { const d = e.slice(-1); return { v2: e + d + 'ed', v3: e + d + 'ed' }; }
