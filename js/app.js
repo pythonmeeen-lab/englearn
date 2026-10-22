@@ -792,6 +792,8 @@ const FIIL_CKLI = /^(arc|bivouac|frolic|mimic|panic|picnic|traffic)$/;
 // Fiil olmayan ama "fiiller" kategorisine düşmüş kelimeler (V2/V3 gösterilmez)
 const FIIL_NONVERB = new Set(['altogether', 'bloodshed', 'deathbed', 'either', 'even', 'ever', 'forever', 'however', 'infrared', 'later', 'moreover', 'often', 'over', 'rather', 'somewhat', 'thereafter', 'under', 'whatsoever']);
 // Çok kelimeli fiiller (phrasal / kalıp): çekim fiil gövdesine yapılır
+// -ed/-ing ile biten gerçek fiil kökleri (diğerleri çekimli biçimdir, V2 gösterilmez)
+const FIIL_ED_KOK = new Set(['embed', 'exceed', 'heed', 'need', 'proceed', 'succeed', 'shred', 'sled', 'ting', 'wed']);
 const FIIL_OZEL = {
     'turn on': ['turned on', 'turned on', 'turning on'],
     'turn off': ['turned off', 'turned off', 'turning off'],
@@ -846,6 +848,8 @@ const FiilCekim = {
         const ir = (typeof DUZENSIZ_FIILLER !== 'undefined')
             ? DUZENSIZ_FIILLER.find((f) => f.v1.toLowerCase() === k.w.toLowerCase()) : null;
         if (k.w.trim().includes(' ') && !ir) return '';
+        const kw = k.w.toLowerCase();
+        if (!ir && !FIIL_ED_KOK.has(kw) && /(ed|ing)$/.test(kw)) return '';
         if (k.ct !== 'fiiller' && k.ct !== 'akademik fiiller' && !ir) return '';
         if (FIIL_NONVERB.has(k.w.toLowerCase()) && !ir) return '';
         let v2, v3;
