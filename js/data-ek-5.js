@@ -335,7 +335,7 @@ KELIMELER.push(
     { w: "welfare", tr: "refah / sosyal yardım / esenlik", lv: "C1", ct: "toplum", pr: "/ˈwel.feər/", ex: "The government cares for public welfare.", exTr: "Hükümet kamu refahını gözetir." },
     { w: "well", tr: "iyi / kuyu / peki", lv: "A2", ct: "genel", pr: "/wel/", ex: "She sings very well.", exTr: "Çok iyi şarkı söyler." },
     { w: "wheat", tr: "buğday", lv: "B1", ct: "yiyecek", pr: "/wiːt/", ex: "Farmers grow wheat here.", exTr: "Çiftçiler burada buğday yetiştirir." },
-    { w: "wheel", tr: "tekerlek / direksiyon / döndürmek", lv: "A2", ct: "ulaşım", pr: "/wiːl/", ex: "The wheel of the bike is broken.", exTr: "Bisikletin tekerleği kırıktır." },
+    { w: "wheel", tr: "tekerlek / direksiyon / çark / dümen / döndürmek / yuvarlamak", lv: "A2", ct: "ulaşım", pr: "/wiːl/", ex: "The wheel of the bike is broken.", exTr: "Bisikletin tekerleği kırıktır." },
     { w: "whenever", tr: "ne zaman / -dığında / her ne zaman", lv: "B1", ct: "genel", pr: "/wenˈev.ər/", ex: "Call me whenever you need help.", exTr: "Ne zaman yardıma ihtiyacın olursa beni ara." },
     { w: "whereas", tr: "oysa / halbuki / -e karşın", lv: "C1", ct: "genel", pr: "/weərˈæz/", ex: "He is quiet, whereas she is loud.", exTr: "O sessizdir, oysa o gürültücüdür." },
     { w: "whether", tr: "-ip -mediği / olup olmadığı", lv: "B1", ct: "genel", pr: "/ˈweð.ər/", ex: "I don't know whether to go.", exTr: "Gidip gitmeyeceğimi bilmiyorum." },
