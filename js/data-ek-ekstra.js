@@ -5,7 +5,8 @@
 (function () {
     var LISTE = [
         { w: 'investigation', tr: 'araştırma / soruşturma / inceleme', lv: 'B1', ct: 'isimler' },
-        { w: 'ongoing', tr: 'devam eden / süren / süregelen', lv: 'B2', ct: 'sıfatlar' }
+        { w: 'ongoing', tr: 'devam eden / süren / süregelen', lv: 'B2', ct: 'sıfatlar' },
+        { w: 'retirement', tr: 'emeklilik / emeklilik dönemi', lv: 'B1', ct: 'isimler' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};

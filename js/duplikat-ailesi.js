@@ -29,8 +29,7 @@
         if (/([^e])ed$/.test(w)) a.push(w.slice(0, -2));
         if (/[^e]d$/.test(w)) a.push(w.slice(0, -1));
         if (/[^n]ing$/.test(w)) a.push(w.slice(0, -3));
-        if (/[^s]ers$/.test(w)) a.push(w.slice(0, -3));
-        if (/er$/.test(w) && !/ers$/.test(w)) a.push(w.slice(0, -2));
+        // NOT: -er/-ers (owner, teacher, worker gibi meslek/kişi isimleri) KORUNUR;
         var extra = [];
         for (var i = 0; i < a.length; i++) {
             var k = a[i];

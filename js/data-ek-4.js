@@ -120,7 +120,7 @@ KELIMELER.push(
     { w: "outstanding", tr: "üstün / göze çarpan", lv: "B2", ct: "sıfatlar", pr: "/aʊtˈstæn.dɪŋ/", ex: "She did an outstanding job.", exTr: "Üstün bir iş çıkardı." },
     { w: "overall", tr: "genel / genel olarak / toplamda", lv: "B2", ct: "genel", pr: "/ˌəʊ.vəˈrɔːl/", ex: "The overall result was good.", exTr: "Genel sonuç iyiydi." },
     { w: "overseas", tr: "denizaşırı / yurt dışı", lv: "B2", ct: "seyahat", pr: "/ˌəʊ.vəˈsiːz/", ex: "He works overseas.", exTr: "Yurt dışında çalışıyor." },
-    { w: "owner", tr: "sahip / mal sahibi", lv: "A2", ct: "genel", pr: "/ˈəʊ.nər/", ex: "Who is the owner of this car?", exTr: "Bu arabanın sahibi kim?" },
+    { w: "owner", tr: "sahip / mal sahibi / malik / işletmeci", lv: "A2", ct: "genel", pr: "/ˈəʊ.nər/", ex: "Who is the owner of this car?", exTr: "Bu arabanın sahibi kim?" },
     { w: "pace", tr: "hız / adım / tempo", lv: "B2", ct: "genel", pr: "/peɪs/", ex: "He walked at a slow pace.", exTr: "Yavaş bir tempoda yürüdü." },
     { w: "package", tr: "paket / koli", lv: "B1", ct: "genel", pr: "/ˈpæk.ɪdʒ/", ex: "A package arrived for you.", exTr: "Sana bir paket geldi." },
     { w: "pact", tr: "anlaşma / pakt", lv: "C1", ct: "toplum", pr: "/pækt/", ex: "The two countries signed a pact.", exTr: "İki ülke bir anlaşma imzaladı." },
