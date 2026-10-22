@@ -4,7 +4,8 @@
 // ==================================================
 (function () {
     var LISTE = [
-        { w: 'investigation', tr: 'araştırma / soruşturma / inceleme', lv: 'B1', ct: 'isimler' }
+        { w: 'investigation', tr: 'araştırma / soruşturma / inceleme', lv: 'B1', ct: 'isimler' },
+        { w: 'ongoing', tr: 'devam eden / süren / süregelen', lv: 'B2', ct: 'sıfatlar' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
