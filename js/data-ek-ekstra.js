@@ -9,7 +9,8 @@
         { w: 'retirement', tr: 'emeklilik / emeklilik dönemi', lv: 'B1', ct: 'isimler' },
         { w: 'sense of', tr: '…duygusu / …hissi (ör. sense of humor = mizah duygusu)', lv: 'B1', ct: 'ifadeler' },
         { w: 'sense of humor', tr: 'mizah duygusu', lv: 'B1', ct: 'ifadeler' },
-        { w: 'several', tr: 'birkaç / birçok / çeşitli', lv: 'A2', ct: 'sıfatlar' }
+        { w: 'several', tr: 'birkaç / birçok / çeşitli', lv: 'A2', ct: 'sıfatlar' },
+        { w: 'hurricane', tr: 'kasırga / fırtına', lv: 'B1', ct: 'doğa' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
