@@ -12,7 +12,8 @@
         { w: 'several', tr: 'birkaç / birçok / çeşitli', lv: 'A2', ct: 'sıfatlar' },
         { w: 'hurricane', tr: 'kasırga / fırtına', lv: 'B1', ct: 'doğa' },
         { w: 'build on', tr: 'üzerine inşa etmek / temel alıp geliştirmek', lv: 'B2', ct: 'PHRASAL' },
-        { w: 'memorable', tr: 'unutulmaz / akılda kalan / hatırlanmaya değer', lv: 'B1', ct: 'sıfatlar' }
+        { w: 'memorable', tr: 'unutulmaz / akılda kalan / hatırlanmaya değer', lv: 'B1', ct: 'sıfatlar' },
+        { w: 'drench', tr: 'sırılsıklam etmek / ıslatmak / (şurup vb.) bolca dökmek', lv: 'B2', ct: 'fiiller' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
