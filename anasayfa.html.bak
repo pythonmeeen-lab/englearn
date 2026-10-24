@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EngLearn — İngilizce öğrenme: Günün kelimesi, kelime kartları, cümle oluşturma ve quiz">
+    <title>EngLearn — Anasayfa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#7c3aed">
+    <link rel="icon" type="image/png" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/style.css?v=64">
+    <link rel="stylesheet" href="css/anasayfa.css?v=64">
+    <script>
+        // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
+        (function () {
+            try {
+                const kayit = localStorage.getItem('englearn-tema');
+                if (kayit === 'dark' || (!kayit && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+            } catch (e) { /* localStorage engellenmişse sessizce geç */ }
+        })();
+    </script>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="anasayfa.html" class="logo" title="Ana Sayfa">📘 Eng<span>Learn</span></a>
+            <div class="nav-sag">
+                <nav class="nav-menu" id="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="index.html#kartlar">Kelime Kartları</a></li>
+                        <li><a href="index.html#cumleler">Cümle Oluşturma</a></li>
+                        <li><a href="index.html#passive">🔁 Passive Tense</a></li>
+                        <li><a href="index.html#okuma">Okuma</a></li>
+                        <li><a href="index.html#quiz">Quiz</a></li>
+                        <li><a href="index.html#yazma">Kelime Yazma</a></li>
+                        <li><a href="index.html#duzensiz">🔤 Düzensiz Fiiller</a></li>
+                        <li><a href="index.html#meaning">Meaning</a></li>
+                        <li><a href="index.html#esanlam">Eş Anlamlı</a></li>
+                        <li><a href="index.html#zitanlam">Zıt Anlamlı</a></li>
+                        <li><a href="index.html#sozluk">Sözlük</a></li>
+                        <li><a href="index.html#dinleme">🎧 Dinleme</a></li>
+                        <li><a href="index.html#phrasal">Phrasal</a></li>
+                        <li><a href="index.html#deyimler" data-tur="deyim">Deyimler</a></li>
+                        <li><a href="index.html#deyimler" data-tur="atasozu">Atasözleri</a></li>
+                        <li><a href="index.html#filmler">🎬 Film &amp; Dizi</a></li>
+                        <li><a href="index.html#tekrar">🧠 Akıllı Tekrar<span id="srs-rozet" class="yanlis-rozet hidden"></span></a></li>
+                        <li><a href="index.html#kisisel">🎯 Kişisel Panel</a></li>
+                        <li><a href="index.html#ogretmen">🤖 Öğretmen</a></li>
+                        <li><a href="index.html#oyunlar">🎮 Oyunlar</a></li>
+                        <li><a href="index.html#listem">⭐ Listem</a></li>
+                        <li><a href="index.html#yanlislar">Yanlışlarım<span id="yanlis-rozet" class="yanlis-rozet hidden"></span></a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="btn-tema" title="Aydınlık/Karanlık mod">🌙</button>
+                <button class="menu-toggle" id="btn-menu" aria-label="Kategoriler menüsü" aria-expanded="false" title="Kategoriler">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1>İngilizceyi <span>eğlenerek</span> öğren</h1>
+            <p>Her gün yeni bir kelime, kısa pratikler ve quiz ile İngilizceni geliştir!</p>
+        </div>
+    </section>
+
+    <!-- ===== GÜNÜN KELİMESİ ===== -->
+    <section class="panel gundem-panel">
+        <h2>📅 Günün Kelimesi</h2>
+        <p class="subtitle">Her gün yeni bir kelime — öğren, dinle, kullan!</p>
+
+        <div class="dwd-flash" id="dwd-flash">
+            <div class="dwd-inner">
+                <!-- ÖN YÜZ (İngilizce) -->
+                <div class="dwd-face dwd-front">
+                    <span class="level-badge" id="dwd-seviye">B1</span>
+                    <h3 class="dwd-word" id="dwd-kelime">forest</h3>
+                    <span class="dwd-pron" id="dwd-telaffuz">/ˈfɒr.ɪst/</span>
+                    <p class="dwd-example" id="dwd-ornek">The forest is home to many animals.</p>
+                    <span class="dwd-ceviripucu">👆 Türkçesini görmek için tıkla</span>
+                </div>
+
+                <!-- ARKA YÜZ (Türkçe) -->
+                <div class="dwd-face dwd-back">
+                    <span class="level-badge" id="dwd-seviye2">B1</span>
+                    <p class="dwd-tr" id="dwd-anlam">orman</p>
+                    <p class="dwd-example-tr" id="dwd-ornek-tr">Orman birçok hayvana ev sahipliği yapar.</p>
+                    <span class="dwd-ceviripucu">👆 İngilizcesine dönmek için tıkla</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ses + tarih + ilerleme -->
+        <div class="dwd-controls">
+            <div class="dwd-buttons">
+                <button class="sound-btn" id="dwd-ses-kelime" title="Kelimeyi dinle">🔊</button>
+                <button class="sound-btn small" id="dwd-ses-cumle" title="Örnek cümleyi dinle">🔊 Cümle</button>
+            </div>
+            <div class="dwd-footer">
+                <span class="dwd-tarih" id="dwd-tarih"></span>
+                <a href="index.html#kartlar" class="btn btn-primary dwd-oku">📖 Çalışmaya Başla</a>
+            </div>
+        </div>
+
+        <!-- Günlük seri -->
+        <div class="dwd-streak" id="dwd-streak">
+            🔥 Seri: <b>0</b> gün
+        </div>
+    </section>
+
+    <!-- ===== ÖZELLİKLER ===== -->
+    <section class="features">
+        <div class="container">
+            <h2 class="features-title">🚀 Neler Sunuyoruz?</h2>
+            <div class="cards">
+                <a href="index.html#kartlar" class="card feature-card">
+                    <span class="feature-emoji">🎴</span>
+                    <h3>Kelime Kartları</h3>
+                    <p>12300+ kelime, A2–C1 seviyelerinde. Telaffuz + örnek cümle.</p>
+                    <span class="feature-link">Kartlarla çalış →</span>
+                </a>
+                <a href="index.html#cumleler" class="card feature-card">
+                    <span class="feature-emoji">🧩</span>
+                    <h3>Cümle Oluşturma</h3>
+                    <p>205 cümle. Kolay / orta / zor seviye. Kelimeleri doğru sıraya diz!</p>
+                    <span class="feature-link">Cümle kur →</span>
+                </a>
+                <a href="index.html#quiz" class="card feature-card">
+                    <span class="feature-emoji">📝</span>
+                    <h3>Quiz Modu</h3>
+                    <p>Rastgele 10 soruluk test. Skor kaydet, kendini geliştir.</p>
+                    <span class="feature-link">Teste gir →</span>
+                </a>
+                <a href="index.html#yazma" class="card feature-card">
+                    <span class="feature-emoji">✍️</span>
+                    <h3>Kelime Yazma</h3>
+                    <p>Türkçe anlamı gör, İngilizce karşılığını klavyeyle yaz!</p>
+                    <span class="feature-link">Yazarak öğren →</span>
+                </a>
+                <a href="index.html#okuma" class="card feature-card">
+                    <span class="feature-emoji">📖</span>
+                    <h3>Okuma</h3>
+                    <p>Seviyene (A2-C1) göre metinler oku, cümle cümle dinle!</p>
+                    <span class="feature-link">Okumaya başla →</span>
+                </a>
+                <a href="index.html#meaning" class="card feature-card">
+                    <span class="feature-emoji">🎯</span>
+                    <h3>Meaning</h3>
+                    <p>İngilizce kelimelerin Türkçe anlamlarını tahmin et!</p>
+                    <span class="feature-link">Anlam çalış →</span>
+                </a>
+                <a href="index.html#esanlam" class="card feature-card">
+                    <span class="feature-emoji">🔄</span>
+                    <h3>Eş Anlamlı</h3>
+                    <p>Kelimenin eş anlamlısını 4 şıktan seç, kelime dağarcığını genişlet!</p>
+                    <span class="feature-link">Eş anlamlı çalış →</span>
+                </a>
+                <a href="index.html#zitanlam" class="card feature-card">
+                    <span class="feature-emoji">⚖️</span>
+                    <h3>Zıt Anlamlı</h3>
+                    <p>Kelimenin zıt anlamlısını 4 şıktan seç, karşıtlıkları öğren!</p>
+                    <span class="feature-link">Zıt anlamlı çalış →</span>
+                </a>
+                <a href="index.html#sozluk" class="card feature-card">
+                    <span class="feature-emoji">📖</span>
+                    <h3>Sözlük</h3>
+                    <p>12300+ kelimeyi ara; telaffuz, anlam, kategori ve örnek cümleyi gör!</p>
+                    <span class="feature-link">Sözlüğü aç →</span>
+                </a>
+                <a href="index.html#phrasal" class="card feature-card">
+                    <span class="feature-emoji">🗝️</span>
+                    <h3>Phrasal</h3>
+                    <p>on/at/in/for... ekleriyle anlamı değişen 500+ deyimsel fiili öğren!</p>
+                    <span class="feature-link">Phrasal Verbs →</span>
+                </a>
+                <a href="index.html#deyimler" class="card feature-card">
+                    <span class="feature-emoji">🗨️</span>
+                    <h3>Deyimler &amp; Atasözleri</h3>
+                    <p>Kalıpları bütün olarak öğren — günlük İngilizcede çok işine yarar.</p>
+                    <span class="feature-link">Deyimlere bak →</span>
+                </a>
+                <a href="index.html#duzensiz" class="card feature-card">
+                    <span class="feature-emoji">🔤</span>
+                    <h3>Düzensiz Fiiller</h3>
+                    <p>V1 → V2 → V3 tablosu; elle yazarak geçmiş ve participle çalış.</p>
+                    <span class="feature-link">Fiillere bak →</span>
+                </a>
+                <a href="index.html#passive" class="card feature-card">
+                    <span class="feature-emoji">🔁</span>
+                    <h3>Passive Tense</h3>
+                    <p>Etken↔edilgen dönüşümü; have/has, is/are, was/were pratiği.</p>
+                    <span class="feature-link">Edilgen çalış →</span>
+                </a>
+                <a href="index.html#filmler" class="card feature-card">
+                    <span class="feature-emoji">🎬</span>
+                    <h3>Film &amp; Dizi Kalıpları</h3>
+                    <p>Dizilerde sürekli duyduğun 264 kalıp; kartlarla çalış, pratik yap.</p>
+                    <span class="feature-link">Kalıplara bak →</span>
+                </a>
+                <a href="index.html#tekrar" class="card feature-card">
+                    <span class="feature-emoji">🧠</span>
+                    <h3>Akıllı Tekrar</h3>
+                    <p>Yanlışlarını akıllı aralıklarla yeniden sorar; unutmayı önler.</p>
+                    <span class="feature-link">Tekrara başla →</span>
+                </a>
+                <a href="index.html#kisisel" class="card feature-card">
+                    <span class="feature-emoji">🎯</span>
+                    <h3>Kişisel Panel</h3>
+                    <p>Seviye testi, günlük plan ve haftalık gelişim raporu.</p>
+                    <span class="feature-link">Panele git →</span>
+                </a>
+                <a href="index.html#ogretmen" class="card feature-card">
+                    <span class="feature-emoji">🤖</span>
+                    <h3>Yapay Zekâ Öğretmen</h3>
+                    <p>Yazdığın cümleyi düzeltir, hatalarını açıklar, ders üretir.</p>
+                    <span class="feature-link">Öğretmene sor →</span>
+                </a>
+                <a href="index.html#oyunlar" class="card feature-card">
+                    <span class="feature-emoji">🎮</span>
+                    <h3>Oyunlar &amp; Meydan</h3>
+                    <p>XP topla, seviye atla; hafıza, bulmaca, zincir, düello, hız testi.</p>
+                    <span class="feature-link">Oynayarak öğren →</span>
+                </a>
+                <a href="index.html#yanlislar" class="card feature-card">
+                    <span class="feature-emoji">🧯</span>
+                    <h3>Yanlışlarım</h3>
+                    <p>Modüllerden topladığın yanlışları tekrar çözerek geç.</p>
+                    <span class="feature-link">Yanlışlarına bak →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>📘 EngLearn — İngilizceyi eğlenerek öğren · © 2026</p>
+        </div>
+    </footer>
+
+    <script src="js/data-words.js?v=64" defer></script>
+    <script src="js/data-ek-kelimeler.js?v=64" defer></script>
+    <script src="js/data-ek-2.js?v=64" defer></script>
+    <script src="js/data-ek-3.js?v=64" defer></script>
+    <script src="js/data-ek-4.js?v=64" defer></script>
+    <script src="js/data-ek-5.js?v=64" defer></script>
+    <script src="js/data-ek-6.js?v=64" defer></script>
+    <script src="js/data-deyimler.js?v=64" defer></script>
+    <script src="js/data-b1-ek-50.js?v=64" defer></script>
+    <script src="js/data-words-b1.js?v=64" defer></script>
+    <script src="js/data-words-c1.js?v=64" defer></script>
+    <script src="js/data-filler-a2-1.js?v=64" defer></script>
+    <script src="js/data-filler-a2-2.js?v=64" defer></script>
+    <script src="js/data-filler-a2-3.js?v=64" defer></script>
+    <script src="js/data-filler-a2-4.js?v=64" defer></script>
+    <script src="js/data-filler-b1-1.js?v=64" defer></script>
+    <script src="js/data-filler-b1-2.js?v=64" defer></script>
+    <script src="js/data-filler-b1-3.js?v=64" defer></script>
+    <script src="js/data-filler-b1-4.js?v=64" defer></script>
+    <script src="js/data-filler-b1-5.js?v=64" defer></script>
+    <script src="js/data-filler-a2b1-6.js?v=64" defer></script>
+    <script src="js/data-filler-b1b2-7.js?v=64" defer></script>
+    <script src="js/data-filler-b1b2-8.js?v=64" defer></script>
+    <script src="js/data-filler-b1b2-9.js?v=64" defer></script>
+    <script src="js/data-filler-b1b2-10.js?v=64" defer></script>
+    <script src="js/data-filler-b1b2-11.js?v=64" defer></script>
+    <script src="js/data-filler-b2-12.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-13.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-14.js?v=64" defer></script>
+    <script src="js/data-filler-c1-15.js?v=64" defer></script>
+    <script src="js/data-filler-c1-16.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-17.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-18.js?v=64" defer></script>
+    <script src="js/data-filler-c1-19.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-20.js?v=64" defer></script>
+    <script src="js/data-filler-b2c1-21.js?v=64" defer></script>
+    <script src="js/data-filler-c1-22.js?v=64" defer></script>
+    <script src="js/data-filler-c1-23.js?v=64" defer></script>
+    <script src="js/data-filler-c1-24.js?v=64" defer></script>
+    <script src="js/data-filler-c1-25.js?v=64" defer></script>
+    <script src="js/data-filler-c1-26.js?v=64" defer></script>
+    <script src="js/data-filler-c1-27.js?v=64" defer></script>
+    <script src="js/data-filler-c1-28.js?v=64" defer></script>
+    <script src="js/data-filler-c1-29.js?v=64" defer></script>
+    <script src="js/data-filler-c1-30.js?v=64" defer></script>
+    <script src="js/data-filler-b2-1.js?v=64" defer></script>
+    <script src="js/data-filler-b2-2.js?v=64" defer></script>
+    <script src="js/data-filler-b2-3.js?v=64" defer></script>
+    <script src="js/data-filler-b2-4.js?v=64" defer></script>
+    <script src="js/data-filler-b2-5.js?v=64" defer></script>
+    <script src="js/data-filler-c1-1.js?v=64" defer></script>
+    <script src="js/data-filler-c1-2.js?v=64" defer></script>
+    <script src="js/data-filler-c1-3.js?v=64" defer></script>
+    <script src="js/data-filler-c1-4.js?v=64" defer></script>
+    <script src="js/data-filler-c1-5.js?v=64" defer></script>
+    <script src="js/pwa.js?v=64" defer></script>
+    <script src="js/nav.js?v=64" defer></script>
+    <script src="js/duplikat-temizle.js?v=64" defer></script>
+    <script src="js/duplikat-ailesi.js?v=64" defer></script>
+    <script src="js/anasayfa.js?v=64" defer></script>
+</body>
+</html>
