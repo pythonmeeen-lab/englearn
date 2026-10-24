@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="css/style.css?v=64">
+    <link rel="stylesheet" href="css/modern-theme.css?v=64" id="modern-theme-css">
     <link rel="stylesheet" href="css/anasayfa.css?v=64">
     <script>
         // Sayfa yüklenmeden tema tercihini uygula (yanıp sönmeyi önler)
@@ -311,5 +312,30 @@
     <script src="js/duplikat-temizle.js?v=64" defer></script>
     <script src="js/duplikat-ailesi.js?v=64" defer></script>
     <script src="js/anasayfa.js?v=64" defer></script>
+    <!-- Canlı Tasarım Değiştirici (Eski / Yeni Dizayn) -->
+    <button id="englearn-design-toggle" title="Tasarım stilini değiştir">🎨 Tasarım: Modern</button>
+    <script>
+        (function() {
+            var btn = document.getElementById('englearn-design-toggle');
+            var link = document.getElementById('modern-theme-css');
+            if (!btn || !link) return;
+            var currentDesign = localStorage.getItem('englearn-active-design') || 'modern';
+            function applyDesign(d) {
+                if (d === 'klasik') {
+                    link.disabled = true;
+                    btn.textContent = '🎨 Tasarım: Klasik (Eski)';
+                } else {
+                    link.disabled = false;
+                    btn.textContent = '✨ Tasarım: Modern (Yeni)';
+                }
+            }
+            applyDesign(currentDesign);
+            btn.addEventListener('click', function() {
+                currentDesign = (currentDesign === 'modern') ? 'klasik' : 'modern';
+                localStorage.setItem('englearn-active-design', currentDesign);
+                applyDesign(currentDesign);
+            });
+        })();
+    </script>
 </body>
 </html>
