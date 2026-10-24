@@ -11,7 +11,8 @@
         { w: 'sense of humor', tr: 'mizah duygusu', lv: 'B1', ct: 'ifadeler' },
         { w: 'several', tr: 'birkaç / birçok / çeşitli', lv: 'A2', ct: 'sıfatlar' },
         { w: 'hurricane', tr: 'kasırga / fırtına', lv: 'B1', ct: 'doğa' },
-        { w: 'build on', tr: 'üzerine inşa etmek / temel alıp geliştirmek', lv: 'B2', ct: 'PHRASAL' }
+        { w: 'build on', tr: 'üzerine inşa etmek / temel alıp geliştirmek', lv: 'B2', ct: 'PHRASAL' },
+        { w: 'memorable', tr: 'unutulmaz / akılda kalan / hatırlanmaya değer', lv: 'B1', ct: 'sıfatlar' }
     ];
     if (typeof KELIMELER === 'undefined') return;
     var varolan = {};
